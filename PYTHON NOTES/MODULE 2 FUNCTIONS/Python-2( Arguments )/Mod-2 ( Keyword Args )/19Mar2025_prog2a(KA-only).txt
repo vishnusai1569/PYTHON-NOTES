@@ -1,0 +1,33 @@
+Keyword  only  arguments
+-----------------------------
+1) def  f1(* , a ,  b):  
+             pass
+   What  can  be  passed  for  'a'  and  'b' ?  --->  Only  keyword  arguments  becoz  they  are  after  *  in  the  function  header
+
+2) Is  f1(10 , 20)  valid ?  --->  No  due  to  positional  arguments
+    Is  f1(a = 30 , b = 40)  valid ?  --->  Yes  due  to  keyword  arguments
+
+3) In  other  words,  '*'  prevents  in  passing  PA's  to  the  function
+
+4) def  f2(a , b): 
+             pass
+    Which  arguments  can  be  passed  for  'a'  and  'b' ?  --->  
+								Either  PA's  (or)  KA's  becoz  there  is  no  *  in  the  function  header
+
+5) def  f3(a , * , b):
+                pass
+    Which  argument  can  be  passed  for  'a' ?  --->  Either  PA  (or)  KA  becoz  it  is  not  after  *
+    Which  argument  can  be  passed  for  'b' ?  --->  Only  KA  becoz  it  is   after  *
+
+6) In  other  words,  arguments  following  *   should  be  KA's  only  but 
+    arguments  preceding  *  can  be  either  PA's   (or)  KA's
+
+7) def  f4(a , b , *):
+		pass
+    Is  the  above  function  definition  valid ?  --->  No  becoz  there  are  no  arguments  after  *		
+
+8) In  other  words,  there  should  be  at  least  one  argument  after  *  in  the  function  header
+
+
+Note:
+*  is  permitted  in  function  header  from  python  3.8

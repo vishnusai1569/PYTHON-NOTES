@@ -1,0 +1,20 @@
+Decorator  chaining
+-----------------------
+1) What  is  decorator  chaining  ?  --->  Decorating  a  decorated  function
+
+2) In  other  words,  function  is  decoarted  multiple  times 
+
+3)  @decor2
+     @decor1
+     def    f1():
+	    some  code
+     Function  f1  is  decorated  with  decor1  which  is  further  decorated  with  decor2
+
+4) In  other  words,  f1  function  is  decorated  twice  
+     i.e.  decor1  and  then  decor2
+
+5) @decor2
+     @decor1
+     def    f1():
+	    some  code
+     How   are  the  above  tags  interpreted ? --->  f1 = decor2(decor1(f1))

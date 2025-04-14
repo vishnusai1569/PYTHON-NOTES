@@ -1,0 +1,21 @@
+Function  Alias
+------------------
+1) What  is  function  alias ?  --->  Another  name  to  an  existing  function
+
+2) def  f1():
+          pass
+    What  does  f2 = f1  do ?  --->  Reference  f2  points  to  the  same  function  where  f1  points
+
+3) In  other  words,  f2 points  to  function  f1
+
+4) Finally  f2  is  new  name  to  function  f1()
+
+5) Are  id(f1)  and  id(f2)  same  ?  --->  Yes  becoz  they  point  to  same  function
+
+6) What  are  the  two  ways  to  call  f1()  function ?   --->  f1()  and  f2()
+
+7) f2 =  f1
+    f2 = f1() 
+    What  is  the  difference  between  the  above  two  statements ?  ---> 							
+												f2 = f1  assigns  reference  f2  to  function  f1  but
+												f2 =  f1()  executes  f1()  function  and  the  result  is  assigned  to  f2

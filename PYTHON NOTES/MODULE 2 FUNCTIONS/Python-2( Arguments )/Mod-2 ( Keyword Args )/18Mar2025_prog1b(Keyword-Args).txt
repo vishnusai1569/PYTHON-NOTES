@@ -1,0 +1,54 @@
+Keyword   Arguments
+-------------------------
+1) What  is  the  syntax  of  keyword  argument ?  --->  Argument-Name = value
+
+2) How  to  pass  keyword  arguments  to  the  function ? --->  Functionname(Arg1 = Value1 , Arg2 = Value2 , .....)
+
+3) sorted(list , reverse = True) 
+    What  is  the  first  argument  called  ?  --->  Positional  Argument
+    What  is  the  second  argument  called  ?  --->  Keyword  Argument
+
+4) sorted(list , rev = True) 
+    Is  the  above  statement  valid ?  --->  No  becoz  there  is  no  argument  rev  for  sorted()  function
+
+5) In  other  words,  formal  parameter  of  sorted()  function  is  reverse  but  not  rev
+
+6) sorted(reverse = True , list)
+    Is  the  above  statement  valid ?  --->  No  due  to  positional  argument  after  keyword  argument
+
+*7) In  other  words,  keyword  arguments  are  permitted  after  positional  arguments  but  not  vice-versa
+
+8) print(25 , 10.8 , 'Hyd' ,  sep = '\t' , end = '...')
+    What  are  the  first  three  arguments  called ?   ---> Positional  Arguments
+    What  are  the  next  two  arguments  called  ?  --->   Keyword  Arguments
+
+9) print(25 , 10.8 , 'Hyd' ,  separator = '\t' , last = '...')
+    Is  the  above  statement  valid ?  --->  No  becoz  there  are  no  arguments  separator  and  last  for  print()  function
+
+10) In  other  words,  formal  parameters  of  print()  function  are  sep  and  end  but  not  separator  and  last
+
+11) print(sep = '\t' , 25 , 10.8 , end = ' ...' , 'Hyd')
+     Is  the  above  statement  valid ?  --->  No  becoz  positional  argument  are  not  permitted  after  keyword  argument
+
+12) def   f1(empno , ename , sal):
+		pass
+     f1(ename = 'Sita' , sal = 100000.0 , empno = 25)
+     Is  the  above  function  call  valid  ?  --->  Yes
+  
+13) What  are  the  two  advantages  of  keyword  arguments ?  --->  
+											a) Arguments  can  be  passed  to  the  function  in  any  order  									       
+										        b) More  clarity  and  better  readability
+											    i.e. Function  call  becomes  simple  and  readable
+    
+14) In  other  words,  actual  parameters  order  and  formal  parameters  order  need  not  be  same
+
+15) def   f1(empno , ename , sal):
+		pass
+      Is  f1('Sita' , 100000.0 , 25)  valid ?  --->  Yes  but  leads  to  incorrect  results
+
+16) What  is  the  drawback  of  positional  arguments ?  --->  Arguments  should  be  passed  to  the  function  in  the  same  order 
+									                         in  which  formal  parameters  exist
+
+
+Note:
+No  language  supports  keyword  arguments  except  python

@@ -1,0 +1,34 @@
+ Local  Variable (LV)  Vs  Global  Variable (GV) 
+-----------------------------------------------------
+1) Where  is  LV  initialized ?  --->  Inside  the  function
+    Where  is  GV  initialized ?  ---> Outside  the  function
+
+2) x = 10  
+    def  f1():
+    	  y = 20  
+    Is  'x'  Gv  (or)  Lv ?  --->  Global  variable  becoz  it  is  initialized  outside  the  function
+    What  about  'y' ?  --->  Local  variable  becoz  it  is  initialized  inside  the  function
+
+3) To  whom  is   LV  visible ?  --->  That  function  where  the  variable  is  initialized
+    To  whom  is  GV  visible ?   ---> Whole  program
+
+4) From  whom  is  local  variable  hidden ?  --->  Other  functions  and  outside  the  function
+    From  whom  is  gloabl  variable  hidden ?  ---> None
+
+5) Who  can  access  LV ?  --->  That  function  where  the  variable  is  initialized
+    Who  can  access  GV ?  --->  All  the  functions  and  outside  the  function
+
+6) Can  LV  be  shared  between  functions  ?  --->  No  becoz  it  is  exclusive  to  the  function
+    Can  GV  be  shared  between  functions ?  ---> Yes
+
+7) If  a  function  modifies  value  of  LV ,  are  changes  visible  to  remaining  functions  ?  --->  No
+    If  value  of  GV  is  modified, are  changes  visible  to  remaining  functions ?  ---> Yes
+
+8) Which  variables  can  a  function  access (LV  or  GV) ?  --->  Both
+     Which  variables  can  be  accessed  outside  the  function ?  ---> GV's  only
+
+9) When  is  LV  created ?  --->  As  soon  as  function  is  called 
+    When  is  GV  created ?  --->  As  soon  as  program  is  executed
+
+10) When  is  LV  lost ?  ---> As  soon  as  function  terminates
+      When  is  GV  lost ?  ---> As  soon  as  program  terminates

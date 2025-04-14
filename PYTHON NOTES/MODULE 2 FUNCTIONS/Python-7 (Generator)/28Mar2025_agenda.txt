@@ -1,0 +1,9 @@
+Agenda
+---------
+1) What  is  the  drawback  of  sequence ?
+
+2) What  is  the  advantage  of  generator ?
+
+3) How  to  implement  generator  in  two  ways ?
+
+4) How  to  iterate  generator  in  two  ways ? 

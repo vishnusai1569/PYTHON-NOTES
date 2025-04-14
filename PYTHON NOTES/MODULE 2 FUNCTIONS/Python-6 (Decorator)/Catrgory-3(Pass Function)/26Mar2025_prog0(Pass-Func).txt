@@ -1,0 +1,24 @@
+Pass  function  to  another  function
+-----------------------------------------
+1) How  to  pass  a  function  to  another  function ?  --->   function(function)
+
+2) How  to  pass  function  f1  to  function  f2 ?  --->  f2(f1)
+
+3) def  f2(x):
+             x()
+    Where  does  'x'  point  to  wrt  f2(f1) ?  --->  f1()  function
+    What  does  x()  do ?  --->  Executes  f1()  function
+
+4) What  does  id(print)  do ? --->  Passes  print  function  to  id()  function
+    What  is  the  result  of  id(print) ?  --->  Address  of  print()  function
+     
+5) What  does  id(id)  do  ? --->  Passes  id  function  to  itself
+     What  is  the  result  of  id(id) ?  --->  Address  of  id()  function
+
+6) def   f1():
+          return   25
+    f2(f1) 
+    f2(f1())
+    What  is   the  difference  between  the  above  two  statements ?  --->       										  
+									    f2(f1)  passes  function   f1  to  function  f2  but
+								            f2(f1())  passes  result  of  f1()  function  (i.e.  25)  to  function  f2

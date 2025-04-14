@@ -1,0 +1,9 @@
+Agenda
+---------
+1) Local  variable  
+
+2) Global  variable
+
+3) globals()  function
+
+4) global  keyword

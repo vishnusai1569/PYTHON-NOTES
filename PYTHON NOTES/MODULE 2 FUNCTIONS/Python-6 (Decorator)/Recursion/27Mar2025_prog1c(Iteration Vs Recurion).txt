@@ -1,0 +1,34 @@
+Iterative  function	Vs	Recursive  function
+-----------------------------------------------------
+1) What  is  an  iterative  function ?  --->  Function  calls  a  different  function
+    What  is  a  recursive  function ?  --->   Function  calls  itself
+
+2) What  does  iterative  function  usually  demand  ? --->  for  loop  (or) while  loop  
+     What  does  recursive  function  demand  ? ---> if  statement
+
+3) Is  iterative  function  easy  to  design (or)  difficult  ?  --->  Easy  to  design ,  at  least  by  trial  and  error
+    What  about  recursive  function ?  ---> Simple  if  there  is  any  formula					
+										and
+								   most  difficult  when  there  is  no  formula
+
+4) Is  iterative  function  fast  in  execution (or)  slow ?  --->  Fast  becoz  one  function  call  is  enough  to  obtain  the  result
+    What  about  recursive  function ?  --->  Slow  becoz  too  many  function  calls  are  involved  to  obtain  the  result
+
+5) Is  iterative  function  a  large  function (or)  small ?  --->  Large  function 
+												i.e. Too  many  statements  are  required  to  design  the  function
+    What  about  recursive  function ?  --->  Small  function  
+						                    i.e.  It  can  be  designed  with  minimal  number  of  statements
+
+6) What  does  iterative  function  call  leads  to  ?  --->  Result
+                                                                                         i.e. fact(4)  is  24
+    What  does  recursive  function  call  leads  to  ?  --->  Another  call 
+                                                                                          i.e.  fact(4) = 4 * fact(3)
+
+7) Finally, which  function  is  preferred ?  --->  Iteraive  function  becoz  it  is  easy  to  design  the  function  and  also  fast  in  execution
+
+8) What  is  the  advantage  of  recursion  ? --->  Small  function  
+									      i.e.  code  is  drastically  reduced
+
+9) What  is  the  dis-advantage  of  recursion  --->  Difficult  to  design  
+										   	   and
+		                                                                slow  in  execution  due  to  too  many  function  calls

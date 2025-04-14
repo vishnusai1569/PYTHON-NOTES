@@ -1,0 +1,23 @@
+Function  call  (or)  Invoking  the  function
+------------------------------------------------
+1) How  is  a  function  called ?  --->  functioname(arguments)  (or)  functionname()
+
+2) What  is  a  function  call ?  ---> Branching
+
+3) What  is  branching  ? --->  Control  branches  to  the  called  function , executes  the  function             
+					       and  returns  to  calling  code  soon  after  called  function  terminates
+
+4) When  are  the  statements  in  the  function  executed  ?  --->  As  soon  as  function  is  called
+
+5) Is  function  executed  on  its  own ?  --->  No
+
+*6) In  other  words,  function  is  not  executed  unless  it  is  called
+
+7) Therefore  every  function  needs  a  call
+
+8) Can  a  function  be  called  before  it  is  defined ?  --->  No
+
+9) In  other  words,  define  the  function  first  and  then  call  the  function
+
+10) Arguments  (or)  parameters  in  the  function  call  are  passed  to  the  function
+      i.e.  Actual  parameters  are  copied  to  formal  parameters

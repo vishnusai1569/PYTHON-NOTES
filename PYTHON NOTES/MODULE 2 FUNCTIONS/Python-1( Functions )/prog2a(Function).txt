@@ -1,0 +1,22 @@
+Function
+----------
+1) What  is  a  function ?  --->  A  group  of  statements
+
+2) Is  function  an  object ?  --->  Yes  and  infact  everything  in  python  is  an  object
+
+3) Does  function  have  id ?  ---> Yes  becoz  it  is  an  object
+
+4) How  to  obtain  id  of  the  function ?  --->  id(functionname)
+
+5) What  is  the  type  of  function  ?  --->  <class  'function'>
+
+6) What  are  the  two  parts  of  a  function ?  ---> Function  definition 
+											     and 
+										  Function  call(i.e. Invoking  the  function)
+
+7) Can  there  be  a  python  program  without  functions ?  --->  Yes
+
+8) In  other  words,  function  is  not  mandatory  in  a  python  program
+
+Note:
+Can  there  be  a  'c'  (or)  c++  program  without  functions ?  --->  No  and  main()  function  is  mandatory  

@@ -1,0 +1,15 @@
+Nested  Function
+--------------------
+1) def   f1():  --->  Outer  function
+          statements
+	  def  f2():   --->  Inner  function
+	        statements
+        statements
+
+2) What  is  a  nested  function ?  --->  A  function  is  defined  inside  another  function
+
+3) To  whom  is  inner  function  visible ?  --->  Only  to  outer  function  
+     From  whom  is  inner  function  hidden ?  --->  All  other  functions  and  outside  the  function
+
+4) Who  can  call  inner  function ?  --->  Only  outer  function 
+    Who  can  not  call  inner  function ?  --->  All  other  functions  and  outside  the  function

@@ -1,0 +1,23 @@
+for  loop
+----------
+1) for  x   in   generator-object:
+          pass
+
+2) What  does  first  iteration  of  for  loop  do  ?  ---> 			 								
+								Executes  generator  function  from  the  begining  till  first  yield  statement
+								and  the  object  which  is   yielded  is  returned  to  for  loop  variable  'x'
+
+3) What  about  ramining  iterations  of  for  loop  ? --->  																
+					Resumes  generator  function  execution  from  where  function  got  paused  till 
+				        next  yield  statement  and  the  object  which  is   yielded  is  returned  to  for  loop  variable  'x'
+
+4) for  x   in   generator-object:
+           pass
+    What  is  the  value  of  'x' ?  ---> The  element  yielded  by  generator  function  (or)  expression
+
+5) How  long  is  for  loop  executed  ?  --->  Until  StopIteation  error  is   thrown
+
+6) What  is  the  advantage  of  for  loop  ?  --->  It  internally  handles  StopIteration  error  and 
+									     hence  it  need  not  be  handled  explicitly 
+
+7) When  is  for  loop  terminated ?  --->  As  soon  as  StopIteration  is  raised

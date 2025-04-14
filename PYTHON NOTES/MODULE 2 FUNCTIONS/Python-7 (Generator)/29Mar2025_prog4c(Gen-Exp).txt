@@ -1,0 +1,17 @@
+Generator  expression
+--------------------------
+1) What  is  another  way  to  define  a  generator ?  --->  With  generator  expression
+
+2) How  to  define  a  generator  expression ?  --->  (expression  for  loop)
+
+3) g = (x * x   for   x    in  range(5)) 
+    What  is  the  above  expression  called ? --->  Generator  expression  but  not  tuple  comprehension
+
+4) g = (x * x   for   x    in  range(5)) 
+    What  does  the  above  statement  do ?  --->  
+							Creates  an  empty  generator  object  but  does  execute  generator  expression  
+
+5) Why  are  0 ^ 2 , 1 ^ 2 , 2 ^ 2 , 3 ^ 2 , 4 ^ 2  not  stored  in  generator  ?  ---> Since  elements  are  yielded  on  demand  but  not  in  advance
+
+6) In  other  words,  generator  is  an  empty  object
+										

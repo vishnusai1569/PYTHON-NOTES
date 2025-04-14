@@ -1,0 +1,20 @@
+Generator  function
+------------------------
+1) When  is  a  function  called  generator  function ?  --->  When  it  has  yield  statement
+
+2) def    f1():
+           yield  10
+           yield  20
+           yield  30
+   Is  f1()  a  generator  function  ?  --->  Yes  due  to  yield  statement
+
+3) How  to  create  a  generator  object ?  --->  f1()
+
+4) Why  is  f1()  function  not  executed  for  f1() ?  --->  Since  it  is  a  generator  function  but  not  a  regular  function
+
+5) g = f1()
+    What  does  print(g)  do ? --->  Prints  type  and  address  of  generator  object
+
+6) g = f1()
+    What  does  print(type(g))  do ? ---> Prints  <class  'generator'>
+    

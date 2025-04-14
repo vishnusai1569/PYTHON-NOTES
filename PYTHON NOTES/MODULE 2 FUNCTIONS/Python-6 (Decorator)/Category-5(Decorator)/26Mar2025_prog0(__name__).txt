@@ -1,0 +1,17 @@
+__name__   variable
+-------------------------
+1) What  does  ref . __name__   do ?  --->  Returns  name  of  that  function  where  the  reference  points
+
+2) x = print
+    What  is  x . __name__ ?  --->  'print'  becoz  'x'  points  to  print()  function
+
+3) p = len
+    What  is  p . __name__ ?  --->  'len'  becoz  p  points  to  len()  function 
+
+4) i = id
+    Is  i . name  valid ? --->  No  becoz  variable  name  is   __name__  but  not  name
+
+5) a = [10,20,15,18]    
+    Is  a . __name__  valid ?  --->  No  becoz  [10,20,15,18]  is  not  a  function
+
+6) In  other  words,  __name__  is  used  to  obtain  function  name  but  not  object  name

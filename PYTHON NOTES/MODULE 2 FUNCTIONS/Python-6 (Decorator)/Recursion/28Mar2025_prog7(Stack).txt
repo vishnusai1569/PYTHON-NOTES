@@ -1,0 +1,41 @@
+Stack
+-------
+1) What  is  a  stack ?  --->   LIFO  
+					     i.e.  Last  in  First  Out
+    
+2) Which  element  can  be  removed  from  the  stack ?  --->  Last  element 
+  
+3) If   elements  are  inserted  in  the  order  10 , 20 , 30 , 40,
+    What  is  the  deletion  order ?  --->  40 , 30 , 20 , 10
+
+4) From  which  end  are  insertion  and  deletion  made  ?  --->  At  the  same  end  i.e.  top  end
+
+5) def  f1():
+  	  f2()   --->  Address  of  next  statement  is  saved  in  the  stack  before  control  branches  to  f2()  function
+	  2000 :  next statement
+    #  End  of  the  function  --->  Address  1000  is  removed  from  the  stack   and   execution  resumes  at   address  1000
+    def  f2():
+     	 some  code
+    # End  of  the  function --->  Address  2000  is  removed  from  the  stack   and   execution  resumes  at   address  2000
+    f1()  --->  Address  of  next  statement  is  saved  in  the  stack  before  control  branches  to  f1()  function
+    1000 : Next  statement
+
+*6) What  happens  internally  when  a  function  is  called  ?  --->  								
+								Address  of  successor  statement  is  saved  in  the  stack  by  pvm
+								before  control  branches  to  the  called  function
+
+7) What  is  address  of  successor  statement  called ? ---> Return  address
+
+8) Why  is  return  address  saved  in  the  stack ?  ---> Since  successor  statement  is  executed  later  but  not  immediately
+
+*9) What  happens  internally  after  the  called  function  terminates ?  --->  							
+								Return  address   is  removed  from  the  stack  and
+								execution  resumes  at  the  deleted  address
+
+10) When  does  program  terminate  ?  --->  As  soon  as  stack  is  empty
+
+11) Who  is  using  stack ?  --->  pvm  internally  uses  stack  during  the  program  execution
+
+12) What  does  stack  contain  ?  --->  Return  addresses
+
+13) What  is  the  use  of  stack  ? --->  It  informs  pvm  about  next  course  of  action  to  be  made

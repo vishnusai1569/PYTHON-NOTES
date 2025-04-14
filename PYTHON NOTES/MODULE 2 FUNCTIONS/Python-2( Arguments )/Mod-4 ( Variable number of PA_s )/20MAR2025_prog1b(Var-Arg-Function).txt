@@ -1,0 +1,43 @@
+Variable  number  of  positional  arguments  (or)  Var-Arg  function
+-----------------------------------------------------------------------------
+1) What  is  a  var-arg  function ?  --->  A  function  with  variable  number  of  arguments
+
+2) In  other  words,  any  number  of  arguments  can  be  passed  to  the  function
+     Eg: f1(Arg1 , Arg2 , Arg3 , ......)
+
+3) def   f1(*a):
+	     pass
+    Is  f1  a  var-arg  function ?  --->  Yes  due  to  *  in  the  function  header
+    What  is  'a'  called  ?  --->  Var-arg  parameter  due  to  *  
+
+4) What  does  pvm  do  when  var-arg  function  is  called ?  ---> Arguments  passed  to  the  function  are  represented  
+												      in  a  tuple  and   tuple  is  passed  to  the  function
+
+5) f1(10 , 20 , 15 , 18) 
+    What  is  passed  to  f1()  function ?  --->  Tuple  of  four  elements  (or)  args  i.e. (10 , 20 , 15 , 18)
+
+6) Why  are  arguments  not  passed  to  the  function ?  --->  Due  to  *  in  the  function  header
+
+7) f1(No  args) 
+    What  is  passed  to  f1()  function ? --->  Empty  tuple   i.e.  ()
+
+8) f1('Hyd') 
+    What  is  passed  to  f1()  function ? ---> Tuple  of  single  element  i.e.  ('Hyd',)
+
+9) f1((10 , 20 , 15 , 18))
+    What  is  passed  to  f1() function ? --->  Nested  tuple  i.e.  ((10 , 20 , 15 , 18),)
+
+10) def  f1(*a)
+	    pass
+      Is  f1(a = 'Hyd')  valid ?  --->  No  becoz  var-arg  parameter  can  not  be  a  keyword  argument
+      
+11) In  other  words ,  var-arg  parameter  should  be  positional  argument  only
+
+12) def  f1(*a = 25):
+            pass
+     Is  the  above  function  valid ?  --->  No  becoz  var-arg  parameter  can  not  have  default  value
+
+13) def  f1(x = 25 , *a):
+            pass
+     Is  the  above  function  valid ?  --->   Yes  becoz  default  args  and  non-default  args  can  be  in  any  order 
+								due  to  the  presence  of  *

@@ -1,0 +1,22 @@
+yield  statement
+--------------------
+1) What  is  the  syntax  of  yield  ?  --->  Yield  any-python-object 
+
+2) What  does  yield  object  do ?  --->  Returns  object  to  next(g)  (or)  for  loop  variable (may  be  'x')
+												and
+							      remembers  the  state  in  view  of  next  call  to  next(g)
+
+3) What  does  yield  25  do  ?  --->  Returns  25  to  next(g)  (or)  for  loop  variable 
+									and
+							 remembers  the  state
+
+4) When  are  the  statements  following  yield  executed ?  --->  When  generator  resumes  execution  again
+												       i.e.  next(g)   (or)  in   next  iteration  of  for  loop
+
+5) yield  is  used  when  we  want  to  iterate  over  a  sequence  of  values  but  don’t  
+    want  to  store  the  entire  sequence  in  memory
+
+6) How  is  yield  different  from  return  statement ?  --->  yield  remembers  the  state  but  not  return  statement
+
+7) What  does  return  object  do ?  --->  Returns  object  to  function  call  and
+								 rest  of  the  function  is  never  executed  
