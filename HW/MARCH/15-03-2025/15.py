@@ -1,0 +1,10 @@
+# Find  outputs  (Home  work)
+a = ((10 , 20 , 30),)
+print(a[0])
+print(*a)
+print(a[0][0])
+print(a[0][1])
+print(a[0][2])
+b = ((),)
+print(b[0])
+#print(b[1])#error
