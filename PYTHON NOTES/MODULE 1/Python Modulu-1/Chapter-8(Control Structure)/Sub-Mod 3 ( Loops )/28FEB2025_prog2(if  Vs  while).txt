@@ -1,0 +1,15 @@
+  if  Vs  while
+---------------
+1) if  condition:
+             statements							    
+    How  many  times  are  statements  of  if  executed  ?  ---> Just  once  provided  condition  is  True
+
+2) while  condition:
+             statements							    
+    How  many  times  are  statements  of  while  executed  ?  --->  Multiple  times  until  the  condition  is  False
+
+3) Is  'if'  one  time  execution  (or)  repeated  execution ?  --->  One  time  execution
+    What  about  while  loop ?  ---> Repeated  execution
+
+4) Can  else  be  used  with  if ?  ---> Yes
+    Can  else  be  used  with  while  loop ?  ---> Yes  only  in  python

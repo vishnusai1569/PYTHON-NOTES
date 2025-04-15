@@ -1,0 +1,19 @@
+Assignment  Statement
+----------------------------
+1) What  is  =  operator  called ?  --->  Assignment  operator
+
+2) What  does  =  operator  do ? --->  Assigns  reference  to  an  object
+
+3) What  is  the  statement  with  =  operator  called  ? ---> Assignment  statement
+
+4) What  does  a = 25  do  ?  --->  Assigns  reference  to  object  25
+
+5) a = [10 , 20 , 15 , 18]
+    b = a
+    What  does  b = a  do ? --->  Assigns  reference  'b'  to  same  list  where  'a'  points
+ 					         Finally  both  the  references  point  to  same  list
+    
+6) a = 4
+    b = 5
+    What  does  c = a + b * 6  do ?  --->  Assigns  reference  'c'  to  object  34(Result  of  the  expression)
+    

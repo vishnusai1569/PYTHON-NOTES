@@ -1,0 +1,22 @@
+#  Find  outputs  (Home work)
+a = 'Hyd'
+print(a * 3)  #  Repeat   object  'a'  thrice  i.e.  HydHydHyd
+print(a * 2) #  HydHyd
+print(a * 1)   #  Hyd
+print(a * 0) #  Empty  string
+print(a * -1)  #  Empty  string
+print(25 * 3)  #   75
+print('25' * 3) #  252525
+#print('25' * 4.0)#  Error  due  to float  operand  4.0
+print(3 * 'Hyd')  #  HydHydHyd
+print('25' * True)  #  25
+
+
+'''
+1) What  does  non-sequence  *  integer  do ?  --->  Multiplication
+   What  does  sequence *  integer  do ?  --->  Repetition
+
+2) Is  *  operator  overloaded ?  --->  Yes  becoz  *  operator  does  both  multiplication  and  repetition
+
+3) Are 'Hyd' * 3  and  3 * 'Hyd'  same ?  ---> Yes
+'''

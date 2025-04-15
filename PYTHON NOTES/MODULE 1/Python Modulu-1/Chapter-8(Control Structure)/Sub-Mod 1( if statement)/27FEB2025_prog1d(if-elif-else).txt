@@ -1,0 +1,30 @@
+if … elif… else
+----------------
+1) if  cond1:
+          stmt1
+          stmt2
+          stmt3
+    elif  cond2:
+         stmt4
+         stmt5
+         stmt6
+    elif   cond3:
+         stmt7
+         stmt8
+         stmt9
+    else:
+         stmt10
+         stmt11
+         stmt12
+    stmt13  
+
+2) When  are  statements  1 ,  2  and  3  executed  ?  --->  When  cond1  is  True
+    When  are  statements  4 ,  5  and  6  executed  ?  --->  When  cond1  is  False  and  cond2  is True
+    When  are  statements  7 ,  8  and  9  executed  ?  --->  When  first  two  conditions  are  False  and  cond3  is  True
+    When  are  statements  10 ,  11  and  12  executed ? --->  When  all  the  conditions  are  False
+
+3) When  is  statement13  executed ? --->  Always  executed  irrespective  of  the  conditions  becoz  it  is  outside  if
+
+4) What  is  else + if  called ?  --->  elif
+
+5) if , elif , else  and  stmt13  should  be  indented  i.e.  same  column

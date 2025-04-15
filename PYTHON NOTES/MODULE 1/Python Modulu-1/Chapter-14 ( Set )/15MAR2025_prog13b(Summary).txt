@@ -1,0 +1,9 @@
+What  are  the  four  methods  to  remove  set  element ?  --->   1) set . pop()
+												     2) set . remove(x)												      												    
+												     3) set . discard(x)												       												     
+												     4) set . clear()
+
+Note: 
+1) Is  del  set[2]  valid ?  --->  No  becoz  set  is  not  indexed
+
+2) Is  del  set  valid ?  --->  Yes  and  set  is  deleted

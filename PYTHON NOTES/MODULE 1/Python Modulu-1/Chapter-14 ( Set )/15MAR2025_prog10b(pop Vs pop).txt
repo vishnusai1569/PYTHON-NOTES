@@ -1,0 +1,7 @@
+list . pop()  Vs   set . pop()
+------------------------------
+1) What  does  list . pop(No  args)  do  ? --->  Removes  last  element  of  the  list  and  returns  the  deleted  element
+    Which  does  set . pop(No  args)  do ? ---> Removes  first  element  of  the  set  and  returns  the  deleted  element
+
+2) Is  list . pop(index)  valid ? --->   Yes  and  element  at  specified  index  is  removed  from  the  list  
+    Is  set . pop(index)  valid ? --->  No  becoz  set  is  not  indexed  and  pop()  method  takes  zero  args

@@ -1,0 +1,9 @@
+#  Find  outputs  (Home  work)
+a = [[]]
+print(a[0])  #  How  to  print  inner  list  i.e.  []
+print(*a)  # How  to  print  inner  list  in  another  way i.e.  []
+
+
+'''
+What  does  *a  do ?  ----> Unpacks  outer  list  to  obtain  inner  list
+'''

@@ -1,0 +1,18 @@
+#  Find  outputs
+a = {10 : 'Ramesh' , 20 : 'Kiran' , 15 : 'Amar' , 18 : 'Sita'}
+print(a . keys())   #   dict_keys([10 , 20 , 15 , 18])
+print(a . values())  #  dict_values(['Ramesh' , 'Kiran' , 'Amar' , 'Sita'])
+print(a .  items()) #   dict_items([(10 , 'Ramesh') , (20 , 'Kiran') , (15 , 'Amar') , (18 , 'Sita')])
+print(a)  #  {10 : 'Ramesh' , 20 : 'Kiran' , 15 : 'Amar' , 18 : 'Sita'}
+
+
+
+
+'''
+1) What  does  keys()  method  do ?  --->  Returns  dict_keys  object  which  has  list  of  all  the  keys  in  the  dictionary
+
+2) What  does  values()  method  do ?  --->  Returns  dict_values  object  which  has  list  of  all  the  values  in  the  dictionary
+
+3) What  does  items()  method  do ?  --->  Returns  dict_items  object  which  has  list  of  tuples  and
+                                                                   each  tuple  has  two  elements  i.e.  (k1 , v1) , (k2 , v2) , (k3 , v3) .......
+'''

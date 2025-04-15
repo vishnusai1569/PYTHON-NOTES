@@ -1,0 +1,25 @@
+Slice
+------
+1) What  is  obtained  when  string  is  sliced ?   --->  Substring 
+
+2) What  is  the  syntax  of  slice ?  --->  string[begin : end : step]
+
+3) string[begin : end : 0]
+   Is  the  above  statement  valid ?  ---> No  becoz  step  cannot  be  0
+
+4) In  other  words,  step  can  be  positive (or)  negative  but  not  0
+
+5) What  is  the  result  of  string[x : y : z]  ?  --->  String  from  indexes  x  to  y - 1  in  steps  of  z
+   What  is  the  result  of  string[x : y : -z]  ?  ---> String  from  indexes  x  to  y + 1  in  steps  of  -z
+
+6) string[begin : end]
+    What  is  the  default  step ?  --->  1
+
+7) string[ : : +ve  step] 
+   What  is  the  default  begin ?  --->  0  becoz  index  of  1st  character  is  0
+    What  is  the  default  end ?  --->   String  length  becoz  index  of  last  char  is  length -  1
+
+8) string[  :  :  -ve step] 
+   What  is  the  default  begin ?  --->   -1  becoz  index  of  first  character  is  -1  from  right  to  left
+   What  is  the  default  end ?  ---> -string length - 1  becoz  index  of  last  char  is  -length. 
+  

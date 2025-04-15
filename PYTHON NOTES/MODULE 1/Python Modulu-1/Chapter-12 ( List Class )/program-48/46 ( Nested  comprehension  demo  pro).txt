@@ -1,0 +1,23 @@
+#  Nested  comprehension  demo  program (Home  work)
+a = [ [ j  for   j  in   range(i)]   for   i   in   range(5)]
+print(a)  #  [[] , [0] , [0 , 1] , [0 , 1 , 2] , [0 ,  1 ,  2 ,  3]]
+
+
+
+'''
+i            range(i)              j             Inner  list             list   'a'
+--------------------------------------------------------------------------
+0        Empty  object         ----            []                     [[]]
+1          0                  0  to  0         [0]                    [[] , [0]]
+2          0 , 1              0  to  1         [0 , 1]                [[] , [0] , [0 , 1]]
+3          0 , 1 , 2          0  to  2         [0 , 1 , 2]            [[] , [0] , [0 , 1] , [0 , 1 , 2]]
+4          0 , 1 , 2 , 3      0  to  3         [0 , 1 , 2 , 3]        [[] , [0] , [0 , 1] , [0 , 1 , 2] , [0 , 1 , 2 , 3]]
+
+1) [ [ j  for   j  in   range(i)]   for   i   in   range(5)]
+    Why  is  it  called  nested  comprehension ?  --->  Due  to  [exp  for  loop]  in  [exp  for  loop]
+
+2) a = [ [ j  for   j  in   range(i)]   for   i   in   range(5)]
+    What  is  appended  to  inner  list ?  ---> 'j'  where  'j'  varies  from  0  to  i - 1
+    What  is  appended  to  outer  list ?  ---> List
+    How  many  lists  are  appended  to  list  'a' ?  --->  5  due  to  range(5)
+'''

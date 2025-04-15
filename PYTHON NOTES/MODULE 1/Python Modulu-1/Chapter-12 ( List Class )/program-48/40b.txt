@@ -1,0 +1,18 @@
+'''
+Repeat  previous  program  with  comprehension  and  without  using  if
+
+Output: [Even  numbers  between  1  and  20]
+'''
+a = [x  for  x  in  range(2 , 21 , 2)]
+print('Even numbers  between  1  and  20 :  ' , a)
+
+'''
+        x      list  'a'
+       ---------------------
+	 2      [2]
+	 4      [2 , 4]
+	 6      [2 , 4 , 6]
+	 8      [2 , 4 , 6 , 8]
+	 ....
+	 20     [2 , 4 , 6 , 8 , ...., 20]
+         '''

@@ -1,0 +1,27 @@
+break  statement
+--------------------
+1) while  cond:
+	    stmt1
+	    if  cond:
+	          break  
+	    stmt2
+    # End  of  loop
+    stmt3
+
+2) What  does  break  statement  do ? --->  Moves  the  control  out  of  loop
+
+3) What  is  the  next  statement  executed  after  break ?  --->  Statement  outside  the  loop
+
+4) What  are  skipped  due  to  break ?  --->  Remaining  statements  of  the  loop 
+											and 
+								       also  remaining  iterations  of  loop 
+
+5) Who  can  use  break ?  ---> for  loop  and  while  loop
+
+6) Can  break  be  used  without  a  loop ?  --->  No
+
+7) In  other  words,  break  can  not  be  used  without  a  loop
+
+8) Is  Break  valid ?   --->  No  becoz  break  is  a  keyword  and  hence  it  should  be  in  lowercase  
+
+9) When  is  break  recommended ?   --->  To  move  out  of  loop

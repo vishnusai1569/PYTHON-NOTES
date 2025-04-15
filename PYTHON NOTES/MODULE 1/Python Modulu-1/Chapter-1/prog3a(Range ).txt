@@ -1,0 +1,52 @@
+range  object
+----------------
+1) What  is  a  range  object  ?  --->  A  group  of  integer  elements
+
+2) Is  range  object  homogeneous ?  --->  Yes  becoz  all  the  elements  in  range  object  are  of  same  type  i.e.  int  type
+
+3) range(x , y , z)
+   What  does  object  contain ?  ---> Elements  from  x  to  y - 1  in  steps  of  z
+
+4) range(x , y , -z)
+   What  does  object  contain  ?  --->  Elements  from  x  to  y + 1  in  steps  of  -z
+
+5) range(x , y)
+   What  does  object  contain ?  ---> Elements  from  x  to  y - 1  in  steps  of  1  becoz  default  step  is  1
+
+6) range(y)
+   What  does  object  contain  ?  --->  Elements  from  0  to  y - 1  in  steps  of  1  becoz  default  begin  is  0
+
+7) Is  range()  valid ?  --->  No  due  to  zero  arguments
+
+8) What  does  print(range-object)  do ?  ---> Prints  range  object  itself  but  not  elements  of  range  object i.e.  range(x , y , z)
+
+9) How  to  obtain  elements  of  range  object ?  --->  print(*rangeobject)
+
+10) print(*rangeobject)
+    What  does  *  operator  do ?  --->  Unpacks  range  object  to  elements
+
+11) Can  range  object  be  modified ?  --->  No  becoz  it  is  immutable
+    Can  new  elements  be  appended  to  range  object ? ---> No  becoz  it  is  immutable
+    Can  elements  be  removed  from  range  object ? --->  No  becoz  it  is  immutable
+    
+12) In  other  words,  range  object  is  neither  growable  nor  shrinkable
+
+13) What  does  len(range-object)  do ?  --->  Returns  number  of  elements  in  the  range  object
+
+14) Is  range  object  indexed ?  --->  Yes  becoz  it  is  a  sequence
+
+15) What  are  indexes  of  elements  from  left  to  right ?  --->  0 , 1 , 2 , ..... length - 1
+      What  are  indexes  of  elements  from  right  to  left ?  --->  -1 , -2 , -3 , .... -length
+
+16) What  is  the  use  of  indexing ?  --->  Random  access  
+    How  to  obtain  10th  element  of  range  object ?  ---> a[9]  where  'a'  is  range  object
+    How  to  obtain  1st  element  of  range  object ?  ---> a[0]
+    How  to  obtain  last  element  of  range  object ?  --->  a[len(a) - 1]   (or) a[-1]
+
+17) Can  range  object  be  sliced ? --->  Yes  becoz  it  is  indexed
+
+18) Can  range  object  have  duplicate  elements ?  --->  No
+
+19) In  other  words,  range  object  can  have  only  unique  elements
+
+20) Can  range  object  be  repeated  with  *  operator ?  --->  No  becoz  duplicate  elements  are  obtained  when range  object  is  repated  which  is  not  permitted.

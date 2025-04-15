@@ -1,0 +1,25 @@
+# bool object demo program
+a = True  
+print(a)  
+print(type(a)) 
+print(id(a)) 
+b = False  
+print(b)  
+print(type(b))  
+print(True + True)  
+print(True + False) 
+print(False + True) 
+print(False + False)
+print(True + True + True)  
+print(25 + 10.8 + True) 
+print(True > False) 
+print(True)  
+print(False) 
+print(true) 
+print(false) 
+
+'''
+1) When  are  True  and  False  treated   as  1  and  0  ?  ---> When  operations  are  made  on  True  and  False
+
+2) When  are  True  and  False  not  treated   as  1  and  0  ?  ---> When  operations  are  not  made  on  True  and  False.
+'''

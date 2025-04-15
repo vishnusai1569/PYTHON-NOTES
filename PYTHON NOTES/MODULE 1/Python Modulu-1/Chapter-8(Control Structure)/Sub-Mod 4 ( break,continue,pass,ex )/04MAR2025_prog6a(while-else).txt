@@ -1,0 +1,28 @@
+while ... else
+--------------
+while   cond:
+	statements
+	if  cond:
+	       break
+        statements
+else: 
+        statements
+#End of  while  loop
+statements
+
+1) When  is  else  suite  executed  ?  ---> Soon  after  termination  of  while  loop  provided  loop  is  not  broken
+
+2) When  is  else  suite  skipped  ? --->  If  the  loop  is  broken
+
+3) How  many  times  statements  of  else  suite  executed ?  --->  Just  once  becoz  it  is  outside  the  loop
+
+
+Note:
+while   cond:
+	stmt1
+	if  cond:
+		stmt2
+	else:  --->  corresponds  to  if  becoz  it  is  indented with  if
+		stmt3
+else:  --->   corresponds  to  while  becoz  it  is  indented with   while
+	stmt4

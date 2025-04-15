@@ -1,0 +1,30 @@
+Dictionary  methods
+------------------------
+1) clear()
+
+2) copy()
+
+3) keys()
+
+4) values()
+
+5) items()
+
+6) get()
+
+7) setdefault()
+
+8) pop()
+
+9) popitem()
+
+10) update()
+
+11) fromkeys()
+
+
+1) Where  are  the  above  11  methods  defined ?  --->  In  dict  class
+
+2) Where  is  dict  class  defined ?  --->  In  builtins  module
+
+3) What  does  dir(dict)  do  ?   --->  Returns  a  list  of  all  the  methods  of  dict  class 

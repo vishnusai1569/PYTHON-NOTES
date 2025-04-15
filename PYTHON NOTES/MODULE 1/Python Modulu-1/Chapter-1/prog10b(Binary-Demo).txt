@@ -1,0 +1,26 @@
+# Find  outputs
+a = 0B10101 
+print(a) 
+print(type(a)) 
+print(id(a))  
+b = 0b10101  
+print(b) 
+print(id(b))  
+c = 21   
+print(c)  
+print(id(c)) 
+d = 10101  
+print(d) 
+e = 0B1234  
+
+'''
+1) Conversion  of  binary  number  to  decimal
+    ---------------------------------------------------
+        16    8     4    2     1   --->  Weights
+	1     0     1    0     1   --->	16 + 4 + 1 = 21
+
+2) a = 0B10101
+    b = 0b10101
+    c = 21
+    How  many  objects  are  there  ? --->  Single  object  with  three  references  and all  the  three  references  point  to  the  same  object
+'''

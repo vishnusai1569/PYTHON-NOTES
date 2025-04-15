@@ -1,0 +1,35 @@
+from  statement
+-------------------
+1) What  is  the  syntax  of  from  statement ?  --->  from  module  import  *
+
+2) What  are  imported ?  --->  Members  and  statements  of  the  module  but  not  module
+
+3) How  to  use  members  of  the  module ?  ---> Directly  member  name
+
+4) Is  module . member  valid ?  ---> No  becoz  module  is  not  imported
+
+5) What  does  *  indicate ?  --->  All  the  members  of  module
+
+6) from  math  import   *
+    Is  math . pow(x , y)  valid ?  --->  No  becoz  math   module  is  not  imported
+    Is  math . pi  valid ?  --->  No
+    Is  sqrt(x)  valid ?  --->  Yes  becoz  sqrt()  function  is  imported
+    Is  pi  valid ?  --->   Yes  becoz  object  pi  is  imported
+
+
+Note:  
+Let  module  abc.py  contain:
+x = 25
+print('Hyd')
+def  f1():
+	 statements
+class   c1:
+	def  m1(self):
+		 statements
+----------------------------
+from  abc  import   *
+What   are  imported ?   --->  The  two  statements , object  'x' , function  f1()  and  class  c1
+What  is  not  imported ?   --->  abc
+How  to  use  object  'x'  ?   --->  'x'  itself
+How  to  use  function  f1  ?   ---> f1()
+How  to  use  class  c1  ?   --->  c1()

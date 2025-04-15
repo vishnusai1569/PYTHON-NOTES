@@ -1,0 +1,33 @@
+'''
+Write  a  program  to  concatenate  each  character  of  1st  string  with  every  character  of   2nd  string  with  comprehension
+
+Let  1st string  be  HYD  and   2nd string  be   PUNE
+What  is  the  result  ?  --->  ['HP' , 'HU' , 'HN' , 'HE' , 'YP' , 'YU' , 'YN' , 'YE' , 'DP' , 'DU' , 'DN' , 'DE']
+
+Hint: Same  as  previous  program
+'''
+a = input('Enter 1st string : ')
+b = input('Enter 2nd string : ')
+c = [x + y   for   x   in   a     for   y   in   b]
+print(c)
+
+
+
+'''
+object  a   ---->   HYD
+object  ab   ---->   PUNE
+x          y          x + y         list 'c'
+--------------------------------------------------------
+'H'      'P'         'HP'           ['HP']
+           'U'         'HU'           ['HP' , 'HU']
+           'N'         'HN'           ['HP' , 'HU' , 'HN']
+           'E'         'HE'            ['HP' , 'HU' , 'HN' , 'HE']
+'Y'      'P'         'YP'              ['HP' , 'HU' , 'HN' , 'HE'  , 'YP']
+           'U'         'YU'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU']
+           'N'         'YN'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN']
+           'E'         'YE'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN' , 'YE']
+'D'      'P'         'DP'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN' , 'YE' , 'DP']
+           'U'         'DU'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN' , 'YE' , 'DP' , 'DU']
+           'N'         'DN'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN' , 'YE' , 'DP' , 'DU' , 'DN']
+           'E'         'DE'            ['HP' , 'HU' , 'HN' , 'HE'  , 'YP' , 'YU' , 'YN' , 'YE' , 'DP' , 'DU' , 'DN' , 'DE']
+'''

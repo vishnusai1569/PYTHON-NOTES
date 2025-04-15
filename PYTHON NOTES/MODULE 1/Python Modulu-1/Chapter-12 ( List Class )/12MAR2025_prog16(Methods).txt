@@ -1,0 +1,30 @@
+Methods  of  list
+---------------------
+1) append()
+
+2) extend()
+
+3) insert()
+
+4) remove()
+
+5) pop()
+
+6) clear()
+
+7) reverse()
+
+8) sort()
+
+9) count()
+
+10) index()
+
+11) copy()
+
+
+1) Where  are  the  above  methods  defined ?  --->  In  List  class
+
+2) Where  is  List  class  defined ?  --->  In  builtins  module
+
+3) What  does  dir(list)  do ?  ---> Returns  a  list  of  all  the  methods  of  list  class

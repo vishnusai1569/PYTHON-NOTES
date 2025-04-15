@@ -1,0 +1,11 @@
+# Find outputs (Home work)
+a = 6j  
+print(a) 
+print(type(a))  
+print(a . real)  
+print(a . imag) 
+print(5 + j6) 
+print(3 + 4i) 
+print(4+j) 
+print(4 + 1j)
+print(4 + 0j)

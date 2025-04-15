@@ -1,0 +1,28 @@
+'''
+Write  a  program  to  delete  'all'  occurences  of  'x'  from  the  list
+
+Let  1st  input  be   [10 , 20 , 15 , 18 , 19 , 15 , 17 , 20 , 15 , 14]  and
+2nd  input  be  15
+What  is  the  output ?  ---> [10 , 20 ,  18 , 19 , 17 , 20 , 14]
+
+Hint: Use  remove()  method
+'''
+a =  eval(input('Enter List  :  '))
+x  =  eval(input('Enter  element  to  be  deleted : '))
+while  x  in  a:
+		a . remove(x)
+print(F"List  without   {x}'s :  {a}")
+
+
+
+
+
+'''
+Let  list  'a'  be  [10 , 20 , 15 , 18 , 19 , 15 , 17 , 20 , 15 , 14]
+Let  'x'  be  15
+
+   Iteration           a . remove(x)         list   'a'
+   ------------------------------------------------------------
+        1              a . remove(15)       [10 , 20 , 18 , 19 , 15 , 17 , 20 , 15 , 14]
+        2              a . remove(15)       [10 , 20 , 18 , 19 ,  17 , 20 , 15 , 14]
+        3              a . remove(15)       [10 , 20 , 18 , 19 ,  17 , 20 ,  14]

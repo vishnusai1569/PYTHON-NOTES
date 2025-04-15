@@ -1,0 +1,13 @@
+Agenda
+---------
+1) Operations
+
+2) Dictionary  packing  and  unpacking
+
+3) Functions
+
+4) Methods
+
+5) Dictionary  comprehension
+
+6) Programs

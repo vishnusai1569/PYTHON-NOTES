@@ -1,0 +1,7 @@
+#  sort()  method  demo  program (Home  work)
+list = [10 , 20 , 15 , 18 , 5]
+print(list) #  [10,20,15,18,5]
+list . sort()
+print(list) #  [5,10,15,18,20]
+list . sort(reverse = True)
+print(list)  #  [20,18,15,10,5]

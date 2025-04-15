@@ -1,0 +1,4 @@
+What  are  the  four  key  points  for  set ?  --->  1) set  is  unordered
+									      2) set  is  not  indexed  due  to  unordered  nature									     
+									      3) set  can  not  have  duplicate  elements								              
+									      4) set  can  not  hold  mutable  elements

@@ -1,0 +1,39 @@
+for ... else
+------------
+for  x  in  sequence:
+	statements
+	if  cond:
+                 break
+        statements
+else: 
+	statements
+#End of  for  loop
+statements
+
+1) When  is  else  suite  executed  ?  --->  After  termination  of  for  loop  provided  loop  is  not  broken
+
+2) When  is  else  suite  skipped  ? --->  If  the  loop  is  broken  in  the  middle
+
+3) for  x  in  sequence:
+		stmt1
+		if  cond:
+		     break
+	        stmt2
+    else: 
+		stmt3
+    #End of  for  loop
+    stmt4
+    How  many  times  are  stmt3  and  stmt4  executed ?  --->  Only  once  becoz  they  are  outside  the  loop
+    What  is  the  difference  between  stmt3  and  stmt4 ?  --->         										
+										stmt4  is  always  executed  irrespective  of  loop  is  broken  or  not
+								                but  stmt3  is  executed  only  when  loop  is  not  broken
+
+4) for  x  in  sequence:
+	   statements
+	   if  cond:
+		   break
+	   else: 
+                  statements
+   Does  else  correspond  to  for  loop  (or)  if ?  --->  If  becoz  it  is  indented  with  if
+
+Note: No  other  language  permits  else  with  'for'  loop  except  python

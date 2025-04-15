@@ -1,0 +1,21 @@
+Arithmetic  operators
+---------------------------
+1) What  are  the  seven  different  arithmetic  operators ?  --->  + , - , * ,  ** , / , // , %
+
+2) What  does  +  operator  do ? --->   Addition
+
+3) What  does  -  operator  do ? --->  Subtraction
+    
+4) What  does  *  operator  do ? --->  Multiplication
+    
+5) What  does  /  operator  do ? --->  Performs  division  and  returns  float  quotient 
+    
+6) What  does  //  operator  do ? --->  Performs  division  and  returns  an  integer  quotient 
+    
+7) What  does  %  operator  do ? --->  Performs  division  and  returns  remainder
+
+8) What  does  **  operator  do ? --->  Returns  power
+
+9) Which  operator  has  got  highest  priority  in  arithmetic  operators ?  --->  **
+     Which  operators  have  got  next  higher  priority ?  --->  * , / ,  // , %
+     Which  operators  have  got  lower  priority ?  --->   + , -

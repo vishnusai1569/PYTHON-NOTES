@@ -1,0 +1,54 @@
+Methods  of  str  class
+---------------------------
+1) find()
+
+2) index()
+
+3) rfind()
+
+4) rindex()
+
+5) count()
+
+6) replace()
+
+7) lstrip() , rstrip()  and  strip()  
+
+8) split()
+
+9) join()
+
+10) lower(), upper(), title(), capitalize(), swapcase() 
+
+11) startswith()
+
+12) endswith()
+
+13) isalpha()
+
+14) isdigit()
+
+15) isupper()
+
+16) islower()
+
+17) isalnum()
+
+18) isspace()
+
+19) center()  
+
+20) format()
+
+
+
+1) Where  are  the  above  26  methods  defined ?  --->   In  str  class
+
+2) Where  is  str  class  defined ?  --->  In  builtins  module
+
+3) How  to  call  the  above  26  methods ?  --->  Wrt  str  object
+									     i.e.  str-obj . method()
+
+4) What  does  dir(str)  do ?  --->  Returns  a  list  of  all  the  methods of  str  class
+
+5) Where  is  dir()  function  defined ?  --->  In   builtins  module

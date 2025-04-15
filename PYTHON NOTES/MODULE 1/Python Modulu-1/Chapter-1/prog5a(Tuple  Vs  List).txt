@@ -1,0 +1,27 @@
+Tuple  Vs  List
+-----------------
+1) Can  tuple  be  modified ?  ---> No  becoz  it  is  an  immutable  object
+    What  about  list ?  --->  It  can  be  modified  becoz  it  is  a  mutable  object
+       
+2) What  is  tuple  operator ?  --->  ( )  and  ()  are  optional
+     What  is  list  operator ?  --->  [ ]  and  []  are  mandatory
+
+3) What  is  another  name  of  tuple ?  --->  Read-only  list  becoz  tuple  can  be  accessed  but  can  not  be  modified 
+
+4) Is  tuple  growable  and  shrinkable ?  ---> No  becoz  tuple  is  immutable
+    What  about  list ?  --->  It  is  growable  and  shrinkable
+
+5) Is  tuple  size  fixed  (or)  variable ?  --->  Fixed  size
+    What  about  list ?  --->  Variable  size
+
+6) Is  tuple . append(x)  valid ?  --->  No  becoz  there  is  no  append()  method  in  tuple
+    What  does  list . append(x)  do ?  --->  Inserts  'x'  at  the  end  of  the  list
+
+7) Is  tuple . remove(x)  valid ? --->  No  becoz  there  is  no  remove()  method  in  tuple
+    What  does  list . remove(x)  do ? --->  Removes  first  'x'  from  the  list
+
+8) How  is  tuple  of  single  element  denoted ?  --->  (25,)  and  ,  is  mandatory
+     How  is  list  of  single  element  denoted ? --->  [25,]  and  ,  is  optional
+
+
+Note:  List  and  tuple  are  same  except  the  above  differences

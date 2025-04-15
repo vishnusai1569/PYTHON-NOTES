@@ -1,0 +1,6 @@
+What  are  the  five  different  combinations  of  else ?
+1) if ... else
+2) if ... elif ... else
+3) for ... else
+4) while ... else
+5) try ... except ... else  

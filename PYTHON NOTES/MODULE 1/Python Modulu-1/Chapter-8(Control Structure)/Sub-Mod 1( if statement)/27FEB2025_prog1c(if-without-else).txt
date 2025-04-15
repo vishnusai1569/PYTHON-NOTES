@@ -1,0 +1,14 @@
+if  without  else
+-------------------
+1) if   cond:
+          stmt1
+          stmt2
+          stmt3
+   stmt4  
+
+2) Which  statements  are  executed  when  condition  is  True ?  --->  Statements  1 , 2  , 3
+    Which  statements  are  executed  when  condition  is  False ?  --->  Nothing  becoz  else  suite  is  missing
+
+3) When  is  stmt4  executed  ?  --->  Always  executed  irrespective  of  the  condition  becoz  it  is  outside  if
+
+4) if  and  stmt4  should  be  indented 

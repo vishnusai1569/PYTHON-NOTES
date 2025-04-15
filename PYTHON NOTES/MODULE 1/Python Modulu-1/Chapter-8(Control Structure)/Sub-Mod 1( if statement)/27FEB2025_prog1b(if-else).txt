@@ -1,0 +1,31 @@
+if  with  else
+---------------
+1) if   condition:
+          stmt1
+          stmt2
+          stmt3   
+   else:
+           stmt4
+	   stmt5
+	   stmt6
+   stmt7 
+
+2) Which  statements  are  executed  when  condition  is  True ?  --->  Statements  1 , 2  and  3
+    Which  statements  are  executed  when  condition  is  False ?  --->  Statements  4 , 5  and  6
+
+3) When  is  statement7  executed ? --->  Always  executed  irrespective  of  the  condition  becoz  it  is  outside  if
+
+4) When  is  else  suite  executed ?  ---> When  if  condition  is  false
+    When  is  else  suite  skipped  ?  --->  When  if  condition  is  true
+
+5) Are  If  and  Else  Valid ?  ---> No  becoz  they  are  keywords  and  hence  they  should  be  in  lowercase
+
+6) if(condition):
+          statement
+    Can  if  condition  be  in  ()  ?  --->  Yes  but  ()  are  optional  for  condition
+
+7) if , else  and  stmt7  should  be  indented i.e.  same  column
+
+Note:
+op1  if  cond:  else:  op2     
+Is  the  above  statement  valid ?   --->  No  becoz  colons  are  not  permitted  in  ternary  operator

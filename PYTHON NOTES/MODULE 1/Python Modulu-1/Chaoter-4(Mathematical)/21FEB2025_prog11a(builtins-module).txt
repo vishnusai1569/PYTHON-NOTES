@@ -1,0 +1,32 @@
+Functions  of  builtins  module
+----------------------------------
+1) abs()
+
+2) max()
+
+3) min()
+
+4) pow()
+
+5) print()
+
+6) id()
+
+7) len()
+
+8) int()
+
+9) list()  and   so   on
+
+
+1) from  builtins  import   *
+    Is  the  above  statement  mandatory  ?  --->  No  becoz  members  of  builtins  module  are  automatically  imported 
+
+2) In  otherwords,  they  need  not  be  imported  explicitly
+
+3) Therefore  they  can  be  used  directly  without  import
+
+4) import  builtins
+    Is  the  above  import  mandatory  (or)  optional ?  --->  Mandatory  becoz  builtins  module  is  not  imported  automatically
+
+5) Most  of  the  pre-defined  functions  and  clasess  are  defined  in  builtins  module

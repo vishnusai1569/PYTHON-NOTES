@@ -1,0 +1,63 @@
+str  object
+-------------
+1) What  can  a  str  object  hold ?  --->  String
+
+2) What  is  a  string ? ---> A  group  of  characters  in  single , double  (or)  triple  quotes
+
+3) Is  'Rama  Rao'  a   string ?   --->  Yes  due  to  single  quotes
+    Is  "9247"  a   string ?  --->  Yes  due  to  double  quotes
+    Is  '''+-$'''  a   string ? --->  Yes  due  to  triple  quotes
+    Is  """A2#"""  a   string ? --->  Yes  due  to  triple  double  quotes
+
+4) What  is  another  name  of  string ?  --->  Alphanumeric  becoz  string  can  have  alphabets , digits  and  special  characters
+
+5) Which  quotes  are  used  for  multi-line  string ?  ---> Triple  quotes  only   
+   Which  quotes  are  used  for  single-line  string ?  ---> Single , double  (or)  triple  quotes
+
+6) Can  single  (or)  double  quotes  be  used  for  multi-line  string ? ---> No
+
+7) Is  string  a  sequence  ?  ---> Yes  becoz  it  is  a  group  of  characters
+
+8) Can  str  object  be  modified ?  ---> No  becoz  it  is  an  immutable  object
+
+9) Is  str  object  indexed ?  --->  Yes  
+
+10) What  are  the  indexes  of  characters  from  left  to  right ? --->  0 , 1 , 2 , ...... length - 1
+    What  are  the  indexes  of  characters  from  right  to  left ? --->  -1 , -2 , -3 , ..... -length
+
+11) What  is  the  index  of  10th  character  from  left  to  right ?  ---> 9
+    What  is  the  index  of  10th  character  from  right  to  left ?  ---> -10
+
+12) What  is  the  result  of  'Hyd'[0] ?  --->  Character  at  index  0  i.e. 'H'
+    What  is  the  result  of  'Hyd'[1] ?  --->  Character  at  index  1  i.e. 'y'
+    What  is  the  result  of  'Hyd'[2] ?  --->  Character  at  index  2  i.e. 'd'
+
+13) What  is  the  result   of  'Hyd'[-1] ?  ---> Character  at  index  -1  i.e. 'd'
+
+    What  is  the  result  of  'Hyd'[-2] ?  --->  Character  at  index  -2  i.e. 'y'
+    What  is  the  result  of  'Hyd'[-3] ?  ---> Character  at  index  -3  i.e. 'H'
+
+14) What  is  the  advantage  of  indexes ?  ---> Random  access
+
+15) What  is  random  access ?  --->  
+
+It  is  possible  to  access  10th  character  of  the  string  directly  without  accessing first  nine  characters
+
+16) Can  str  object  be  repeated ?  --->  Yes  with  *  operator
+    What  does  'Hyd' * 3  do ?  --->    
+      Repeats  'Hyd'  thrice i.e.  'HydHydHyd'
+
+17) What  does  len('Hyd') do ?  --->  Returns  number  of  characters  in  'Hyd'  i.e.  3
+
+Note:
+1) Are  non-sequences  indexed  ?  --->  No  due  to  single  element
+
+2) Why  are  sequences  indexed ?  ---> Since  they  have  got  a  group  of  elements
+
+3) Are  non-sequences  immutable  (or)  mutable ?  --->  Immutable  objects
+
+4) What  are  the  three  mutable  objects  in  python ?  ---> List , set  and  dictionary 
+
+5) Every  object  in  python  is  immutable  except  the  above  three
+
+6) Does  python  string  end  with  '\0' ?   ---> No (unlike  'c'  string) 

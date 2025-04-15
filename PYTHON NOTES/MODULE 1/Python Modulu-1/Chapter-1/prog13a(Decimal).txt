@@ -1,0 +1,7 @@
+Decimal  integer
+------------------
+1) What  is  the  prefix  of  decimal  number ?  --->  Nothing
+
+2) What  are  the  valid  digits  in  decimal  number ? ---> 0  to  9
+
+3) What  is  the  base  of  decimal  number ?  --->  10  due  to  ten  digits(0  to  9)

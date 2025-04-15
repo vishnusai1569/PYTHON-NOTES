@@ -1,0 +1,13 @@
+Functions
+------------
+1) len()
+
+2) sum()
+
+3) max()
+
+4) min()
+
+5) dict()
+
+6) sorted()
