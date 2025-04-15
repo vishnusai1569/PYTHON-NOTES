@@ -1,0 +1,25 @@
+# Index   demo  program  (Home  work)
+a = 'Hyd'
+print(a[0])  #  How  to  print  'H'  of  object  'a'  --->  H
+print(a[1])  #  How  to  print  'y'  of  object  'a'  --->  y
+print(a[2]) #   How  to  print  'd'  of  object  'a'  --->  d
+#print(a[3])  # Error  becoz  there  is  no  index  3  in   'Hyd'
+print(a[-1])  #  How  to  print  'd'  of  object  'a'  with  -ve  index  --->  d
+print(a[-2]) #  How  to  print  'y'  of  object  'a'  with  -ve  index  --->  y
+print(a[-3])#   How  to  print  'H'  of  object  'a'  with  -ve  index  --->  H
+#print(a[-4])  # Error  becoz  there  is  no  index  -4  in   'Hyd'
+print(a[0] ==  a[-3]) #  'H' == 'H'   is  True
+#a[2] = 'c'  #   Error   becoz  str object  is immutable 
+#print(25[0])  #  Error   becoz  non-sequence (such  as int)  is  not  indexed
+print('25'[0])  #  Char  at  index  0  i.e.  '2'
+#print(True[1]) #   Error   becoz  non-sequence (such  as  bool)  is  not  indexed
+print('True'[1])   #  Char  at  index  1  i.e.  'r'
+
+
+
+'''
+1) What  is  another  name  of  index ?  --->  Subscript
+
+2) What  does  ==  operator  do ?   --->  Compares  objects
+    What  does  =  operator  do ?   ---> Assigns  refernce  to  an  object
+'''

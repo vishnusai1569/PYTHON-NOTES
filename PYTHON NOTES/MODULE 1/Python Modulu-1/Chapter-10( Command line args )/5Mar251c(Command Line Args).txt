@@ -1,0 +1,81 @@
+Command  line  arguments  
+------------------------------
+1) What  is  a  command  line ?  --->  The  execution  command  at  the  command  prompt
+
+2) What  is  the  syntax  of  command  line ?  --->  py  filename.py  Input1  Input2  Input3  ......
+
+3) What  are  input1 , input2 , input3  ....  called  ?  --->  Command  line  inputs
+
+4) Where  are  command  line  inputs  saved ?  --->  In  argv  list
+
+5) What  does  argv  list  contain ?  --->  
+							filename.py  and  all  the  inputs  passed  from  command  line  in  the  form  of  strings
+
+6) What  is  argv[0] ?  --->  filename . py
+    What  is  argv[1] ?  --->  Input1  in  the  form  of  string    
+    What  is  argv[2] ?  --->  Input2  in  the  form  of  string
+    What  is  argv[3] ?  --->   Input3  in  the  form  of  string
+    and  so  on
+
+7) What  is  the  index  of  10th  input ?  --->  10  but  not  9
+    What  is  the  index  of  1st  input ?  --->  1
+    What  is  the  index  of  last  input ?  --->  len(argv) - 1
+    What  is  the  index  of  filename ?  ---> 0
+
+8) py   filename.py   10   20   30
+    Is  argv  a  list  of strings  (or)  list  of  integers ?  --->  
+									List  of  strings  even  though  integers  are  passed  from  command  line
+									i.e.  ['filename.py' , '10' , '20' , '30']
+
+9) Who  is  initializing  argv ?  --->   PVM  (Python  Virtual  Machine)  but  not  programmer
+
+10) When  is  argv  list  initialized ? ---> As  soon  as  program  is  executed 
+
+11) How  to  run  the  program ?  --->  py  filename.py  input1  input2  input3  ....
+
+12) Where  is  argv  list  defined  ?  --->  In  sys  module
+
+13) What  is  len(argv)  in  general ? --->  Number  of  inputs + 1
+      Why  is  +1 ?  --->   Due  to  filename.py
+
+14) Is  argv  a  list  (or)  tuple ? --->  List
+
+15) What  are  the  two  ways  to  read  inputs ?  --->  With  input()  function      
+											    and
+										     from  command  line
+
+16) In  other  words,  command  line  inputs  are  an  alternative  to  input()  function
+
+17) When  are  command  line  inputs  not  recommended ?  --->  When  there  are  too  many  inputs 
+
+18) In  other  words,  sending  too  many  inputs  from  command  line  every  time  is  a  tedious  job
+
+19) When  are  command  line  inputs  recommended ?  ---> When  there  are  few  inputs
+
+Advantage
+-------------
+1) What  is  the  advantage  of  command  line  inputs ?  --->  Coding  burden  is  reduced
+
+*2) In  other  words,  inputs  passed  from  command  line  are  automatically  represented  in  argv  list   without 
+       writing  any  code
+    
+3) Therefore  take  inputs  from  argv  list ,  process  them  and  print  results
+
+*4) Don't  worry  about  inputs  becoz  they  are  readily  available  in  argv  list
+
+Disadvantage
+----------------
+1) What  is  the  dis-advantage  of  command  line  inputs ?  --->  Interaction  with  user  is  not  possible
+
+2) Therefore  inform  client  about  order  of  inputs
+
+
+Note:
+1) What  about  input()  function  ?  --->  It  can  interact  with  user 
+
+2) empno = int(input('Enter  empno  :  '))
+    ename = input('Enter  emp  name    :  ')
+    sal = float(input('Enter  salary    :  '))
+    The  above  three  statements  are  interacting  with  user  for  inputs.
+    This  is  not  possible  when  inputs  are  read  from  command  line.
+ 

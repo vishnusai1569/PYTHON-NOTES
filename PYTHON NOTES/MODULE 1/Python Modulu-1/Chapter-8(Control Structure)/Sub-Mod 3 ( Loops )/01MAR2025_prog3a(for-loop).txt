@@ -1,0 +1,41 @@
+for  loop
+-----------
+1) What  is  the  syntax  of  for  loop ?  --->  for  x  in  sequence:
+								              statements
+
+2) When  is  for  loop  recommended ?  ---> To  iterate  (or)  traverse  a  sequence
+
+3) for  x  in  sequence:
+            statements
+    What  is  'x'  in  the  for  loop ?  ---> Each  element  of  sequence
+
+4) How  many  times  is  for  loop  executed  when  there  are  'n'  elements  in  sequence ?  --->  'n'  times
+    How  many  times  is  for  loop  executed  when  sequence  is  empty ?  ---> 0  times
+
+5) for  x  in  non-sequence:
+              statements
+    Is  the  above  for  loop  valid ?  --->  No  due  to  non-sequence
+
+6) for  x  in  sequence
+            statements
+    Is  the  above  for  loop  valid ?  ---> No  becoz  there  is  no  :  at  the  end  of  for  loop
+
+7) for  x  in  sequence:						
+     statements
+     Is  the  above  for  loop  valid ?  --->  No  becoz  statements  of  for  loop  should  not  be  indented  with  for  loop
+
+8) for  x  in  sequence:
+            stmt1
+		  stmt2
+			 stmt3
+    Is  the  above  for  loop  valid ?  ---> No  becoz  statements  of  for  loop  are  not  indented  i.e.  not  in  same  column
+
+9) for(i = 1; i <= 5 ; i++) 
+	    statements
+    Is  the  above  for  loop  valid  ?  --->  No  becoz  python  does  not  support  regular  for  loop
+
+10) Which  for  loop  does  python  support ?  --->  for ...  each  loop
+
+11) For  x  in   sequence:
+              statements
+     Is  the  above  for  loop  valid ?  --->  No  becoz  for  is  a  keyword  and  hence  it  should  be  in  lowercase  

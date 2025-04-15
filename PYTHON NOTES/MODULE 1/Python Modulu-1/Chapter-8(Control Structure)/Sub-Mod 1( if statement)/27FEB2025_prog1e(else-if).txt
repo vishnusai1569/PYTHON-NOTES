@@ -1,0 +1,24 @@
+Dis-advantage  of  else  and  if
+-----------------------------------
+if  cond1:
+	stmt1
+	stmt2
+	stmt3
+else:
+	if   cond2:
+		stmt4
+		stmt5
+		stmt6
+	else:
+		if   cond3:
+			stmt7
+			stmt8
+			stmt9
+		else:
+			stmt10
+			stmt11
+			stmt12
+stmt13
+
+What  is  the  issue  when  else  and  if  are  used  separately  instead  of  elif ?  ---> 												
+									No  readability  and  clarity  due  to  too  many  indentations

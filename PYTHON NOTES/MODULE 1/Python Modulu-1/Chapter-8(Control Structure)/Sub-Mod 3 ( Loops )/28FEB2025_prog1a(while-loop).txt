@@ -1,0 +1,56 @@
+while  loop
+-------------
+1) while   cond:
+	   stmt1
+	   stmt2
+	   stmt3
+    stmt4
+
+2) How  long  is  while  loop  executed ?  ---> As  long  as  condition  is  True
+
+3) When  is  while  loop  terminated ?  --->  As  soon  as  condition  becomes  false
+
+4) What  happens  after  while  loop  terminates ?  --->  Control  moves  out  of  loop  and  
+											executes  statements  outside  the  loop 
+
+5) How  many  times  are  statements  in  while  loop  executed ?  --->  Multiple  times
+    How  many  times  are  statements  outside  while  loop  executed ?  --->  Just  once
+
+6) When  is  while  loop  not  executed ? --->  When  the  condition  is  false  for  the  first  time  itself
+
+7) When  is  while  loop  recommended ?  --->  When  condition  is  involved
+
+8) while  condition
+	   statements
+    Is  the  above  while  loop  valid  ? --->  No  becoz :  is  missing  at  the  end  of  condition
+
+9) while   cond:
+    stmt1
+    stmt2
+    stmt3
+    stmt4
+    Is  the  above  while  loop  valid ?  --->  No  becoz  there  should  be  at  least  one  spacebar  (or)  tab  key  
+								 before  the  statements  as  they  are  after  :
+
+10) while  condition:
+             stmt1
+		  stmt2
+                        stmt3
+     Is  the  above  while  loop  valid  ? --->  No  becoz  statements  of  while  loop  are  not  indented   
+								   i.e.  Not  in  same  column
+
+11) while(condition):
+                statement
+    Can  while  condition  be  in  ( )  ? --->  Yes  but  ()  are  optional
+
+12) Is  While  valid ?  --->  No  becoz  while  is  a  keyword  and  hence  it  should  be  in  lowercase  
+
+Note:
+1) while  not  getting  bored:
+  	   Keep  watching  same  movie
+
+2) while  not  passed:
+	  Keep  writing  same  exam
+
+3) while  not  course  completed:
+          Keep  attending  the  class

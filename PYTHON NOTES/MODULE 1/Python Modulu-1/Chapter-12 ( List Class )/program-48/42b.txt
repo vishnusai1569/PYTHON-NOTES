@@ -1,0 +1,12 @@
+'''
+(Home  work)
+Repeat   previous  program  with  comprehension
+
+Input1 :  [10 , 20 , 15]
+Input2 :  [30 , 40 , 35 , 32]
+Output :  [10 + 30 , 10 + 40 , 10 + 35 , 10 + 32 , 20 + 30 , 20 + 40 , 20 + 35 , 20 + 32 , 15 + 30 , 15 + 40 , 15 + 35 , 15 + 32]
+'''
+a = eval(input('Enter 1st list : '))
+b = eval(input('Enter 2nd list : '))
+c = [x + y  for   x   in   a  for   y   in   b]
+print(c)

@@ -1,0 +1,13 @@
+Comments
+------------
+1) How  to  write  a  single  line  comment  ?  --->  With  #  operator
+
+2) How  to  write  a  multi-line  comment ?  --->  ''' 
+						     Line  1
+						     Line  2
+						     Line  3
+						'''     
+
+3) Are  comments  executed ?  --->   No  and  they  are  ignored 
+
+4) What  is  the  advantage  of  comments ?  --->  More  clarity  and  better  readability

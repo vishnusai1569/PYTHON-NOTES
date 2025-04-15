@@ -1,0 +1,7 @@
+Summary
+-----------
+list = [10 , 20 , 15 , 12 , 18]
+What  are  the  three  ways  to  remove  element  15  from  the  list  ?
+1) del  list[2]  ---> Deletes  element  at  index   2  
+2) list . remove(15)  --->  Removes  15  from  the  list
+3) list . pop(2)  --->  Deletes  element  at  index  2

@@ -1,0 +1,14 @@
+'''
+Gift
+Write  a  program  to  remove  all  duplicate  elements  of  list  (Not  even  single  occurance)
+Let  input  be  [10 , 20 , 15 , 10 , 14 , 10 , 18 , 20 , 19]
+What  is  the  output ?  ---> [15 , 14 , 18 , 19]
+
+Hint:  Use  count()  and  append()  methods
+'''
+a = eval(input('Enter  List :  '))
+b = []
+for  x  in  a:
+	if a . count(x) == 1:
+		b . append(x) # append  elements  of  list  'a'  with  frequency  1  to  list  'b'
+print(b)

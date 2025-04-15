@@ -1,0 +1,42 @@
+import  statement
+---------------------
+1) What  is  the  syntax  of  import  statement ?  ---> import  modulename
+
+2) What  does  module  contain  ?  --->  Statements , objects(i.e. variables) , functions  and  classes  
+
+3) import  module  
+    What  does   the  above  statement  do ?  --->  Imports  not  only  module  but  also  statements  of  the  module
+
+4) What  about  members  of  the  module ?  --->  They  are  not  imported
+
+5) What  are  members  of  the  module ?  --->  Objects(i.e. variables) , functions  and  classes  
+
+6) What  about  statements  of  the  module  ?  ---> They  are  not  members  of  the  module
+
+7) How  to  use  members  of  the  module ?  ---> module . member
+
+8) Can  member  be  used  directly  without  module  name  prefix ?  ---> No  becoz  members  are  not  imported
+
+9) import  math
+    Is  pow(x , y)  valid ?  ---> No  becoz  function  pow()  is  not  imported  from  math  module
+    Is  pi  valid ?  --->  No  becoz  object  pi  is  not  imported  from  math  module
+    Is  math . sqrt(x)  valid ?  ---> Yes
+    Is  math . pi  valid ?  --->  Yes
+
+Note:  
+Let  module  abc.py  contain:
+x = 25
+print('Hyd')
+def  f1():
+	statements
+class   c1:
+	def   m1(self):
+		statements
+----------------------------
+import  abc
+What  are  imported  ?  --->  module   abc  and  the  two  statements 
+					      (i.e. x = 25  and  print('Hyd'))
+What  are  not  imported ?   --->  object  'x' ,  function  f1   and  class  c1  
+How  to  use  object  'x'  ?   --->   abc . x
+How  to  use  function  f1  ?   --->  abc . f1()
+How  to  use  class  c1  ?   --->  abc . c1()

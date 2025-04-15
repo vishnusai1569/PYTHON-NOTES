@@ -1,0 +1,24 @@
+sorted()  Vs  sort() 
+-----------------------
+1) Is  sorted()  a  function  (or)  method ?  --->  Function  of  builtins  module
+    Is  sort()  a  function  (or)  method ?  --->  Method  of  list  class
+
+2) What  is  the  syntax  of  sorted()  function ?  ---> sorted(list)
+    What  is  the  syntax  of  sort()  method ?  --->  list . sort()
+
+3) What  does  sorted(list)  return ?  ---> sorted  list  
+     What  does  list . sort()  return ?  --->  None
+
+4) Where  are  the  results  stored  after  sorted(list)  is  executed ?  --->   In  another  list
+     Where  are  the  results  stored  after  list . sort()  is  executed ?  --->  In  the  same  list  replacing  existing  elements
+
+5) Is  list  modified  after  execution  of  sorted(list) ? --->  No  becoz  results  are  stored  in  another  list
+     Is  list  modified  after  execution  of  list . sort() ? --->  Yes  becoz  results  are  stored  in  same  list  replacing  existing  elements
+
+6) Is  list . sorted()  valid  ? --->  No  becoz  there  is  no  sorted()  method  in the  list
+    Is  sort(list)  valid  ?  --->  No  becoz  there  is  no  sort()  function  in  builtins  module
+
+Note:
+1) How  to  call  a  function ? --->  function(object)
+
+2) How  to  call  a  method ?  ---> object . method()

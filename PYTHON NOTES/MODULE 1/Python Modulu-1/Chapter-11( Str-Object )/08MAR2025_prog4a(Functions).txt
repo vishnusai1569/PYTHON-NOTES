@@ -1,0 +1,12 @@
+Functions
+------------
+1) len()
+
+2) sorted()
+
+3) chr()
+
+4) ord()
+
+
+Where  are  they  defined ?  --->  In  builtins  module

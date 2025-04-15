@@ -1,0 +1,23 @@
+continue   statement
+-----------------------
+1) while  cond:
+	     stmt1
+	     if  cond:
+	          continue
+             stmt2  
+    # End  of  while  loop
+    stmt3
+
+2) What  does  continue  statement  do ?  --->  Moves  to  next  iteration  of  loop
+
+3) What  are  skipped  due  to  continue ?  ---> Remaining  statements  of  the  loop  
+									    							
+4) Who  can  use  continue ?  --->  for  loop  and  while  loop
+      
+5) Can  continue  be  used  without  a  loop ? --->  No
+
+6) In  other  words, continue  can  not  be  used  without  loop
+
+7) Is  Continue  valid ?  --->  No  becoz  continue  is   a  keyword  and  hence  it  should  be  in  lowercase  
+
+8) When  is  continue  recommended ?  --->  To  skip  the  iteration

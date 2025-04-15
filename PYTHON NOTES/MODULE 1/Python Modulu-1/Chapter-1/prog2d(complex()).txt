@@ -1,0 +1,13 @@
+complex()   function
+-----------------------
+1) What  does  complex(3 , 4)  do  ?  --->  Returns  3 + 4j
+
+2) What  does  complex(3.8)  do ? --->  Returns  3.8 + 0j
+
+3) What  does  complex('9.5')  do ?  --->  Returns  9.5 + 0j
+
+4) Is  complex(3 , '4')  valid ?  --->  No  becoz  2nd  arg  can  not  be  a  string
+
+5) In  other  words,  arg1  can  be  a  string  but  not  arg2
+
+6) Is  complex('3' , 4)  valid ?  --->  No  becoz  arg2  is  not  permitted  when  arg1  is  a  string.

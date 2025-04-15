@@ -1,0 +1,11 @@
+Agenda
+---------
+1) Set packing  and  unpacking
+
+2) Functions
+
+3) Methods
+
+4) Set  comprehension
+
+5) Programs

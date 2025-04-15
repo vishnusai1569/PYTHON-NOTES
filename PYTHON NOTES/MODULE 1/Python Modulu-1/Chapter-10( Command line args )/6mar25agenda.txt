@@ -1,0 +1,9 @@
+Agenda
+---------
+1) Slice
+
+2) Functions
+
+3) Methods  of  str  class
+
+4) Programs

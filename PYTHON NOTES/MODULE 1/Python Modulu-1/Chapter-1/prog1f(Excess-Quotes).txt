@@ -1,0 +1,17 @@
+# Find  outputs  (Home  work)
+a = """"Hyd"""  #   Excess  opening  quote  is  char  of  the string
+print(a)  #  "Hyd
+print(len(a))  #  4
+print(a[0])  #  "
+#print("""Hyd"""")  #  Error due  to  excess  closing  quotes
+b = """""Hyd"""  #  Excess  opening  quotes   are  chars  of  the string
+print(b)  #  ""Hyd
+print(len(b))    #  5
+
+
+
+'''
+1) What  happens  to  excess  opening  quotes  in  the  string ?  --->  They  are  treated  as  characters  of  the  string
+
+2) What  happens  to  excess  closing  quotes  in  the  string ?  --->  Throws  error
+'''

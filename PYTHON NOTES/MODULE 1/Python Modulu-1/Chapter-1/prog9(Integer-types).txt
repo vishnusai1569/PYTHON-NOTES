@@ -1,0 +1,9 @@
+Types  of  integers
+-----------------------
+1) Binary  integer  
+ 
+2) Octal  integer   
+
+3) Decimal  integer 
+
+4) Hexa-Decimal  integer

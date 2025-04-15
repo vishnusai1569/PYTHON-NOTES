@@ -1,0 +1,28 @@
+float  object
+---------------
+1) What  can  a  float  object  hold ?  --->  A  float  number
+
+2) What  is  a  float  number  ?  ---> A  number  with  decimal  point
+
+3) What  is  the  maximum  value  of  float ?  --->  Infinity
+   What  is  the  minimum  value  of  float ?  ---> -Infinity
+
+4) What  are  the  two  ways  to  represent  a  float  number ? --->  Fractional  number and Mantissa-Exponent  number
+
+5) What  is  123.45  called ?  --->  Fractional  number
+
+6) What  is  9.728e3  called ? ---> Mantissa-Exponent  number
+   What  is  9.728  in  9.728e3  called ?  --->  Mantissa  becoz  it  is  before  'e'
+   What  is  3  called ?  --->   Exponent  becoz  it  is  after  'e'
+
+7) What  is  the  result  of  9.728e3 ?  --->  9.728 * 10 ^ 3 = 9728.0
+   What  is  the  result  of  9.728E-2 ?  ---> 9.728 * 10 ^ -2 = 9.728 / 100 = 0.09728
+
+8) Why  python  does  not  support  double ?  --->  Since  max  value  of  float  is  infinity
+
+9) What  is  10.8  called  in  other  languages  (value  (or)  object)  ?  --->  Value
+   What  about  python ?  ---> Object
+
+10) What  does  x = 10.8  do ?  --->  Assigns  reference  'x'   to  float  object  10.8
+   			                               
+11) Where  is  float  class  defined ?   --->  In  builtins  module.

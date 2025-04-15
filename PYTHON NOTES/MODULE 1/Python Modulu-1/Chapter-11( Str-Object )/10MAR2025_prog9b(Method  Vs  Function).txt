@@ -1,0 +1,32 @@
+Method   Vs   Function
+--------------------------- 
+1) Where  is  method  defined ? --->  Inside  the  class
+    Where  is  function  defined ?  --->  Outside  the  class 
+							     i.e.  inside  the  module
+
+2) Method  is  a  member  of  what ?  --->  class
+    Function  is  a  member  of  what ?  ---> Module  
+    
+3) How  is  a  method  called ?  --->  object . method()
+    How  is  a  function  called ?  ---> function()
+
+4) How  to  call  m1()  method  of  class  c1 ?  --->  a = c1()  where  'a'  is  c1  class  object
+							                       a . m1()  
+    How  to  call  function  f1() ?  --->  f1()
+
+5) Can  a  method  be  called  without  object ?  --->  No 
+                                                                                   i.e. Object  is  mandatory  to  call  a  method
+    Is  object  required  to  call  a  function  ?  --->   No 
+										 i.e. It  can  be  called  directly  without  any  object
+
+6) What  is  the  mandatory  argument  for  a  method ?  --->  self
+     Does  function  require  self  argument ?  --->  No
+
+7) What  is  self  wrt  the  method  call  a . m1() ?  --->  Object  'a'
+
+8) Is  method(object)  valid ?  --->  No  and  it  should  be  obj . method()
+    Is  object . function()  valid ?  --->  No  and  it  should  be  function(object)
+
+9) What  does  a  method  do ? --->  Performs  operation  on  object  such  as  read  inputs  into  object ,
+                                                         print  object , add  objects , compare  objects  and  so  on
+     What  does  a  function  do ? ---> General  purpose  operation  like  sqrt()  , power , gcd , factorial  and  so  on

@@ -1,0 +1,27 @@
+append()  Vs  extend() 
+--------------------------
+1) What  is  the  argument  of  append()  method ?  --->  Any  python  object
+											 i.e.  sequence  (or)  non-sequence 
+    What  is  the  argument  of  extend()  method ?  ---> Only  sequence
+      		    
+2) Is  list . append(25)  valid ? --->  Yes
+    Is  list . extend(25)  valid ? --->  No  becoz  25  is  not  a  sequence
+
+3) What  does  list . append(sequence)  do ?  --->  Appends  sequence  to  the  list
+     What  does  list . extend(sequence)  do ?  ---> Appends  elements  of  sequence  to  the  list
+
+4) What  does  list . append('Hyd')  do ?  --->  Appends  'Hyd'  to  the  list
+     What  does  list . extend('Hyd')  do ? --->  Appends  characters  of  'Hyd'   to  the  list 
+									 i.e.  'H' , 'y'  and  'd'
+
+5) a = [10 , 20 , 30 , 40]		                       	                
+    b = [50 , 60 , 70]								
+    a . append(b)  
+    What  does  print(a)  do ?  --->  Prints  [10 , 20 , 30 , 40 , [50 , 60 , 70]]
+    What  is  len(a)  ?  --->  5  but  not  7
+
+6) a = [10 , 20 , 30 , 40]		                       	                
+    b = [50 , 60 , 70]								
+    a . extend(b)  
+    What  does  print(a)  do ?  ---> Prints   [10 , 20 , 30 , 40 , 50 , 60 , 70]
+    What is  len(a) ?  --->  7

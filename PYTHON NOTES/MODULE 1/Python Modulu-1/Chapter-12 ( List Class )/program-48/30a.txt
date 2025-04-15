@@ -1,0 +1,43 @@
+'''
+Gift
+Write  a  program  to  determine  mode
+
+1) What  is  mode ?  ---> The  element  which  is  repeated  maximum  number  of  times  in  the  list
+
+2) Let  input  be  [12 , 20 , 18 , 15 , 10 ,  15 , 10 ,  15 ,  20 , 18 , 15 , 10 , 20 , 15 , 10]
+    What  is  set(list) ?  ---> {12 , 20 , 18 , 15 , 10}
+    How  many  times  is  first  element  12  repeated  in  the  list  ?  ---> 1
+    How  many  times  is  2nd  element  20  repeated  in  the  list  ?  --->  3
+    How  many  times  is  3rd  element  18  repeated  in  the  list  ?  --->  2
+    How  many  times  is  4th  element  15  repeated  in  the  list  ?  --->  5
+    How  many  times  is  last  element  10  repeated  in  the  list  ?  ---> 4
+    What  is  the  mode  ?  --->	15  becoz  it  is  repeated  max  number  of  times  i.e.  5
+
+3) mode =  15
+    ctr =  5
+'''
+a = eval(input('Enter  List  :   '))
+ctr = 0
+b = set(a)
+for  x  in   b:
+	freq = a . count(x)
+	if  freq > ctr:
+		ctr = freq
+		mode = x
+# End of  for  loop
+print('Mode : ' ,  mode)
+
+
+
+'''
+1) What  is  set  'b' ?  --->  {12 , 20 , 18 , 15 , 10}
+
+2)   Iteration    x         freq = a . count(x)                 ctr          mode
+     ------------------------------------------------------------------------------
+                                                                                    0
+            1           12        freq = a . count(12) = 1            1              12
+            2          20        freq = a . count(20) = 3           3              20
+            3          18        freq = a . count(18) = 2            3              20
+            4          15        freq = a . count(15) = 5            5              15
+            5          10        freq = a . count(10) = 4            5              15
+'''

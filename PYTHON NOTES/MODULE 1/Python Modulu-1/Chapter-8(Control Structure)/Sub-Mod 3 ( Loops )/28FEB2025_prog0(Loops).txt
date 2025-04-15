@@ -1,0 +1,13 @@
+Iterative  Statements  (or)  Control  Structures  (or)  Loops
+---------------------------------------------------------------------
+1) while  loop
+
+2) for  loop
+
+Note:
+Does  python  support  do …. while  loop  ?  --->  No  and  there  are  only  two  loops  in  python
+
+Note:
+1) When  is   while  loop  recommended ?  --->  When  condition  is  involved
+
+2) When  is  for  loop  recommended ?  --->  To  iterate  a  sequence

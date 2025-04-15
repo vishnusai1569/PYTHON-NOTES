@@ -1,0 +1,30 @@
+Mathematical  Functions
+----------------------------
+1) sqrt()
+
+2) pow()
+
+3) fabs()
+
+4) floor()
+
+5) ceil()
+
+6) degrees()
+
+7) radians()
+
+8) gcd()
+
+9) factorial()
+
+10) exp()
+
+11) pi  variable  (or)  object
+
+
+1) Where  are  they  defined ?  --->  In  math  module
+
+2) What  is  a  module ?  --->  File
+
+3) What  does  a  module  contain ?  --->  Statements , objects (i.e. variables) , functions  and  classes

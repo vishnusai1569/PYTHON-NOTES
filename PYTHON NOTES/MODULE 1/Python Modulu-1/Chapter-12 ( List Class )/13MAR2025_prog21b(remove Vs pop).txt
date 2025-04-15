@@ -1,0 +1,10 @@
+remove()  Vs  pop()  
+------------------------
+1) What  is  the  argument  of  remove()  method ?  --->  Element  to  be  removed
+    What  is  the  argument  of  pop()  method ?  --->  Index  of  the  element  to  be  removed
+			
+2) What  does  remove()  method  return ?  --->  None
+     What  does  pop()  method  return ?  --->  The  deleted  element
+
+3) Is  remove(No-args)  valid ? --->  No  and  throws  error
+    Is  pop(No-args)  valid ?  --->   Yes  and  removes  last  element  of  the  list

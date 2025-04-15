@@ -1,0 +1,15 @@
+del  operator 
+---------------
+1) When  is  an  object  lost  ?  --->  When  there  are  no  references  to  the  object
+
+2) When  is  an  object  not  lost  ?  --->  When  there  is  at  least  one  reference  to  the  object
+
+3) What  does  del  operator  do ?  --->  Deletes  only  reference  but  not  object
+
+4) Who  deletes  object  and  when?  --->  PVM (Python  Virtual  Machine)  when  there  are  no  references  to  the  object
+
+5) del   sequence[index]
+    del  sequnece
+    What  is  the  difference  between  the  above  two  statements ?  --->        												
+												del  sequence[index]  deletes  element  of  the  sequence  but
+												del   sequence  deletes  sequence  itself

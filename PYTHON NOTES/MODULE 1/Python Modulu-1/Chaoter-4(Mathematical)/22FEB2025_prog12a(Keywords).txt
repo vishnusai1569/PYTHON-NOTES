@@ -1,0 +1,28 @@
+Keyword
+-----------
+1) What  is  a  keyword ?  --->  A  word  which  has  got  a  special  meaning  in  the  computer
+    What  about  user  defined  word ?  --->  It  has  got  no  meaning  in  the  computer
+
+2) How  many  keywords  are  in  python ? --->  35
+
+3) What  are  they ?  --->  True , False , None ,  is , in , not , and , or ,  import , from ,  for , while , del ,  yield  ,  .....
+
+4) Where  are  all  the  keywords  present ?  --->  In  kwlist 
+
+5) Where  is  kwlist  defined ?  --->  In  keyword  module
+
+6) When  kwlist  initialized ?  --->  As  soon  as  it  is  imported
+
+7) Are  int , float , str , list , tuple  keywords ?  --->  No  and  they  are  pre-defined  classes  in  builtins  module
+
+8) Each  keyword  should  be  used  to  convey  that  meaning  it  is  meant  for 
+
+9) Can  keyword  be  used  as  a  user  defined  word ?  --->  No
+  
+10) What  is  another  name  of  keyword ?  --->  System  defined  word  (or)  reserved  word
+
+11) Can  function  name , classname  and  object  name  be  keywords ?  --->  No  and  they  should  be  user  defined  words
+
+12) Is  yield = 25  valid ?  --->  No  becoz  reference  (or)  object  name  can  not  be  a  keyword   such  as   yield
+
+13) Is  srinivas  a  keyword ?  --->  No  and  it  is  a  user  defined  word
