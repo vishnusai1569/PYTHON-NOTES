@@ -1,0 +1,27 @@
+add()  method   Vs   __add__()  method
+------------------------------------------------
+1) def   add(self , x , y):
+            statements
+   What  does  add()  method  do ?  ---> Add  objects  x  and  y  and  stores  results  in  object  self
+    def   __add__(self , y):
+	    statements
+    What  does  __add__()  method  do ?  --->  Add  objects  self  and  y  ,  stores  results  in  local  object  and
+									 returns  local  object
+
+2) How  to  call  add()  method  ?  --->  z . add(x , y)
+    How  to  call  __add__()  method  ?  ---> z = x + y
+
+3) What  is  self  wrt  the  method  call  z . add(x , y) ?  --->  Object  'z'  becoz  method  is  called  wrt  object  'z'
+    What  is  self  for  the  method  call  x + y ?  --->   object  'x'  becoz  operand1  is  object  'x'
+
+4) Can  method  name  be  different  name  instead  of  add ?  --->  Yes
+    Can  method  name  be   different  name  instead  of  __add__ ?  ---> No  and  method  name  is  fixed
+
+5) What  is  add()  method  called  ?  --->  Regular  Method
+    What  is  __add__()  method  called ?  ---> Operator  overloading  method
+
+6) What  are  the  method  calls  to  add  objects  a , b , c , d  and  store  results  in  object  'e'  with  add()  method  ? --->
+														temp1 . add(a , b)
+														temp2 . add(c , d)
+														e . add(temp1 , temp2)
+   How  to  add  objects  a , b , c , d  and  store  results  in  object  'e'  with  __add__()  method  ? --->  e  =  a  +  b  +  c  +  d

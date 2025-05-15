@@ -1,0 +1,29 @@
+Operator  overloading  method  names
+--------------------------------------------
+opeartor           method  name
+--------------------------------------
+     +                       __add__
+     -                        __sub__
+     *			      __mul__
+     /			      __truediv__
+     //		      __floordiv__
+    %			      __mod__
+     **		      __pow__
+     <			       __lt__
+     >			       __gt__
+     ==		       __eq__
+     <=		       __le__
+     >=		       __ge__
+     !=			       __ne__
+    +=			       __iadd__
+    -=			       __isub__
+    *=			       __imul__
+    /=			       __idiv__
+    //=		       __ifloordiv__
+   %=			       __imod__
+   **=                       __ipow__
+   <<			        __lshift__
+   >>			        __rshift__
+   &			        __and__
+   ^			        __xor__
+    |			        __or__

@@ -1,0 +1,113 @@
+OOPs  concepts(Object  Oriented  Programming)
+--------------------------------------------------------
+1) class  and  object
+
+2) Information  hiding  or  Data  hiding
+
+3) Encapsulation
+
+4) Abstraction  and  ADT  (Abstract  Data  Type)
+
+5) Message  passing
+
+6) Inheritance
+
+7) polymorphism
+
+		          class									object
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) It  is  a  blueprint  or  template  from  which  objects		1) It  is  an  instance  of  a  class
+    are  created
+
+2) It  is  a  collection  of  methods  and  static  variables       2) It  a  collection  of  instance  variables
+
+3) Object  can  not  be  created  without  defining  the         3) Define  the  class  first  and  then  create  object  and
+    class  and  class  is  defined  by  :                                            object  is  created  by:
+    class    c1  :										    Eg:  a  =  c1()  --->  'a'  is  c1   class  object
+             something
+
+4) class  is  defined  only  once			                                4) Multiple  objects  can  be  created  from  the  same  class
+
+5) It  is  a  logical  entity  becoz  no  memory  is                     5) It  is  a  physical  entity  becoz  memory  is  allocated  to   the   object
+    allocated to  the  class
+
+6) str  is  a  class								        6)  "Hyd"  is  an  object
+
+7) int  is  a  class  							                7)  25  is  an  object
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Information  hiding  or  Data  hiding
+------------------------------------------
+1) If  object  contains  sensitive  data  or  important  data,  it  must  be  hidden  from  other  classes , functions  and  outside  code
+    Eg:  If  object  contains  password,  account  balance  or  any  other  important  data,  they  must  be  hidden
+
+2) This  is  possible  with  instance  variable   like   __variablename
+
+3) Methods  of  same  class  can  access  contents  of  the  object  but  not  other  classes , functions  and  outside  code
+
+4) Data  hiding  is  an  important  feature  of  OOPs
+
+
+Encapsulation
+-----------------
+1) It  is  nothing  but  binding  object  state  (fields)  and  behaviour(methods)
+
+2) This  is  possible  by  using  class  and  object
+
+3) Employee  related  data  such  as  empnum, empname  and  salary  and  methods  dealing  with  employee  data
+    are  integrated  to  form  a  single  a  single  unit  known  as  class  or  object
+
+4) Representing  data  in  the  form  of  variables  is  not  encapsulation
+
+5) Therefore  object  is  used  to  represent  Employee , Student , Customer , Triangle , Rectangle  and  so  on
+
+6) Representing  employee  data  and  student  data  in  the  same  object  is  a  bad  encapsulation
+    i.e.  Integrate  data  but  related  data.
+    Employee  data  and  student  data  are  no  way  related.
+
+7) Therefore  different  objects  are  used   to  represent  employee  and  student
+
+Note:
+1) Laptop  computer  supports  encapsulation  but  not  desktop  computer
+
+2) IC  chip  supports  encapsulation
+
+
+
+Abstraction  and  ADT(Abstract  Data  Type)
+------------------------------------------------------
+1) Abstraction  is  a  process  where  you  show  only  �relevant�  data  and  �hide�  unnecessary  details  of  object  from  the  user.
+
+2) when  we  login  to  online  bank  account,  enter  user_id  and  password  and  press  login  button,
+    what  happens  when  we  login,  how  the  input  data  sent  to  server,  how  it  gets  verified  is  abstracted   from  us
+
+3) This  is  possible  by  using  class
+
+4) Every  class  name  is  ADT
+
+
+Message  passing
+--------------------
+It  involves
+1) Class  contains  several  methods  and  which  method  is  to  be  called
+
+2) There  are  several  objects  but  method  should  be  called  wrt  which  object
+
+3) What  parameters  are  to  be  sent  to  the  method
+     Eg:  c . add(a , b)  --->  add  method  of  the  class  is  called  and  it  is  called  wrt  object  'c'  and
+					 parameters  a  and  b  are  sent  to  the  method
+
+Inheritance
+---------------
+1) If  a  class  is  acquiring  properties(static  variables  and  methods)  of  a  different  class,  it  is  known  as  inheritance.
+
+2) Members(static  variables  and  methods)  of  a  class  are  inherited  to  another  class
+
+3) Inheritance  is  used  to  add  new  features  to  an  existing  class  without  explicitly  modifying  the  class
+    i.e  A  class  can  be  enhanced  by  using  inheritance
+
+Polymorphism
+-----------------
+1) If  same  method  is  behaving  differently  in  parent  and  child  classes  ,  it  is  known  as  polymorphism  (many  forms)
+
+2) Parent  class  method  does  an  operation(may  be  addition)  and  same  method  in  child  class  does  a  different  operation
+    (may  be  subtraction). This  is  called  polymorphism

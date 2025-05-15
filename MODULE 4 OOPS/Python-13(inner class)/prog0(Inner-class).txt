@@ -1,0 +1,39 @@
+Nesting  of  classes  (or)  Inner  class
+-------------------------------------------
+1) What  is  nesting  of  classes ?  --->  A  class  defined  in  another  class
+							     Eg:  class  outer:
+								           methods
+								           class  inner:
+									          methods
+								           methods
+
+2) What  are  the  two  ways  to  create  inner class  object ?  --->
+     a) outerclassobject .  inner()
+	 Eg:  o = outer()  --->  creates  outer  class  object
+	        i = o . inner()  --->  creates  inner  class  object  wrt  outer  class  object
+    b) outerclassname . inner()
+        Eg:  i  =  outer . inner()   --->  creates  inner  class  object  thur  outer  class  name
+
+4) o = outer()
+     i = o . inner()
+     How  to  reduce  the  two  statements  to  a  single  statement  ?  --->  i = outer() . inner()
+
+5) Is  i =  inner()  valid ? ---> No  becoz  inner  class  object  can  not  be  created  without
+					      outer  class  object  (or)  outer  class  name
+
+6) Where  can  inner  class  object  be  created ?  ---> Any  where  in  the  program
+
+7) There  is  a  strong  bonding  between  outer  class  and  inner  class
+
+
+Note:
+1) class   University:
+             class   Department:
+		                 ...
+    There  can  not  be  university  without  department.
+     If  university  is  closed, department  is  automatically  closed
+
+2) class   Car:
+            class  Engine:
+                   ......
+    There  can  not  be  a  car  without  engine.

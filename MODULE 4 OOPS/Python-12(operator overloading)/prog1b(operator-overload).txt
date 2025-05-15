@@ -1,0 +1,67 @@
+Operator    Overloading
+----------------------------
+1) What  is  operator  overloading ?  ---> Same  operator  does  multiple  operations
+
+2) What  does  10  +  20  do  and  what  is  the  result ?   --->  Adds  int  objects  and  result  is  30
+    What  does  '10'  +  '20'  do  and  what  is  the  result  ? --->   Concatenates  str  objects  and  result  is  '1020'
+    What  does  [10 , 20 , 30]  +  [40 , 50 , 60]  do  and  what  is  the  result  ? --->
+											Concatenates  lists   and  result  is  [10 , 20 , 30 , 40 , 50 , 60]
+    What  does  Rat() + Rat()  do  ?  --->  Adds  Rat  class  objects
+
+3) In  other  words, same  +  operator  does  multiple  operations  and  hence  we  say  +  is  overloaded
+
+4) What  does  10 * 20  do  and  what  is  the  result  ? --->  Multiplies   int  objects  and  result  is  200
+     What  does  'Hyd' * 3  do  and  what  is  the  result ? --->  Repeats  str  object  thrice  and  result  is   'HydHydHyd'
+     What  does  [10 , 20 , 15 , 18] * 2  do  and  what  is  the  result ? --->
+										Repeats  list  twice  and  result  is   [10 , 20 , 15 , 18 , 10 , 20 , 15 , 18]
+     What  does  *range(5)  do  and  what  is  the  result   ?  --->
+						Unpacks  range  object  and  results  are  0  <space> 1  <space> 2  <space> 3 <space> 4
+     What  does  Rat() * Rat()  do  ?  --->  Multiplies  Rat  class  objects
+
+5) In  other  words,  same   *   operator  does  multiple  operations  and  hence  we  say  *  is  overloaded
+
+6) a = c1()
+    b = c1()
+    Are  a + b ,  a * b ,   a > b ,  a < b  valid ?  --->  Yes  provided  + , - , *  and  *  are  overloaded  in  class  c1
+									   but  not  otherwise
+
+7) In  other  words,  operator  is  not  permitted  between  user  defined  class  objects  unless  it  is  overloaded
+
+8) How  to  overload  an  operator  between  objects ?  --->   With  __operatorname__()  method
+
+9) a = c1()
+    b = c1()
+    What  is  a + b  called ?  ---> Method   call  to  __add__()  method
+    What  is  a * b ?  --->  Method   call  to  __mul__()  method
+    What  is  a > b ?  --->  Method   call  to  __gt__()  method
+
+10) Which  method  is  executed  for  10 + 20 ?  --->  __add__()  method  of  int  class
+      Which  method  is  executed  for  '10' + '20' ?  --->  __add__()  method  of  str  class
+      Which  method  is  executed  for  [] + [] ?  --->   __add__()  method  of  list  class
+      Which  method  is  executed  for  Rat() + Rat() ?  --->  __add__()  method  of  Rat  class
+
+11) Can  __add__()  method  subtract  objects ?  ---> Yes
+     What  is  the  result  of  obj + obj ? ---> Subtraction  results
+
+12) In  other  words,  we  can  change  the  meaning  of  the  operator  during  overloading   process
+
+13) What  are  the  two  advantages  of  operator  overloading ?  --->
+      a) Method  calls  become  simple  and  readable
+	   Eg1:  a + b  is  a  simple  method  call  comapred  to  c . add(a , b)
+	   Eg2:  a > b  is  a  simple  method  call  compared  to  a . compare(b)
+      b) Code  is  reduced  when  multiple  objects   are  processed
+
+14) How  to  add  objects  a , b , c , d  and  store  results  in  object  'e'  with  add()  method  ?  --->
+															temp1 . add(a , b)
+															temp2 . add(c , d)
+															e . add(temp1 , temp2)
+
+15) How  to  achieve  same  thing  with  __add__()  method  ? --->  e  =  a  +  b  +  c  +  d
+
+16) What  are  the  method  calls  in  a + b + c + d ?  --->
+					a) First  call  is  a + b  and  results  are  stored  in  name  less  object  i.e.  _
+					b) Second  call  is  _  +  c  and  results  are  stored  in  another  name  less  object  i.e. _
+					c) Third  call  is  _  +  d  and  final  results  are  stored  in  one  more  name  less  object  i.e. _
+
+Note:  Python  supports  only  operator  overloading  but  not  function  overloading ,
+            method  overloading  and  constructor  overloading
