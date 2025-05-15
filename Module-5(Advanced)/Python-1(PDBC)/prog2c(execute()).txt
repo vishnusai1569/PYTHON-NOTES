@@ -1,0 +1,18 @@
+execute()  method
+----------------------
+1) What  does  execute('sql-command')  do ?  --->  Executes  sql  command
+
+2) cur . execute('select  *   from  emp')
+    What  does  the  statement  do ? --->  Executes  select  command  and  stores  results  in  object  cur  on  demand
+
+3) In  other  words,  all  the  rows  of  emp  table  are  copied  to  object  cur  in  the  form  of  tuples  on  demand
+    where  each  tuple  is  a  row  of  emp  table
+
+4) Where  is  execute()  method  defined ?  --->  In  MySqlCursor  class
+
+5) What  is  the  pre-requisite  to  call  execute()  method ?  --->  There  should  be  MySqlCursor  object
+
+6) In  other  words,  call  cursor()  method  before  calling  execute()  method
+
+7) What  is  the  argument  of  execute()  method ?  --->
+							Any  sql  command  such  as  insert , delete , update  , select , create , alter  and  so  on

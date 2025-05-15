@@ -1,0 +1,45 @@
+PDBC(Python  Database  Connectivity)
+---------------------------------------------
+1) What  is  the  website  to  download  and   install   xampp ?  --->   https://www.apachefriends.org/download.html
+
+2) Download  xampp  and  install  xampp  so  that  xampp  control  panel  icon  is  created  on  desktop
+
+3) What  is  the  use  of  xampp ?  --->  Mysql  is  a   part  of  xampp
+
+4) How  to  start  mysql ?  --->  Open  xammp  control  panel  icon (double  click)  and
+                                                   press  start  button  which  is  adjacent  to  mysql
+
+5) Why  mysql  need  to  be  started ?  --->
+							Since  python  program  can  not  connect  to  mysql  unless  mysql  is  running  in  the  background
+
+6) How  to  login  to  mysql ?  --->  Press  shell  button  in  xammp  control  panel  and  type  the  command:  mysql   -u   root
+
+7) What  is  root  called ?  --->  User  name  which  is  automatically  created
+
+8) What  is  the  command  to  create  database ?  --->   create  database  empdb;
+
+9) What  is  empdb  called ?  --->   Databasename  and  any  name  is  okay
+
+10) What  is  the  command  to  print  all   the  databases ?  --->  show  databases;
+
+11) What  is  the  command  to  use  database  empdb ?  --->  use  empdb;
+
+12) What  is  the  command  to  create  a  table ?  --->   create  table  emp(empno  int  primary  key , ename  char(20) , sal  float);
+
+13) What  is   emp  called ?  --->  Table  name
+      What  are  empno , ename  and  sal  called ?  --->  Column  names
+
+14) What  is  primary  key ?  --->  No  duplicates
+
+15) What  is  the  command  to  print  all  the  table  names ?  --->  show  tables;
+
+16) What  is  the  command  to  print  structure  of  the   table ?  --->  desc  emp;
+
+17) What  is  the  command  to  insert  a  row  into  emp  table ?  --->  insert  into  emp  values (10 , 'Rama Rao' , 10000.0);
+
+18) insert  into  emp  values (10 , 'Vamsi' , 25000.0);
+      What  is  the  issue  with  the  above  command ? --->  10  is  duplicate  empno  which  is  not  permitted  as  empno  is  primary  key
+
+19) What  is  the  command  to  retrieve  all  the  rows  of  a  table ?  --->  select  *  from  emp;
+
+20) What  is  the  command  to  logout  from  mysql ?  --->  exit

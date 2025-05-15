@@ -1,0 +1,16 @@
+rowcount  variable
+-----------------------
+1) What  is  the  value  of  rowcount  variable ?  --->  Number  of  tuples  retrieved  from  cursor
+
+2) Is  rowcount  an  instance  variable   (or)  static  variable  ?  --->  Instance  variable  of  cur  object
+
+3) What  is  the  initial  value  of  rowcount  variable ?  --->   -1  but  not  0
+
+4) When  is  rowcount  variable  incremented ?  --->  As  soon  as  a  tuple  is  fetched  from  cursor
+
+5) What  is  the  value  of  rowcount  variable  after  1st  tuple  is  fetched  from  cursor ?  --->  1
+    What  is  the  value  of  rowcount  variable  after  2nd  tuple  is  fetched  from  cursor ?  --->  2
+    What  is  the  value  of  rowcount  variable  after  3rd  tuple  is  fetched  from  cursor ?  --->  3
+    and  so  on
+
+6) What  is  the  value  of  rowcount  variable  when  cursor  object  is  empty ?  --->  -1

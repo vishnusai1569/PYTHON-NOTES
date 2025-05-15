@@ -1,0 +1,41 @@
+connect()  function
+-----------------------
+1) con = mysql . connector . connect(host = 'localhost' , database = 'empdb' , user = 'root' , password = '')
+
+2) What  does  connect()  function  do (3  events) ?  --->  Connects  to  database  such  as  empdb ,
+									                  Creates  MySqlConnection  object  and
+									                  returns  the   object
+
+3) What  does  MySqlConnection  object  contain ?  --->  All  the  connection  details  such  as  database  name, user  name,
+                                                                                         password  , location  of  database  and  so  on
+
+4) con = mysql . connector . connect(database = 'empdb' , user = 'root')
+    What  is  the  default  host ?   --->  'localhost'
+    What  is  the  default  password  ?   --->  Empty  string  i.e.  ''
+
+5) Where  is  connect()  function  defined  ? --->  In   __init__  module  of   mysql . connector  package
+
+6) When   is   __init__  module  executed ?  --->  As  soon  as  mysql . connector  package  is   imported
+
+7) What  is  a  database  ?  ---> A  group  of  related  tables
+     What  is  a  table  ?  --->  A  group  of  rows  and  columns
+
+8) What  is  the  pre-requisite  to  perform  operations  on  database ?  --->  Connect  to  the  database
+
+9) When  is  ProgrammingError  raised ?  --->  Invalid  database  name
+										(or)
+									 Invalid  user  name
+										(or)
+					                                 Incorrect   password
+										(or)
+									Invalid  table  name
+
+
+Note:
+1) Is  mysql  a  package  (or) module ?  --->  A  package
+
+2) What  about  connector ?  ---> sub-package  of  mysql  package
+
+3) What  is  __init__  ?  --->A  module  in  connector  package
+
+4) What  is  connect() ?  --->  A  function  in  __init__  module

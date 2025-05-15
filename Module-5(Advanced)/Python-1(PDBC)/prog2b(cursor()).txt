@@ -1,0 +1,19 @@
+cursor()  method
+-------------------
+1) cur = con . cursor()
+    What  does  cursor()  method  do ?  ---> Creates  MySqlCursor  class  object
+											and
+								    returns  the  object
+
+2) What  does  MySqlCursor  object  contain ?  --->  Nothing  i.e.  An  empty  object
+
+3) Where  is  cursor()  method  defined ?  --->   In  MySqlConnection  class
+
+4) cur = cursor()
+    Is  the  statement  valid ?  ---> No  becoz  cursor()  is  not  a  function
+
+5) What  is  the  pre-requisite  to  call  cursor()  method ?  --->  There  should  be  MySqlConnection  object
+
+6) In  other  words,  call  connection()  function  before  calling  cursor()  method
+
+7) Is  MySqlCursor  object  an  iterator  ?  --->  Yes

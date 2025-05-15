@@ -1,0 +1,8 @@
+mysql-connector   module
+------------------------------
+1) What  is  the  use  of  mysql-connector  module ?  --->   connect()  function  is  used  to  connect  to  database
+                                                                                            and  connect()  is  part  of  mysql-connector  module
+
+2) How  to  install  mysql-connector  module ?  --->  Go  to  command  prompt  and  type  the  command   pip  install   mysql-connector
+
+3) Is  mysql-connector  module  a  part  of  python  standard  library  ?  --->  No  and  hence  it  needs  to  be  installed  explicitly
