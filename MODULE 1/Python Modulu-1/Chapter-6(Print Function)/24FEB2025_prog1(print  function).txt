@@ -1,0 +1,21 @@
+print()  function
+-------------------
+1) What  does  print()  function  do ?  --->  Prints  an  object  and  moves  to  next  line
+
+2) How  is  the  control  moved  to  next  line  without  '\n' ? --->  Since  default  end  is  '\n'
+
+3) print('Hyd') 
+    print('Sec')  
+    print('Cyb')  
+    Are  the  strings  printed  in  same  line  (or)  different  lines ?  --->  Different  lines  becoz  default  end  is  '\n'
+
+4) Which  object  can  print()  function  print  (non-sequence (or)  sequnece) ? --->  Any  python  object
+
+5) How  many  arguments  can  print()  function  take ? --->  0 , 1  (or)  more  than  one
+
+6) Where  is  print()  function  defined  ?  --->  In  builtins  module
+
+7) Can  print()  function  be  used  without  import ?  --->						
+							Yes  becoz  it  is  automatically  imported  as  it  is  a  member  of  builtins  module 
+
+8) What  does  print()  function  return ?  --->  None

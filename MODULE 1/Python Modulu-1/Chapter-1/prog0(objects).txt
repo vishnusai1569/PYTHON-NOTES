@@ -1,0 +1,34 @@
+Python  Objects
+-------------------
+There  are  11  objects  in  Python
+1) int   
+2) float
+3) complex
+4) bool
+5) NoneType
+The  above  5  are  called  non-sequences
+6) str  
+7) range
+8) list
+9) tuple
+10) set
+11) dict
+The  above  6  are  called  sequences  
+
+1) What  is  a  sequence ?  --->  A  group  of  elements
+
+2) What  is  a  non-sequence ?  --->  Single  element
+
+3) Does  python  support  char,  long  and  double  objects  ?  --->  No
+
+4) What  is  another  name  of  sequence ?  --->  Iterable  (or) collection
+
+
+Note:
+1) What  does  'c'  language  support ?  --->  Variable , pointer , array ,  structure  and  union
+
+2) What  does  java  support ?  --->  Variable  and  object
+
+3) What  does  python  support ?  --->  Only  object
+
+4) In  other  words,  python  does  not  support  variable , pointer , array , structure  and  union.

@@ -1,0 +1,33 @@
+Method  Overriding
+-----------------------
+1) class  parent:
+	   def  m1(self):
+	         idly
+    class  child(parent):
+           def   m1(self):
+		 puri
+
+2) What  is  method  overriding ? --->  Modification  of  parent  class  method  in  child  class
+
+3) In  other  words,  defining  same  method  in  child  class  with  a  different  task  is  called   method  overriding
+
+4) parent  class  method  does  an  operation(may  be  addition)   and
+    same  method  in  child  class  does  a  different  operation(may  be  subtraction).
+    This  is  called  method  overriding  which  is  nothing  but  polymorphism  i.e. many  forms
+
+5) Finally  same  method  behaves  differently  in  parent  and  child  classes
+
+6) What  is  parent  method  called ?  --->  Overridden  method
+    What  is  child  method  called ?  ---> Overriding  method
+
+7) What  is  the  reason  to  override  a  method ?  --->  Since we  are  not  happy  with  parent  class  method,
+										        modify  the  method  in  child  class
+
+8) When  is  a  method  not  inherited  to  child  class ?  --->  When  it  is  overridden  by  the  child  class
+    When  is  a  method  inherited  to  child  class ?  ---> When  it  is  not  overridden  by  child  class
+
+9) What  is  the  advantage  of  method  overriding ?  --->
+					Both  parent  class  method  and  child  class  method  are  executed   by  same  call
+
+10) Which  method  is  executed  for  x . m1() ?  --->  parent  method  is  executed  if  'x'  is   parent  object  and
+										    child  method  is  executed  if  'x'  is   child  object

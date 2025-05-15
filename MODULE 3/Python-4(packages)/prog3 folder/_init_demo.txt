@@ -1,0 +1,70 @@
+Package  Initialization
+---------------------------
+1) What  is  special  about  __init__  module ? --->  It  is  automatically  executed
+
+2) When  is  __init__  module  automatically  executed ?  --->   As  soon  as  package  is  imported
+															(or)
+										                   Any  module  of  the  package  is  imported
+															(or)
+										                   Any  member  of  module  of  the  package  is  imported
+
+3) Where  does  __init__  module  reside ?  ---> Inside  the  package  but  not  in  cwd
+
+4) import  p1
+    What  does  the  above  statement  do ?  --->  Imports  package  p1
+										       and
+                                                                             also  executes  __init__   module  of  package  p1
+
+5) import   p1 . mod1
+    What  does  the  above  statement  do ?  --->  Imports  mod1  of  package  p1
+											    and
+								             also   executes   __init__  module  of  package  p1
+
+6) from  p1  import  mod1
+    What  does  the  above  statement  do ?  --->  Imports  mod1  of  package  p1
+    											    and
+                                                                             also  executes   __init__  module  of  package  p1
+
+7) from  p1 . mod1  import  *
+    What  does  the  above  statement  do ?  --->  Imports  all  the  members  of  mod1  in  package  p1
+    													    and
+                                                                             also  executes   __init__  module  of  package  p1
+
+8) import  p1 . __init__
+    What  does  the  above  statement  do ?  --->  Imports  __init__  module  of  package  p1
+											    and
+								             also   executes   __init__  module  of  package  p1
+
+9) How  many  times  is  __init__  module  executed ?  --->  Just  once
+
+10) import  p1  --> Here __init__ module is executed , only once
+    import  p1 . mod1
+    from  p1  import  mod1
+    from  p1 . mod1  import  *
+
+    When  is  __init__  module  executed ?   --->  Only  once  and  for  the  first  import
+
+11) What  does  __init__   module  contain  ?  ---> Any  Python  code  such  as   variables ,  functions , classes , statements
+									      and  so  on  (Just  like  other  modules)
+
+11) How  to  access  members  of  __init__  module ?   --->  packagename . member  but  not  packagename . __init__ . member
+
+12) In  other  words,  members  of  __init__  module  are  as  good  as  members  of  the  package
+
+13) import  p1 . mod1
+      How  to  access  members  of  __init__  module ?  ---> p1 . member
+      How  to  access  members  of  mod1  module ?  ---> p1 . mod1 . member
+
+14) import  p1
+      How  to  access  members  of  __init__  module ?  --->  p1 . member
+      How  to  access  members  of  other  modules  in  package  p1 ?  ---> Not  possible  becoz  they are  not  imported
+
+15) from  p1  import  mod1
+      How  to  access  members  of  __init__  module ?  --->  Not  possible  becoz  package  p1  is  not  imported
+      How  to  access  members  of  mod1  module ?  --->  mod1 . member
+
+16) from  p1 . mod1  import  *
+      How  to  access  members  of  __init__  module ?  --->  Not  possible  becoz  package  p1  is  not  imported
+      How  to  access  members  of  mod1  module ?  --->  member
+
+17) Can  __init__  module  be  executed  explicitly ?  --->  Yes  just  like  any  other  module  with  py  __init__ . py

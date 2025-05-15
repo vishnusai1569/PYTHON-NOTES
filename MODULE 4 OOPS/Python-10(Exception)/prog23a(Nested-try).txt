@@ -1,0 +1,30 @@
+Nested try
+--------------
+1) try:  ---> outer  try
+	  statements
+	  try:  ---> inner try
+		  statements
+	  except  ValueError:  --->  Corresponds  to  inner  try
+		  .....
+	  except  NameError:  --->  Corresponds  to  inner  try
+		   .....
+   except  KeyError:  --->   Corresponds  to  outer  try
+         ....
+   except  NameError:  --->   Corresponds  to  outer  try
+          ....
+   except  TypeError:  --->   Corresponds  to  outer  try
+          ......
+
+2) What  is  nested  try  ?  --->  A  try  suite  inside  another  try  suite
+
+3) What  happens  when  inner  try  suite  raises  an  error ? --->
+									Any  one  except  suite  corresponding  to  inner  try  is  executed
+
+4) What  happens  when  a  suitable  except  suite  is  not  found ?  --->
+										Any  one  except  suite  corresponding  to  outer  try  is  executed
+
+5) What  happens  when  a  suitable  except  suite  is  not  found  even  for  outer  try ?  --->  Error  is  reported
+
+6) What  happens  when  outer  try  raises  an  error ? ---> Any  one  except  suite  corresponding  to  outer  try  is  executed
+
+7) What  happens  when  a  suitable  except  suite  is  not  found ?  --->  Error  is  reported

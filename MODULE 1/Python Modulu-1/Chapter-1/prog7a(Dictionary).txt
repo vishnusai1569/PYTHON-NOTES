@@ -1,0 +1,55 @@
+Dictionary
+------------
+1) What  is  a  dictionary ?  --->  A group  of  key : value  pairs  in  { }
+
+2) What  are  the  key : value  pairs  in  college ?  --->   Roll  Number : Student  Name
+    What  are  the  key : value  pairs  in  company ?  ---> Emp  Number : Emp  Name
+    What  are  the  key : value  pairs  in  bank ?  --->   Acct  Number : Cust  Name
+    What  are  the  key : value  pairs  in  India ?  --->  Aadhar  number :  Person Name
+    What  are  the  key : value  pairs  in   Internet ?  --->  Ip Address :  Domain Name
+
+3) How  is  dictionary  different  from  remaining  sequences ?  ---> List , tuple  and  set  are  a   group  of  elements
+							                                                  but  dictionary  is  a   group  of  key :  value  pairs
+
+4) Can  keys  be  repeated  (or) duplicated ?  --->  No  and  they  should  be  unique
+    What  about  values ?  ---> They  can  be  repeated  (or)  duplicated 
+
+5) Is  {10 : 'Hyd' , 10 : 'Sec'}  valid ?  --->  Yes  and  'Hyd'  is  replaced  with  'Sec'  becoz  key  10  is  repeated
+    How  many  key : value  pairs  are  in  the  above  dictionary ?  --->  1   i.e. {10 : 'Sec'}
+
+6) Can  dictionary  be  repeated ?  --->  No  becoz  duplicate  keys  are  obtainbed  when  dictionary  is  repeated  which  is  not  permitted
+
+7) Is  {[] : []}  valid ?  --->  No  becoz  key  can  not  be  mutable  object  such  as  list
+
+8) In  other  words,  key  should  be  an  immutable  object 
+
+9) What  about  value ?  ---> Any  python  object(i.e. Immutable  (or)  mutable)
+
+10) Is  dictionary  ordered  (or)  unordered ?  --->  Ordered  from  python  3.6 (Current  version : 3.13)
+
+11) Is  dictionary  indexed ?  ---> No  due  to  key : value  pairs
+
+12) Can  dictionary  be  sliced ?  --->  No  becoz  there  are  no  indexes
+
+13) What  does  len(dict)  do  ?  ---> Returns  number  of  key : value  pairs
+
+14) What  does  dict[valid-key]  do ?  --->  Returns  value  of  the  key
+
+15) In  other  words,  it  is  possible  to  obtain  value  from  dictionary  by  using  key
+
+16) What  does  dict[Invalid-key]  do ?  --->  Throws  error
+
+17) Is  dict[value]  valid  ?  --->  No  and  it  throws  error
+
+18) In  other  words,  it  is  not  possible  to  obtain  key  by  using  value 
+
+19) Can  dictionary  be  modified ?  ---> Yes  becoz  it  is  mutable  object
+
+20) What  does  dict[valid-key] = value  do ?   --->  Modifies  value  of  the  key
+       What  does  dict[new-key] = value  do ?   --->  Appends  new  key : value  pair  to  the  dictionary
+
+21) What  does  del  dict[key]  do ?  --->  Removes  key : value  pair  from  dictionary
+
+22) Is  dictionary  growable  and  shrinakble ? --->  Yes
+
+23) In  other  words,  key : value  pairs  can  be  appended  and  removed

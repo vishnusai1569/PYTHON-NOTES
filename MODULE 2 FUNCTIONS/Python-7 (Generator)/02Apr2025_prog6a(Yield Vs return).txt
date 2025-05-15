@@ -1,0 +1,19 @@
+return  Vs   yield
+--------------------
+1) What  does  return  25  do ?  --->  Returns  25  to  function  call 
+    What  does  yield  25  do ?  --->  Yields(or  returns)  25  to  next(g)  (or)  for  loop  variable  'x'
+								      and
+						        remembers  the  state
+
+2) Are  the  statement  following  return  statement  executed  ?  --->  							
+								No  becoz  control  moves  out  of  the  function  as  soon  as  return  is  executed
+    Are  statements  following  yield  statement  executed  ?  --->  Yes  when  generator  function  resumes  again
+
+3) Does  return  statement  remember  the  state  ?  --->  No  becoz  control  moves  out  of  the  function  permanently
+    Does  yield  statement  remember  the  state  ?  --->  
+								Yes  in  view  of  next  call  to  next(g)  (or)  next  iteration  of  for  loop
+
+4) What  is  the  function  with  return  statement  called  ?  ---> Regular  function
+    What  is  the  function  with  yield  statement  called  ?  ---> Generator  function
+
+Note:  yield  remembers  the  state  but  not  return 

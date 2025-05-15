@@ -1,0 +1,11 @@
+Functions  of  random  module
+----------------------------------
+1) random()
+
+2) randint()
+
+3) uniform()
+
+4) randrange()
+
+5) choice()

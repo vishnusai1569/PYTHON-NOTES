@@ -1,0 +1,22 @@
+next()  function
+------------------
+1) What  does  next(iterator)  do  ?  --->  Yields  the  next  element  of  iterator
+
+2) What  does  1st  call  to  next(iterator)  do ?  --->  Yields  the  1st  element  of  iterator
+     What  does  2nd  call  to  next(iterator)  do ?  ---> Yields  the  2nd  element  of  iterator
+     What  does  3rd  call  to  next(iterator)  do ?  --->  Yields  the  3rd  element  of  iterator
+
+3) What  happens  when  next()  function  does  not  yield  any  element ?  --->  Throws  StopIteration  error
+
+4) Is  next(sequence)  valid ?  --->  No
+    Is  next(non-sequence)  valid ?  --->  No
+
+5) What  is  the  argument  of  next()  function ?  --->    Any  iterator  object  but  not  sequence  and  non-sequence
+
+6) Which  method  is  executed  internally  when  next(iterator)  is  called  ?  --->   __next__()  method
+
+7) What  is  the  alternative  to  next(iterator) ?  --->  iteratorobject . __next__()  method
+
+8) We  can  call  __next__()  method  directly  instead  of  calling  next()  function
+
+9) Where  is  next()  function  defined ?  --->  In  builtins  module

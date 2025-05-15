@@ -1,0 +1,25 @@
+
+
+setattr()  function
+---------------------
+1) What  does  setattr()  function  do  ?  --->   Adds  variable(i.e. instance  vaiable)  to  the  object   at  runtime
+
+2) What  are  the  three  arguments  of  setattr()  function ? --->  Object ,  variable   and   value  of  the  variable
+
+3) What  does  setattr(object , new-variable , value)  do  ?  --->  Adds  new  variable  to  the  object  with  the  value
+
+4) What  does  setattr(object , valid-variable , value)  do  ?  --->  Modifies  value  of  the  variable  in  the  object
+
+5) obj . variable = value 
+     setattr(object , variable , value)
+     What  is  the  difference  between  the  above  two  statements ?  --->  								
+								1st  statement  adds  variable  to  the  object  at  design  time
+								but  setattr()  function  adds  variable  to  the  object  at  runtime
+
+6) In  other  words,  programmer  adds  variable  to  the  object  at  design  time  in  1st  statement
+    and  client  adds  variable  to  the  object  at  runtime  with  setattr()  function
+    i.e.  setattr(object , input() , input())
+
+7) Can  setattr()  function  add  method  to  the  class ?  --->  No  
+
+8) Where  is  setattr()  function  defined ?  --->  In  builtins  module

@@ -1,0 +1,20 @@
+getrefcount()  function
+----------------------------
+1) What  does  getrefcount(object)  do  ?  --->  Returns  number  of  references  to  the  object  +  1
+
+2) Why  +1 ?  --->  Due  to  self
+
+3) a = b = c = c1()
+    What  does  getrefcount(a)  return ?  --->  3 + 1 = 4
+
+4) What  is  the  result  of   getrefcount(Immutbale-object) ? --->
+					Can  not  be  predicted  becoz  it  is  used  by  different  programs  of  PVM  internally
+
+5) In  other  words,  immutable  objects  are  reusable  and  hence  number  of  references  can  not  be  predicted
+
+6) Can  the  the  result  of   getrefcount(Mutbale-object)   be  predicted ? --->   Yes  becoz  it  is  not  reusable
+
+7) Where  is  getrefcount()  function  defined ?  --->  In  sys  module
+
+Note:
+How  many  persons  have  your  phone  number ?  --->  No  idea

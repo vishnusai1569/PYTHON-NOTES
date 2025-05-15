@@ -1,0 +1,19 @@
+# len()  function  (Home  work)
+print(len('Hyd'))  #  3
+print(len('Rama Rao'))  #  8
+print(len('9247'))  #   4
+print(len('')) #   0  due  to  empty  strring
+print(len(' '))  #  1  due  to  space
+#print(len(689))  # Error  becoz  689  is  not  a  sequence
+
+
+
+'''
+len()  function
+-----------------
+1) What  does  len(string)  do ?  --->  Returns  number  of  characters  in  the  string
+
+2) What  is  the  argument  of  len()  function ?  --->  Any  sequence  such  as  string
+
+3) Is  len(non-sequence)  valid ?  ---> No
+'''

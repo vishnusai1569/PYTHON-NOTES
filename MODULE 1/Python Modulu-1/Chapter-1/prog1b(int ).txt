@@ -1,0 +1,22 @@
+int  object
+------------
+1) What  can  an  int  object  hold ?  --->  An  integer  number
+
+2) What  is  an  integer ?  --->  A  number  without  decimal  point
+
+3) What  is  9247  called ? --->  Positive  integer
+   What  is  -682  called ?  --->  Negative  integer
+    
+4) What  is  the  maximum  value  of  integer ?  --->  Infinity
+   What  is  the  minimum  value  of  integer ?  --->  -Infinity
+
+5) Why  python  does  not  support  long  integer ?  --->  Since  max  value  of  integer  is  infinity
+
+6) What  is  25  called  in  other  languages (value  (or)  object) ?  --->  Value
+   What  about  python ?  --->  Object
+
+7) Is  $75  valid ?  --->  No  due  to  special  character  $
+
+8) Where  is  int  class  defined ?  --->  In  builtins  module
+
+9) What  is  a  module ?  --->  Fil

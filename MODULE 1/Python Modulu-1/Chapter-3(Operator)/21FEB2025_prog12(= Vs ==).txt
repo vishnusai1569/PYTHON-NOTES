@@ -1,0 +1,21 @@
+=    Vs   ==
+---------------
+1) What  is  =  operator  called ?  --->  Assignment  operator
+    What  is  ==  operator  called ?  ---> Relational  operator
+
+2) What  does  =  operator  do ?  --->  Assigns  reference  to  an  object
+     What  does  ==   operator  do ?  --->  Compares  objects
+
+3) What  does  a = 7  do  ?  --->  Assigns  reference  'a'  to  int  object  '7' 
+     What  does  a == 7  do ? --->  Compares  value  of  object  'a'   with  7
+
+4) What  is  the  result  of  the  statement  a = 7 ?  ---> No  result
+     What  is  the  result  of  a == 7 ?  ---> True  /  False
+
+5) Are  a = b  and  b = a  same ?  --->  No  and  they  are  quite  opposite
+    Are  a == b  and  b == a  same ?  --->  Yes  and  objects  'a'  and  'b'  are  compared
+
+6) What  is  operand1  in  operand1 = operand2  ?   --->  Only  reference
+    What  is  operand1  in  operand1 == operand2  ? --->  Anything
+										       i.e. Either  reference  (or)  object
+    What  is  operand2  for  both  =  and  == ?  --->  Anything

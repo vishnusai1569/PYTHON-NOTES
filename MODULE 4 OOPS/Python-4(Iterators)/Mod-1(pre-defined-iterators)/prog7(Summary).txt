@@ -1,0 +1,25 @@
+Summary
+-----------
+Which  of  the  following  are   valid ?
+1) for  x  in   sequence:    --->   Valid  becoz  sequence  can  be  iterated
+    for  x  in   iterator:   --->  Valid  becoz   iterator  can  be  iterated
+    for  x  in   non-sequence:  --->  Invalid  becoz  non-sequence  can  not  be  iterated  as  it  is  a  single  element
+
+2) In  other   words,  for  loop  can  be  used  to  iterate  seqeunce  and  iterator  but  not  non-sequence
+
+3) for  x  in  sequence:
+    Does  for  loop  throw  StopIteration  error  when  sequence  is  fully  iterated ?  ---> No  becoz  it  is  not  iterator
+
+4) Is  iter(sequence)  valid ?  --->  Yes  and  it  converts  sequence  to  iterator
+    Is  iter(non-sequence)  valid ? --->  No
+    Is  iter(iterator)  valid  ?  --->  Yes  but  it  is  of  no  use
+
+5) In  other  words,  argument  of  iter()  function  should  be  sequence  only
+
+6) Is  next(iterator)  valid ?  --->  Yes  and  it  returns  next  element  of  iterator
+    Is  next(sequence)  valid ?  --->  No
+    Is  next(non-sequence)  valid ? ---> No
+
+7) In  other  words,  argument  of  next()  function  should  be  iterator  only
+
+8) What  is  another  name  of  sequence ?  --->  Iterable  (or) collection

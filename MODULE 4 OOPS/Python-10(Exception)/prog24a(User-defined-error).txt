@@ -1,0 +1,21 @@
+User  Defined  Error
+-------------------------
+1) When  is  a  class  called  an  error  class  ?  ---> When  it  is  child  class  of  any  pre-defined  error  class  (or)  exception
+									        class  preferably  BaseException  class
+
+2) What  are  pre-defined  error  classes ?  --->  ValueError , NameError , KeyError ,  IndexError , TypeError  and  so  on
+    What  are  pre-defined  Exception  classes ?  --->  Exception , BaseException  and  so  on
+
+3) Which  of  the  following  are  error  classes ?
+     a) class  c1(BaseException):  ---> c1  is  an  error  class  becoz  it  is  a  child  class  to  BaseException
+     b) class  c2(Exception): ---> c2  is  an  error  class  becoz  it  is  a  child  class  to  Exception
+     c) class  c3(NameError):  ---> c3  is  an  error  class  becoz  it  is  a  child  class  to  NameError
+     d) class  ValueError: ---> Not  an  error  class  becoz  it   is  not  a  child  class  to  any  error  (or)  Exception  class
+     e) class  c4(str):   --->  Not  an  error  class  becoz  str  is  not  an  error  class
+
+4) class  NameError:
+         pass
+    Is  raise  NameError()  valid ? --->  No  becoz  raise  demands  error  class  object  but   NameError  is  not  an  error  class
+
+5) except  NameError  as  msg:
+     Is  the  above  except  valid  ?  --->No  becoz  except  demands  error  class  but  NameError  is  not  an  error  class

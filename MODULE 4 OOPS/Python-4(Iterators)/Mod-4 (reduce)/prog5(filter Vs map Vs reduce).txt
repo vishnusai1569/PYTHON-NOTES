@@ -1,0 +1,21 @@
+filter  Vs  map  Vs   reduce
+--------------------------------
+1) What  does  filter  iterator  do ?  --->  Selects  few  elements  of  sequence  (or) iterator  and  discards  remaining  elements
+    What  does  map  iterator  do ?  --->   Maps  (or) converts  each  element  of  sequence  (or) iterator  to  a  different  element
+    What  does  reduce()  function  do ?  ---> Reduces  a  sequence  of  elements  to  a  single  value
+
+2) What  is  the  syntax  of  filter  iterator ? --->  filter(regular  (or)  lambda  function , sequence (or)  iterator)
+    What  is  the  syntax  of  map  iterator ?  --->  map(regular  (or)  lambda  function , At  least  one  sequence  (or) iterator)
+    What  is  the  syntax  of  reduce()  function ?  --->  reduce(regular  (or)  lambda  function , sequence (or)  iterator)
+
+3) How  many  arguments  can  lambda  (or) regular  function  of  filter  take ?  --->  Single  argument
+    How  many  arguments  can  lambda  (or) regular  function  of  map  take ?  ---> 'n'  arguments  if  there  are  'n'  sequences
+    How  many  arguments  can  lambda  (or) regular  function  of  reduce()  take ?  --->  Two  arguments
+
+4) What  can  lambda  (or)  regular  function  of  filter  return ?  ---> True  (or) False
+    What  can  lambda  (or)  regular  function  of  map  return ?  --->  Mapped  element  such  as   x ** 2
+    What  can  lambda  (or)  regular  function  of  reduce()  return ?  --->   Reduced  element  i.e.  single  element
+
+5) Where  is  filter  defined ?  --->  In  builtins  module
+     Where  is  map  defined ?  --->   In  builtins  module
+     Where  is  reduce()  function  defined ?  --->  In  functools  module

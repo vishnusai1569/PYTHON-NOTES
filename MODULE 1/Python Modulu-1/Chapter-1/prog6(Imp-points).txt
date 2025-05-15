@@ -1,0 +1,43 @@
+Points  to  remember
+------------------------
+1) Does  python  have  main()  function ?  --->  No
+
+2) int   a;
+    float   b;
+    Are  the  above  statements  valid ?  --->  No  becoz  there  are  no  declarations  in  python
+
+3) In  other  words,  object  can  be  used  directly  without  any  prior  declaration
+
+4) a = 25
+    What  is  the  type(a) ?  ---> int  becoz   25  is  an  integer  number
+
+5) b = 10.8
+    What  is  the  type(b) ?  ---> float  becoz  10.8  is  a  float  number
+
+6) Therefore  python  is  called  a  dynamically  typed  language
+
+7) Are  there  values  in  python  ?  --->  No  
+    What  is  25  called  in  python  ?  ---> An  int   class  object  
+    What  is  10.8  called  in  python  ?  --->  A  float  class  object 
+    What  is  True  called  in  python  ?  ---> A  bool  class  object 
+
+8) Everything  is  an  object  in  python  
+
+9) What  are  int , float , bool , complex  called  (classes  (or)  datatypes) ?  --->  classes  but  not  datatypes
+
+10) Is  ;  mandatory  at  the  end  of  statements ?  --->  No  and  it  is  optional
+
+11) Is  python  a  100%  OOL (object  oriented  language) ?  --->  Yes  becoz  there  are  only  classes  but  not  datatypes and also 
+    there  are  only  objects   but  not  variables
+
+12) Is  python  a  compiler  language  (or)  interpreter  language  ?  --->  An  interpreter  language
+
+13) What  is  an  interpreter  language ?  --->  Line  by  line  translation  and  execution
+
+14) In  other  words,  translation  and  execution  are  alternate
+
+15) Python  program  is  executed  at  the  time  of  translation  itself
+
+16) Is  python  program  execution  fast  (or)  slow ?  --->  Slow  due  to  repeated  translation
+
+17) In  other  words,  python  program  is  translated  every  time  program  is  executed.

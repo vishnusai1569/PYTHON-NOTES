@@ -1,0 +1,42 @@
+__str__()    method
+-----------------------
+1) What  does  __str__()  method  do  ?  --->  
+							Concatenates  all  the  values  of  the  object  to  form  a  string  and  returns  string
+
+2) How  to  concatenate  values  of  the  object  to  a  string   ?  --->  With  F  string
+
+3) Let  object  contain    25 , 10.8  and  True,  
+    what  does   __str__()  method  do ?  --->  Returns   '25<tab>10.8<tab>True'
+
+4) In  other  words,  __str__()  method  converts  object  to  string 
+
+5) How  is  __str__()  method  different  from  __dict__ ?  --->   __str__()  is  a  string  representation  of  the  object  and
+												       __dict__  is   a  dictionary  representation  of  the  object
+
+6) What  is  special  about  __str__()  method ?  --->  It  is  automatically  executed  when  we  print  an  object  (---IMPORTANT---)
+
+7) What  does  print(object)  do ? --->  Prints  that  string  which  is   returned  by   __str__()  method
+
+8) Therefore  print(object)  becomes  print(string)
+
+9) Can  __str__()  method  be  called  explicitly ?  --->  Yes  with  object . __str__()
+
+10) What  is  the  result  of  object . __str__() ?  --->  The  string  returned  by  __str__()  method 
+
+11) Can  __str__()  method  return  non-string ?  --->  Yes  when  it  is  called  explicitly  and 
+                                                                                     throws  error  when   it  is  executed  automatically
+
+12) Can  __str__()  method  have  arguments  ?  --->  Yes  when  it  is  called  explicitly  and 
+                                                                                    throws  error  when   it  is  executed  automatically
+
+13) What  does  print(object)  do  when  there  is  no  __str__()  method  in  the  class  ?  ---> 																
+													Executes  __str__  method  of  object  class  
+			
+14) What  does  __str__  method  of  object  class  do  ?  --->  Returns  type  and  address  of  the  object 
+
+15) Therefore  print(object)  prints  type  and  address  of  the  object
+
+16) What  is  special  about  object  class ?  --->  It  is  the  default  parent  class  to  all  python  classes
+									     (user  defined  and  pre-defined  classes)
+
+17) Where  is  object  class  defined ?  ---> In  builtins  module

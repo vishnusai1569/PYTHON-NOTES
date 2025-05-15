@@ -1,0 +1,19 @@
+Functions
+-----------
+1) len(tuple) ---> Returns  number  of  elements  in  tuple
+
+2) sum(tuple) --->  Returns  sum  of  tuple  elements
+
+3) max(tuple)  --->  Returns  largest  tuple  element
+
+4) min(tuple)  --->  Returns   smallest  tuple  element
+
+5) tuple(sequence)  ---> Converts  seqeunce  to  tuple
+
+6) sorted(tuple)  --->  Returns  list  of  tuple  elements  in  ascending  order
+
+7) all(tuple) --->  Returns  True  when  every  element  of  tuple  is  True  and  False  otherwise
+
+8) any(tuple) --->  Returns  True  when  at  least  one  element  of  tuple  is  True  and  False  otherwise
+
+Note:  All  the  above  functions  are  same  as  that  of  list 

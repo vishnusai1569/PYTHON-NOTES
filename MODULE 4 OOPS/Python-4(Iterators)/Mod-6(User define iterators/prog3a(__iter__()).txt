@@ -1,0 +1,46 @@
+__iter__()  method
+-----------------------
+1) def   __iter__(self):
+	statements
+	return  self
+
+2) What  does  __iter__()  method  do ?  ---> Nothing  except  returning  an  iterator  object
+
+3) Can  __iter__()  method  return  iterable  object ?  ---> No
+    Can  __iter__()  method  return  non-sequence ?  ---> No
+    Can  __iter__()  method  return  regular  python  class  object  ?  --->  No
+
+4) How  many  arguments  can  __iter__()  method  take ?  ---> No  arguments  except  self
+
+5) What  is  the  class  with  __iter__()  method  called ?  --->  Iterable
+
+6) Which  pre-defined  classes  have  __iter__()  method ?  --->  Every  sequence(i.e. iterable)
+														and
+											            every  pre-defined  iterator
+
+7) Which  pre-defined  classes  do  not  have   __iter__()  method ?  --->  Every  non-sequence
+															    and
+														  other  python  classes
+
+*8) What  is  the  advantage  of  having  __iter__()  method  in  the  class ?  --->
+										for  loop  can   iterate  the  class  object
+
+9) When  is  __iter__()  method  executed ?  --->
+								It  is  automatically  executed  in  the  first  iteration  of  for  loop
+								but  not  in  subsequent  iterations
+
+10) What  is  the  issue  when  there  is   no  __iter__()  method  in  the  class ?  --->
+									for  loop  can  not  iterate  the  class  object
+
+11) Which  of  the  following  return  statements  are  valid  in  __iter__()  method ?
+      a) return  25  --->  Invalid  becoz  25  is  not  an  iterator  as  there  is  no  __next__() method  in  int  class
+      b) return  [10 , 20 , 30]   --->  Invalid  becoz  list  is  not  an  iterator  as  there  is  no  __next__() method  in  list  class
+      c) return  enumerate([10 , 20 , 30]) --->
+			Valid  becoz  enumerate  is  an  iterator  as  there  is  __next__()  method  in   enumerate  class
+
+12) If  __iter__()  method  returns  an  object  'y',  where  is  'y'  returned  to  ?  --->  for  loop  object
+
+13) for  x  in  iterable-object:
+      How  is  the  above  for  loop  reduced  to ? --->  for  x  in  iterator:
+
+14) What  does  for  loop  do  ?  --->  Iterates  that  iterator  object  returned  by  __iter__()  method

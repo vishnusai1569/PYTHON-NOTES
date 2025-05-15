@@ -1,0 +1,20 @@
+import  statement   Vs  	from  statement
+-------------------------------------------------
+1) What  does  import  statement  do ?  --->  Imports  module  and  statements  of  the  module
+    What  does  from  statement  do ?  --->  Imports  members  and  statements  of  the  module
+
+2) What  is  the  syntax  of  import  statement ?  --->  import   modulename
+     What  is  the  syntax  of  from  statement ?  --->  from  module  import  members  (or)  *
+
+3) import  module
+    How  to  use  members  of  the  module  ?  --->  module . member
+    from  module  import  *
+    How  to  use  members  of  the  module ?  ---> Just  member
+
+4) Can  import  statement  be  used  inside  the  function ?  --->  Yes
+    Can  from  statement  be  used  inside  the  function ?  --->  Yes  without  *
+
+5) import  Invalid-module
+    What  does  the  above  import  statement  do ?  --->  Throws  ModuleNotFoundError
+    from  module  import  Invalid-member
+    What  does  the  above  from  statement  do ?  ---> Throws  ImportError

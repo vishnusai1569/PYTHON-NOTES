@@ -1,0 +1,42 @@
+count  iterator
+------------------
+1) c = count()
+   What  does  the  above  statement  do  ?  --->  Creates  an  empty  count  object
+   What  does  next(c) do ?  --->  Yields  0
+   What  does  next(c) do ?  --->  Yields  1
+   What  does  next(c) do ?  --->  Yields  2
+   and  so  on
+
+2) Is  count  a  finite  iterator ?  --->  No  becoz  it  yields  elements  upto  infinity
+
+3) c = count(start = 10)
+    What  does  the  above  statement  do  ?  --->  Creates  an  empty  count  object
+    What  does  next(c) ?  --->  Yields  10
+    What  does  next(c) ?  --->  Yields  11
+    What  does  next(c) ?  --->   Yields  12
+    and  so  on
+
+4) c = count(start = 10 , step = 5)
+    What  does  the  above  statement  do  ?  --->  Creates  an  empty  count  object
+    What  does  next(c) ?  --->  Yields  10
+    What  does  next(c) ?  --->  Yields  15
+    What  does  next(c) ?  --->  Yields  20
+    and  so  on
+
+5) c = count(start = 10 , step = -2.5)
+    What  does  the  above  statement  do  ?  --->  Creates  an  empty  count  object
+    What  does  next(c) ?  --->  Yields  10
+    What  does  next(c) ?  --->  Yields  7.5
+    What  does  next(c) ?  --->  Yields  5.0
+    and  so  on
+
+6) Does  count  iterator  throw  StopIteration  error ?  --->  No  becoz  it  is  an  infinite  iterator  and
+										                hence  never  gets  exhausted
+
+7) What  are  four  differences  between  count  and  range  objects ?  --->
+     a) Elements  are  stored  in  range  object  in  advance  but
+	 count  iterator  yields  elements  one  at  a  time  on  demand
+    b) Further  range  is  iterable  object  but  count  is  an  iterator
+    c) range  is  finite  object  but  count  is  infinite
+    d) range  object  can  hold  only  int  elements  but
+        count  iterator  can  yield  even  float  elements

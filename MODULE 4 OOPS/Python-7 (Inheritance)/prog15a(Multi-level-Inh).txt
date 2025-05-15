@@ -1,0 +1,48 @@
+Multi-Level  Inheritance
+-----------------------------
+1)  class  c1:
+	   def  m1(self):
+		    pass
+     class  c2(c1):
+	   def  m2(self):
+	   	   pass
+     class  c3(c2):
+	   def  m3(self):
+	  	   pass
+     class  c4(c3):
+	   def  m4(self):
+		   pass
+
+2) What  is  multi-level  inheritance ?  --->  More  than  one  level  of  inheritance
+
+3) How  many  levels  are  in  the  above  code ?  --->  Three
+										    i.e. c1  to  c2 , c2  to c3  and  c3  to  c4
+
+4) From  which  class  is  class  c4  derived  ? --->  c3
+    From  which  class  is  class  c3  derived  ? --->  c2
+    From  which  class  is  class  c2  derived  ? --->  c1
+
+5) What  is  the  direct  parent  class  to  c4 ?  ---> c3
+    What  are  indirect  parent  classes  to  c4 ?  ---> c2  and  c1
+
+6) What  are  the  methods  of  class  c1 ?  ---> m1()
+    What  are  the  methods  of  class  c2 ?  ---> m1()  and  m2()
+    What  are  the  methods  of  class  c3 ?  --->  m1() , m2()  and  m3()
+    What  are  the  methods  of  class  c4 ?  ---> m1() , m2() , m3()  and  m4()
+
+7) In  other  words,  class  c4  has  members  of  c1 , c2 , c3  and  new  members
+
+8) class  c1  is  extended  to  c2 , c2  is  extended  to  c3  and  c3  is  extended  to  c4
+    Eg : Python  1  is  extended  to  python  2  and  python  2  is  extended  to  python  3
+
+9) How  to  refer  to  same  class ? ---> self
+    What  are  the  two  ways  to  refer  to  parent  class ? --->  super()  and  super(class-name , classname())
+    How  to   refer  to  grand  parent  class ? --->  super(parent-classname , self)
+    How  to   refer  to  great  grand  parent  class ? --->  super(grand-parent-classname , self)
+
+10) What  is  self  wrt  class  c4 ?  --->  c4  itself
+      What  is  super()  wrt class  c4 ?  --->  Parent  class  of  c4  i.e.  c3
+      What  is  super(c3 , self) ?  --->   Parent  class  of  c3  i.e.  c2
+      What  is  super(c2 , self)  ?  ---> Parent  class  of  c2  i.e.  c1
+      What  is  super(c1 , self)  ?  ---> Parent  class  of  c1   i.e.  object
+      What  is  super(c4 , self)  ?  ---> Parent  class  of  c4  i.e.  c3

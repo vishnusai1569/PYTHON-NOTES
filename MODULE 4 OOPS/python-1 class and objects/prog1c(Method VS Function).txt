@@ -1,0 +1,44 @@
+
+
+ Method  Vs  Function
+--------------------------
+1) class   c1:
+	   def  m1(self): 
+	            statements
+    # End of the class
+    def  f1():  
+          statements
+
+2) Where  is  a  method  defined ?  --->  Inside  the  class
+    Where  is  a  function  defined ?  ---> Outside  the  class
+                                                          
+3) Method   is  a  member  of  what ?  ---> Class 
+    Function  is  a  member  what ?  ---> Module
+
+4) How  is  a  method  called  ?  --->  object . method()  (or)  classname . method(object)
+    How  is  a  function  called  ?  ---> function()
+
+5) What  is  the  mandatory  argument  for  a  method ?  ---> self  which  is  a  user  defined  word
+     Does  function  have  self  argument ? --->  No  becoz  it  is  not  called  wrt  object
+
+6) a = c1()
+    a . m1()
+    Where  is  m1()  searched ?  ---> In  class  c1  becoz  it  is  called  wrt  c1  class  object  'a'
+    f1()
+    Where  is  f1()  searched ?  --->  In  same  module  i.e.  current  module
+
+7) What  is  the  issue  with  m1() ?  --->  Executes  function  m1()  and 
+								 throws  error  when  there  is  no  function  m1()  
+    a = c1()
+    What  is  the  issue  with  a . f1() ?  --->  Executes  method  f1()  of  class  c1  and 
+						                    throws  error  when  there  is  no  method  f1()  in  class  c1
+
+8) What  is  the  pre-requisite  to  call  a  method ?  ---> There  should  be  at  least  one  object 
+     What  about  a  function ?  --->   It  can  be  called  directly  even  though  there  are  no  objects
+
+9) What  does  a  method  do ? ---> Performs  operation  on  object  such  as  read  object , print  object  and  so  on
+    What  does  a  function  do ?  --->  It  is  a  general  purpose  function  and
+							   does  not  perform  any  operation  on  object
+
+10) Is  sort()  a  method  (or)  function  ?  --->  A  method  of  list  class
+      What  about  sorted()  ?  --->  A  function  of  builtins  module

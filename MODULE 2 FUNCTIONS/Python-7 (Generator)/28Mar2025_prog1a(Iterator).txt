@@ -1,0 +1,8 @@
+Iterator
+-----------
+1) What  are  the  three  different  types  of  objects  in  python ?  --->  Non-sequence , sequence , iterator
+
+2) What  is  an   iterator ?  --->  Elements  are  yielded  one  at  a  time  on  demand
+
+3) What  are  the  different  iterators ?   --->  					
+					Generator , enumerate , zip , reversed , list_reverseiterator , filter , map  and  so  on

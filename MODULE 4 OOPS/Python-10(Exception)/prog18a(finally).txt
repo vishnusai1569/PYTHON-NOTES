@@ -1,0 +1,71 @@
+finally   suite
+----------------
+1) finally:
+	clean-up  code
+
+2) What  does  finally  suite  do  ?  --->  Closes  all  those  connections  which  are  opened  by  try  suite
+                                                               and  not  closed  by  try  suite
+
+3) If  try  suite  opens  database   connection , network  connection , file  and  so  on,
+    finally  suite  closes  all  of  them  provided  they  were  not  closed  by  try  suite
+
+4) try:
+	 open  database  connection
+	 open  network  connection
+	 open  file
+    finally:
+	   if  database  connection  is  not  closed:
+			close  database  connection
+	   if  network  connection  is  not  closed:
+			close  network  connection
+           if  file  is  not  closed:
+			close  file
+
+5) When  is  finally  suite  executed  ?  --->  Always  executed
+
+6) Is  finally  suite  executed  when  error  is  thrown  ?  ---> Yes
+    Is  finally  suite  executed  when  there  is  no  error ?  ---> Yes
+    Is  finally  suite  executed  when  error  is  caught  ?  --->  Yes
+    Is  finally  suite  executed  when  error  is  not  caught  ?  ---> Yes
+
+7) Therefore  finally  suite  is  always  executed (come  what  may)
+
+8) In  other  words,  control  does  not  move  out  of  the  method  (or)  function  (or)  program
+     without  execution  of  finally  suite
+
+9) When  is  except  suite  executed  ?  --->  As  soon  as  error  try  suite  raises  an  error
+
+10) What  does  every  try  suite  demand ? --->  except  suite  (or)  finally  suite  (or)  both
+
+11) Can  finally  suite  be  used  independently  without  try  suite ?  --->  No
+													          i.e. It  should  be  used  along  with  try  suite
+
+12) Which  of  the  following  are  valid ?
+     a) try -  except  ---> Valid
+    b) try -  finally --->  Valid
+    c) try -  except -  finally --->  Valid
+    d) try - except1 - except2 - except3 -  finally --->  Valid
+    e) try - finally - except ---> Invalid  becoz  finally  suite  can  not  be  between  try  and  except
+    f) try - except - finally1 - finally2 - finally3 ---> Invalid  due  to  multiple  finally  suites
+
+13) How  many  finally  suites  are  permitted  for  a  try  suite ?  --->  Either  one  or  none  but  not  more  than  one
+
+14) def   f1():
+	   try:
+	        open  file
+	        perform  input / output  operations  on  file
+	        close  file
+          except:
+                 print  a  msg
+          finally:
+	        if   file  is  not closed:
+			  close  file
+     Who  closes  the  file  when  error  is  raised  during  I / O  operations  ?  --->finally  suite
+     Who  closes  the  file  when  no  error  is  raised ?  ---> try  suite
+
+15) What  is  the  issue  when  finally  suite  is  omitted  ?  --->
+								File  is  not  closed  when  exception  is  thrown  during  i / o  operations
+
+16) What  is  the  issue  when  file  is  not  closed ?  --->  If  the  function  is  called  again,
+                                                                                          pvm  can  not  open  already  opened  file  becoz  file  was  not  closed
+							                                  for  the  1st  function  call  and  reports  an  error

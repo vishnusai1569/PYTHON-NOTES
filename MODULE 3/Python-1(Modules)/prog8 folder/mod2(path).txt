@@ -1,0 +1,36 @@
+
+
+ sys . path
+-------------
+1) What  is  sys . path ?   --->   List  of  directories  (or)  folders  where  every  module  is  searched
+
+2) import  cal
+    Where  is  cal  module  searched  ?  --->  In  the  directories (or) folders  of  sys . path
+
+3) What  is  the  first  directory  in  sys . path ?  ---> Current  working  directory(Cwd)
+    What  are  the  remaining  directories  of  sys . path ?  ---> Standard  directories
+
+4) When  is  ModuleNotFoundError  raised ?  --->  When  the  module  is  not  in  all  the  directories  of  sys . path
+
+5) When  is  module  imported ?  ---> When  the  module  is  in  any  of  the  directories  of  sys . path
+
+6) Can  new  directories  (or)  folders  be  added  to  sys . path ?  ---> Yes  becoz  sys . path  is  a  list
+
+7) When  is  sys . path  modified  ?  ---> When  the  module  is  present  in  a  different  directory
+
+8) Which  method  is  used  to  add  a  new  directory  to  sys . path ?   --->  append()  method  of  list  class
+
+9) Are  changes  made  to  sys . path  visible  to  other  programs ?  --->  No
+
+10) In   other  words,  changes  made  to  sys . path  are  visible  to  current  program  and  lost  after   program  terminates
+
+11) Is  sys . path  a  tuple  ?  --->  No  and  it  is  list
+
+12) Who  is  initializing  sys . path  and  when ?  --->  PVM  as  soon  as  sys  is  imported
+
+
+
+Note:
+1) Is  print('\')  valid ?  --->   No
+
+2) How  to  print  '\' ?  --->   print('\\')

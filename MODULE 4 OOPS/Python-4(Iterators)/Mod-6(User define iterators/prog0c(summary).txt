@@ -1,0 +1,9 @@
+Summary
+-----------
+						Does  __iter__()  method  exist ?       Does  __next__()  method  exist ?
+--------------------------------------------------------------------------------------------------------------------
+Pre-defined-iterator                                Yes				                                Yes
+
+Iterable  (or)  sequence                            Yes                                                         No
+
+Non-sequence                                            No				                                 No

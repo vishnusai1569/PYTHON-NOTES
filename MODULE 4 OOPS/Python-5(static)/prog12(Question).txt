@@ -1,0 +1,6 @@
+1) What  is  the  difference  between  global  variable  and  static  variable ?  --->
+						Global  variable  is  global  to  all  the  functions ,  classes  and  outside  code
+						but  static  variable  is  global  to  all  the  objects  of  same  class
+
+2) What  is  the  difference  between  local  variable  and  instance  variable ?  --->
+					Local  variable  is  local  to  function  (or)  method  but  instance  variable  is  local  to  object

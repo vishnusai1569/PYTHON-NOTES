@@ -1,0 +1,33 @@
+Positional  only  arguments
+--------------------------------
+1) def  f1(a ,  b , /): 
+             pass
+    What  can  be  passed  for  'a'  and  'b' ?  --->  Only  positional  arguments  becoz  they  are  before  /  in  the  function  header
+
+2) Is  f1(a = 10 , b = 20)  valid ?   --->  No  due  to  KA's 
+    Is  f1(10 , 20)  valid ?  --->  Yes  due  to  positional  arguments
+
+3) In  other  words,  '/'  prevents  in  passing  KA's  to  the  function
+
+4) def  f2(a , b): 
+             pass
+    Which  arguments  can  be  passed  for  'a'  and  'b' ?  --->   				
+								Either  PA's  (or)  KA's  becoz  there  is  no  '*'    nor   '/'   in  the  function  header
+
+5) def  f3(a , / , b):
+                pass
+    Which  argument  can  be  passed  for  'a' ?  --->  Only  PA  becoz  it  is  before  /
+    Which  argument  can  be  passed  for  'b' ?  --->  Either  PA  (or)  KA  becoz  it  is  not  before  /
+
+6) In  other  words,  arguments  preceding  /   should  be  PA's  only  but  arguments  following  /  can  be  either  PA's   (or)  KA's
+
+7) def  f4(/ , a , b):
+		pass
+    Is  the  above  function  definition  valid ?  --->  No  becoz  there  are  no  arguments  before  /
+
+8) In  other  words,  there  should  be  at  least  one  argument  before  /  in  the  function  header
+
+
+
+Note:
+/  is   permitted  in  the  function   header  from  python  3.1

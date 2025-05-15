@@ -1,0 +1,8 @@
+getsizeof()  function
+-------------------------
+1) What  does  getsizeof(obj)  do ?  --->  Returns  size  of  object  in  terms  of  bytes
+
+2) What  is  the  argument  of  getsizeof()  function ? --->  Any  python  object
+											     i.e.   Sequence , non-sequence  and  generator
+
+3) Where  is  getsizeof()  function  defined ?  --->  In  sys  module

@@ -1,0 +1,24 @@
+Instance  Method  Vs  Class  Method  Vs  Static  Method
+------------------------------------------------------------------
+1) What  is  the  mandatory  argument  for  instance  method ?  --->  self
+    What  is  the  mandatory  argument  for  class  method ?  ---> cls
+    What  is  the  mandatory  argument  for  static  method ?  ---> Nothing
+
+2) What  is  the  decorator  to  define  an  instance  method ?  --->  Nothing
+     What   is  the  decorator  to  define  a  class  method ?  --->  @classmethod
+     What  is  the  decorator  to  define  a  static  method ?  ---> @staticmethod  which  is  optional
+
+3) How  is  an  instance  method  called  ?  --->  object . method()
+    How  is  a  class  method  called  ?  ---> classname . method()
+    How  is  a  static  method  called  ?  ---> classname . method()
+
+4) Can  class  and  static  methods  be  called  wrt  object ?  --->  Yes  but  not  recommended
+
+5) Can  an  instance  method  be  called  without  an  object ?  ---> No
+    Can  a   class  method  be  called  without  an  object ?  ---> Yes
+    Can  a  static  method  be  called  without  an  object ?  ---> Yes
+
+6) What  does  an  instance  method  do  ?  ---> Perform  operations  on  object
+                                                                           i.e. instance  variables  of  object
+    What  does  a  class  method  do  ?  --->  Perform  operations  on  static  variables  of  the  class
+    What  does  a  static  method  do  ?  ---> Perform  operations  on  static  variables  of  the  class

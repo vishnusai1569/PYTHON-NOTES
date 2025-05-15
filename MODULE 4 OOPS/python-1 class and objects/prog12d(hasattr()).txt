@@ -1,0 +1,16 @@
+
+
+hasattr()  function
+-----------------------
+1) What  does  hasattr(object , variable)  do  ?  --->  Returns True  if  the  variable  is  present  in  the  object  and  False  otherwise
+
+2) What  does  hasattr(classname ,  method)  do ?  --->  Returns  True  if  the  method  is  present  in  the  class  and  False  otherwise
+
+3) What  does  hasattr(object ,  method)  do ?  --->  Returns  True  if  the  method  is  present  in  the  class  and  False  otherwise
+
+4) What  does  hasattr(classname ,  variable)  do ?  --->  Returns  False  becoz  class  does  not  contain  variable
+
+5) What  is  the  second  argument  of  hasattr()  function  if  1st  argument  is  object ?  ---> Variable  (or)  method 
+    What  is  the  second  argument  of  hasattr()  function  if  1st  argument  is  classname ? --->  Just  method  but  not  variable
+
+6) Where  is  hasattr()  function  defined ?   --->  In  builtins  module

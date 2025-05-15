@@ -1,0 +1,21 @@
+Iterable   Vs   Iterator
+---------------------------
+1) Which  objects  are  iterables  ?  --->  List , Tuple , Set , String , Range , Dictionary  and  so  on
+    Which  objects  are  iterators ?  --->  enumerate , zip , reversed , list_reverseiterator ,  generator , filter , map   and  so  on
+
+2) What  are  the  two  drawbacks  of  iterables ?  --->  Waiting  time  and  memory  error
+    What  are  the  two  advantages  of  iterator ?  --->  No  waiting  time  and  no  memory  error
+
+3) How  to  iterate  an  iterable  object ?  --->  With  for  loop  only
+    How  to  iterate  an  iterator ?  --->  With  for  loop  and  next()  function
+
+4) What  does  print(iterable)  do  ? --->  Prints  iterable  itself
+    What  does  print(iterator)  do ?  ---> Prints  type  and  address  of  the  object
+
+5) How  many  times  can  iterable  object  be  iterated ?  --->  Multiple  times
+    What  about  iterator ?  --->  It  can  be  iterated  just  once  and  exhausted  soon  after  it  is  iterated
+
+Note:
+1) What  are  int , float , complex , bool  and  NoneType ?  --->  They   are  neither  iterables  nor  iterators
+
+2) Can  they  be  iterated  with  for  loop  and   next()  function  ?  --->  No

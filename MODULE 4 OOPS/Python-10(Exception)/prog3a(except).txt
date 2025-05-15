@@ -1,0 +1,46 @@
+except  suite
+----------------
+1) except  xxxError:
+	     error  handling  code
+
+2) What  does  except  suite  do ? ---> Prints  user  friendly  message  (or)  performs   an  alternate  action
+
+3) What  is  the  example  of  alternate  action ?  --->  try:
+											     open  remote  file
+										      except:
+											      open  local  file
+										      Perform  operations  on  file
+
+4) When  is  except  suite  executed  ?  --->  As  soon  as  error  try  suite  raises  an  error
+
+5) except   ZeroDivisionError:
+		  code
+    When  is  the  above  except  suite  executed  ?  --->  As  soon  as  try  suite  raises  ZeroDivisionError
+
+6) When  is  except  suite  skipped  ?  --->  When  try  suite  does  not  throw  any  error
+
+7) Can  except  suite  be  used  independently  without  try  suite  ?  --->  No
+
+8) In  other  words,  try  and  except  form  a  pair
+     i.e.  They  should  be  used  together
+
+9) Can  there  be  multiple  except  suites  for  a  try  suite ?  --->  Yes
+
+10) How  many  except  suites  are  executed  when  an  error  is  raised ? --->  Just  one  depending  on  error
+
+11) What  about  remaining  except  suites ?  --->   Skipped
+
+12) Does  control  return  to  try  suite  after  execution  of  except  suite ?  --->
+												No  and  execution  is  sequential  from  except  suite
+
+13) Can  error  message  be  caught ?  --->  Yes  with  as  keyword
+
+14) except  xxxError  as  msg:
+                  code
+      What  does  msg  variable  contain ?  --->  Pre-defined  error  message
+
+15) Can  except  suite  catch  multiple  errors ?  --->  Yes
+
+16) except  (xxxError , yyyError , zzzError)  as  msg:
+                    code
+      When  is  the  above  except  suite  executed ?  --->  As  soon  as  xxxError , yyyError (or) zzzError   is  raised

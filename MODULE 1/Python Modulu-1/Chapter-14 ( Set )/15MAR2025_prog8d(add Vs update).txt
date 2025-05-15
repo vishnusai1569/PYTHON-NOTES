@@ -1,0 +1,20 @@
+add()  method  Vs  update()  method
+-------------------------------------------
+1) What  does  add(sequence)  do ?  --->  Inserts  sequence  any  where  in  the  set    
+    What  does  update(sequence)  do ?  ---> Inserts  elements  of  sequence  any  where  in  the  set
+
+2) What  does  set . add('Hyd')  do ? --->  Inserts  'Hyd'  any  where  in  the  set
+     What  does  set . update('Hyd')  do  ?  --->  Inserts  characters  of  'Hyd'  any  where  in  the  set  
+									   i.e.  'H' , 'y'  and  'd'
+
+3) How  many  arguments  can  add()  method  take ?  --->  Single  
+    How  many  arguments  can  update()  method  take ? ---> One  (or)  more
+
+4) What  is  the  argument  of  add()  method  ?  --->  Any  immutable  object
+    What  is  the  argument  of  update()  method  ?  ---> Any  sequence
+
+5) Is  set . add(mutable  object)  valid ? --->  No  becoz  set  can  not  hold  multable  element
+    Is  set . update(mutable object)  valid ? --->  Yes  becoz  every  mutable  object  is  a  sequence
+
+6) Is  set . add(non-sequence)  valid ?  --->  Yes  becoz  every  non-sequence  is  immutable
+    Is  set . update(non-sequence)  valid ? --->  No    

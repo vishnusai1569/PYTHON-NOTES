@@ -1,0 +1,59 @@
+Different  command  line  options 
+---------------------------------------
+1) py   prog1a.py   25   10.8   3+4j   "Rama  Rao"   True   None  
+    What  is  the  above  line  called ?  --->  Execution  command  (or)  command  line
+    What  is  the  result  of  len(argv) ?  --->  7
+    What  is  argv[4] ? --->  Rama  Rao
+    What  is  len(argv[4]) ? --->  8
+
+2) py   prog1a.py   25   10.8   3+4j   Rama   Rao   True   None
+    What  is  len(argv) ?  --->  8  becoz  Rama  Rao  is  treated  as  two  differnet  inputs  as  it  is  not  in  double  quotes
+    What  is  argv[4] ?  ---> Rama
+    What  is  len(argv[4]) ? --->  4
+     What  is  argv[5] ?  --->  Rao
+     What  is  len(argv[5]) ?  --->  3
+
+3) py  prog1a.py  25   10.8   3+4j   'Rama   Rao'   True   None                                                
+    What  is  len(argv) ?  --->  8  becoz  Rama  Rao  is  treated  as  two  differnet  inputs  as  it  is  not  in  double  quotes
+    What  is  argv[4] ?  --->  'Rama
+    What  is  len(argv[4]) ?  --->  5
+    What  is  argv[5]  ?  ---> Rao'
+    What  is  len(argv[5]) ?  --->  4
+
+4) py   prog1a.py   25   10.8   3+4j   '''Rama   Rao'''   True   None 
+    What  is  len(argv) ?  --->  8  becoz  Rama  Rao  is  treated  as  two  differnet  inputs  as  it  is  not  in   double  quotes
+    What  is  argv[4] ?  --->  '''Rama
+    What  is  len(argv[4]) ?  --->  7
+    What  is  argv[5]  ?  --->    Rao'''
+    What  is  len(argv[5]) ?  --->  6
+
+5) py   prog1a.py   25   10.8   3+4j  Srinivas   True   None  
+    What  is  len(argv) ?  --->   7
+    What  is  argv[4]  ? --->  Srinivas
+    What  is  len(argv[4]) ?  --->  8
+
+6) py   prog1a.py   25   10.8   3+4j  "Srinivas"   True   None  
+    What  is  argv[4]  ?  --->  Srinivas
+    What  is  len(argv[4]) ?  ---> 8
+
+7) py   prog1a.py   25   10.8   3+4j   'Srinivas'   True   None  
+    What  is  argv[4]  ?  --->  'Srinivas'
+    What  is  len(argv[4]) ?  --->  10
+
+8) py   prog1a.py   25   10.8   3+4j   '''Srinivas'''   True   None  
+    What  is  argv[4] ?  --->  '''Srinivas'''
+    What  is  len(argv[4]) ?  --->  14
+
+9) Which  quotes  are  needed  when  command  line  input  is  a  multi-word  string ?  --->  Double  quotes  only
+    Which  quotes  are  needed  when  command  line  input  is  single  word  string ?  --->  Either  double  quotes  (or)  no  quotes
+
+10) py   prog1a.py 
+     What  is  argv ? --->  ['prog1a.py']
+      What  is  len(argv) ? --->   1
+      What  is  argv[1]  ?  --->  Error  becoz  index  1  does  not  exist
+      What  is  argv[1:]  ?  ---> []
+  
+Note:
+1) What  is  the  result  of  sequence[invalid  index]  ?  --->  Error  due  to  invalid  index
+
+2) What  is  the  result  of  sequence[invalid  index:]  ?  --->  Empty  sequence

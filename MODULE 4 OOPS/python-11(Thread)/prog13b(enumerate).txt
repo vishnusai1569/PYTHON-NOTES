@@ -1,0 +1,29 @@
+enumerate()  function
+--------------------------
+1) What  does  enumerate()  function  do ? --->  Returns  list  of  all  those  threads  which  are  under  execution
+
+2) What  does  enumerate()  function  return  if  four  threads  are  under  execution  ?  --->
+									List  of  all  the  four  threads  i.e.  [main  thread , t1 , t2 , t3]
+
+3) What  is  list[0]  ?  --->  MainThread  object
+    What  is  list[1]  ?  --->  t1  thread  object
+    What  is  list[2]  ?  --->  t2  thread  object
+     What  is  list[3]  ?  --->  t3  thread  object
+
+4) Where  is  enumerate()  function  defined ?  ---> In  threading  module
+
+Differnce  between  enumerate(list)   and  enumerate()
+----------------------------------------------------------------
+1) list = [10 , 20 , 15 , 18]
+   What  does  enumerate(list)  do ?  --->  Creates  an  empty  enumerate  class  object
+    Is  enumerate  a  class  (or)  function ?  ---> Class  becoz  it  is  an  iterator
+    Where  is  enumerate  class  defined ?  ---> In  builtins  module
+    What  does  next(e)  return ?  ---> (0 , 10)
+    What  does  next(e)  return ?  ---> (1 , 20)
+    What  does  next(e)  return ?  --->  (2 , 15)
+    What  does  next(e)  return ?  --->  (3 , 18)
+    What  does  next(e)  return ?  --->   Throws  StopIteration  error
+
+2) What  does  enumerate(No-args)  do ?   --->  Returns  a  list  of  all  those  thread  objects  which  are  under  execution
+     Is  enumerate  a  class  (or)  function ?  --->   Function  becoz  there  is  no  argument
+     Where  is  enumerate()  function  defined ?  ---> In  threading  module

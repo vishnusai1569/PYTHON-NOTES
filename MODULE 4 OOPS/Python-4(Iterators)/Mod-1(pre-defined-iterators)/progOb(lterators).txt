@@ -1,0 +1,15 @@
+Iterators
+------------
+1. Generator
+
+2. enumerate
+
+3. zip
+
+4. reversed
+
+5. list_reverseiterator
+
+6. filter
+
+7. map  and  so  on

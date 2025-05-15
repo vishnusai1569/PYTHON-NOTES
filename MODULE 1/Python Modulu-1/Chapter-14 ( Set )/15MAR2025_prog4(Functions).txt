@@ -1,0 +1,19 @@
+Functions
+------------
+1) len(set) --->  Returns  number  of  elements  in  the  set
+ 
+2) sum(set) --->  Returns  sum  of  set  elements
+
+3) max(set) --->  Returns  largest  set  element
+
+4) min(set)  --->  Returns  smallest  set  element
+
+5) set(sequence)  --->  Converts  sequence  to  set
+
+6) sorted(set)  --->  Returns  a  list  of  set  elements  in  ascending  order
+
+7) all(set)  --->  Returns  True  when  every  set  element  is  True  and  False  otherwise
+
+8) any(set)  --->  Returns  True  when  at  least  one  set  element  is  True  and  False  otherwise
+
+All  the  above  functions  are  same  as  that  of  list

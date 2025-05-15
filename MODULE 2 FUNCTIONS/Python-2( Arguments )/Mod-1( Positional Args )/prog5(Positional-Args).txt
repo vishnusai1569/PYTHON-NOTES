@@ -1,0 +1,14 @@
+Positional  Arguments
+-------------------------
+1) add(10 , 20)
+   What  are  10  and  20  called ?  ---> Actual  parameters  (or)  positional  arguments
+
+2) What  is  the  rule  (or) constraint  for  positional  arguments ?  ---> 									
+							They  should  be  in   the  same  order  in  which  formal  parameters  are  present
+
+3) In  other  words,  actual  parameters  order  and  formal  parameters  order  should  be  same
+
+4) What  is  the  issue  when  arguments  are  passed  in  a  different  order ?  ---> 																				
+													Incorrect  results  (or)  error  depending  on  the  program
+
+5) How  to  overcome  this  issue ?  --->  Use  keyword  arguments

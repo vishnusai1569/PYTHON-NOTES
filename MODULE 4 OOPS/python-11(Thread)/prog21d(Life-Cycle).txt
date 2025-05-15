@@ -1,0 +1,50 @@
+Life  Cycle  of  a  Thread
+-----------------------------
+1) What  are  the  five  states  of  a  thread ?  ---> a) New  (or) Borne  state
+										 b)  Ready  (or)  Runnable  state
+										 c)  Running  state
+										 d) Waiting  (or)  Blocked  state
+										 e)  Halted  (or)  Dead  state
+
+2) What  is  new  (or)  borne  state ?  --->  A  new  thread  is  created
+    What  is  the  statement  for  a  thread  to  enter  into  new  (or)  born  state ? ---> t = Thread(target = f1)
+
+3) What  is  ready  (or)  runnable  state ?  ---> Thread  is  ready  for  execution
+    What  is  the  statement  for  a  thread  to  enter  into  ready  (or)  runnable  state ?  ---> t . start()
+
+4) What  is  running  state ?  --->  Thread  is  executing  function , method  (or)  run()  method
+    What  is  the  statement  for  a  thread  to  enter  into  running  state ?  --->  Nothing
+
+5) In  other  words,  thread  enters  into  running  state  as  soon  as  TS  picks  the  thread  for  execution
+
+6) Every  thread  toggles  between  ready  and  running  states
+
+7) A  thread  moves  to  ready  state  from  running  state  as  soon  as  time  is  elapsed  and
+    thread  moves  into  running  state  from  ready  state  as  soon  as  it  is  picked  by  TS
+
+8) What  is  waiting  (or)  blocked  state ?  --->  Thread  can  not  continue  execution  due  to
+									    sleep() , join() , wait()  and  acquire()
+
+9) In  other  words,  thread  is  suspended  from  execution
+
+10) What  does  time . sleep(1)  do?  --->  The  thread  moves  to  waiting  state
+     How  long  does  the  thread  wait ?  --->   For  one  second
+     What  happens  after  1  sec  is  elapsed ?  ---> The  sleeping  thread  moves  to  ready  state  and  is  ready  for  execution
+
+11) What  does  t2 . join()  do ?  ---> The   thread  moves  to  waiting  state
+      How  long  does  the  thread  wait ?  ---> As  long  as  thread  t2  is  under  execution
+								       i.e. until  thread  t2  is  expired
+      What  happens  after  thread  t2  is  expired ?  --->
+								The  waiting  thread  moves  to  ready  state  and  is  ready  for  execution
+
+12) What  does  cond . wait()  do ?  --->  The  thread  moves  to  waiting  state
+      How  long  does  the  thread  wait ?  --->  As  long  as  it  is  not  notified
+								        i.e.  Until  some  thread  executes  notify()
+      What  happens  after  it  gets  notified ?  ---> The  waiting  thread  moves  to  ready  state  and  is  ready  for  execution
+
+13) What  does  l . acquire()  do  when  object  'l'  is  already  locked ?  ---> The  thread  moves  to  waiting  state
+      How  long  does  the  thread  wait ?  --->   As  long  as  object  'l'  is  locked
+      What  happens  after  object  'l'  is  unlocked ?  --->
+									The  waiting  thread  moves  to  ready  state  and  is  ready  for  execution
+
+14) What  is  halted  (or) dead  state ?  --->  Target  function  (or)  method  terminates

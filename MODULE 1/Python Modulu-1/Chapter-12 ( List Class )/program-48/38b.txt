@@ -1,0 +1,12 @@
+'''
+(Home  work)
+Repeat   previous  program  with  comprehension
+
+Inputs :  3  and  4
+
+Output :  [[0 , 0 , 0 , 0] , [0 , 0 , 0 , 0] , [0 , 0 , 0 , 0]]
+'''
+m = eval(input('How  many  lists ?  :  '))
+n = eval(input('How  many  elements  in  each  list ?  :  '))
+a = [[0] *  n   for  i  in   range(m)]
+print(a)

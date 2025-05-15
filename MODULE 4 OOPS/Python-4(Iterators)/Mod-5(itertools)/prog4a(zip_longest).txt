@@ -1,0 +1,24 @@
+zip_longest  iterator
+------------------------
+1) a = ['Empno' , 'Ename' , 'Sal' , 'Gender' , 'Married']
+    b = [25 , 'Rama  Rao' , 10000.0]
+    z = zip_longest(a , b)
+    What  does  the  above  statement  do ?   ---> Creates  an  empty  zip_longest  class  object
+
+2) What  does  1st  call  to  next(z)  do ?  --->  Yields   ('Empno' , 25)
+    What  does  2nd  call  to  next(z)  do ?  --->  Yields   ('Ename' , 'Rama  Rao')
+    What  does  3rd  call  to  next(z)  do ?  --->  Yields   ('Sal' , 10000.0)
+    What  does  4th  call  to  next(z)  do ?  ---> Yields   ('Gender' , None)
+    What  does  5th  call  to  next(z)  do ?  ---> Yields   ('Married' , None)
+    What  does  6th  call  to  next(z)  do ?  ---> Throws  StopIteration  error
+
+3) How  long  objects  are  zipped  for  zip(obj1 , obj2) ?  --->
+										Until  at  least  one  object  gets  exhausted  (i.e.  shortest  object)
+    What  about  zip_longest(obj1 , obj2) ?  --->  Objects  are  zipped  until  longest  object  is  exhausted
+
+4) In  other  words,  both  the  objects  are  exhausted
+
+5) What  about  remaining  elements  of  shortest  object ?  --->  None's
+
+6) Where  is  zip  class  defined ?  ---> In  builtins  module
+    Where  is  zip_longest  class  defined ?  ---> In  itertools  module

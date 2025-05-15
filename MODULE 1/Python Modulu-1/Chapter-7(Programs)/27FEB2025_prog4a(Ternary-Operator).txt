@@ -1,0 +1,24 @@
+Ternary  operator
+---------------------
+1) What  is  the  syntax  of  ternary  operator ?  --->   op1  if cond  else  op2
+
+2) What  is  the  result  of  ternary  operator  when  cond  is  True ?  --->  op1
+     What  is  the  result  of  ternary  operator  when  cond  is  False ?  ---> op2
+
+3) In  other  words,  result  is  op1  (or)  op2  and  it  all  depends  on  the  condition
+
+4) Why  is  it  called  ternary  operator ?  --->  Since  there  are  3  operands   
+									   i.e.  op1  if  op3  else  op2
+
+5) print(100  if  9 > 12  else  200)
+    What  is  the  result  of  the  above  statement  ? --->  200  becoz  9 > 12  is  false
+
+6) print('Hyd'  if  6 != 8  else  'Sec')
+    What  is  the  result  of  the  above  statement ? --->  Hyd   becoz  6 != 8  is  true
+
+7) op1  if  cond1  else  op2  if  cond2  else  op3
+    When  is  the  result  op1 ?  --->  When  cond1  is  True
+    When  is  the  result  op2 ?  --->  When  cond1  is  False  and  cond2  is  True
+    When  is  the  result  op3 ?  --->  When  both  the  conditions  are  False
+
+8) Ternary  operator  in  ternary  operator  is  called  nested  ternary  operator

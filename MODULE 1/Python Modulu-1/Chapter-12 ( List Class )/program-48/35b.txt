@@ -1,0 +1,11 @@
+'''
+(Home  work)
+Repeat   previous  program  with  comprehension
+
+Input :  ['hyd' , 'pune' , 'chennai' , 'vijayawada']
+
+Output :  ['H' , 'P' , 'C' , 'V']
+'''
+a = eval(input('Enter  list  of  lower  case  strings :  '))
+b = [x[0] . upper()  for  x  in  a]
+print(b)

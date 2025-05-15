@@ -1,0 +1,25 @@
+#  Repeat  prog32a(Mode)   in  another  way
+list = [12 , 20 , 18 , 15 , 10 ,  15 , 10 ,  15 ,  20 , 18 , 15 , 10 , 20 , 15 , 10]
+print('Mode  :  ' , max(list , key = list . count))
+
+
+'''
+list = [12 , 20 , 18 , 15 , 10 ,  15 , 10 ,  15 ,  20 , 18 , 15 , 10 , 20 , 15 , 10]
+
+10  -  4
+20  - 3
+15  -  5
+18  -  2
+12  -  1
+
+1) What  does  max(list)  do ?  --->  Returns  largest  element  of  the  list  i.e.  20
+
+2) What  does  max(list , key = list . count)  do ?  --->  Returns  element  with  largest  count  i.e.  15
+
+3) max(list , keys = list . count)
+     Is  the  above  statement  valid ?  ---> No  becoz  there  is  no  keys   argument  for  max()  function
+
+4) What  does  min(list)  do ? --->  Returns  smallest  element  of  the  list  i.e.  10
+
+5) What  does  min(list , key = list . count)  do ?  --->  Returns  element  with  smallest  count  i.e.  12
+'''

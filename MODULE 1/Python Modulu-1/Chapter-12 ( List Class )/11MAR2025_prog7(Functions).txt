@@ -1,0 +1,20 @@
+Functions
+-----------
+1) len()
+
+2) sum()
+
+3) max()
+
+4) min()
+
+5) list()
+
+6) sorted()
+
+7) all()
+
+8) any()
+
+
+Where  are  they  defined ?  ---> In  builtins  module

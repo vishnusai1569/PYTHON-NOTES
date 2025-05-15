@@ -1,0 +1,41 @@
+Default   Arguments
+-----------------------
+1) def  add(a , b = 20 , c = 30): 
+             statements
+    What  are  'b'  and  'c'  called ?  --->  Default  arguments  
+    What  are  20  and  30  called ?  --->  Default  values 
+
+2) Where  are  default  arguments  defined ?  ---> In  the  function  header
+
+3) When  are  default  values  passed  to  the  function ?  ---> When  arguments  are  not  passed  to  the  function
+
+4) What  does  add(100)  do  ? ---> Passes  default  values  20  and  30  to  parameters  'b'  and   'c'
+
+5) When  are  default  values  ignored ?  ---> When  arguments  are  passed  to  the  function
+
+6) What  does  add(100 , 200 , 300)  do  ? ---> Ignores  default  values  20  and  30 
+
+7) Which  parameter  has  got  higher  priority (actual  parameter  (or) default  value) ?  --->  Actual  parameter
+
+8) What  happens  when  a  parameter  has  got  no  default  value  and  also  argument  is  not  passed  to  the  function ?  ---> 																			
+																			Function  call  throws  error
+
+9) def  f1(a = 10 , b ,  c = 30):
+		pass
+    Is  the  above  function  valid ?  --->  No  becoz  there  can  not  be  non-default  argument (i.e.  'b' )  after
+							      default  argument  (i.e.  a = 10)
+
+10) Finally  non-default  arguments  should  be  at  the  begining  and  default  arguments  at  the  end  of  the   function  header
+
+11) def  f1(* , a = 10 , b ,  c = 30):
+		pass
+     Is  the  above  function  valid ?  ---> Yes  becoz  default  arguments  and  non-default  arguments  can  be  in  any  order  due  to  *
+
+
+Note:
+1) def   f1(x = 10 , y = 20): 
+                   pass
+    What  are  'x'  and  'y'  called  ?  --->  Default  arguments  becoz  they  are  in  the  function  header
+
+2) f1(x = 30 , y = 40)  
+    What  are  'x'  and  'y'  called ?  --->  Keyword  arguments  becoz  they  are  in  the  function  call

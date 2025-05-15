@@ -1,0 +1,17 @@
+``+  operator
+-------------
+1) What  is  the  result  of  10 + 20 ?   --->  30
+    What  is  the  result  of  '10' + '20' ?  ---> '1020'
+
+2) What  does  non-sequence + non-sequence  do  ?  ---> Addition
+    What  does  sequence + sequence  do  ?  --->  Concatenation
+
+3) Is  sequence  + non-sequence  valid ?  --->  No      
+
+4) What  does  [10 , 20] + [30 , 40]  do ?  --->  Concatenates  the  two  lists  to  form  a  new  list  with  four  elements
+							                 i.e.  [10 , 20 , 30 , 40]
+
+5) Which  sequences  can  not  be  concatenated  with  +  operator  (Total : 3) ?  --->  range , set  and  dictionary       
+
+6) Is  +  operator  overloaded ?  --->  Yes  becoz  +  operator  does  both  addition  and  concatenation
+  

@@ -1,0 +1,7 @@
+Functions  of  time  module
+-------------------------------
+1) time()
+
+2) ctime()
+
+3) sleep()

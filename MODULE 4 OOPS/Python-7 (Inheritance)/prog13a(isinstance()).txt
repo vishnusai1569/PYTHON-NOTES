@@ -1,0 +1,20 @@
+isinstance()  function
+-------------------------
+1) What  does  isinstance(a , c1)  do  ?  --->  Returns  True  when  'a'  is  c1  class  object  and  False  otherwise
+
+2) What  is  the  use  of  isinstance()  function ?  --->  Determines  the  type  of  object
+
+3) What  does  isinstance(a , (c1 , c2 , c3))  do  ?  --->
+								Returns  True  when  'a'  is  c1 ,  c2  (or)  c3  class  object  and  False  otherwise
+
+4) What  is  the  first  argument  of  isinstance()  function ? --->  object
+     What  is  the  2nd  argument  of  isinstance()  function ? --->  classname  or  tuple  of  clasnames
+
+Note:
+1) isinstance(Apple , Fruit)  --->  True
+
+2) isinstance(Tiger , Animal) --->  True
+
+3) isinstance(srinivas ,  Humanbeing)  --->  True
+
+4) isinstance(Modi , Animal)  ---> False

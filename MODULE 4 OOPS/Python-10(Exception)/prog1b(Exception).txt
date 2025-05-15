@@ -1,0 +1,29 @@
+Exception
+-------------
+1) What  is  an  exception ?  --->  Error  handling
+
+2) Which  errors  can  be  handled ?  --->
+                                               Runtime  errors  but  not  syntax errors  becoz  they  are  due  to  grammetical  mistake
+
+3) What  are  runtime  errors ?  --->  Division  by  zero ,  Index  out  of  boundaries ,  Abstract  class  object  creation ,
+							   Addition  of  number  and  string , Printer  without  paper ,
+							   Cd  drive  without  cd ,  Illegal  memory  access  , File  not  found  and  so  on
+
+4) What  is  the  advantage  of  handling  errors ?  --->  Error  is  not  reported
+												 and
+										       user  friendly  msg  is  printed  (or)  alternate  action  is  made
+
+5) Python  programmer  can  understand  every  error  but  not  client
+                               and
+     it  is  client  who  is  running  python  programs
+
+6) In  other  words  exceptions  are  designed  in  view  of  the  client
+
+7) Program  execution  becomes  smooth  due  to  error  handling  and   it  won't  be  an  abnormal  termination
+
+8) What  are  the  issues  to  be  focused  by  the  programmer  while  writing  the  program ?  --->
+								Program  logic
+								        and
+								anticipate  all  the  possible  errors  from  the  program  and  handle  them
+
+9) What  are the  five  keywords  wrt  exceptions ?  --->  try , except , raise , finally  and  else

@@ -1,0 +1,7 @@
+active_count()   function
+-----------------------------
+1) What  does  active_count()  function  do ? --->   Returns  number  of  threads  which  are  under  execution
+
+2) What  does  active_count()  function  do  if  four  threads  are  under  execution ?  --->    Returns  4
+
+3) Where  is  active_count()  function  defined  ?  --->  In  threading  module

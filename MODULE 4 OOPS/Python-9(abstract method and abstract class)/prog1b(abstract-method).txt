@@ -1,0 +1,26 @@
+abstract  method
+---------------------
+1) @abstractmethod
+    def   m1(self):
+	    pass
+
+2) What  is  an  abstract  method ?  --->  A  method  without  code(i.e. statements)
+
+3) What  does  abstract  method  contain  ?  --->  Just  pass
+
+4) What  is  the  decorator  to  define  an  abstract  method ?  --->  @abstractmethod
+
+5) Where  is  @abstractmethod  decorator  defined ?  --->  In  abc  module
+
+6) What  is  another  name  of  abstract  method  ?  --->  Dummy  method , empty  method  (or)  skeleton  method
+
+7) When  is  abstract  method  recommended ? --->   When  the  parent  class  does  not  know  the  implementation
+
+8) Who  implements  abstract  method ?  --->  child  class
+
+9) What  happens  when  child  class  does  not  wish  to  implement  abstract  method  of   parent class ?  --->
+											grandchild  class  should  implement  the  abstract  method
+
+10) Can  abstract  method  have  code  ?  ---> Yes  but  not  recommended
+
+Note: Java  throws  error  when  abstract  method  has  code  but  not  python

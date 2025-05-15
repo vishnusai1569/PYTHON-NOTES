@@ -1,0 +1,25 @@
+self  object
+-------------
+1) What  is  self  ?  --->  Invoking  object  (or) owner  object
+
+2) a . m1()
+    What  is  self  wrt  the  above  method  call ?  --->  Object  'a'  becoz  method  m1()  is  called  wrt  object  'a'
+
+3) c . add(a , b)
+    What  is  self  wrt  the  above  method  call ?  --->  Object  'c'  becoz  method  add()  is  called  wrt  object  'c'
+
+4) c1 . m1(b)
+    What  is  self  wrt  the  above  method  call ?  --->  Object  'b'   becoz  it  is  passed  to  m1()  method
+
+5) a . m1()
+    Where  does  self  point  to ?  --->  The   same  object  where  'a'  points
+     If  reference  'a'  is  1000,  self  is  also  1000
+
+6) Who  is  initializing  self  and  when ?  --->  PVM  initializes  self  as  soon  as  method  is  called
+
+7) Is  Self  valid ?  --->  Yes  becoz  it  is  a  user  defined  word  but  not  keyword
+
+8) Who  can  use  self ?  --->  Only  method
+    Who  can  not  use  self ?  ---> Function  and  outside  the  class
+
+9) Why  function  can  not  use  self ?  --->  Since  it  is  not  called  wrt  object

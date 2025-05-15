@@ -1,0 +1,24 @@
+
+
+dir()  function
+-----------------
+1) What  does  dir(classname)  do ? ---> 					
+					Returns  a  list  consisting  of  all  the  methods  of  the  class   along  with  environment  variables  
+					such  as  __str__ , __dict__ , __name__ , .....
+
+2) What  does  dir(int)  do ?  --->  Returns  a  list  of  all  the  methods  of  int  class  along  with  environment  variables 
+
+3) What  does  dir(obj)  do ?  --->  Returns  a  list  of  all  the  instance  variables  of  the  object   along  with  methods   and
+                                                      environment  variables  
+
+4) a = 3 + 4j
+    What  does  dir(a)  do ?  --->  Returns  a  list  of  all  the  instance  variables  of  the  object  'a'  (i.e.  real  and  imag)  and 
+						   methods  of  complex  class   and  environment  variables  
+
+5) What  does  dir(module)  do ?  ---> Returns  a  list  of  all  the  members  of  the  module  and  environment  variables 
+
+6) What  does  dir(No-args)  do ?  --->  Returns  a  list  of  all  the  members  of  current  module  and  environment  variables 
+
+7) Where  is  dir()  function  defined ?  ---> In  builtins  module
+
+8) What  is  the  argument  of  dir()  function ?   --->  classname , object  (or)  module

@@ -1,0 +1,18 @@
+cycle  iterator
+-----------------
+1) What  does  cycle  iterator  do  ?  --->  Yields  each  element  of  the  object  one  at  a  time  in  cyclic  manner
+
+2) list = [25 , 10.8 , 'Hyd' , True]
+    c = cycle(list)
+    What  does  the  above  statement  do ? ---> Creates  an  empty  cycle  object
+
+3) What  does  1st  call  to  next(c)  do  ?  --->  Yields   1st  element  25
+    What  does  2nd  call  to  next(c)  do  ?  --->  Yields   2nd  element  10.8
+    What  does  3rd  call  to  next(c)  do  ?  --->  Yields  3rd  element  'Hyd'
+    What  does  4th  call  to  next(c)  do  ?  --->   Yields  4th  element  True
+    What  does  5th  call  to  next(c)  do  ?  --->   Yields   1st  element  25  again
+
+4) Is  cycle  a  finite  iterator  ?  --->  No  becoz  it  yields  elements  in  a  cyclic  manner
+
+5) Does  cycle  iterator  throw  StopIteration  error ?  --->  No  becoz  it  is  an  infinite  iterator  and
+											       hence  never  gets  exhausted

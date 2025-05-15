@@ -1,0 +1,9 @@
+PriorityQueue  class
+------------------------
+1) What  is  PriorityQueue  ?  --->  Elements  are  removed  based  on  priority
+
+2) What  does  get()  method  do ?  --->  Removes  highest  priority  element  and  returns  the  deleted  element
+
+3) Which  element  has  got  highest  priority ?  --->  Smallest  element
+
+4) Where  is  PriorityQueue  class  defined  ?  --->  In  queue  module

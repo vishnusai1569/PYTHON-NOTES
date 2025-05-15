@@ -1,0 +1,18 @@
+binary  integer
+------------------
+1) What  is  the  prefix  of  binary  number ?  --->  0B  (or)  0b
+
+2) What  are  the  valid  digits  in  binary  number ? ---> 0  and  1
+
+3) What  is  the  base  of  binary  number ?  --->  2  due  to  two  digits  0  and  1
+
+4) Which  digits  are  not  permitted  in  binary  number ?  --->  2  to  9
+
+5) a = 0B10101  
+   What  does  object  'a'  contain ?  ---> Decimal  equivalent  
+
+6) In  other  words,  binary  number  is  automatically  converted  to  decimal  number and decimal  number  is  stored  in   the  object
+
+7) Object  will  never  hold  binary  number
+
+8) What  does  print(binary  number)  do ? --->  Prints  decimal  equivalent  of  the  number.

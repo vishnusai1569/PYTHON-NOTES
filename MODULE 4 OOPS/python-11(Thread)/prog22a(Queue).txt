@@ -1,0 +1,22 @@
+Queue  class
+---------------
+1) What  is  Queue ?  --->  FIFO  i.e. First   In  First  Out
+
+2) Can  Queue  object  hold  multiple  elements ?  --->  Yes
+
+3) Which  element  is  removed  from  the  queue ?  ---> First  element
+
+4) How  to  create  Queue()  class  object ?  --->  q = Queue()
+
+5) Where  is  Queue  class  defined ?  ---> In  queue  module
+
+6) What  are  the  three  methods  of  Queue  class ?  --->  put() , get() , empty()
+
+7) What  does  put(x)  do  ?  --->  Inserts  'x'  into   Queue  object
+
+8) What  does  get()  method  do ? --->  Removes  first  element  of  Queue  and  returns  the  deleted  element
+
+9) What  does  get()  method  do  when  queue  is  empty ?  --->
+								Thread  waits  until  at  least  one  element  is  available  in  the  Queue
+
+10) What  does  empty()  method  do ?  --->  Returns  True  when  Queue  object  is  empty  and  False  otherwise

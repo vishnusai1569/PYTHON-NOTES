@@ -1,0 +1,7 @@
+What  are  the  three  different  ways  to  access  static  variable ?
+-----------------------------------------------------------------------------
+1) classname . variable (Any  where  in  the  program)
+
+2) cls . variable (Inside  class  method)
+
+3) object . variable  (Static  variable  is  accessed  when  there  is  no  instance  variable  in  the  object)

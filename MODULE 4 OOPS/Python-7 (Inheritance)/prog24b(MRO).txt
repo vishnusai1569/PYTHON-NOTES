@@ -1,0 +1,25 @@
+Method  Resolution  Order(MRO)
+---------------------------------------
+1) What  is  MRO ?  --->  A  list  of  classes  starting  from  same  class  followed  by  parent  classes  until  object  class
+
+2) What  is  the  use  of  MRO ?  --->  Determines  parent  class  for  super()  when  there  are  multiple  parent  classes
+
+3) What  are  the  two  ways  to  obtain  MRO ?  --->   classname . mro()
+                                                                                              and
+										      classname . __mro__
+
+4) What  is  the  difference  between  mro()  and  __mro__ ?  --->   mro()  method  returns  list  of  classes  and
+                                                                                                           __mro__   returns  tuple  of  classes
+
+5) classname . mro()
+    Why  is   mro()  method  called  thru  classname ?  ---> Since  it  is   a  static  method
+
+6) classname . __mro__
+    Why  is  __mro__  accessed  thru  classname ?  ---> Since __mro__  is  a  static  variable
+
+7) super  class  is  determined  from  D . mro()  when  method  (or)  constructor  is  executed  wrt  class  'D'  object,
+    super  class  is  determined  from  C . mro()  when  method  (or)  constructor  is  executed  wrt  class  'C'  object,
+    super  class  is  determined  from  B . mro()  when  method  (or)  constructor  is  executed  wrt  class  'B'  object ,
+    super  class  is  determined  from  A . mro()  when  method  (or)  constructor  is  executed  wrt  class  'A'  object
+
+8) What  does  object  class  constructor  do ?  --->  Nothing  becoz  it  is  an  empty  constructor

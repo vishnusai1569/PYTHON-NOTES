@@ -1,0 +1,22 @@
+bool   object
+---------------
+1) What  can  a  bool  object  hold  ?  --->  A  boolean  value  such  as  True  (or)  False
+
+2) What  does  a = True  do ?  --->  Assigns  reference  'a'  to  bool  object  True
+
+3) What  is  the  value  of  True ?  --->  1 
+     What  is  the  value  of  False ?  ---> 0
+
+4) What  is  the  result  of  True + False + True ?  --->  1 + 0 + 1 = 2
+
+5) What  happens  when  an  operation  is  made  on  True  and  False ? ---> The  operation  is  internally  made  on  1  and  0
+											
+6) Are  True  and  False  bool  class  objects  (or)  int  class  objects  ?  --->  int  class  objects  when  operations  are  made  on   
+   them and bool class  objects  otherwise
+
+7) Are  true  and  false  valid ?  --->  No  due  to  't'  and  'f'
+
+8) Where  is  bool  class  defined ?   ---> In  builtins  module
+
+9) Are  True  and  False  user  defined  words  (or)  keywords ?  --->  Keywords.
+

@@ -1,0 +1,9 @@
+Logical  operators
+----------------------
+1) What  are  the  three  different  logical  operators ?  ---> and , or , not
+
+2) Which  operator  has  got  highest  priority  in  logical  operators ?  ---> not
+     Which  operator  has  got  2nd  higher  priority ?  ---> and
+     Which  operator  has  got  lowest  priority ?  ---> or
+
+3) Which  operator  has  got  higher  priority  between  relational  and  logical  operators ?  --->  Relational  operators

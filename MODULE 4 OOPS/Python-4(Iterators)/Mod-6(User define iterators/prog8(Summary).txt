@@ -1,0 +1,24 @@
+Summary
+-----------
+1) What  are  the  four  different  classes  in  python ?  --->
+									Iterable ,  iterator , non-sequence  and  regular  python class
+
+2) When  is  a  class  called  iterable ?  --->  When  it  has   __iter__()  method
+     When  is  a  class  called  iterator ?  ---> When  it  has   __next__()  method
+     When  is  a  class  called  regular  class ?  ---> When  it  doesn't  have  __iter__()  and   __next__()  methods
+
+3) How  are  iterable  objects  iterated ?  ---> With  for  loop
+    How  are  iterator  objects  iterated ?  ---> With  next()  function
+    									       and
+								       for  loop  (not  guranteed)
+
+4) Which  pre-defined  objects  are  iterables ?  --->  List , tuple , set , dictionary , string , range  object  and  so  on
+    Which  pre-defined  objects  are  iterators ?  --->  enumerate , zip , generators , reversed  object  and  so  on
+
+5) What  is  the  class  with  both   __iter__()  and  __next__()  methods  called  ?  --->  Iterable  cum   iterator
+     How  are  they  iterated ?  --->  With  for  loop  and   next()   function
+
+6) Which  pre-defined  classes  have  both   __iter__()  and  __next__()  methods ?  --->  All  predefined  iterators
+
+7) Can  for  loop  iterate  regular  python  class  object ? ---> No  becoz  it  doesn't  have  __iter__()  method
+    Can  next()  function  iterate  regular  python  class  object ? ---> No  becoz  it  doesn't  have  __next__()  method

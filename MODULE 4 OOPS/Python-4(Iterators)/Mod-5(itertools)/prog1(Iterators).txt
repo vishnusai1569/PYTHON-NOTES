@@ -1,0 +1,17 @@
+Some  more  iterators
+--------------------------
+1) count  iterator
+
+2) zip_longest   iterator
+
+3) cycle  iterator
+
+4) repeat  iterator
+
+5) permutations  iterator
+
+6) combinations  iterator
+
+7) groupby  iterator
+
+Where  are  the  above  classes  defined ?  --->  In  itertools  module

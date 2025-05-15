@@ -1,0 +1,29 @@
+re-raise
+----------
+1) What  is  re-raise ?  --->  Error  raised  by  except  suite  is  called  re-raise
+
+2) except  IndexError:
+          raise  IndexError()
+    Is  the  above  raise  called  a  re-reaise ?  --->  Yes  becoz  it  is  raised  by  except   suite
+
+3) In  general,  where  can  raise  statement  be  used ?  --->  Inside  try  suite  and  also  inside  except  suite
+
+4) What  is  raise  statement  inside  except  suite  called  ?  --->  Re-raise
+
+5) Is  raise  inside  try  suite  called  re-raise ?  --->  No  becoz  it  is  raised  for  the  first  time
+
+6) except  ValueError:
+           reraise   ValueError()
+    Is  the  above  statement  valid ?  ---> No  becoz  there   is  no  reraise  keyword
+
+7) Can  except  suite  raise  a  differnet  error ?  --->  Yes
+
+8) except  IndexError:
+          raise  ValueError()
+    Is  the  above  raise  called  a  re-reaise ?  ---> Yes  even  though  a  different  error  is  raised
+
+9) Who  will  catch  the  reraised  error ?  --->  Outside  code
+
+10) except  IndexError:
+             print(7/0)
+      Is  7 / 0  called  reraise ?  --->  Yes  becoz  it  is  raised  by  except  suite

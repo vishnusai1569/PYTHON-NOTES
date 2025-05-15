@@ -1,0 +1,8 @@
+Advantages  of  thread
+---------------------------
+1) If  a  single  thread  executes  whole  program,
+    program  execution  is  slow  becoz  all  the  methods  and  functions  are  executed  by  only  one  thread
+
+2) On  the  otherhand,  distribute  the  work  among  threads  and
+    ensure  that  each  thread  executes  a  different  function  or  method ,
+    execution  becomes  faster  due  to  concurrent  execution  of  threads

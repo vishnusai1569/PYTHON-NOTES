@@ -1,0 +1,27 @@
+map  iterator
+----------------
+1) Is  map  a   function  (or)  class ?  --->  Class  i.e.  pre-defined  class
+
+2) What  is  the  first  argument  of  map  constructor ?  ---> Regular  function  (or)  lambda  function
+    What  is  the  2nd  argument ?  --->  At  least  one  sequence  (or)  iterator
+
+3) What  does  map(function , sequence)  do ?  --->  Creates  an  empty  map  object
+
+4) How  many  arguments  can  regular  (or)  lambda  function  take  ?  --->
+								'n'  arguments  where  'n'  is   number  of  sequences  (or)  iterators
+
+5) m = map(lambda  x , y , z :  something  , seq1 , seq2 , seq3)
+    What  are  the  values  of  arguments  x , y   and  z ?  --->  'x'  is  each  element  of  seq1 ,
+                                                                                                'y'  is  each  element  of  seq2  and
+                                                                                                'z'  is  each  element  of  seq3
+
+6) What  can  regular  (or)  lambda  function  return  ?  --->  Mapped  element  such  as   x * x
+
+7) When  is  regular  (or)  lambda  function  executed  ?  --->   For  next(m)   (or)  in  each  iteration  of  for  loop
+
+8) What  does  next(map-object)  do ?  --->  Yields  the  mapped  element
+
+9) What  is  the  use  of  map  iterator ?  --->  Maps (or) converts   each  element  of  sequence  (or)
+									 iterator  to  a  different  element
+
+10) Where  is   map  class  defined ?  --->  In  builtins  module

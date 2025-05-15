@@ -1,0 +1,43 @@
+__next__()  method
+-------------------------
+1) def   __next__(self):
+	      some  code
+
+2) What  does  __next__()  method  do  ?  --->  Returns  next  element  of  iterator  object
+
+3) How  many  arguments  can  __next__()  method  take ?  ---> No  arguments  except  self
+
+4) What  is  the  class  with  __next__()  method  called ?  ---> Iterator
+
+5) Which  pre-defined  classes  have   __next__()  method ?  --->  Every  iterator  classes
+
+6) Which  pre-defined  classes  do  not  have   __next__()  method ?  --->
+										Every  sequence , non-sequence and  other  python  classes
+
+7) What  is  the  advantage  of  having  __next__()  method  in  the  class ?  --->
+								next()  function  and  __next__()  can  iterate  the  class  object
+
+8) When  is  __next__()  method  executed ?  --->  It  is  automatically  executed  in  each  iteration  of  for  loop
+				      						                          and
+									       also  when  next(iterator)  is  called
+
+9) What  is  the  issue  when  there  is  no  __next__()  method  in  the  class ? --->
+							It  can  not  be  iterated  with  next()  function  and  for  loop
+
+10) If  __next__()  method  returns  25,  where  is  25  returned  to ?  --->  Either  for  loop  variable  'x'
+																(or)
+														     the  function  call  next(iterator)
+
+11) What  does  __next__()  method  do  when  iterator  is  fully  iterated ?  --->  Throws  StopIteration   error
+
+12) How  long  is  for  loop  executed  ?  --->  Until  __next__()  method  throws  StopIteration  error
+
+13) Can  __next__()  method  throw  (or)  raise  a  different  error  such  as  ValueError ?  --->
+								No  becoz  for  loop  internally  handles  only  StopIteration  error
+
+14) What  happens  when  __next__()  method  does  not  raise  StopIteration  error ?  --->
+						It  becomes  an  inifinite  iterator  and  the  loop  becomes  infinite  loop
+
+15) What  are  the  two  ways  to  iterate  an  iterator ?  --->  for  loop
+                                                                                                  and
+												next(iterator)

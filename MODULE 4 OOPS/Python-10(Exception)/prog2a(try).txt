@@ -1,0 +1,39 @@
+try  suite
+-----------
+1) What  is  syntax  of  try  suite ?  --->  try:
+                                                                      Risky  code
+
+2) What  is  risky  code ? --->  That  code  where  there  is  a  possibility  of  error
+
+3) What  is  the  advantage  of  try  suite ?  --->
+							Error  raised  by  try  suite  can  be  caught  (or)  handled  with  except  suite
+
+4) What  is  the  issue  with  statements  outside  try  suite ? --->
+								Error  raised  by  those  statements  can  not  be  caught  (or)  handled
+
+5) What  happens  when  error  is  not  caught ?  --->  Error  is  reported
+												and
+										     rest  of  the  program  is  skipped (abnormal  termination)
+
+6) What  is  abnormal  termination ?  --->  Program  execution  stops  suddenly
+										 and
+								  rest  of  the  program  is  skipped
+
+7) What  is  normal  termination ?   --->  Rest  of  the  program  is  executed  inspite  of  error
+
+*8) try  suite  is  used  to  protect  from  errors  so  that  errors  are  not  reported
+
+9) Can  try  suite  be  used  independently  without  except  suite  ?  --->  No
+
+10) What  does  every  try  suite  demand  ?  --->  except  suite (or)  finally  suite  (or)  both
+
+Note:
+Do  not  enclose  whole  program  in  try  suite  instead  write  those  statements  in  try  suite  where
+there  is  a   possibility  of  error
+
+Eg: 10  statements
+      try:
+	     10  statements
+      except:
+	     some  code
+      10  statements

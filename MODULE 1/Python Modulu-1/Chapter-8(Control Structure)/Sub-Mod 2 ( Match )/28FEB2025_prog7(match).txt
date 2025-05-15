@@ -1,0 +1,39 @@
+match  statement
+---------------------
+1) When  is  match  statement  recommended  ? --->  When  selection  is  involved
+    When  is  if  statement  recommended ?  --->  When  conditions  are  involved
+
+2) What  is  the  advantage  of  match ?  --->  More  clarity  and  better  readability
+
+3) Can  every  match  statement  be  replaced  with  if ?  --->  Yes
+    Can  every  if  be  replaced  with  match ?  --->  Yes  but  not  guaranteed
+
+4) Is  match  object  valid ?  --->  No  becoz  :  is  missing  at  the  end  of  match
+
+5) Can  match  object  be  float ?   --->  Yes (Only  in  python)
+
+6) In  other  words,  match  object  can  be  any  python  object	
+
+7) Is  case  7   valid ?  --->  No  becoz  :  is  missing  at  the  end  of  case
+
+8) Is  case  7:  valid  ?  --->  Yes
+    Is  case  10.8:  valid  ?  --->  Yes  but  only  in  python
+    Is  case  'Hyd':  valid ?  --->  Yes  but  only  in  python
+    Is  case  [10,20,15]:  valid ?  --->  Yes
+
+9) x = 25
+    Is  case  x:  valid ?  --->  No  becoz  'x'  is  a  reference  but  not  an  object
+
+10) In  general,  what  is  the  case  label ?  --->  Object  but  not  reference
+
+Note:
+When  there  are  too  many  if ... elif  statements,  match  is  used  as  an  alternative
+
+
+case   _
+----------
+1) When  is  case  _   executed ?  --->  When  none  of  the  cases  are  executed
+
+2) Where  can  case  _  be  used  in  match  ?  --->  At  the  end  of  match
+
+3) Can  there  be  match  without  case  _ ?  --->  Yes  becoz  case  _  is  optional

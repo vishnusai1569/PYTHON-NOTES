@@ -1,0 +1,30 @@
+Semaphore  lock
+-------------------
+1) How  to  create  a  Semaphore  object ?  --->  s = Semaphore(n)
+
+2) What  does  Semaphore(n)  indicate  ?  --->
+						Semaphore  object  can  be  locked  a  max  of  'n'  times  either  by  same  thread  (or)
+						different  threads
+
+3) s = Semaphore()
+    What  is  the  default  argument  of  Semapahore  constructor ?  ---> 1
+
+4) What  does  s = Semaphore()  indicate  ?  ---> Semaphore  object  can  be  locked  only  once
+									     i.e.  Same  as  Lock  object
+
+5) What  are  the  two  methods  of  Semaphore  class  ?  ---> acquire()  and  release()
+
+6) sem = Semaphore(3)
+    def   f1():
+	    sem . acquire()
+	    some code
+	    sem . release()
+     How  many  threads  can  execute  f1()  function ?  ---> A  max  of  3  threads  at  the  same  time
+
+7) Where  is  Semaphore  class  defined  ?  ---> In  threading  module
+
+8) When  is  Semaphore  recommended  ? --->
+								When  multiple  threads  need  to  access  Database , Network  and  so  on
+
+9) In  otherwords,  10  persons  can  access  database  at  a  time ,
+    5  persons  are  allowed  for  network  connection   and  so  on

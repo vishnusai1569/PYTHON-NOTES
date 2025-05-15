@@ -1,0 +1,19 @@
+default  except
+------------------
+1) What  is  default  except ?  --->   An  except  suite  without  error  class
+
+2) What  is  the  syntax  of  default  except ?  --->  except:
+											statements
+
+3) When  is  default  except  suite  executed ?  --->  For  every  error  becoz  error  class  is  not  specified
+
+4) Which  error  can  the  default  except  catch ?  --->  Every  error
+
+5) Where  can  default  except  be  written ?  ---> At  the  end
+										i.e.  After  all  the  except  suites
+
+6) How  many  default  except  suites  are  permitted  for  a  try  suite ?  --->  One  (or)  none  but  not  more  than  one
+
+7) except  as  msg:
+		some  code
+    Is  the  above  except  suite  valid ?  --->  No  due  to  as  keyword

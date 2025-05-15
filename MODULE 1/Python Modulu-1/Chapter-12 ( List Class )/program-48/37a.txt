@@ -1,0 +1,30 @@
+'''
+Write  a  program  to  add  two  lists  of  unequal  length  without  comprehension
+
+Let  1st  list  be  [10 , 20 , 30 , 40 , 50 , 60 , 70]  and  2nd  list  be  [100 , 200 , 300 , 400]
+What  is   the  result ?  --->  [10 + 100 , 20 + 200 , 30 + 300 , 40 + 400]
+'''
+a = eval(input('Enter  1st  list  :  '))
+b = eval(input('Enter  2nd  list  :  '))
+small = min(len(a) , len(b))
+c = []
+for   i  in   range(small):
+	c . append(a[i] + b[i])
+print(c)
+
+
+'''
+List    a  ---> [10 , 20 , 30 , 40 , 50 , 60 , 70]
+List    b  ---> [100 , 200 , 300 , 400]
+len(a)  --->  7
+len(b)  ---> 4
+small  --->  4
+
+      i     a[i]     b[i]    a[i] + b[i]     list  'c'
+  ---------------------------------------------------------
+                                                        []
+      0    10        100       110              [110]
+      1    20        200       220              [110 , 220]
+      2    30        300       330              [110 , 220 , 330]
+      3    40        400       440              [110 , 220 , 330 , 440]
+'''

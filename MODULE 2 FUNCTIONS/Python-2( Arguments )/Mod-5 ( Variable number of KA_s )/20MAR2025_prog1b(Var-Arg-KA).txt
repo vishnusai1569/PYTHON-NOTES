@@ -1,0 +1,40 @@
+Variable  number  of  keyword  arguments  (or)  Var-Arg  function
+----------------------------------------------------------------------------
+1) What  is  variable  number  of  keyword  arguments ?  --->  Any  number  of  keyword  arguments  can  be  passed  to  the  function  
+								                                 Eg: f1(Arg1 = Value1 , Arg2 = Value2 , Arg3 = Value3 , .......)
+
+2) def  f1(**a):
+	   pass
+    Is  f1()  a  var-arg  function ?  --->  Yes  due  to  **  in  the  function  header
+   
+3) What  does  **  indicate ?  --->  Var-arg  parameter
+
+4) What  does  pvm  do  when  var-arg  function  is  called ?  --->  														
+							All  the  keyword  arguments  passed  to  the  function  are  represented  in  a  dictionary  and  
+							dictionary  is  passed  to  the  function
+
+5) f1(EmpNo = 25 , EmpName = 'Sita' , Salary = 10000.0)
+    What  is  passed  to  f1()  function  ? --->  A  dictionary  of  three  key : value  pairs
+
+6) Why  are  keyword  arguments  not  passed  to  the  function ?  --->  Due  to  **  in  the  function  header
+
+7) f1(Arg1 : Value1 , Arg2 : Value2 , Arg3 : Value3 , .......)
+    Is  the  above  function  call  valid ?  --->  No  becoz  delimeter  should  be  '='  between   the  argument  and  value 
+
+8) f1(No  args)  
+    What  is  passed  to  f1()  function ?   --->  Empty dictionary
+
+9) def  f1(**a)
+	    pass
+     Is  f1(10 , 20 , 30)  valid ?  --->  No  due  to  positional  args  as  there  is  **  in  the  function  header
+      
+10) In  other  words ,  var-arg  parameter  should  be  keyword  arguments  only  due  to  **
+
+11) def  f1(**a = {}):
+            pass
+     Is  the  above  function  valid ?  --->  No  becoz  var-arg  parameter  can  not  have  default  value
+
+12) def  f1(x = 25 , **a):
+            pass
+      Is  the  above  function  valid ?  --->  Yes  becoz  default  args  and  non-default  args  can  be  in  any  order 
+								due  to  the  presence  of  **

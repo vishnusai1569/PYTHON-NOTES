@@ -1,0 +1,17 @@
+reversed  iterator
+---------------------
+1) What  does  reversed(string)  do ? --->  Creates  an  empty  reversed  object  but  doet  not  reverse  the  string
+
+2) r = reversed('Hyd')
+    What  does  next(r)  do ?  --->  Yields  'd'
+    What  does  next(r)  do ?  --->  Yields  'y'
+    What  does  next(r)  do ?  --->  Yields  'H'
+    What  does  next(r)  do ?  --->  Throws  StopIteration  error  becoz  reversed  object  is  fully  iterated
+
+3) In  general,  what  does  next(reversed-object)   do ?  --->  Yields  next  char  of  the  string  in  reverse  order
+
+4) Is  reversed  a  function  (or)  class  ?  --->  class   i.e. pre-defined  class
+
+5) In  other  words,  every  iterator  is  a  pre-defined  class  except  generator  which  is  a  function
+
+6) Where  is  reversed  class  defined  ?  --->  In  builtins  module

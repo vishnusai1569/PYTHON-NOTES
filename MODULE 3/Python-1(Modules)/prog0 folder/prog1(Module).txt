@@ -1,0 +1,20 @@
+Module
+---------
+1) What  is  a  module  ?  --->  File
+
+2) What  does  a  module  contain ?  --->  A  group  of  classes , functions , variables(i.e. objects)  and  code(i.e. statements)
+
+3) Can  a  module  be  used  in  a  different  module ?  --->  Yes  with  import  statement
+
+4) What  are  pre-defined  modules ?  --->  sys ,  io ,  time , random  , math  , os , builtins  and  so  on
+
+5) What  is  the  advantage  of  module ?  --->  Modular  programming
+
+6) What  is  modular  programming  ? --->  Dividing  a  large  program  into  a  separate , smaller
+								  and   more  manageable  subtasks (or)  modules
+
+7) What  are  the  four  advantages  of  modular  programming ?  --->
+     a) Simplicity  --->  Focus  on  simple  problem  instead  of  focusing  on  entire  program
+     b) Maintainability  ---> Each  person  defines  few  modules
+     c) Reusability   --->  A  module  can  be  reused  by  a  differnet  module
+     d) Scoping  --->  Members  of  the  module  can  be  accessed  by  modulename . membername

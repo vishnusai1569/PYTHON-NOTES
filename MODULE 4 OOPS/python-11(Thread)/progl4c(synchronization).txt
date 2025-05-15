@@ -1,0 +1,14 @@
+Synchronization
+-------------------
+1) When  a  function  or  method  is  being  executed  concurrently  by  different  threads,
+    there  is  a  possibility  of  obtaining  incorrect  results
+
+2) This  is  called  Race  condition  (or)  data  inconsistency
+
+3) Locking  mechanism  is  used  to  avoid  race  condition
+
+4) What  are  the  four  different  types  of  locks  ?  --->  Lock , Rlock  , Semaphore and  Condition
+
+5) Where  are  they  defined ?  --->  In  threading  module
+
+6) Where  are  acquire()  and  release()  methods  defined ?  --->  In  all  the  four  classes

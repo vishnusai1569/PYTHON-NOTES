@@ -1,0 +1,63 @@
+raise  statement
+--------------------
+1) What  does  raise  statement  do ? --->  Raises  (or)  throws  error  explicitly
+
+2) What  are  the  two  syntaxes  of  raise  statement ?  --->  a) raise  error_class_name(argument)
+												  b) raise  error_class_name()
+
+3) raise  ValueError('Hyd')
+    What  are  the  three  events  ? --->  a) Creates  ValueError  object
+							       b) Initializes  object  with  'Hyd'  with  constructor  of  ValueError  class
+						               c) Passes  object  to  except  suite  and  'Hyd'  is  copied  to  msg  variable
+
+4) raise  IndexError()
+    What  are  the  three  events ? --->  a) Creates  IndexError  object
+    							      b) Initializes  object  with   empty  string  with  constructor  of  IndexError  class
+							      b) Passes  object  to  except  suite  and  msg  variable  contains  empty  string
+
+5) raise  IndexError()
+    Are  ()  mandatory  ?  ---> No  due  to  no  arguments
+
+6) raise  IndexError("Hyd")
+    Are  ()  mandatory  ?  ---> Yes  due  to  an  argument
+
+7) raise  TypeError(10 , 20)
+    Is  the  above  statement  valid ?  ---> No  due  to  morethan  one  argument
+
+8) How  many  arguments  can  constructor  of  Error  class  take ?  --->  0  (or)  1
+
+9) What  is  the  next  statement  executed  after  raise  ?  --->  except  suite
+
+10) What  happens  when  there  is  no  suitable  except  suite ?  --->  Error  is  reported
+
+11) Where  can  raise  statement  be  used ?  --->  Inside  try  suite
+
+12) What  happens  when  raise  statement  is  used  outside  try  suite  ? --->
+												Error  can  not  be caught  and  error  is  reported
+
+13) What  happens  to  statements  following  raise ? --->  Skipped
+
+14) When  is  raise  statement  recommended ? --->  To  test  how  the  program  behaves  in  case  of  an  error
+											          and
+										   to  raise  user  defined  errors
+
+15) Which  of  the  following  are  valid ?
+      a) raise  ValueError(25)  --->  Valid
+      b) raise  IndexError()  --->  Valid
+      c) raise  NameError  ---> Valid  and  ()  are  optional  when  there  is  no  argument
+      d) raise  25  --->  Error  becoz  25  is  not  an  Error object
+      e) raise  'Hyd'  --->  Error  becoz  'Hyd'  is   not  an  Error  object
+      f) raise  c1()  --->  Valid  provided  c1  is  a  child  class  of  any   error  class  and  invalid  otherwise
+
+
+Note:
+1) 7 / 0
+    int('Ten')
+    10 + '20'
+    Who  is  raising  error  in  the  above  three  statements ?  --->  PVM
+
+2) Can  programmer  also  raise  error ?  --->  Yes  with  raise  statement
+
+3) Who  can  raise  pre-defined  errors ?  ---> Both  PVM  and  Programmer
+
+4) Who  can  raise  user-defined  errors ?  --->  Only  programmer  with  raise  statement

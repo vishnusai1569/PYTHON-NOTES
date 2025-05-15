@@ -1,0 +1,17 @@
+# NoneType  object  demo  program
+a = None  #  Ref  'a'  points  to  object  None
+print(type(a))  #  Type  of  object 'a'  i.e.  <class  'NoneType'>
+print(a) #  Value  of  object  'a'  i.e.  None
+print(id(a)) #   Address  of  object  None  
+print(id(None))#   Error  due  to  'n'
+
+
+
+'''
+1) Is  NoneType  a  class  (or)  object ?  ---> class
+    What  about  None ?  --->	Object
+
+2) Where  is  NoneType  class  defined ?  ---> In  builtins  module
+
+3) Is  None  a  user  defined  word  (or)  keyword ?  --->  Keyword
+'''

@@ -1,0 +1,15 @@
+sleep() function
+-------------------
+1) What  does  sleep(10)  do ? --->  Thread  sleeps  for  10  seconds
+
+2) What  happens  after  10  seconds ?  --->  The  sleeping  thread  is  ready  for  execution
+
+3) Is  thread  executed  after  10  sec ?  --->  Not  guranteed  becoz  it  depends  on  several  internal  factors
+
+4) When  does  the  thread  resume  execution ?  --->  As  soon  as  TS  picks  the  thread  for  execution
+
+5) What  does  TS  do  when  a  thread  is  sleeping ?  --->  Executes  some  other  thread
+
+6) Where  is  sleep()  function  defined ?  --->   In  time  module  but  not  in  threading  module
+
+7) What  is  the  argument  of  sleep()  function  ?  --->  Seconds

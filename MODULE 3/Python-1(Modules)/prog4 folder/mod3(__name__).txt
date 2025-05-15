@@ -1,0 +1,27 @@
+__name__  variable
+-----------------------
+1) What  is  value  of  __name__  variable ? --->   Either  '__main__'  (or)  module  name  (imported  module  name)
+
+2) When  is  the  value  of  __name__  variable   '__main__' ?  --->
+									When  the  module  is   executed  directly  with  py  modulename . py
+
+3) When  is  the  value  of  __name__  variable  modulename ?  --->
+										      When  the  module  is  imported  with  import  statement
+
+4) mod1 . py
+    ----------
+    print(__name__)
+    What  is  the  output  of  the  above  statement  when  mod1  is  executed  directly  with  py mod1 . py ?  --->  '__main__'
+    What  is  the  output  of  the  above  statement  when  mod1   is  imported  with  import  mod1 ?  --->  'mod1'  itself
+
+5) What  is  the  type  of  __name__  variable ?  --->  str
+
+6) What  is  the  use  of  __name__  variable ?  --->
+							It  determines  whether  the  module   is  executed  directly  (or)  imported  elsewhere
+
+7) How  to  prevent  execution  of  few  statements  when  module  is  imported  elsewhere ? --->
+								Enclose  those  statements  under  if   condition    __name__ == '__main__'
+
+8) Who  is  initializing  __name__  variable  and  when ?   --->  PVM  as  soon  as  module  is  executed  (or)  imported
+
+9) Finally  __name__  is  called  environment  variable

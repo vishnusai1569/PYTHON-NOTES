@@ -1,0 +1,20 @@
+LifoQueue  class
+-------------------
+1) What  is  LifoQueue ?  --->  LIFO  i.e. Last   In  First  Out
+
+2) Which  element  is  removed  from   LifoQueue ?  --->  Last  element
+
+3) How  to  create  LifoQueue  class  object ?  --->  stack = LifoQueue()
+
+4) Where  is  LifoQueue  class  defined ?  --->  In  queue  module
+
+5) What  are  the  three  methods  of  LifoQueue  class ?  --->  put() , get() , empty()
+
+6) What  does  put(x)  do  ?  --->  Inserts  'x'   into   LifoQueue  object
+
+7) What  does  get()  method  do ? --->  Removes  last  element  of  LifoQueue  and  returns  the  deleted  element
+
+8) What  does  get()  method  do  when  LifoQueue  is  empty ?  --->
+										Thread  waits  until  an  element  is  inserted  into  LifoQueue
+
+9) What  does  empty()  method  do ?  ---> Returns  True  when  LifoQueue  is  empty  and  False  otherwise

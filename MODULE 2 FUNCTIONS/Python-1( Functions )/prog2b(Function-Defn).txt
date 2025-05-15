@@ -1,0 +1,48 @@
+Function  definition
+------------------------
+1) def   functionname(arguments):  
+		stmt1
+		stmt2
+		stmt3
+		......
+
+2) What  is  the  keyword  to  define  a  function ?  --->  def
+
+3) What  does  function  definition  do ?  --->  Informs  pvm  about  the  task  performed  by  the  function
+
+4) How  many  arguments  can  a  function  have ?  --->  					
+						0 , 1  (or) more  than  one  and  it  all  depends  on  the  task  performed  by  the  function
+
+5) def  f1():  
+    What  is  the  above  line  called  ?   --->  Function  header
+
+6) def   f1()
+           statement
+     Is  the  above  function  valid ?  --->  No  becoz  there  is  no  :  at  the  end  of  function  header
+
+7) def  f1():
+     stmt1
+     stmt2
+     stmt3
+     Is  the  above  function  valid ?  --->  No  becoz  statements  of  the  function  should  be  preceded  with
+						                at  least  one   spacebar  (or)  tab  key  due  to  :  at  the  end  of  function  header
+
+8) In  other  words,  statements  of  the  function  should  be  indented
+
+9) def  f1():
+	  stmt1
+		stmt2
+		      stmt3
+     Is  the  above  function  valid ?  ---> No  becoz  statements  of  the  function  are  not  indented 
+							      i.e. They  are  not  in  same  column
+
+10) How  to  define  an  empty  function  ?  --->  def   f1():
+                                                                                    pass
+
+11) Every  function  should  have  at  least  one  statement  i.e.  pass
+
+
+Note
+1) Does  python  have  function  prototype  ?  --->  No
+
+2) In  other  words,  python  function  can  be  called  directly  without  any  prototype

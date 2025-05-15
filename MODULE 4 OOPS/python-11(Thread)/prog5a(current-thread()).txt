@@ -1,0 +1,12 @@
+current_thread()  function
+-------------------------------
+1) What  does  current_thread()  function  do ?  --->  Returns  that  thread  object  which  is  under  execution
+
+2) What  does  current_thread()  function  do  if  main  thread  is  under  execution ?  --->
+									Returns  main  thread  object   which  was  created  by  PVM
+    What  does  current_thread()  function  do  if  child  thread  is  under  execution ?  --->
+									Returns  child  thread  object (which  is  created  by  main  thread)
+
+3) What  is  the  use  of  current_thread()  function ?  --->  Informs  which  thread  is  under  execution
+
+4) Where  is  current_thread()  function  defined ?  --->  In  threading  module.

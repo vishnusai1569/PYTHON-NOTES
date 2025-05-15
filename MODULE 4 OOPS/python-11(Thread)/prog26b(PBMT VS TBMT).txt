@@ -1,0 +1,43 @@
+Types  of   multi-tasking
+-----------------------------
+1) Process  based  multi  tasking(PBMT)
+
+2) Thread  based  multi  tasking(TBMT)
+
+ Process  based  multi  tasking  Vs   Thread  based  multi  tasking
+----------------------------------------------------------------------------
+1) What  is  PBMT ?  ---> Muitiple  programs  are  under   execution  concurrently
+                                        Eg: Type  a  program  in  Notepad,
+				               Download  something  from  internet  explorer,
+				               Listen  to  music  in  Mp3  window,
+				               run  a  python  program  at  command  prompt
+   What  is  TBMT ?  ---> Muitiple  threads  are  under   execution  concurrently
+		                       Eg: Notepad  has  multiple  threads
+				             i.e. One  thread  echoes  text  in  notepad  editor,
+				                  another  thread  does  word  wrap,
+					          3rd  thread  prints  text  on  printer  and  so  on
+
+2) What  is  the  smallest  unit  in  PBMT ?  --->  Process  (or)  program
+    What  is  the  smallest  unit  in  TBMT ?  --->  Thread  i.e. Part  of  the  program
+
+3) Is  process  a  big  picture  (or)  small  picture ?  --->  Big  picture
+    What  about  thread ?  ---> Small  picture
+
+4) Why  is  process  called  heavy  weight ?  --->
+							Since  it  requires  more  memory, too  many  resources  and  lot  of  processor  time
+    Why  is  thread  called  light  weight ?  --->
+							Since  it  requires  small  memory, few  resources  and  small  processor time
+
+5) Who  controls  all  the  processes ?  --->  O.S.
+     Who  controls  all  the  threads ?  ---> Thread  scheduler  which  is  a  part  of  PVM
+
+6) What  about  inter  process  communication ?  --->  Costly  and  limited
+    What  about  inter  thread  communication ?  ---> Cheap  due  to  notify()
+
+7) What  about  context  switch  from  one  process  to  another  process ?  --->
+												Takes  longer  time  becoz  process  is  heavy  weight
+    What  about  context  switch  from  one  thread  to  another ?  --->
+												Takes  small  time  becoz  thread  is  light  weight
+
+8) What  is  context  switch ?  --->  Saving  details  in  the  stack  and  removing  details  from  the  stack.
+							(Details  like  address  of  next  statement  and  values  of  objects)

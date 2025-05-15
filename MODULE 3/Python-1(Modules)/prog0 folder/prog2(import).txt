@@ -1,0 +1,74 @@
+import  statement
+---------------------
+1) What  is  the  syntax  of  import  statement ?  --->  import  modulename
+
+2) What  does  import  statement  do ?  ---> Imports  module  and  statements  of  the  module
+    What  are  not  imported ?  --->  Members  of  the  module
+							i.e.  classes , functions  and  objects
+
+3) Are  statements  of  the  module  called  members  of  the  module ?  --->  No
+
+4) Is  method  a  member  of  the  module ?  ---> No  and  it  is  a  member  of  the  class
+    What  about  function ?  --->  It  is  a  member  of  module
+
+5) Can  a  module  be  used  without  import ?  --->  No
+
+6) What  is  the  pre-requisite  to  use  a  module ?  --->  It  needs  to  be  improted
+
+7) Can  builtins  module  be  used  without  import ?  --->  No
+
+*8) In  other  words,  import  the  module  first  and  then  we  are  permitted  to  use  the  module
+
+9) import  non-existing-module
+    What  does  the  above  statement  do ?  --->  Throws  ModuleNotFoundError
+
+10) How  to  use  members  of  the  module  after  the  module  is  imported ?  ---> modulename . membername
+
+11) Can  members  be  used  directly  without  module  name  prefix ?  --->  No  becoz  they  are  not  imported
+
+12) Can  import  statement  be  used  in  the  middle  of  the  program ?  --->  Yes
+
+13) In  other  words , modules  can  be  imported  any  where  in  the  program  but  not  necessarily  at  the
+      begining  of  the  program.
+
+14) Can  module  be  imported  after  using  the  module  name  ?  --->  No
+
+15) In  other  words,  module  can  be  used  only  after  it  is  imported
+
+16) How  to  import  multiple  modules  in  a  single  statement ?  --->  import  module1 , module2 , module3
+
+17) What  is  module  alias ? --->  Importing  module  with  another  name
+
+18) How  is  module  alias  achieved ?  --->  With  'as'  keyword
+
+19) import  math  as  m
+     What  does  the  above  statement  do ? --->  Imports  math  module  with  another  name  'm'
+
+20) import  math  as  m
+      How  to  use  members  of  math  module ?  --->  m . member
+      Is  math . member  valid ?   --->  No  becoz  math  module  is  not  imported
+
+21) In  other  words,  old  name  can  not   be  used  after  module  alias
+
+22) When  is  module  alias  recommended ?  --->  When  modulename  is  too  long
+
+23) import  random  as  r ,  sys   as  s  ,  math  as  m
+      What  does  the  above  statement  do ? --->  Imports  three  modules  with  new  names   'r' , 's'  and  'm'
+
+24) import   sys  , random  , math  as   s , r , m
+      What  does  the  above  statement  do ? --->  Throws  error  becoz  modules  r  and  m  are  invalid  modules
+
+25) What  are  three  different  syntaxes  of  import  statement ?  --->  a) import  module
+														   b) import  module1 , module2 , module3 , ....
+										 c) import  module1  as  m1 , module2  as  m2 , module3  as  m3 , ....
+
+26) Can  module  be  imported  inside  the  function ?  --->  Yes  and  it  is  called  local  import
+
+27) What  is  the  dis-advantage  of  local  import ?  ---> Other  functions  and  outside  the  function
+											 can  not  use  the  module
+
+28) import  io
+      def   f1():
+	     import   sys
+      Who  can  use  sys  module ?  --->  Just  f1()  function  becoz  it  is  imported  local  to  f1()  function
+      Who  can  use  io  module ?  --->  Whole  program  becoz  it  is  imported  globally

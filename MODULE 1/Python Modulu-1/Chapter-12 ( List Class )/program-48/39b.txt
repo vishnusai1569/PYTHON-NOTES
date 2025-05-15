@@ -1,0 +1,12 @@
+'''
+(Home  work)
+Repeat   previous  program  with  comprehension
+
+Input1 :   [10 , 20 , 15 , 18 , 25 , 32]
+Input2 :  [30 , 40 , 10 , 25 , 15]
+Output :  [20 , 18 , 32]
+'''
+a = eval(input('Enter 1st  list  :  '))
+b = eval(input('Enter 2nd  list  :  '))
+c = [ x  for  x  in   a  if  x  not  in  b]
+print('Elements  of  1st  list  which  are  not  in  2nd  list  :  ' , c)

@@ -1,0 +1,65 @@
+Package
+----------
+1) What  is  a  package ?  --->  A  group  of  related  modules  and  sub-packages
+
+2) What  is  another  name  of  package ?  --->  Folder  (or)  directory
+
+3) Can  package  be  a  sub-directory  of  a  different  directory ?  --->
+								No  and  it  should  a  sub-directory  of  current  working  directory(cwd)
+
+4) What  are  the  two  ways  to  import  module  of  a  package ?  --->  a) import  package . module
+														b) from  package  import  module
+
+5) import  module
+    import  package . module
+    What  is  the  difference  between  the  above  two  statements ?  --->
+									import  module   --->   imports  module  of  cwd
+									import  package . module  --->  imports  module  of  sub-directory
+
+6) How  to  import  members  of  the  module  in  the  package ?  --->  from  package . module  import  * (or)  members
+
+7) from  module  import  *
+    from  package . module  import  *
+    What  is  the  difference  between  the  above  two  statements ?  --->
+			from  module  import  *   --->  imports  all  the  members  of  module  which  is  in  cwd  but
+			from  package . module  import  *   --->  imports  all  the  members  of  module  which  is  in
+										       sub-directory(i.e. package)
+
+8) from  package  import  module . member
+     Is  the  above  statement  valid ?  --->  No  becoz  '.'  is  not  permitted  in  the  import  clause  of  from  statement
+
+9) import  package . module
+    How  to  use   members  of  the  module ?  --->  package . module . member
+
+10) from  package  import  module
+      How  to  use  members  of  the  module ?  ---> module . member
+
+11) from  package . module  import  member
+     How  to  use   members  of  the  module ?  --->  Just  member
+
+12) What  does  import  package  do ?  --->  Imports  package  but  not  modules  of  the  package
+
+13) import  package
+     How  to  use  members  of  the  module  in  the  package ?  --->
+
+
+     Not  possible  becoz  module  of  the  package  is  not  imported
+
+
+_________________________________________________________________________________________________________________________________________________________
+1) What  is   a  package ---> group of packages and modules
+
+
+2) import  package . module ----->  ex: p1.mod1
+
+3) from  package  import  module -----> only module is imported
+
+
+5) from  package . module  import  * -----> ex :(from p1.mod import *)
+
+
+7) from  package  import  module . member  ----->  #error
+
+
+8) import  package
+    How  to  use  members  of  the  module

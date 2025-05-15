@@ -1,0 +1,18 @@
+for  ...  each  loop  Vs  Index  based  for  loop
+-----------------------------------------------------
+1) What  is  the  syntax  of  for  ...  each  loop ?  --->  for  x  in  sequence:
+											   statements
+    What  is  the  syntax  of  index  based  for  loop ?  --->  for  i   in  range(len(sequence):
+										     	     	        statements
+
+2) What  does  for ... each  loop  do ?  --->  Tracks  elements  of  sequence
+     What  does  indexed  based  for  loop  do ?  ---> Tracks  indexes  of  elements  in  the  sequence
+
+3) How  is  each  element  denoted  in  for ...  each  loop ?  --->  'x'
+    How  is  each  element  denoted  in  index  based  for  loop ?  --->  sequence[i] 
+
+4) Which  loop  is  simple  in  syntax ?   --->  for  each  loop  becoz  range()  and  len()  are  not  used
+
+5) Which  loop  is  powerful ?  --->  Indexed  based  for  loop  becoz  it  can  track  both  indexes  and  elements
+
+6) What  is  the  issue  with  for  ...  each  loop ?  ---> It  can  track  elements  only  but  not  their  indexes

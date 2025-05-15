@@ -1,0 +1,16 @@
+Octal  integer
+----------------
+1) What  is  the  prefix  of  octal  number  ?  --->  0o (or)  0O
+
+2) What  are  the  valid  digits  in  octal  number ? ---> 0  to  7
+
+3) What  is  the  base  of  octal  number ?  --->  8  due  to  eight  digits  0  to  7
+
+4) Which  digits  are  not  permitted  in  octal  number ?  ---> 8  and  9
+
+5) a = 0O6247  
+    What  does  object  'a'  contain (octal  number  (or)  decimal  equivalent) ?  ---> Decimal  equivalent  
+
+6)  In  other  words,  octal  number  is  automatically  converted  to  decimal  number and decimal  number  is  stored  in  the  object
+
+7) What  does  print(octal  number)  do ? --->  Prints  decimal  equivalent  of  the  number

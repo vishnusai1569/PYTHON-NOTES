@@ -1,0 +1,61 @@
+abstract  class
+------------------
+1) from  abc  import  ABC , abstractmethod
+    class  c1(ABC):
+            @abstractmethod
+   	    def    m1(self):
+		     pass
+    class  c2(c1):
+	     def   m1(self):
+		    statements
+
+2) What  is  an  abstract  class ?  --->  A  class  which  is  a   child  (or)  grandchild  to  ABC  is  called  an  abstract  class
+
+3) Is  c1  an  abstract  class ?  --->  Yes  becoz  it  is  a  child  to  ABC
+    What  about   c2 ?  --->  It  is  also  an  abstract  class  becoz  it  is  a  grandchild  to  ABC
+
+4) What  is  the  full  form  of  ABC  ?  --->   Abstract  Base  Class
+
+5) Where  is  ABC  class  defined  ?  --->  In  abc  module
+
+6) How  many  abstract  methods  can  an  abstract  class  have ?  --->  0 , 1  (or)  more  than  1  abstract  method
+
+7) Can  abstract  class  have  an  object ?  --->   No when  there  is  at  least  one  abstract  method  in  the  class
+									   and  yes  otherwise
+
+8) Why  abstract  class  can  not  have  an  object ?  --->  Since  it  is  not  a  fully  defined  class  as  some  of  the
+											   methods  of  the  class  are  not  defined  (i.e.  abstract  methods)
+
+9) When  can  child  class  have  an  object ?  --->  When  it  is  implementing  'all'  the  abstract  methods  of  parent  class
+
+10) When  child  class  can  not  have  an object ?  --->
+							When  it  is  not  implementing  at  least  one  abstract  method  of  parent  class
+
+11) Can  there  be  an  abstract  class  without  abstract  methods ?  --->  Yes  but  not  recommended
+
+12) Can  regular  class  have  abstract  methods ?  --->  Yes  but  not  recommended
+
+13) Can  regular  class  have  an  object  when  there  is  an  abstract  method  in  the  class ?  --->
+														Yes  becoz  it  is  not  abstract  class
+
+14) Are  abstract  methods  inherited  to  child  class ?  --->  No  when  they  are  implemented  by  child  class
+													and
+												yes  otherwise
+
+15) class  parent(ABC):
+		@abstractmethod
+		def   m1(self):
+			pass
+    What  is  the  advantage  of  writing  ABC  for  parent  class ?  --->
+									child  class  should  implement  every  abstract  method  of  parent  class
+
+16) What  happens  when  child  class  fails  to  implement  at  least  one  abstract  method  of  parent  class ?  --->
+														child  class  object  can  not  be  created
+
+17) class  parent:
+		@abstractmethod
+		def   m1(self):
+			pass
+    What  happens  when  ABC  is  omitted ?  --->  child  class  may  or  may  not  implement  abstract  methods  of  parent  class
+      									      and  child  class  object  can  be  created  even  when  it  is  not  implementing
+									      abstract  methods  of  parent  class

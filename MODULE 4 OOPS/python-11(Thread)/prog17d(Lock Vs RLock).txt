@@ -1,0 +1,35 @@
+Lock  Vs  RLock
+-------------------
+1) How  many  times  can  a  Lock  object  be  locked  ?  --->  Just  once  by  any  thread
+    How  many  times  can  a  RLock  object  be  locked  ?  ---> Multiple  times  by  same  thread
+
+2) Can  a  thread  lock  already  locked  Lock  object ?  --->  No
+    Can  a  thread  lock  already  locked  RLock  object ?  --->  Yes  if  it  is  same  thread  and
+												no  if  it  is  a  different   thread
+
+3) l = Lock()
+    l . acquire()
+    l . acquire()
+    Is  the  2nd  l . acquire()  success  (or)  failure ?  --->
+									Failure  becoz  object  'l'  is  already  locked  and  hence  thread  waits
+
+4) r = RLock()
+    r . acquire()
+    r . acquire()
+    Is   the  2nd  r . acquire()  success  (or)  failure ?  --->  Success  and  object  is  locked  for  2nd  time
+
+5) l = Lock()
+    def   f1():
+ 	   l . acquire()
+	   some code
+	   l . release()
+    How  many  threads  can   execute  f1()  function ?  ---> Single  thread
+
+6) r = RLock()
+    def   f2():
+	    r . acquire()
+	    some code
+	    r . release()
+   How  many  threads  can  execute  f2()  function ?  ---> Same  thread  multiple  times
+
+7) What  is  the  similarity  between  Lock  and  RLock ?  --->  They  can  not  be  locked  by  different  threads

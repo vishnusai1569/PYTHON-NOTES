@@ -1,0 +1,33 @@
+#  Identify Error
+print('Hyd')
+	print('Sec')  #  Error  due  to  spaces  before  the  statement
+		print('Cyb')  #  Error  due  to  spaces  before  the  statement
+
+
+
+'''
+Suite  (or)  Block
+--------------------
+1) What  is  a  suite ? --->  A  group  of  statement
+       Eg:   stmt1					      	 
+             stmt2
+             stmt3
+                    ....
+
+2) What  is  indentation ? --->  Statements  of  the  suite  should  be  in  the  same  column  there  should  not  be  spacebar  (or)  tab  key  before  the  statement
+
+3) In  other  words,  every  suite  should  be  indented
+
+4) Invalid:  stmt1
+	                 stmt2
+	                       stmt3
+
+5) {
+         stmt1
+         stmt2
+         stmt3
+    }
+    Can  suite  be  in  braces ?  ---> No
+
+6) In  other  words,  braces  can  be  used  for  set  and  dictionary  but  not  for  suite
+'''

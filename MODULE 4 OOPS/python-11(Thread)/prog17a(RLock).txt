@@ -1,0 +1,26 @@
+RLock (Reentrant  Lock)
+----------------------------
+1) What  is  RLock  ?  --->  It  can  be  locked  multiple  times  by  same  thread
+
+2) In  other  words,  Locked  object  can  be  locked  again  and  again  by  same  thread
+
+3) What  about  Lock  object ?  --->  It  can  be  locked  only  once  by  any  thread
+
+4) Can  different  threads  lock  RLock  object  at  the  same  time  ?  --->  No
+
+5) Where  is  RLock  recommended  ?  --->  In  recursive  functions  and  methods
+
+6) Where  is  RLock  class  defined  ?  --->  In  threading  module
+
+7) What  are  the  two  methods  of  RLock  ?  --->  acquire()  and   release()
+
+8) r = RLock()
+    def  f1():
+	    r . acquire()
+	    f1()
+	    r . release()
+    How  many  threads  can  execute  f1()  function ?  ---> Single  thread
+
+9) Can  same  thread  execute  f1()  function  multiple  times  ?  --->  Yes
+
+10) Can  different  threads  execute  f1()  function  simultaneously ?  --->  No

@@ -1,0 +1,77 @@
+Inheritance
+--------------
+1) What  is  inheritance ?  --->  A  class  is  acquiring  properties  of  another  class
+
+2) What  are  the   properties  of  a  class ?   --->  Static  variables  and  methods
+
+3) class  c2(c1):
+             pass
+    class  c2  is  derived  from  class  c1
+
+4) What  are  inherited  from  class  c1  to  c2 ?  --->  Both  static  variables  and  methods
+
+5) In  other  words,  every  member  of  class  c1  is  inherited  to  c2
+
+6) What  is  in  class  c2  on  the  whole ?  --->  All  the  members  of  class  c1  and  new  members  of  class  c2
+
+7) In  other  words,  class  c2  has  all  the  features  of  class  c1  and  new  features
+
+8) Is  class  c2  a  brand  new  class ?  --->  No  and  it  is  an  extension  of  class  c1
+
+9) What  is  class  c1  called ?  ---> Parent  class , super  class , base  class  (or) old  class
+    What  is  class  c2  called ?  ---> Child  class , sub  class , derived  class  (or) new  class
+
+10) When  is  inheritance  recommended  ?  --->
+							To  add  new  features  to  an  existing  class  without  explicitly  modifying  the  class
+
+11) In  other  words,  a  class  can  be  enhanced  with  inheritance
+
+12) class  c1:
+             3  static  variables  and  4  methods
+     class   c2(c1):
+              5  static  variables  and  6  methods
+    What  is  in  class  c2  on  the  whole  ?  ---> 3 + 5 = 8  static  variables  and  4 + 6 = 10  methods
+
+13) Is  parent  method  inherited  to  child  class  when  same  method  exists  in  child  class ?  --->
+													No  becoz  the  method  is  already  in  child  class
+
+14) When  is  a  method  inherited  to  child  class ?  --->  When  same  method  is  not  in  child  class
+
+15) Let  parent  class  have  m1()  method  and  child  class  have  m2()  method ,
+      How  many  methods  are  in  child  class  on  the  whole ? --->  1 + 1 = 2  methods
+                                                                                                        i.e.  m1()  and  m2()
+
+16) Let  parent  class  have  m1()  method  and  child  class  also  have  m1()  method ,
+      How  many  methods  are  in  child  class  on  the  whole ? ---> Just  one
+
+17) In  other  words,  parent  class  m1()  method  is  not  inherited  becoz  child  class  already  has  m1()  method
+
+18) If  parent  class  and  child  class  have  members  with  same  name, how  are  they  distinguished ?  --->
+														super() . member  and  self . member
+
+19) What  is  the  difference  between  self  and  super()  ?  --->
+									self  refers  to  same  class  and  super()  refers  to  parent  class
+
+20) Which  methods  can  be  called  wrt  child  object ?  --->  Both  parent  and  child  methods
+      Which  methods  can  be  called  wrt  parent  object ?  ---> Only  parent  methods
+
+21) Let  parent  class  have  3  methods  and  child  class  have  5  methods,
+      How  many  methods  can  be  called  wrt  child  object  ?  ---> 3 + 5 = 8 methods
+      How  many  methods  can  be  called  wrt  parent  object  ?  ---> Three  methods
+
+22) Which  class  is  the  parent  class  to  all  python  classes  ?  ---> object  class
+
+23) class  c1(object):
+                pass
+      Is  object  mandatory  for  the  above  class ?  --->
+								No  becoz  object  is  the  default  parent  class  to  every  python  class
+
+24) Where  is  object  class  defined ?  ---> In  builtins  module
+
+25) When  is  super()  not  required  to  access  parent  class  member  ?  --->
+									When  there  is  no  member  with  same  name  in  child  class
+
+26) Are  values  of  parent  object  copied  to  child  object  when  child  object  is  created  ?  --->
+							No  becoz  inheritance  is  from  class  to  class   but  not  from  object  to  object
+
+27) In  other  words , instance  variables  are  not  inherited

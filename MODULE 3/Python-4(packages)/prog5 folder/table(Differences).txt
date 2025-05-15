@@ -1,0 +1,20 @@
+__all__  list   of  module   Vs   __all__  list  of  package
+-----------------------------------------------------------------
+1) What  is  __all__  list   wrt  module ?  --->  List  of  members  which  are  imported  when  imported  with  *  operator
+    What  is  __all__  list  wrt  package ?  ---> List  of  modules  which  are  imported  when  imported  with  *  operator
+
+2) Where  is  __all__  list  defined  wrt  module ?   --->  In  the  module  itslef
+    Where  is  __all__  list  defined  wrt  package ?   --->  In  __init__  module  of  the  package
+
+3) from   mod1  import  *
+    Which  members  are  imported  when  mod1  has   __all__  =  ['x' , 'f1',  'c1']  ?  --->  Members  x , f1  and  c1
+     from  p1  import  *
+     Which  modules  are  imported   when   __init__ . py  of  package  p1   has  __all__ =  ['mod1' ,  'mod3'] ? --->
+														Modules  mod1  and  mod3  of  package  p1
+
+4) from  module  import  *
+    Which  members  are  imported   when  __all__  list  is  not  defined  in  the  module ?  --->
+						Every  member  of  the  module  is  imported  becoz   default  __all__  is  all  the  members  of  the  module
+    from  package   import  *
+    Which  modules  are  imported   when  __all__  list  is  not  defined  in  the  package ?  --->
+													Nothing  becoz   default  __all__  is  empty  list  in  the  package

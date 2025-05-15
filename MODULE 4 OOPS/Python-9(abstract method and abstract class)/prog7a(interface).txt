@@ -1,0 +1,62 @@
+Interface
+------------
+1) What  is  an  interface ?  --->  Every  method  of  class  is  abstract
+
+2) In  other  words, interface  informs  what  to  do  ?  but  not  how  to  do  ?
+
+3) In  other  words,  interface  is  a  service  requirement  specification
+
+4) Who  should  implement  the  interface ?  --->  Child  classes   (or)  implementation  classes
+
+5) class  c1(ABC):
+		@abstractmethod
+		def      m1(self):
+			pass
+		@abstractmethod
+		def      m2(self):
+			pass
+		@abstractmethod
+		def      m3(self):
+			pass
+    Is  c1  an  interface ? --->  Yes  becoz  every  method  of  class  c1  is  abstract  and  c1  is  a  child  class  of  ABC
+
+5) class  c2(ABC):
+	   @abstarctmethod
+	   def  m1(self):
+		  pass
+           def  m2(self):
+	          pass
+    Is  c2  an  interface ?  --->  No  becoz  m2()  is  not  an  abstract  method
+
+6) interface  i1:
+	     pass
+    Is  i1  an  interface ?  --->  Error  becoz  there  is  no  interface  keyword
+
+Note:
+1) class   parent(ABC):  --->  interface
+	@abstractmethod
+	def   study(self):
+		pass
+    class   child1(parent):  --->  1st  implementation  class
+	def  study(self):
+		print('Study  from  text  book')
+    class   child2(parent):  --->  2nd  implementation  class
+	def  study(self):
+		print('Study  from  note  book')
+    class   child3(parent):  --->  3rd  implementation  class
+	def  study(self):
+		print('Study  from  website')
+
+2) class   c1(ABC):  --->   interface
+	@abstractmethod
+	def   food(self):
+     	        pass
+    class   c2(c1):  ---> 1st  implementation  class
+	def  food(self):
+		print('Have  vegetarian  food  so  that  helath  is   good')
+    class   c3(c1):  --->   2nd  implementation  class
+	def  food(self):
+		print('Have  Non-vegetarian  food  but  it  is  a   sin')
+    class   c4(c1):  --->  3rd  implementation  class
+	def  food(self):
+		print('Have  Fastfood  so  that  health  is  spoiled  very  fast')

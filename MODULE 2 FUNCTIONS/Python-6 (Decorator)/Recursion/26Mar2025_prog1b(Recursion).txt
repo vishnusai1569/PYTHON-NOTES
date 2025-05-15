@@ -1,0 +1,24 @@
+Recursion
+------------
+1) What  is  recursion  ?  --->  Function  calls  itself
+                                               Eg: fact()  function  calls  itself,
+                                                     gcd()  function  calls  itself
+
+2) 4!  =  4  *  3! 
+    This  is  recursive  definition  of  factorial  becoz  factorial  is  defined  interms  of  itself
+
+3) What  is  the  key  to  every  recursion ?  --->  Terminating  point
+								               i.e. When  the  recursion  is  to  be  suspended
+
+4) What  is  termination  point  for  factorial ?  --->  0  becoz  0!  =  1
+
+5) n!  =  n * (n - 1)!   if    n > 0
+         =  1  if   n = 0
+    How  long  recursion  continues  for  factorial ?  --->  As  long  as  n > 0
+    When  is  the  recursion  suspended  ?  ---> The  moment  'n'  becomes  0
+
+6) What  is  mandatory  in  every  recursive  function  ?  --->  if  statement
+
+7) What  is  the  issue  when  recursive  function  does  not  use  if  statement  ?  --->  It  leads  to  infinite  recursion
+
+8) What  are  the  two  ways  to  implement  a  function ?  --->  Iteration  and  Recursion  

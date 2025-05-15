@@ -1,0 +1,55 @@
+Iterator
+----------
+1) What  is  an  iterator ?  --->   Elements  are  yielded  one  at  a  time  on  demand  but  not  all  simultaneously
+
+2) In  other  words,  elements  are  yielded  as  and  when  they  are  needed  but  not  in  advance
+
+3) What  are  the  different  iterators ? --->
+					Generator , enumerate , zip , reversed , list_reverseiterator , filter , map  and  so  on
+
+4) What  are  the  two  drawbacks  of  sequences ?  --->
+    a) Waiting  time  when  too  many  elements  are  to  be  stored  in  the  sequence
+    b) Possibility  of  memory  error  when  there  is  not  enough  memory
+
+5) When  is  iterator  recommended ?  --->  When  too  many  elements  are  to  be  iterated  /  processed
+
+6) What  are  the  two  advantages  of  iterator ?  --->  a) No  waiting  time  i.e. Quick  results
+					b) No  memory  error  as  elements  are  not  represented  in  the  iterator  in  advance
+
+7) What  is  special  about  iterator ?  --->  Elements  are  yielded  on  demand
+
+8) Is  iterator  indexed ?  --->  No  becoz  it  is  an  empty  object
+
+9) Can  iterator  be  accessed  randomly ?  --->  No  becoz  there  are  no  indexes
+
+10) Therefore  iterator  can  be  accessed  sequentially  but  not  randomly
+
+11) Can  iterator  be  sliced ?  --->  No  becoz  it  is  not  indexed
+
+12) Can  iterator  be  repeated  with  *  operator  ?  --->  No  becoz  it  is  an  empty  object
+
+13) In  other  words,  iterator * 3  throws  error
+
+14) Is  len(iterator)  valid ?  --->  No  becoz  argument  of  len()  function  should  be  a  sequence  but  not  iterator
+
+15) What  does  print(iterator)  do ?  --->
+							Executes  __str__()  method  which  returns  type  and  address  of  iterator
+
+16) What  are  the  two  ways  to  iterate  an  iterator ?  --->  a)  next(iterator)  (or)  iterator .  __next__()
+												  b) for  x  in  iterator:
+
+17) What  does  *iterator  do ?  --->   All  the  elements  are  yielded  to  iterator  in  advance  and  unpacked
+
+18) What  is  the  issue  with  *iterator ?  --->
+					Waiting  time  and  possibility  of  memory  error  when  there  are  too  many  elements
+
+19) We  are  losing  the  power  of  iterator  due  to  *
+
+20) What  does  list(iterator)  do ?  --->  All  the  elements  are  yielded  to  iterator  in  advance  and  converted  to  list
+      What  does  tuple(iterator)  do ? --->  All  the  elements  are  yielded  to  iterator in  advance  and  converted  to  tuple
+      What  does  set(iterator)  do ?  ---> All  the  elements  are  yielded  to  iterator in  advance  and  converted  to  set
+
+21) What  is  the  issue  when  iterator  is  converted  to  sequence ?  --->
+					Waiting  time  and  possibility  of  memory  error  when  there  are  too  many  elements
+
+22) Hence  avoid  converting  iterator  to  sequence

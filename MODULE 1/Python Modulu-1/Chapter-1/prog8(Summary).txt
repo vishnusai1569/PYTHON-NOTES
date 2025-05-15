@@ -1,0 +1,13 @@
+Summary
+-----------
+1) What  is  25  called  ?  --->  An  int  class  object
+    What  is  10.8  called ?  ---> A  float  class  object
+    What  is  3 + 4j  called ?  ---> complex  class  object
+    What  are  True  and  False  called ?  --->  bool  class  objects
+    What  is  None  called ?  --->  A  NoneType  class  object
+
+2) How  many  int  objects  are  there  ?  --->  Infinite
+    How  many  float  objects  are  there  ?  --->  Infinite
+    How  many  complex  objects  are  there  ?  --->  Infinite
+    How  many  bool  objects  are  there  ?  ---> Just  two  i.e.  True  and  False
+    How  many  NoneType  objects  are  there ?  ---> Just  one  i.e.  None

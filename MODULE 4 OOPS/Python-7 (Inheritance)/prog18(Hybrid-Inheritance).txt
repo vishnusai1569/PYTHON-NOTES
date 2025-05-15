@@ -1,0 +1,15 @@
+Hybrid  Inheritance
+-----------------------
+1)  class  c1:
+      	    pass
+     class  c2(c1):
+            pass
+     class  c3:
+            pass
+     class  c4(c2 , c3):
+            pass
+
+2) What  is  hybrid  inheritance ? --->  Multi-level  inheritance + Multiple  Inheritance
+
+3) Which  inheritance  is  formed  with  classes  c1 , c2  and  c4 ?  --->  Multi  level  Inheritance
+    Which  inheritance  is  formed  with  classes  c2 ,  c3  and  c4  ?  ---> Multiple  Inheritance

@@ -1,0 +1,4 @@
+What  are  the  four  different  types  objects  in  python ?  --->  1) Non-sequence
+													2) Sequence
+													3) User  defined  class  object
+													4) Iterator

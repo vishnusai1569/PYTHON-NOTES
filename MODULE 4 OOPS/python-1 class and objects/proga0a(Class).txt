@@ -1,0 +1,45 @@
+Object    Oriented    Programming  (OOPS)
+							 --------------------------------------------------
+Class
+------
+1) What  is  a  class ?  --->  A  blueprint  (or)  description  (or)  template  (or)  sample  of  an  object
+
+2) What  does  a  class  contain ?  ---> A  group  of  methods
+
+3) What  is  the  keyword  to  define  a  class ?  --->  class
+    What  is  the  keyword  to  define  a  function  (or)  method ?  --->  def
+    What  is  the  keyword  to  define  a  lambda  function ?  ---> lambda
+
+4) class   c1:
+	  def   method1(self):
+		statements
+	  def  method2(self):
+		statements
+   What  is  the  above  procedure  called ?  --->  Class  definition
+
+5) What  is  c1  called ?  --->  classname
+
+6) What  does  class  definition  do ? --->  Informs  pvm  about  which  operations  can  be  made  on  the  object
+
+7) Can  object  be  created  without  defining  the  class ?  --->  No
+
+8) In  other  words,  define  the  class  first  and  then  create  object
+
+9) Can  there  be  multiple  classes  with  same  name ?  --->   No
+
+10) What  happens  when  there  are  multiple  classes  with  same  name ?  --->
+											Last  class  is  recognized  and  rest  are  discarded
+
+11) What  are  pre-defined  class  names ?  --->  int , float , complex , bool , str , list , tuple , set , dict  and  so  on
+     What  is  c1  called ?   ---> A  user  defined  class
+
+12) Can  there  be  a  class  without  methods ?  --->  Yes  and  it  is  called  empty  class
+
+13) How  to  define  an  empty  class ?  --->  class   c1:
+					   				    pass
+
+
+Note:
+1) What  does  a  java  class  contain ?  --->  Instance  variables  and  methods
+
+2) What  about  python  class  ?  --->  Methods  only

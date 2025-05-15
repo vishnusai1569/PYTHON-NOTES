@@ -1,0 +1,10 @@
+main_thread()  function
+----------------------------
+1) What  does   main_thread()  function  do ?  --->  Returns  main  thread  object  which  was  created  by  PVM
+
+2) Where  is  main_thread()  function  defined  ?  --->  In  threading  module
+
+3) What  does  main_thread()  function  do  if  child  thread  is  under  execution ?  --->
+							Returns  main   thread  object  even  though  child  thread  is  under  execution
+    What  does  current_thread()  function  do  if  child  thread  is  under  execution ?  --->
+													Returns  child   thread  object

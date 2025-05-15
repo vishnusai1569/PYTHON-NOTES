@@ -1,0 +1,13 @@
+Relational  Operators
+--------------------------
+1) What  are  the  six  different  relational  operators ?  --->  > , < , == , >= , <= , !=
+
+2) What  does  relational  operators  do ?  --->   Compares  objects   but  not  references
+     How  to  compare  references ?  --->  With  is  operator
+
+3) What  is  the  result  of  relational  operators ?  ---> True  (or)  False
+
+4) Which  operators  have  got  higher  priority  in  relational  operators  ?  --->  > , < , >= , <=
+     Which  operators  have  got  lower  priority ?  ---> == , != 
+
+5) Which  operators  have  got  higher  priority  between  arithmetic  and  relational  operators ?  --->  Arithmetic  operators

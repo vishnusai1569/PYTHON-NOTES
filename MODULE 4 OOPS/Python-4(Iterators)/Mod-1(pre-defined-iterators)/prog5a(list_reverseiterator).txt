@@ -1,0 +1,10 @@
+list_reverseiterator
+-----------------------
+1) What  does  reversed(list)  do ? --->  Creates  an  empty  list_reverseiterator  object  but  does  not  reverse  the  list
+
+2) r = reversed([25 , 10.8 , 'Hyd' , True])
+    What  does  next(r)  do ?  ---> Yields   True
+    What  does  next(r)  do ?  --->  Yields   'Hyd'
+    What  does  next(r)  do ?  --->   Yields   10.8
+    What  does  next(r)  do ?  --->  Yields   25
+    What  does  next(r)  do ?  --->  Throws  StopIteration  error  becoz  object  is  fully  iterated

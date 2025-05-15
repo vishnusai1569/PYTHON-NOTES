@@ -1,0 +1,21 @@
+return  statement
+----------------------
+1) What  is  the  syntax  of  return  statement ?  --->  return  object
+
+2) What  does  a  return  statement  do ?  --->  Returns  object  to  the  function  call
+
+3) What  happens  to  rest  of  the  function  after  return  statement  is  executed ? --->  Skipped
+
+4) In  other  words,  control  moves  out  of  the  function  as  soon  as  return  statement  is  executed 
+
+5) What  is  the  last  executable  statement  in  the  function ?  --->  return
+
+6) What  is  returned  when  there  is  no  return  statement  in  the  function ?  --->  None  is  returned  by  default
+
+7) Can  return  statement  be  used  outside  the  function ?  --->  No  and  it  can  be  used  only  inside  the  function
+
+8) How  many  objects  can  a  function  return ?  --->  Single  object
+
+9) list = [10 , 20 , 15 , 18]
+    return  list
+    What  is  returned ?  ---> Whole  list  but  not  elements  of  list

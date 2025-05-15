@@ -1,0 +1,114 @@
+Advantagess  of  inheritance
+----------------------------------
+1) Code  Reusability
+
+2) Time  and  money  are  saved
+
+3) Extensibility
+
+4) Reliability
+
+5) Method  Overriding
+
+Code  Reusability
+--------------------
+1) Parent  class  code(i.e. methods)  can  be  reused  by  child  class
+
+2) Hence  do  not  rewrite  parent  class  code  in  child  class
+
+3) Reuse  the  code  but  do  not  rewrite
+
+4) Child  class  get()  method  calls  parent  class  get()  method  in  order  to  read  new  instance  variables
+
+5) Similarly  child  class  disp()  method  calls   parent  class  disp()  method  to  print  new  instance  variables
+
+6) class   parent:
+	   def  m1(self):
+	          100  statements
+    class  child(parent):
+    	   def  m1(self):
+	          super() . m1()
+		  50  statements
+
+Time  and  money  are  saved
+----------------------------------
+1) Due  to  reusability  of  code,  time  and  money  are  saved
+
+2) Do  not  start  from  scratch  while  designing  child  class
+
+3) Child  class  design  starts  from  that  stage  where  parent  class  is  left  and
+    then  new  features  are  added  to  child  class
+
+4) Python  3.13  design  starts  from  where  python  3.12  is  left  and
+    then  new  features  are  added  to  python  3.13
+
+5) Windows  11  design  starts  from  where  windows  10  is  left
+
+Extensibility
+--------------
+1) class  c1:
+             3  static  variables  and  4  methods
+    class  c2(c1):
+            5  static  variables  and  6  methods
+
+2) class  c2  is  an  extension  of  class  c1
+
+3) class  c2  has  all  the  features  of  class  c1  and  new  features
+
+4) class  c2  has  3 + 5 = 8  variables  and  4 + 6 = 10  methods
+
+*5) In  other  words,  a  class  can  be  extended  with  inheritance
+
+6) Python  3.13  is  an  extension  of  python  3.12  and
+    Windows  11   is  an  extension  of  windows  10
+
+7) a = c1()
+    b = c2()
+    What  is  the  type  of  object  'b' ?  --->   c2  and  c1  becoz  c2  is  an  extension  of  c1
+    What  is  the  type  of  object  'a' ?  --->  Only  c1
+
+Reliability
+------------
+1) We  can  rely  on  parent  class  while  designing  child  class  becoz  parent  class  is  an  existing  class
+
+2) Child  class  methods  need  to  be  tested  for  their  functionality  becoz  they  are  newly  added  to  the  class
+
+3) But  parent  class  methods  need  not  be  tested   becoz  it  is  an  existing  class
+
+Method  Overriding
+-----------------------
+1) If  we  are  not  happy  with  any  parent  class  method,  it  can  be  modified  by  child  class
+
+2) This  modification  is  called  method  overriding
+
+3) In  otherwords,  designing  same  method  in  child  class  with  a  different  code  is  called  method  overriding
+
+Note:
+1) What  is  decorator ?  --->  Modification  of  function
+                                               i.e.  Adding  new  features  to  a  function  without  explicitly  modifying  the  function
+
+2) What  is  inheritance ?  --->  Modification  of  class
+                                                  i.e.  Adding  new  features  to  a  class  without  explicitly  modifying  the  class
+
+3) What  is  method  overriding ?  --->  Modification  of  method
+                                                              i.e.  Adding  new  features  to  a  method  without  explicitly  modifying  the  method
+
+Disadvantages  of  inheritance
+------------------------------------
+1) Execution  is  slow  due  to  redirection
+    Eg: c = child()
+          c . m1() --->  m1  method  is  searched  in  child  class   and  if  not  found  in  child  class,
+			      m1  is  searched  in  parent  class.
+	                      Therefore  m1()  method  is  searched  in  two  classes  and  execution  becomes  slow
+
+2) Improper  use  of  inheritance  may  lead  to  wrong  solutions
+
+3) Often, parent  class  methods  are  left  unused  by  child  class,   which  leads  to  memory  wastage.
+    Eg : If  parent  class  has  10  methods  but  child  class  uses  only  6  methods,
+           remaining  4  methods  are  left  unused  which  leads  to  memory  wastage
+
+4) Parent  and  child  classes  are  tightly  coupled
+    i.e.  They  are  dependent  on  each  other.
+    Any  small  change  in  parent  class  will  affect  all  the  child  classes.
+    Eg: If  parent  class  method  name  m1  is  modified  to  m2 ,  modify  the  method  call   in  child  class
+          i.e. super() . m1()  should  be  modified  to  super() . m2()

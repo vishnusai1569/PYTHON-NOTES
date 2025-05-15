@@ -1,0 +1,30 @@
+Summary
+-----------
+try:
+     stmt1
+     stmt2  --->  xxxError
+     stmt3
+except  xxxError:
+	stmt4
+except  yyyError:
+	stmt5
+else:
+	stmt6
+finally:
+	stmt7  --->  yyyError
+stmt8
+
+1) Which  statements  are  executed  when  there  is  no  error ?  --->  1 , 2 , 3 , 6 , 7 , 8
+    Is  it  normal  (or) abnormal  termination ? --->  Normal  termination  becoz  there  is  no  error
+
+2) Which  statements  are  executed  when  stmt2  raises  xxxError ? --->  1 , 2 , 4 , 7 , 8
+     Is  it  normal  (or) abnormal  termination ? --->  Normal  termination  becoz  xxxError  is  caught
+
+3) Which  statements  are  executed  when  stmt2  raises  zzzError ? ---> 1 , 2 , 7
+     Is  it  normal  (or) abnormal  termination ? --->  Abnormal  termination  becoz  zzzError  is   not  caught
+
+4) Which  statements  are  executed  when  stmt2  raises  xxxError  and  stmt4  raises  yyyError ? --->  1 , 2 , 4 , 7
+     Is  it  normal  (or) abnormal  termination ? ---> Abnormal  termination  becoz  yyyError  is   not  caught
+
+5) Which  statements  are  executed  when  stmt2  raises  xxxError  and  stmt7  raises  yyyError ? --->  1 , 2 , 4 , 7
+     Is  it  normal  (or) abnormal  termination ? ---> Abnormal  termination  becoz  yyyError is   not  caught

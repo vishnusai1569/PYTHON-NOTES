@@ -1,0 +1,46 @@
+Function  Decorator
+-----------------------
+1)  @decor
+     def  f1():
+	   statements
+
+2) What  is  a  function  decorator ?  --->  Adds  new  features  to  a  function  without  explicitly  modifying  the  function
+
+3) In  otherwords,  function  can  be  enhanced  (or)  modified  through  decorator
+
+4) Decorate  the  function  when  we  are  not  happy  with  the  function
+
+5) Which  tag  is  required  to  decorate  a  function ?  --->  @decor  where  decor  is  another  function
+
+6) Is  @decor  a  function  call ?   --->  Yes  becoz  it  is  internally  interpreted  as   f1 = decor(f1)
+
+7) What  does  decorator  function  do  ?  --->  Nothing  except  returning  inner  function
+
+8) What  does  decor(f1)  do ?  --->  Returns  inner  function
+
+9) How  is  f1 = decor(f1)  reduced  to ?  --->  f1 = inner
+
+10) Therefore  f1  points  to  inner  function
+
+11) What  does  f1()  do ?  --->   Executes  inner  function  becoz  f1  points  to  inner  function
+
+12) What  does  inner  function  do  ?  --->   Decorates  (or)  modifies  the  function  
+								     i.e.  Adds  new  features  to  the  function
+
+Rules  of  decorator  function
+----------------------------------
+1) How  many  arguments  can  decorator  function  take ?  --->  Single  argument  
+
+2) Is  inner  function  mandatory  for  decorator ? --->  Yes  becoz  decoration  is  made  in  inner  function
+
+3) How  many  arguments  can  inner  function  take ?  --->  Same  as  that  of  function  to  be  decorated
+
+4) In  other  words,  if  there  are  'n'  arguments  to  the  function  which  is  to  be  decorated, 
+    inner  function  should  also  have  'n'  arguments
+
+
+Note:
+1) Can  pre-defined  functions  be  decorated ?  --->  No  becoz  the  issue  is  where  should  @decor  be  written
+
+2) In  other  words,  only  user  defined  functions  can  be  decorated  but  not  pre-defined  functions  becoz  
+     their  source  code  is   not  available

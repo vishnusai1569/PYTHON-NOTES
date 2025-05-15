@@ -1,0 +1,19 @@
+Methods
+-----------
+There  are  only  two  methods  in  tuple  class
+
+1) count()
+
+2) index()
+
+
+1) Why  tuple  does  not  support  append() , extend() , insert() , remove() , pop() , clear() , reverse()  and  sort() methods ?  --->  																
+																	Since  tuple  is  immutable  object
+
+2) Why  is  tuple . copy()  method  not  supported  ?  --->  There  can  not  be  another  tuple  with  same  elements  becoz  tuple  is  reusable
+
+3) What  is  the  issue  with  tuple . sort()  --->  Sorted  elements  can  not  be  stored  in  same  tuple  replacing  existing
+									   elements  as  tuple  is  immutable
+											    
+4) What  is  the  issue  with  tuple . reverse() ?  ---> Reverse  elements  can  not   be  stored  in  same  tuple  replacing
+										   existing  elements  as  tuple  is   immutable

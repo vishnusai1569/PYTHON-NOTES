@@ -1,0 +1,53 @@
+Constructor
+--------------
+1) def  _init_(self , args):
+           Statements
+
+2) What  does  a  constructor  do  ?  --->  Initializes  variables  of  the  object
+
+3) In  other  words,  constructor  does  object  initialization
+
+4) Is  constructor  a  variable  (or)  method ?  ---> Method  i.e. Special  method
+
+5) What  is  the  name  of  constructor ? --->  __init__
+
+6) When  is  constructor  executed ?  --->  As  soon  as  object  is  created
+
+7) What  does  classname()  do ?  --->  Creates  an  object  and  automatically  executes  constructor
+
+8) Can  constructor  have  arguments ?  --->  Yes
+
+9) How  many  arguments  can  a  constructor  take  ?  --->  Any  number  of  arguments
+						                                              i.e.  0 , 1  (or)  more  than  1  in   addition  to  self  argument
+
+10) What  is  self  wrt  constructor  ?  --->  That  Object  which  is  being  created
+
+11) a = classname()
+     What  is  self  wrt  the  above  statement ?  --->  Object  'a'
+
+12) Can  constructor  have   return  statement ?  --->  Yes  but  constructor  can   return  only  None  and  nothing  else
+
+13) What  happens  when  constructor  returns  other  than  None ?  --->  Object  creation  fails
+														     i.e.  classname()  throws  error
+
+14) How  is  constructor  different  from  method ?  --->   Method  is  not  executed  unless  it  is  called  but
+									                    constructor  is  automatically  executed  as  soon  as  object  is  created
+
+15) Can  constructor  be  called  explicitly ?  --->  Yes (only  in  python)
+
+16) How  to  call  constructor  explicitly ?  --->  object . _init_(arguments)
+
+17) What  does  constructor  do  when  it  is  called  explicitly ?  --->  Modifies  values  of  the  object
+
+18) What  does  constructor  do  when  it  is  automatically  executed ?  --->  Initializes  object
+
+19) How  many  constructors  can  be  in  a  class ?  --->  Single
+
+20) What  happens  when  there  are  multiple  constructors  in  the  class ?  --->  Last  constructor  is  recognized  and
+																 rest  are  discarded
+
+
+Note:
+1) When  is  _str_()  executed ?  --->  As  soon  as  object  is  printed
+
+2) When  is  constructor  executed ?  --->  As  soon  as  object  is  created

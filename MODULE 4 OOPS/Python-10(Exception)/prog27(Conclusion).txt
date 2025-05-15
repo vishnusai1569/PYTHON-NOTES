@@ -1,0 +1,10 @@
+Summary
+-----------
+try:
+	Risky  code  --->  That  code  where  there  is  a  possibility  of  error
+except:
+	Exception  hanlding  code  --->  Print  user  friendly  msg  (or)  perform  alternate  action
+else:
+	Error  free  code
+finally:
+	Cleanup  code  --->  Close  database  connection , network  connection , file  and  so  on

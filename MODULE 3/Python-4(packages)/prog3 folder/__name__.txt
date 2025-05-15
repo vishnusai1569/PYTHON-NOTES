@@ -1,0 +1,24 @@
+__name__  variable
+-----------------------
+1) py   __init__ . py
+   What  is  the  value  of  __name__   variable  in   __init__  module ?  --->
+								'__main__'   becoz   __init__  module  is  executed  directly  (or)  explicitly
+
+2) import   p1
+    What  is  the  value  of  __name__   variable  in   __init__  module ?  --->
+					package  name(i.e.  'p1')   becoz   __init__  module  is  executed  automatically  due  to  import  p1
+
+3) import   p1 . __init__
+    What  is  the  value  of  __name__   variable  in   __init__  module ?  --->
+									Module  name(i.e.  'p1 . __init__')  becoz  __init__  module  is  imported
+
+4) In  general,  what  is  the  value  of  __name__  variable  in  __init__  module ?  --->
+											'__main__' ,   'package-name'  (or)  'package-name . __init__'
+
+5) When  is  the  value  of  __name__  variable  '__main__' ?  --->
+											When  __init__  module  is  executed  directly  with  py  __init__ . py
+
+6) When  is  the  value  of  __name__  variable  packagename ?  ---> When  __init__  module  is  executed  automatically
+
+7) When  is  the  value  of  __name__  variable  packagename . modulename ?  --->
+												When  __init__  module  is  imported  with   import   p1 . __init__

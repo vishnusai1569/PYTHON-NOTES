@@ -1,0 +1,41 @@
+ Local  Variable  Vs  Instance  Variable
+---------------------------------------------
+1) class   c1:
+	  def  m1(self):
+	  	 self . x = 10  
+		 y = 20   
+   What  is  'x'  called ?  ---> Instance  variable  due  to  self . x
+   What  is  'y'  called ?  ---> Local  variable
+
+2) What  is  an  instance  variable ?  --->  A  variable  of  the  object
+     What  is  a  local  variable ?  --->  A  variable  of  function  (or) method
+
+3) How  is  an  instance  variable  initialized ?  --->  object . variable = value
+    How  is  a  local  variable  initalized ?  ---> variable = value
+
+4) Where  can  instance  variable  be  initialized ?  ---> Any  where  in  the  program
+     Where  can  local  variable  be  initialized ?  --->  Inside  function  (or)  method
+
+5) What  does  object  contain ?  ---> Instance  variables  but  not  local  and  global  variables
+
+6) Where  is  instance  variable  represented ?  --->  Inside  the  object
+     Where  is  local  variable  represented ?  --->  Outside  the  object
+
+7) How  is  an  instance  variable  accessed  ?  --->  object . variable
+    How  is  local  variable  accessed  ?  --->  Just  Variable
+
+8) Who  can  use  instance  variable ?  --->  Whole  program
+								    i.e.  Whereever  object  is  visible
+     Who  can  use  local  variable ?  --->  That  method (or)  function  where  where  the  variable  is  initialized
+    
+9) What  does  object . __dict__  return ?  --->  All  the  instance  variables  of  object  but  not  local  variables
+
+10) Can  instance  variable  and  local  variable  have  same  name  ?  --->  Yes
+
+11) How  are  they  distinguished  when  they  have  same  name  ?  --->  Thru  object 
+														  i.e.  obj . variable  for  instance  variable
+																and 
+														  just  variable  for  local  variable
+
+12) Instance  variable  is  a  member  of  what  ?   --->  Object
+      Local  variable  is  a  member  of   what  ?   --->  Function  (or)  method

@@ -1,0 +1,21 @@
+start()  method
+-------------------
+1) What  does  start()  method  do ?  --->  Registers  thread  with  TS
+
+2) Where  is  start()  method  defined ?  --->  In  Thread  class
+
+3) What  does  thread  do  after  it  got  registered  ?  --->  Executes  either  run()  method  (or)  target
+
+4) What  happens  when  function , method  (or)  run()  method  is  called  directly ?  --->
+								It  is  just  a  function  call  (or)  method  call  but  not  a  thread  execution
+
+5) What  happens  when  thread  is  not  registered  with  TS ?  --->  It  is  not  treated  as  a  thread
+
+6) t = MyThread()
+    t . start()
+    Which  class  start()  method  is  executed ?  ---> Thread  class  start()  method  is  executed
+							                           becoz  there  is  no  start()  method  in  MyThread  class
+
+7) Is  it  possible  to  start  already  started  thread ?  --->  No  and  throws  error
+
+8) How  many  times  can  a  thread  be  started ?  --->  Just  once

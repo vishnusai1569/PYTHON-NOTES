@@ -1,0 +1,21 @@
+repeat  iterator
+-------------------
+1) r = repeat(25)
+   What  does  the  above  statement  do ?  --->  Creates  an  empty  repeat  object
+
+2) What  does  next(r)  do ? --->  Yields  25
+     What  does  next(r)  do ? --->  Yields  25
+     What  does  next(r)  do ? --->  Yields  25
+     and  so  on
+
+3) r = repeat('Hyd' , times = 3)
+    What  does  next(r)  do ?  --->  Yields  'Hyd'
+    What  does  next(r)  do ?  --->  Yields  'Hyd'
+    What  does  next(r)  do ?  --->   Yields  'Hyd'
+    What  does  next(r)  do ?  ---> Throws  StopIteration  error
+
+4) Does  repeat  iterator  throw  StopIteration  error ?  --->  No  when  times  argument  is   provided
+												 and  yes  otherwise
+
+5) Is  repeat  a  finite  iterator  ?  --->  Yes  when   times  argument  is  provided  and
+                                                               No  otherwise

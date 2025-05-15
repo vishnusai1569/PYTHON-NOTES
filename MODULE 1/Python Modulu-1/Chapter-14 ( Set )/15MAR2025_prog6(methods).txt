@@ -1,0 +1,30 @@
+Methods  of  set
+--------------------
+1) add()
+
+2) update()
+
+3) copy()
+
+4) pop()
+
+5) remove()
+
+6) discard()
+
+7) clear()
+
+8) union()
+
+9) intersection()
+
+10) difference()
+
+11) symmetric_difference()
+
+
+1) Where  are  the  above  11  methods  defined ?   --->  In  set  class
+
+2) Where  is  set  class  defined ? ---> In  builtins  module
+
+3) What  does  dir(set) do ?  --->  Returns  a  list  of  all  set  methods  in  the  form  of  strings

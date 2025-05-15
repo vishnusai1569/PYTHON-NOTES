@@ -1,0 +1,22 @@
+for  each  loop
+-----------------
+1) What  is  the  advantage  of  for  ...  each  loop ?  --->  Simple  in  syntax  and  easy  to  understand
+                                                                                          Eg:  for  x   in  sequence:
+                                                                                                              statements
+
+2) What  are  the  five  dis-advantages  of  for  ...  each  loop ?  --->                          
+     a) It  can  track  elements  of  sequence  but  not  their  indexes          
+     b) It  can  not  iterate  sequence  in  reverse  order                              
+     c) It  can  iterate  only  one  sequence  at  a  time  but  not  multiple  sequences  simultaneously                    
+         Eg:  for   x , y  in   seq1 , seq2:
+                             pass    
+    d) It  can  not  iterate  a  part  of  the  sequence                             
+    e) It  can  not  modify  elements  of  sequence
+
+3) Which  is  a  better  for  loop ? --->  Indexed  based  for  loop  is  more  powerful  when  compared  to  for ... each  loop
+
+
+Note:
+1) First  option   --->  for ... each  loop 
+
+2) 2nd  option  ---> Indexed  based  for  loop  when   it  is  not  possible  to  use  for  each  loop

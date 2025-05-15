@@ -1,0 +1,14 @@
+Deadlock
+-----------
+1) Thread  t1  requires  2  objects  for  execution
+
+2) Thread  t2  also  requires  same  objects  for  execution
+
+3) t1  holds (or) locks  first  object  and  t2  holds  2nd  object
+
+4) t1  waits  for  2nd  object  which  is  held  by  t2  and
+    t2  waits  for  1st  object   which  is  held  by  t1
+
+5) Therefore  both  t1  and  t2  wait  forever  and  this  is  called  deadlock
+
+6) Neither  t1  can  complete  execution  nor  t2

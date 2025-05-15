@@ -1,0 +1,53 @@
+Static  Method
+-----------------
+1) class      c1:
+          @staticmethod
+          def   m1():
+	         statements
+   Is  m1  a  static  method ?  ---> Yes  due  to  @staticmethod  decorator
+
+2) Is  @staticmethod  decorator  mandatory  (or)  optional ? --->  Optional
+
+3) What  is  the  mandatory  argument  for  static  method ?  --->  Nothing  like  cls  and  self
+
+4) How  many  arguments  can  static  method  take ?  --->  0 , 1  (or)  morethan  one
+
+5) How  is  static  method  called  ?  --->  Through  classname
+							          i.e.  classname . method()
+
+6) How  to  call  static  method  m1()  of  class  c1 ?  ---> c1 . m1()
+
+7) object . static-method()
+    Can  static  method  be  called  wrt  object  ?  --->  Yes  but  not  recommended
+
+8) What  is  the  advantage  of  static  method ?  --->  It  can  be  called  direclty  without  an  object
+
+9) What  does  a  static  method  do ?  --->  Performs  operations  on  static  variables
+
+10) How  to  access  static  variable  in  static  method ?  --->  classname . variable
+
+11) How  to  add  static  variable  to  a  class  in  static  method ? ---> classname . variable  = value
+
+12) class   c1:
+	   def   m1():
+		  statements
+      Is  m1()  a  static  method  (or)  instance  method ? ---> Static  method  becoz  @staticmethod  decorator  is  optional
+
+13) class   c1:
+	   def   m1(self):
+		  statements
+     Is  m1()  a  static  method  (or)  instance  method ? --->  Either  and  it  all  depends  on  method  call
+
+14) c1 . m1(25)
+     How  is  the  above  m1()  method  treated  wrt  the  above  method  call ?  --->
+												Static  method  becoz  it  is  called  thru  classname  c1
+     What  is  self  wrt  the  above  method  call ?  --->  25
+
+15) a = c1()
+      a . m1()
+      How  is  the  above  m1()  method  treated  wrt  the  above  method  call ?  --->
+												Instance  method  becoz  it  is  called  wrt  object
+      What  is  self  wrt  the  above  method  call ?  ---> Object  'a'
+
+Note:
+static  method  and  class  method   are  almost  same

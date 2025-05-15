@@ -1,0 +1,55 @@
+Summary
+-----------
+1) class  c1:
+	def  __iter__(self):
+		return  self
+	def  __next__(self):
+		pass
+    What  is  class  c1  called ?  --->  Iterable  cum  iterator
+
+2) for  x  in   c1():
+            pass
+     Is  the  above  for  loop  valid ? --->  Yes  becoz  there  is   __iter__()  method  in  class  c1
+
+3) In  other  words,  for  loop  can   iterate  c1  class  object due  to  __iter__()  method
+
+4) Is  next(c1())  valid ?  --->   Yes  due  to  __next__()  method  in  class  c1
+
+5) In  other  words,  next()  function  iterate  c1  class  object due  to  __next__()  method
+
+6) class  c2:
+	def  __iter__(self):
+		return  self
+    What  is  class  c2  called ?  ---> Only  iterable  due  to  __iter__()  method
+
+7) for  x  in   c2():
+            pass
+     Is  the  above  for  loop  valid ? --->  Yes  becoz  there  is   __iter__()  method  in  class  c2
+
+8) In  other  words,  for  loop  can   iterate  c2  class  object  due  to  __iter__()  method
+
+9) Is  next(c2())  valid ?  --->   No  becoz  there  is  no   __next__()  method  in  class  c2
+
+10) In  other  words,  next()  function  can  not  iterate  c2  class  object  as  there  is  no   __next__()  method   in  class  c2
+
+11) class  c3:
+	def  __next__(self):
+		pass
+      What  is  class  c3  called ?  ---> Only  iterator  due  to  __next__()  method
+
+12) for  x  in   c3():
+            pass
+      Is  the  above  for  loop  valid ? --->  No  becoz  there  is  no   __iter__()  method  in  class  c3
+
+13) In  other  words,  for  loop  can  not  iterate  c3  class  object  as  there  is  no   __iter__()  method  in  class  c3
+
+14) Is  next(c3())  valid ?  --->   Yes  due  to   __next__()  method  in  class  c3
+
+15) In  other  words,  next()  function  can  iterate  c3  class  object  as  there  is   __next__()  method   in  class  c3
+
+16) class  c4:
+	def  iter(self):
+		pass
+	def  next(self):
+		pass
+   What  is  class  c4  called ?  --->  Neither  iterable  nor  iterator  i.e.  Regular  python  class

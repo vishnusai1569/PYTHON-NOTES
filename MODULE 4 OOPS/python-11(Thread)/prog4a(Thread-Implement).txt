@@ -1,0 +1,67 @@
+Thread  Implementation
+-----------------------------
+What  are  the  three  ways  to  implement a  thread ?  --->  With  function ,  method  and  run()  method
+
+Function
+----------
+1) How  to  create  a  thread  with  function  target ?  --->  t = Thread(target = f1)  where  f1  is  function
+
+2) t = Thread(target = f1)
+    t . start()
+    What  does  thread  't'  do ?   ---> Executes  f1  function  becoz  target = f1
+
+3) t = Thread()
+     What  is  the  default  target ?  ---> Empty  run()  method  of  Thread  class
+
+4) t = Thread()
+    t . start()
+    What  does  thread  't'  do ?   ---> Executes  empty  run()  method  of  Thread  class
+
+
+Method
+---------
+1) How  to  create  a  thread  with  method  target ?  --->  t = Thread(target = object . method)
+
+2) a = c1()
+    t = Thread(target = a . m1)
+    t . start()
+    What  does  thread  't'  do ?   --->  Executes  m1  method  of  class  c1   becoz   'a'  is  c1  class  object
+
+3) How  to  create  a  thread  with  static  (or)  class  method  target ?  ---> t = Thread(target = classname . method)
+
+4) t = Thread(target = c1 . m2)
+    t . start()
+    What  does  thread  't'  do ?  ---> Executes  m2  method  of  class  c1  where  m2  is  static  (or)  class  method
+
+run()  method
+-----------------
+1) When  is  a  class  called  Thread ? --->  When  it  is  a  child  class  of  Thread
+
+2) class  MyThread(Thread):
+     	    def  run(self):
+		   statements
+    Is  MyThread  a  thread  class ?  ---> Yes  becoz  it  is  a  child  class  of  Thread
+
+3) Where  is  Thread  class  defined ?  --->  In  threading  module
+
+4) What  are  the  methods  of  Thread  class ?  --->  start()  method ,  empty  run()  method  and  so  on
+
+5) What  does  MyThread  class  do ? --->  Overrides  empty  run()  method  of  Thread  class
+
+6) How  to  create  a  thread  ?  --->t =  MyThread()
+
+7) t . start()
+    What  does  thread  't'  do ?  ---> Executes  run()  method  of  MyThread  class  becoz  't'  is  MyThread  class  object
+
+8) What  does  thread  do  when  there  is  no  run()  method  in  MyThread  class ?  --->
+												Executes  empty  run()  method  of  Thread  class
+
+9) How  many  arguments  can  run()  method  take ?  --->  None  except  self
+
+10) t = MytThread()
+      t . start()
+      Which  class  start()  method  is  executed ?  --->
+					start()  method  of  Thread  class  becoz  there  is  no  start()  method  in  MyThread  class
+
+11) What  happens  when  MyThread  class  is  not  a  child  class  of  Thread ?  --->
+							t . start()  throws  error  becoz  there  is  no  start()  method  in  MyThread  class

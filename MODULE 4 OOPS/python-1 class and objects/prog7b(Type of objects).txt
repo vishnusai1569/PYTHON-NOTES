@@ -1,0 +1,15 @@
+Types  of  objects
+---------------------
+1) Owner  object (or) Invoking  object
+
+2) Parameter  object
+
+Method  call   a . m1(b)
+---------------------------
+1) What  is  'a'  called   ---  Owner  object  becoz  method  is  called  wrt  object  'a'
+
+2) What  is  'b'  called  ---  Parameter  object  becoz  it  is  being  passed  to  m1()  method
+
+3) How  to  access  variables  of  object  'b'  in  m1()  method   ---  b . variable
+
+4) How  to  access  variables  of  object  'a'  in   m1()  method   ---  self . variable  where  self  is  object  'a'

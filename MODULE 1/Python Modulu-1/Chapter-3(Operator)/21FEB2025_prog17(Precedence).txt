@@ -1,0 +1,17 @@
+Precedence  of  operators
+-------------------------------
+1) Which  operator  has  got  highest  priority ?  --->  ()
+
+2) Which  operator  have  got  2nd  highest  priority ?  --->  Arithmetic  operators
+
+3) Which  operators  have  got  3rd  highest  priority ?  --->  Relational  operators    
+
+4) Which  operators  have  got  4th  highest  priority ?  --->  Assignment  operators 
+												i.e. = , += , -= , *= , /= , //= , %= , **= 
+
+5) Which  operators  have  got  5th  highest  priority ?  --->  Identity  operators  
+												i.e. is , is  not 
+
+6) Which  operators  have  got  6th  highest  priority ?  ---> Membership  operators  i.e. in ,  not  in
+
+7) Which  operators  have  got  lowest  priority ?  --->  Logical  operators  i.e.  and , or , not

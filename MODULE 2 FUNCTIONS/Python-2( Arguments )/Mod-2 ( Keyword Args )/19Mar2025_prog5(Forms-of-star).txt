@@ -1,0 +1,18 @@
+Different  forms  of   *  operator
+----------------------------------------
+1) What  does  *   operator  do  in  10 * 20  ?  --->  Multiplication
+
+2) What  does  *  operator  do  wrt   *object  ?  ---> Unpacks  object  into  elements
+
+3) What  does  *  operator  do  wrt  sequence *  3  ?  ---> Repeats  sequence  thrice
+
+4) def   f1(* , a , b): 
+            pass
+   What  does  *   operator  do  wrt  the  above  function ?  --->  Ensures  that  a  and  b  are  KA's   only
+
+5) def  f1(*a): 
+           pass
+    What  does  *   operator  indicate   wrt  the  above  function ?  --->     Var-arg  parameter 
+									            i.e.  Any  number  of  arguments  can  be  passed  to  f1()  function
+
+6) Finally  *  operator  is  overloaded  in  python

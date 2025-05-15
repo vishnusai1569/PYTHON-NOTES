@@ -1,0 +1,23 @@
+enumerate  iterator
+----------------------
+1) What  does  enumerate(sequence)  do ?  --->  Creates  an  empty  enumerate  object
+
+2) Is  enumerate  a  function (or)  class ?  --->  Class  i.e. pre-defined  class
+
+3) list = [25 , 10.8 , 'Hyd' , True]
+    e = enumerate(list)
+    What  does  next(e)  do ?  --->  Yields  (or)  returns  (0 , 25)
+    What  does  next(e)  do ?  --->  Yields  (1 , 10.8)
+    What  does  next(e)  do ?  --->  Yields  (2 , 'Hyd')
+    What  does  next(e)  do ?  --->  Yields  (3 , True)
+    What  does  next(e)  do ?  --->  Throws  StopIteration  error  becoz  enumerate  object  is  fully  iterated
+
+4) In  general,  what  does  next()  function  yield ?  --->  A  tuple  of  two  elements
+											  i.e.  (index , next  element  of  the  sequence)
+
+5) What  are  the  two  arguments  of  enumerate  constructor ?  ---> Sequence  and
+													      start = index  which  is  an  optional  argument
+
+6) What  is  the  default  value  of  start  argument ?  --->  0
+
+7) Where  is  enumerate  class  defined ?  --->  In  builtins  module

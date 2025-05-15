@@ -1,0 +1,54 @@
+Multi-Threading
+-------------------
+1) What  is  a  thread ?  --->  It  is  a  separate  flow  of  execution  which  is  independent  of  others
+
+2) What  is  a  program ?  --->  A  group  of  threads  where  each  thread  does  a  different  task
+
+3) What  does  a  thread  do ?  --->  Executes  function  (or)  method (or)  run()  method
+
+4) How  many  threads  can  be  in  a  program ?  --->  At   least  one  thread  i.e.  main  thread
+
+5) Who  creates  main  thread  ?  --->  PVM
+
+6) When  is  main  thread  created  ?  --->  As  soon  as  program  is  executed  by  py  filename . py
+
+7) What  does  main  thread  do ?  --->  Executes  python  program
+
+8) Is  Thread  a  class ?  --->  Yes  and  it  is  pre-defined  in  threading  module
+
+9) Can  main  thread  create  child  threads ?  --->  Yes
+
+10) How  to  create  a  thread ?  --->  t = Thread()
+
+11) t  =  Thead(target = f1)
+      t . start()
+      What  does  thread  't'  do ?  ---> Executes  f1  function  becoz  target = f1
+
+12) How  are  threads  executed ? --->  All  the  threads  are  executed  parallelly  or  concurrently  on  round  robin
+							      basis  with   a  fixed  time  slice (may  be  1  micro  second)
+
+13) Who  is  executing  all  the  threads  ?  --->  Thread  Scheduler (TS)  which  is  a  part  of  PVM
+
+14) In  other  words,  TS  controls  all  the  threads
+
+15) Let  program  contain  4  threads    t1 , t2 , t3  and  t4
+      Threads  :                       t1              t2           t3            t4
+      Execution  time    :         3.5            4.5          1.5            2.5
+    -----------------------------------------------------------------------
+       Interval  1                      1                1             1               1
+       Interval  2                     1                 1            0.5            1
+       Interval  3                     1                 1          dead          0.5
+       Interval  4                    0.5               1         dead           dead
+       Interval  5                    dead            0.5      dead           dead
+     ---------------------------------------------------------------------
+    Above  table  demonstrates  round  robin  with  a  time  slice  of  1  micro  second
+
+17) What  are  the  advantages  of  Round  Robin ?
+       a) Waiting  time  is  reduced
+            Eg:  t4  has  to  wait  for  9.5  micro seconds  to  get  a  chance  to  execute  when  threads  are  executed  sequentially.
+                  But  in  case  of  Round  Robin,  t4  waits  for  three  micro  seconds
+                  In  other  words,  each  thread  gains  TS  focus  immediately
+      b) Small  threads  are  finished  first  and  large  threads  are  finished  later
+
+18) Therefore  every  thread  feels  that  TS  is  executing  only  that  thread  but  in  the  reality  multiple  threads  are
+       being  executed  concurrently

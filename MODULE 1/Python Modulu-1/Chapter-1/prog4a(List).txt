@@ -1,0 +1,54 @@
+List  object
+--------------
+1) What  is  a  list ?  --->  A  group  of  elements  in  [ ]
+
+2) Is  [10 , 20 , 15 , 18]  a  list ?  --->  Yes  due  to  []
+
+3) What  is  []  called  ?  --->   List  operator
+
+4) Can  list  hold  different  types  of  elements ?  ---> Yes  becoz  it  is  a  heterogeneous  object Eg: [25 , 10.8 , 'Hyd' , True , 
+   None , 3 + 4j]								       
+
+5) Is  [25 , 25]  valid ?  --->  Yes  becoz  list  can  hold  duplicate  elements
+
+6) What  does  len(list)  do ?  --->  Returns  number  of  elements  in  the  list
+
+7) Is  list  indexed ?  --->  Yes  becoz  it  is  a sequence
+
+8) What  are  the  indexes  of  elements  from  left  to  right ?  --->  0  to  length - 1
+   What  are  the  indexes  of  elements  from  right  to  left ?  ---> -1  to  -length
+
+9) What  is  the  use  of  indexing ?  --->  Random  access  
+   How  to  obtain  10th  element  of  list ?  --->  a[9]  where  'a'  is  a  list
+   How  to  obtain  1st  element  of  list ?  --->   a[0]
+   How  to  obtain  last  element  of  list ?  --->   a[len(a) - 1]  (or)  a[-1]
+
+10) Can  list  be  sliced ?  --->  Yes  becoz  it  is  indexed
+    What  is  the  syntax  of  slice ?  --->  list[begin : end : step]
+    What  is  obatined  when  list  is  sliced ?   --->  Sub - list  
+
+11) list = [10 , 20 , 15]
+    Is  list[1] = 18  valid ?  --->  Yes  becoz  list  can  be  modified  as  it  is  a  mutable  object and  20  is  replaced  with  18
+
+12) How  to  append  an  element  to  the  list ?  --->  With  append()  method  of  list  class
+      
+13) list = [10 , 20 , 15]
+    What  does  list . append(18)  do ?  ---> Inserts  18  at  the  end  of  the  list
+
+14) How  to  remove  list  element ?  --->  With  remove()  method  of  list  class
+
+15) list = [10 , 15 , 20 , 15 , 18]
+    What  does  list . remove(15)  do ?  ---> Removes  first  15  from  the  list
+    What  does  list . remove(25)  do ?  ---> Throws  error  becoz  there  is  no  25  in  the  list
+
+16) In   other  words,  list  is  growable  and  shrinkable
+
+17) Can  list  be  repeated  ?  ---> Yes  with  *  operator
+
+18) list = [10 , 20 , 15]
+    What  does  list * 2  do ?  --->   Repeats  list  itself i.e.  [10 , 20 , 15 , 10 , 20 , 15]
+
+19) What  does  print(list)  do  ?  --->  Prints  list   itself i.e.  [Element1 , Element2 , Element3 , ....]
+    What  does  print(*list)  do ?  --->  Unpacks  list   to  elements i.e.   Element1   Element2   Element3   .....
+
+20) What  is  the  most  frequently  used  sequence  in  python ?  ---> List.

@@ -1,0 +1,34 @@
+filter  iterator
+-----------------
+1) Is  filter  a  function  (or)  class ?  --->  Class  i.e.  Pre-defined  class
+
+2) What  is  the  first  argument  of  filter  constructor ?  --->  Either  regular  function  (or)  lambda  function
+    What  is  the  2nd   argument  of  filter  constructor ?  --->  Sequence  (or)  iterator
+
+3) What  does  filter(function , sequence)  do ?  --->  Creates  an  empty  filter  object
+
+4) How  many  arguments  can  regular  (or)  lambda  function  take ?  --->  Single  argument
+
+5) What  is  the  value  of  argument ?  --->  Each  element  of  sequence  (or)  iterator
+
+6) What  can  regular  (or)  lambda  function  return  ?  ---> True  or  False
+
+7) When  is  regular  (or)  lambda  function  executed  ?  --->  For  next(filter  object)
+													(or)
+												 in  each  iteration  of  for  loop
+
+8) What  happens  when  regular  (or)  lambda  function  returns  True ?  --->
+						Returns  element  of  the  sequence  (or)  iterator  to  next(f)  (or)  for  loop  variable
+
+9) What  happens  when  regular (or)  lambda  function  returns  False ?  --->
+							Ignores  the  element  and  moves  to  next  element  of  sequence  (or)  iterator
+
+10) In  other  words,  regular  (or)  lambda  function  is  executed  on  each  element  of  sequence  (or)  iterator
+
+11) What  does  next(filter-object)  do ?  --->
+						Yields   that  element  of  sequence (or)  iterator  which  satisfies  the  condition
+
+12) What  is  the  use  of  filter  iterator ?  ---> Selects  few  elements  of  sequence (or)  iterator  and
+									    discards   remaining  elements  based  on  condition
+
+13) Where  is  filter  class  defined ?  --->  In  builtins  module

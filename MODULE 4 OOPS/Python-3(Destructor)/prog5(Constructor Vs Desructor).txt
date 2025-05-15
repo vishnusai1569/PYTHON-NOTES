@@ -1,0 +1,35 @@
+Constructor   Vs   Destructor
+-------------------------------------
+1) What  is  the  name  of  constructor ?  --->  __init__
+    What  is  the  name  of  destructor ?  --->    __del__
+
+2) What  does  a  constructor  do ?  --->  Initializes  variables   of  the  object
+     What  does  a  destructor  do ?  --->  Closes  all  those  connections  which  are  held  by  the  object
+
+3) When  is  constructor  executed ?  --->  As  soon  as  object  is  created
+    When  is  destructor  executed ?  --->  Just  before  object  is  lost
+
+4) What  is  the  statement  to  execute  constructor ?  --->  classname()
+    What  is  the  statement  to  execute  destructor  ?  --->  No  statement
+							i.e.  Destructor  is  executed  when  there  are  no  references  to  the  object
+
+5) How  many  arguments  can  a  constructor  have  ?  --->  0 ,  1  (or)  more  than  one (in  addition  to  self)
+    How  many  arguments  can  a  destructor  have ?  --->   0  apart  from  self
+
+6) What  can  a  constructor  return ?  --->  Nothing  except  None
+     What  can  a  destructor  return ?  ---> Any  Python  object
+
+7) If  constructor  returns  None,  where  is  None  returned  to ?  --->  Constructor  call  when  it  is  called  explicitly
+																		and
+														  ignored  when  it  is  automatically  executed
+    If  destructor  returns  25,  where  is  25  returned  to ?  --->  	Destructor  call  when  it  is  called  explicitly
+																	and
+												        ignored  when  it  is  automatically  executed
+
+Note:
+1) Can  destructor  be  defined  without  constructor  in  the  class ?  --->  Yes  becoz  each  method  is  independent
+
+2) Can  class  have  only  constructor ?  --->  Yes
+    Can  class  have  only  destructor ?  --->   Yes
+    Can  class  have  both  constructor  and  destructor ?  --->  Yes
+    Can  class  have  none (i.e. Neither  constructor  nor  destructor) ?  ---> Yes

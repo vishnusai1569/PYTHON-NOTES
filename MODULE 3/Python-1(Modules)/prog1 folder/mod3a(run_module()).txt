@@ -1,0 +1,22 @@
+run_module()   function
+----------------------------
+1) What  does  run_module('mod2')  do ?  --->   Executes  all  the  statements  of  mod2  without  importing  them
+
+2) py  mod2 . py
+    run_module('mod2')
+    What  is  the  difference  between  the  above  two  statements ?  --->
+										      py  mod2.py   executes  mod2  from  command  prompt  but
+										      run_module('mod2')  executes  mod2  from  a  module
+
+3) In  other  words,  run   your  module  which  inturn  executes  a   different  module
+
+4) run_module(mod2)
+    Is  the  above  statement  valid  ?  --->  No  becoz  argument  should  be  a  string  module  but  not  module
+
+5) Where  is  run_module()  function  defined ?  --->  In  runpy  module
+
+6) import  mod2
+    run_module('mod2')
+    What  is  the  difference  between  the  above  two  statements ?  --->
+						import  mod2  imports  all  the  statements  of  mod2  and  also  executes  them  but
+				                run_module('mod2')  executes  all  the  statements  of  mod2  without  importing  them

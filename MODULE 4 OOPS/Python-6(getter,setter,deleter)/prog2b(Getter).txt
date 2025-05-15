@@ -1,0 +1,44 @@
+getter  method
+------------------
+1) @property
+    def  temp(self):
+           return  something
+
+2) What  is  the  name  of  getter  method ?  --->  Instance  variable  name
+    If  instance  variable  name  is  temp ,  what  is  the  name  of  getter  method  ?  --->  temp  itself
+
+3) What  is  the  decorator  to  define  a  getter  method ?  --->  @property  but  not  @instancevariablename . getter
+
+4) How  many  arguments  can  a  getter  method  take  ?  ---> No  arguments  except  self
+
+5) When  is  getter  method  executed ?  --->  As  soon  as  instance  variable  is  accessed
+
+6) Which  of  the  following  execute  getter  method  ?
+     a) print(obj . variable)  --->  Executes  getter  method  becoz  instance  variable  is  accessed
+     b) obj . variable = 25 --->  Executes  setter  method   becoz  instance  variable  is  initilaized
+     c) return  obj . variable --->  Executes  getter  method  becoz  instance  variable  is  accessed
+     d) 1.8 * obj . variable  + 32  --->  Executes  getter  method  becoz  instance  variable  is  accessed
+
+7) What  does  getter  method  do ?  --->  Returns  value  of  2nd  variable  i.e.  obj . _temp
+
+8) Where  is  the  value  returned  to ?  --->  obj . variable
+
+9) What  does  getter  method  do  when  there  is  no  return  statement ?  --->  Returns  None  by  default
+
+10) What  is  printed  for  print(obj . variable)  when  there  is  no  return  in  getter  method ? --->  None
+
+11) Can  getter  method  be  defined  without  setter  method  ?  --->  No  becoz  they  form  a  pair
+
+12) In  other  words,  getter  and  setter  methods  should  be  defined  together  becoz  they  form  a  pair
+
+13) What  is  the  order  in  which  can  getter  and  setter  methods  be  defined ? --->  getter  followed  by  setter
+
+14) Can  there  be  multiple  getter  methods  in  a  class ?  --->  Yes
+											             i.e. One  for  each  instance  variable
+
+15) Is  getter  method  executed  when  local , global  and  static  variables  are  accessed ?  ---> No
+
+16) In  other  words,  getter  method  is  executed  only  when  instance  variable  is  accessed
+
+17) Do  we  need  to  call  getter  method  explicitly ?  --->
+									No  and  it  is  automatically  executed  when  instance  variable  is  accessed

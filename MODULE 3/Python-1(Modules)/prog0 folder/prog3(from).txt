@@ -1,0 +1,71 @@
+from  statement
+--------------------
+1) What  does  from  statement  do ?  --->  Imports  members  and  statements  of  the  module
+
+2) What  is  not  imported ?  --->  Module
+
+3) Are  methods  of  the  class  imported ?  --->
+							No  becoz  they  are  members  of  the  class  but  not  members  of  the  module
+
+4) What  is  the  pre-requisite  to  use  members  of  a  module ?  --->  They  need  to  be  improted
+
+5) Can  members  of  a  module  be  used  without  importing  them ?  --->  No
+
+6) What  is  the  difference  between  import  and  from  statements ? --->
+									import  statement  imports  module  but  from  statement  imports
+									members  of  the  module
+
+7) How  to  import  single  member  of  the  module ?  --->  from  module  import  member
+    How  to  import  multiple  members  of  the  module ?  --->from  module  import  member1 , member2 , member3
+    How  to  import  all  the  members  of  the  module ?  ---> from  module  import  *
+
+8) from  module  import  *
+    What  does  *  indicate  ?  --->  All  the  members  of  module
+
+9) How  to  access  members  of  the  module  after  they  are  imported ?  ---> Just  member  name  without  modulename  prefix
+
+10) Can  from  statement  be  used  in  the  middle  of  the  program ?  --->  Yes
+
+11) In  other  words,  members  can  be  imported  any  where  in  the  program  but  not  necessarily  at
+     the  begining  of  the  program.
+
+12) However  they  need  to  be  imported  before  their  usage
+
+13) What  is  member  alias ? --->  Members  are  imported  with another  name
+
+14) How  is  member  alias  achieved ?  --->  With  'as'  keyword
+
+15) from  math  import  sqrt  as  s , pi  as  p
+      What  does  the  above  statement  do ?  --->
+						Imports  members  sqrt  and  pi  of  math  module  with  new  names  s  and  p  respectively
+      How  to  call  sqrt()  function ?  --->  s(x)
+      How  to  use  variable  pi ?  --->  Just  p
+
+16) Can  old  names  be  used ?  --->  No  becoz  they  are  imported  with  another  name
+
+17) from  module  import   Invalid-member
+      What  does  the  above  statement  do ?  --->  Throws  ImportError
+
+18) from  invalid-module  import  *
+      What  does  the  above  statement  do ?  ---> Throws  ModuleNotFoundError
+
+19) from  module1 , module2   import *
+      Is  the  above  statement  valid ?  --->
+					No  becoz  from  statement  can  import  members  of  single  module  but  not  multiple  modules
+
+20) from  sys  as  s  import  *
+      Is  the  above  statement  valid ?  --->
+						No  becoz  moudle  alias  is  not  permitted  in  from  statement  as  module  is  not  imported
+
+22) from   math  import   sqrt , pi , pow
+      def   f1():
+             from  math  import   gcd , factorial
+      Who  can  use  members  gcd  and  factorial ?  --->  Just  f1()  function  becoz  they  are  imported  local  to  f1()  function
+      Who  can  use  members  sqrt , pi   and  pow  ?  ---> Whole  program  becoz  they  are  imported  globally
+
+23) from  math  import  *
+      def   f1():
+	   from  sys   import  *
+      Can  *  be  used  locally ?  ---> No
+
+24) In  other  words,  *  can  be  used  globally  but  not  locally

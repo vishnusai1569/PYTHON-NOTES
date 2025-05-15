@@ -1,0 +1,9 @@
+Type-casting  (or)  Type-coersion  functions
+--------------------------------------------------
+1) What  is  typecasting ?  --->  Conversion  of  an  object  to  a  different  class  object
+
+2) Conversion  of  int  object  to  float  object , 
+    float  object  to  int  object , 
+    int  object  to  string  object  and  so  on  is  called  typecasting
+
+3) What  are  the  different  typecasting  functions ?  ---> int() , float() , complex() , bool() , str() , bin() , oct() , hex()

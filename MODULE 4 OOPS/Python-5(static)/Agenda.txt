@@ -1,0 +1,11 @@
+Agenda
+---------
+1) static   variable
+
+2) Instance  variable
+
+3) class  method
+
+4) static  method
+
+5) Instance  method

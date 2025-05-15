@@ -1,0 +1,41 @@
+Destructor
+-------------
+1) Is  destructor  a  variable  (or)  method ?  --->  Method  i.e. Special  method
+
+2) What  does  a  destructor  do  ?  --->  Closes  all  those  connections  which  are  held  by  the  object
+						                like  database  connection ,  network   connection ,  file  connection  and  so  on
+								Eg: def  __del__(self):
+									     close  database  connection
+									     close  network  connection
+									     close  file
+
+3) In  other  words,  it  performs  clean-up  operation
+
+4) What  is  the  name  of  destructor ? --->  __del__
+
+5) When  is  destructor  executed ?  --->  Just  before  object  is  lost
+
+6) When  is   an  object  lost ?   --->  When  there  are  no  references  to  the  object
+
+7) Who  deletes  object ?  --->  PVM  but  not  destructor
+
+8) Can  destructor  be  called  explicitly ?  --->  Yes  with  object . __del__()
+
+9) Is  object  lost  after  execution  of  destructor  when  it  is  called  explicitly ?  --->  No  and  it  is  alive
+
+10) Can  destructor  have  arguments ?  --->  No  except  self
+
+11) What  is  self  wrt  destructor  ?  --->  That  object  which  is  about  to  be  lost
+
+12) Can  destructor  return  a  value ? --->  Yes  and  it  can  return  any  python  object
+
+13) If  destrcutor  returns  25,  where  is  25  returned  to ?  ---> Destructor  call  when  it  is  called  expliciltly  and
+									                                 ignored  when  it  is  automatically  executed
+
+14) How  many  destructors  can  be  in  a  class ?  --->  Only  one
+
+15) What  happens  when  there  are  multiple  destructors ? ---> Last  destructor  is  recognized   and  rest  are  discarded
+
+16) Is  object  lost  when  there  is  no  destructor  in  the  class ?  --->  Yes
+
+17) What  happens  when  there  is  no  destructor  in  the  class ? --->  The  connections  held  by  the  object  remain  alive

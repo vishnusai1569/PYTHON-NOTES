@@ -1,0 +1,3 @@
+# Identify  error (Home  work)
+a = [25 , 10.8 ,  'Hyd' ,  True]
+a . sort() #  Error  becoz   number  and  string   can  not  be  sorted

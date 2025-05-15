@@ -1,0 +1,28 @@
+Which  is  preferred  --->  importing  module  (or)  importing  members  ?
+------------------------------------------------------------------------------------
+Case  1:   from    mod1    import   *
+	       from    mod2    import   *
+	       from    mod3    import   *
+	       f1()  --->  How  to  call  f1()  function  of  mod1
+	       f2()  ---> How  to  call  f2()  function  of  mod2
+	       f3()  --->  How  to  call  f3()  function  of  mod3
+	       What  is  the  dis-advantage  of  * ?  --->
+							Neither  statement  nor  from  statement  provides  clarity  as  *  informs  nothing
+	       Hence  usage  of  *  should  be  discouarged
+
+Case  2:  from  mod1  import  f1
+	      from  mod2  import  f2
+	      from  mod3  import  f3
+	      f1()  ---> How  to  call  f1()  function  of  mod1
+	      f2()  --->  How  to  call  f2()  function  of  mod2
+	      f3()  ---> How  to  call  f3()  function  of  mod3
+	      What  is  the  dis-advantage ? --->
+							Statement  does  not  provide  aby  clarity  but  from  statement  provides  clarity
+
+Case 3:  import  mod1 , mod2 , mod3
+     	     mod1 . f1()  --->  How  to  call  f1()  function  of  mod1
+	     mod2 . f2()  ---> How  to  call  f2()  function  of  mod2
+	     mod3 . f3()   --->  How  to  call  f3()  function  of  mod3
+	     What  is  the  advantage  of  import ?  --->  Statement  itself  provides  clarity
+
+Conclusion:  Therefore  importing  module  is  a  good  idea  but  not  members

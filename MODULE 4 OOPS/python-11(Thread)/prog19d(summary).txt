@@ -1,0 +1,51 @@
+Summary
+-----------
+1) How  many  times  can  a  Lock  object  be  locked ?  --->  Just  once  by  any  thread
+
+2) How  many  times  can  a  RLock  object  be  locked ?  ---> Multiple  times  by  same  thread
+
+3) How  many  times  can  Semaphore  object  be  locked ?  ---> Multiple  times  by  same  thread  (or)  different  threads
+
+4) def   f1():
+ 	  statements
+    How  many  threads  can  execute  f1()  function ?  ---> Multiple  threads  concurrently
+    Are  accurate  results  obtained  when  f1()  function  is  executed  by  multiple  threads  concurrently  ?  --->
+													Not  guranteed  due  to  concurrent  execution
+    Is  f1()  function  execution  fast  (or)  slow ?  ---> Fast  becoz  there  is  no  overhead  of  lock  and  unlock
+
+5) l = Lock()
+    def   f2():
+	   l . acquire()
+	   statements
+	   l . release()
+   How  many  threads  can  execute  f2()  function ?  --->  Just  one  thread  at  a  time
+   Are  accurate  results  obtained  when  f2()  function  is  executed ?  --->  Yes  due  to  sequential  execution   of  threads
+   Is  f2()  function  execution  fast  (or)  slow ? ---> Slow  due  to  the  overhead  of  lock  and  unlock
+
+6) r = RLock()
+    def  f3():
+	   r . acquire()
+	   f3()
+	   r . release()
+   How  many  threads  can  execute  f3()  function ?  --->  Same  thread  multiple  times
+   Are  accurate  results  obtained  when  f3()  function  is  executed ?  ---> Yes
+   Is  f3()  function  execution  fast  (or)  slow ?  --->  Slow  due  to  the  overhead  of  lock  and  unlock
+
+7) s = Semaphore(3)
+    def   f4():
+	   s . acquire()
+	   statements
+	   s . release()
+   How  many  threads  can  execute  f4()  function ?  ---> A  max  of  3  threads  concurrently
+   Are  accurate  results  obtained  when  f4()  function  is  executed  concurrently  by  3  threads  ?  --->
+													Not  guranteed  due  to  concurrent  execution
+   Is  f4()  function  execution  fast  (or)  slow  ?  ---> Slow  due  to  the  overhead  of  lock  and  unlock
+
+8) s = Semaphore()
+    def  f5():
+ 	   s . acquire()
+	   statements
+	   s . release()
+   How  many  threads  can  execute  f5()  function ?  ---> One  thread  at  a  time (Same  as  Lock)
+   Are  accurate  results  obtained  when  f5()  function  is  executed ?  ---> Yes  due  to  single  thread  execution
+   Is  f5()  function  execution  fast  (or)  slow ?  --->  Slow  due  to  the  overhead  of  lock  and  unlock

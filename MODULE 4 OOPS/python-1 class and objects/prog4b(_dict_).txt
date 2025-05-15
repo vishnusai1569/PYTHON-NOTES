@@ -1,0 +1,11 @@
+__dict__  variable
+-----------------------
+1) What  is  __dict__  variable  ?  --->  A  dictionary  representation  of  the  object
+
+2) What  does  object . __dict__   do  ? --->  Converts  object  to  dictionary
+
+3) What  are  the  keys  of  dictionary ?  --->  All  the  instance  variables  of  the  object
+    What  are  the  values  of  dictionary ?  ---> Values  of  instance  variables
+
+4) If  object   'a'  has  x = 10  and  y = 20
+    What  is  the  result  of  a . __dict__  ?  ---> {'x'  :  10  ,  'y'  :  20}

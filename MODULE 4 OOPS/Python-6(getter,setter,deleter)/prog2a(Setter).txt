@@ -1,0 +1,46 @@
+Setter  Method
+-------------------
+1) @temp . setter
+    def  temp(self , x):
+              statements
+
+2) What  does  a  setter  method  do ?  --->  Validates  value  to  be  assigned  to  the  instance  variable
+
+3) What  is  the  name  of  setter  method ?  --->  Instance  variable  name
+     If  instance  variable  name  is  temp , what  is  the  name  of  setter  method  ?  --->  temp  itself
+
+4) What  is  the  decorator  to  define  a  setter  method ?  --->  @Instancevariablename . setter
+												       Eg: @temp . setter
+
+5) How  many  arguments  can  a  setter  method  take  ?  --->  One  argument  apart  from  self
+
+6) What  is  the  value  of  argument  of  setter  method  ?  --->  The  value  to  be  assigned   to  the  instance  variable
+
+7) When  is  setter  method  executed ?  --->  As  soon  as  instance  variable  is  initialized
+
+8) What  does  obj . variable = value  do ?  --->  Automatically  executes  setter  method  if  at  all  the  variable  has  a
+									   setter  method  and  the  right  side  value  is  passed  to  setter  method
+
+9) What  does  obj . temp = 37  do ?  --->  Executes  setter  method  of  temp  variable
+											and
+                                                                  37  is  passed  to  the  method
+
+10) obj . variable = Invalid-value
+     What  does  setter  method  do ?  --->  Throws  (or)  raises  an  error
+
+11) obj . variable = Valid-value
+     What  does  setter  method  do ?  ---> Assigns  the  value  to  another  instance  variable  like  self . _temp
+								   in  view  of  getter  method
+
+12) Can  setter  method  be  defined  without  getter  method  ?  --->  No  becoz  they  form  a  pair
+
+13) What  is  the  order  in  which  can  getter  and  setter  methods  be  defined ?  --->  getter  followed  by  setter
+
+14) Can  there  be  multiple  setter  methods  in  a  class ?  --->  Yes  i.e. One  for  each  instance  variable
+
+15) Is  settter  method  executed  when  local , global  and  static  variables  are  initialized ?  ---> No
+
+16) In  other  words,  setter  method  is  executed  only  when  instance  variable  is  initilaized
+
+17) Do  we  need  to  call  setter  method  explicitly ?  ---> No  and  it  is  automatically  executed  as  soon  as
+											    instance  variable  is  initilaized

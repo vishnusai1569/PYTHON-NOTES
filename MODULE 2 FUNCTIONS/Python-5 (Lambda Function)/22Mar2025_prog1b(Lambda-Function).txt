@@ -1,0 +1,54 @@
+Anonymous  Function  (or)  Lambda  function
+---------------------------------------------------
+1) What  is  a  lambda  function  ?  --->  A  function  without  name 
+
+2) What  is  the  keyword  to  define  a  lambda  function ?  --->  lambda  
+    What  is  the  keyword  to  define  a  regular  function ?  --->  def
+
+3) What  is  the  syntax  to  define  a  lambda  function ?  ---> ref = lambda  arguments:  single  statement  (or)  single  expression
+
+4) Is  lambda  function  an  object ?  ---> Yes  and  infact  everything  in  python  is  an  object
+
+5) How  many  arguments  can  a  lambda  function  have ? --->  0 , 1  (or)  more  than  one  
+
+6) lambda (x , y) :  x + y
+    Is  the  above  lambda  function  valid ?  --->  No  becoz  arguments  of  lambda  function  can  not  be  in  ()  
+
+7) How  is  a  lambda  function  called ?   --->  Thru  reference  
+								         i.e.  reference(args)
+
+8) How  many  statements  are  permitted  in  a  lambda  function  ?  ---> Single  statement  (or)  expression
+
+9) lambda  args :  stmt1 ; stmt2; stmt3;
+    Is  the  above  lambda  function  valid ?  --->  Yes  but  statements  2  and  3  are  treated  outside  the  function
+
+10) lambda   x , y :  return  x + y
+      Is  the  above  lambda  function  valid ?  --->  No  becoz  return  is  not  permitted  in  lambda  function 
+
+11) But  the  result  of  expression  in  lambda  function  is  automatically  returned  to  function  call
+
+12) When  is  lambda  function  recommended ?  --->  When  there  is  a  single  statement  (or)  expression
+
+13) In  other  words,  lambda  function  is  used  as  an  alternative  to  regular  function  when  there  is  a  single  statement
+
+14) Can  arguments  of  lambda  function  have  default  values  ?  --->  Yes  like  regular  function
+
+15) Can  lambda  function  be  defined  and  called  in  the  same  line ?  --->  Yes  but  not  recommended
+
+16) How  to  define  and  call  lambda  function  in  the  same  line ? --->  (lambda  arguments :  statement  (or)  expression)(arguments)
+      
+17) What  is  the  rule  to  define  and  call  lambda  function  in  the  same  line ?  --->  Definition  should  be  in  brackets
+
+18) What  is  the  dis-advantage  of  defining  and  calling  lambda  function  in  the  same  line ?  --->   
+																	No  reusability  becoz  there  is  no  reference
+									
+19) Therefore  define  the  lambda  function  every  time  function  is  called
+
+20) What  is  the  advantage  of  defining  lambda  function  separately ?  ---> Reusability  becoz  there  is  a  reference
+
+21) In  other  words,  define  the  function  just  once  but  not  every  time  function  is  called
+
+22) ref = lambda  x :  x = 20  
+      Is  the  above  statement  valid ?  ---> No  becoz  lambda  function  can  not  modify  value  of  argument
+
+23) In  other  words,   lambda  function  argument  is  treated  as  read-only  argument  

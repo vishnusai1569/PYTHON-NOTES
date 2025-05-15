@@ -1,0 +1,25 @@
+input()  function
+--------------------
+1) What  does  input()  function  do ?  --->  Reads  string  input  from  keyboard
+
+2) How  to  read  integer  input ?  --->  int(input())
+    What  does  int(input())  do ?  --->   Reads  string  input  which  is  converted  to  integer
+
+3) How  to  read  float  input ?  ---> float(input())
+    What  does  float(input())  do ?  --->  Reads  string  input  which  is  converted  to  float
+
+4) Is  input(arg1 , arg2)  valid ?  --->  No  becoz  input()  function  takes  one  (or)  zero  arguments  but  not  more  than  one
+
+5) What  is  the  argument  of  input()  function ?  --->  Prompt  message
+
+6) How  many  inputs  can  input()  function  read ?  --->  Single  input  at  a  time
+
+7) How  to  read  'n'  inputs ?  ---> Call  input()  function  'n'  times
+
+8) What  is  the  dis-advantage  of  input()  function ?   ---> 																	
+									Program  execution  becomes  slow  due  to  too  many  function  calls
+
+9) Where  is  input()  function  defined ?  --->  In  builtins  module
+
+10) Can  input()  function  be  used  without  import ?  --->  						
+								Yes  becoz  it  is  automatically  imported  as  it  is  a  member  of  builtins  module

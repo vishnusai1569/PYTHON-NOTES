@@ -1,0 +1,9 @@
+Find  outputs  (Home  work)
+a =  'A'
+#print(a[1])   #  Error  becoz  there is  ni  index  1  in  'A'
+print(a[1:]) #  a[1 : 1  : 1 ]  --->  empty  string  becz  1 >=  1
+
+'''
+Indexing  throws  error  when  the  index  is   invalid  but
+slice  never  throws  error  even  when  indexes  are  invalid  and  result  is  empty  string  when  indexes  are  invalid
+'''

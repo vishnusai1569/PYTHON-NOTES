@@ -1,0 +1,14 @@
+__iter__()  method
+------------------------
+Which  of  the  following  are  valid   and  why ?
+1) for  x  in   sequence:  --->   Valid  becoz  there  is  __iter__()  method  in  every  sequence
+
+2) for  x  in   iterator:  --->   Valid  becoz  there  is  __iter__()  method  in  every  pre-defined  iterator
+
+3) for  x  in   non-sequence:  --->  Invalid  becoz  there  is  no  __iter__()  method  in  every  non-sequence
+
+4) for  x  in   user-defined-object:  ---> Valid  if  there  is  __iter__()  method  in  user  defined  class  and  invalid  otherwise
+
+5) Finally  for  loop  can  iterate  which  object ?  --->  That  object  which  has  got  __iter__()  method
+
+6) What  is  the  class  with  __iter__()  method  called ?   --->  Iterable

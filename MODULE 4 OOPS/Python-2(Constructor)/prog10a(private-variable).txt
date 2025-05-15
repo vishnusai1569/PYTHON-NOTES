@@ -1,0 +1,40 @@
+Private  instance  variable
+------------------------------
+1) How  is  private  instance  variable  denoted ?  --->  __variable (It  is  double  underscore  but not  single  underscore)
+
+2) class  c1:
+           def  m1(self):
+	         self . __x = 10
+    What  is  __x   called ?  --->  Private  instance  variable  due  to  __
+
+3) To  whom  is  private  instance  variable  visible ?  --->  All  the  methods  of  same  class
+
+4) From  whom  is  private  instance  variable  hidden  ?  --->  All  other  classes , functions  and  outside  the  class
+
+5) Who  can  access  private  instance  variable ?  --->  All  the  methods  of  same  class
+
+6) Can  a  class  use  private  variable  of  a  different  class  object  directly ?  --->  No  becoz  it  is  not  visible
+    Can  a  function  access  private  variable  of  the  object  directly ?  --->  No  becoz  it  is  not  visible
+    Can  private  variable  of  the  object  be  accesed  directly  from  outside  the  class ?  --->  No  becoz  it  is  not  visible
+
+7) How  to  access  private  variable  indirectly  ?  --->  obj . _classname__variablename
+
+8) What  is  the  advantage  of  private  instance  variables  ?  ---> Data  hiding
+
+9) What  is  data  hiding ?  ---> Values  of  the  object  are  hidden  from  other  classes , functions  and  outside  code
+
+10) What  is  the  name  of  variable  password  and  why ?  --->
+					__password  becoz  it  should  be  hidden  from  other  classes , functions  and  outside  the  class
+      What  is  the  name  of  variable  balance ?  --->  __balance
+
+11) In  other  words,  sensitive  data   should  be  private
+
+12) Can  local  variable  name  start  with  __ ?  --->   Yes  but  it  is  of  no  use  becoz  it  is  already  private  by  natute
+										   as  it  is  visible  to  single  function  (or)  method  where  the  variable  is  initialized
+
+13) Can  global  variable  name  start  with  __ ?  --->   Yes  but  it  is  of  no  use
+
+14) In  other  words,  global  variable  is  visible  to  whole  program  even  when  name  starts  with  __
+
+15) Let  object  contain  variables  __x  and  'y',
+     What  does   object . __dict__   return ?  --->  {'_classname__x' : value , 'y' : value}

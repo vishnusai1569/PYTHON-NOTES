@@ -1,0 +1,24 @@
+Summary
+----------
+1) ref = lambda   args :  (exp1 ,  exp2 ,  exp3)
+    Is  it  a   lambda  function ?  --->  Yes
+    What  does  lambda  function  return ?  --->  A  tuple  of  3  elements
+
+2) ref = lambda   args :  exp1 ,  exp2 ,  exp3
+    Is  it  a   lambda  function ?  --->  No  and  it  is   a  tuple  of  3  elements
+    What  is  the  first  element  of  tuple ?  --->  Lambda  function
+    What  are  the  remaining  elements  of  tuple ?  --->  Results  of  exp2  and  exp3
+    What  does  lambda  function  return ?  --->  Result  of  exp1
+
+3) ref = lambda   args :  stmt1 ;  stmt2 ;  stmt3
+    Is  it  a   lambda  function ?  --->  Yes
+    What  does  lambda  function  return ?  --->  Result  of  stmt1
+    What  about  stmt2  and  stmt3 ?  --->  They  are  outside  lambda  function
+
+4) ref = lambda   args :  (stmt1 ,  stmt2 ,  stmt3)
+     Is  it  a   lambda  function ?  --->  Yes
+     What  does  lambda  function  return ?  --->   A  tuple  of  3  elements
+     What  are  the  3  elements ?  --->  Results  of  each  statement
+
+
+

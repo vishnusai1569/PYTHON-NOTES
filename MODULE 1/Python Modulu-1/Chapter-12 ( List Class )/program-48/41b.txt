@@ -1,0 +1,14 @@
+#  Repeat  previous  program  with  comprehension  and  without  using  if
+a = [x **  2  for  x  in  range(2 , 21 , 2)]
+print('Squares  of  1  to  20  which  are  divisible  by   2 :  '  , a)
+
+
+'''
+x     x  **  2   List  'a'
+----------------------------
+2         4        [4]
+4         16       [4 , 16]
+6         36       [4 , 16 , 36]
+....
+20        400      [4 , 16 , 36 , ....  400]
+'''

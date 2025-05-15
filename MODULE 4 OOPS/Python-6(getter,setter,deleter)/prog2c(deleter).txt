@@ -1,0 +1,45 @@
+deleter  method
+-------------------
+1) @temp . deleter
+    def  temp(self):
+          del   self . _variable
+
+2) What  is  the  name  of  deleter  method ?  --->  Instance  variable  name
+     If  instance  variable  name  is  temp ,  what  is  the  name  of  deleter  method  ?  --->  temp  itself
+
+3) What  is   the  decorator  to  define  a  deleter  method ?  --->  @Instancevariablename . deleter
+													 Eg: @temp . deleter
+
+4) How  many  arguments  can  a  deleter  method  take  ?  --->  No  arguments  except  self
+
+5) When  is  deleter  method  executed ?  --->  As  soon  as  instance  variable  is  deleted
+
+6) What  does  del  obj . variable  do ?  --->
+					Automatically  executes  deleter  method  if  at  all  the  variable  has  a  deleter  method
+
+7) What  does  deleter  method  do ?  --->  Deletes  the  2nd  variable (i.e.  backup   variable)  added  by  setter  method
+                                                                    i.e.  _temp  variable
+
+8) What  happens  when  2nd  variable  is  not  deleted ?  --->  It  leads  to  memory  wastage
+
+9) What  happens  when  there  is  no  deleter  method  in  the  class ?  --->
+											2nd  variable  is  not  deleted  and  leads  to  memory  wastage
+
+10) Can  deleter  method  be  defined  without  getter  and  setter  methods  ?  --->  No
+
+11) What  is  the  order  in  which  can  getter , setter and  deleter  methods  be  defined ?   --->
+															a)  getter  method  first
+															b) setter  and  deleter  methods  in  any  order
+
+12) Can  there  be  multiple  deleter  methods  in  a  class ?  --->  Yes
+                                                                                                      i.e. One  for  each  instance  variable
+
+13) Is  deleter  method  executed  when  object  is  deleted ?  ---> No
+
+14) Which  method  is  executed  when  object  is  deleted ?  --->  Destructor  but  not  deleter
+
+15) Is  deleter  method  executed  when  local , global  and  static  variable  are  deleted ?  --->  No
+
+16) In  other  words,  deleter  method  is  executed  only  when  instance  variable  is  deleted
+
+17) Do  we  need  to  call  deleter  method  ?  --->   No  and  it  is  automatically  executed  when  instnace  variable  is  deleted

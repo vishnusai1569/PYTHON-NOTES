@@ -1,0 +1,43 @@
+'''
+Write  a  program  to  merge  two  sorted  lists  to  produce  another  sorted  list
+
+
+                         0    1     2       3       4
+Eg:  List  'a'   --->  [10  , 20  , 30   ,  40   ,  50]
+     List  'b'   --->  [5  ,  12  , 20   ,  37]
+                        0     1     2       3
+     List  'c' --->  [5 , 10 , 12 , 20 , 20 , 30 , 37 , 40 , 50]
+
+Hint :  Unsorted  lists  can  not  be  merged
+'''
+a = eval(input('Enter  1st  list  : '))  #  [10  ,  20  , 30   ,  40   ,  50]
+b = eval(input('Enter  2nd  list  : '))#   [5  ,  12  , 20   ,  37]
+a  . sort()
+b  . sort()
+c = []
+i = j = 0
+while  i <  len(a)  and  j <  len(b):
+	if  a[i] < b[j]:
+		c . append(a[i])  #  [5 , 10 , 12 , 20 , 20 , 30]
+		i += 1  #   3
+	else:
+		c . append(b[j]) #   [5 , 10 , 12 , 20 , 20 , 30 , 37]
+		j += 1 #  4
+c . extend(a[i:]) #  [5 , 10 , 12 , 20 , 20 , 30 , 37 , 40 , 50]
+c . exten(b[j:])
+print(c)
+
+
+'''
+1) c = [5 , 10 , 12 , 20 , 20 , 30 , 37]
+    c . append([40,50]])
+    c . append([])
+    print(c)
+    What  is  printed ?  ---> [5 , 10 , 12 , 20 , 20 , 30 , 37 , [40 , 50] , []]
+
+2) c = [5 , 10 , 12 , 20 , 20 , 30 , 37]
+    c . extend([40,50]])
+    c . extend([])
+    print(c)
+    What  is  printed ?  ---> [5 , 10 , 12 , 20 , 20 , 30 , 37 , 40 , 50]
+'''

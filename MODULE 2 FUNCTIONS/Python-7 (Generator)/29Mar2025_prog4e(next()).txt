@@ -1,0 +1,23 @@
+What  are  the  two  ways  to  iterate  a   generator ?  --->  With  next()  function  and  for  loop
+
+next()  function
+-------------------
+1) What  is  the  syntax  of  next()  function ?  ---> next(generator  object)
+
+2) What  is  the  result  of  next(g) ?  --->  That  object  yielded  by  generator  function  or  expression
+
+3) What  does  first  call  to  next(g)  do ?  --->  
+									Executes  generator  function  from  the  begining  till  first  yield  statement
+							                and  the  object  is  yielded  to  next(g)
+
+4) What  about  subsequent  calls  to  next(g)  do ?  ---> 							
+								Resumes  generator  function  execution  from  where  function  got  paused ,   
+						                continues  till  next  yield  statement  and  the  object  is  yielded  to  next(g)
+
+5) Where  is  next()  function  used (inside  (or)  outside  the  loop) ?  --->																											
+											Inside  the  loop  to  obtain  each  element  of  generator
+
+6) What  does  next(g)  do  when  generator  got  exhausted ?  --->  Throws  StopIteration   error
+
+7) Is  next(sequence)  valid ?  --->  No  and  argument  should  be  generator 
+    Is  next(non-sequence)  valid ?  --->  No 

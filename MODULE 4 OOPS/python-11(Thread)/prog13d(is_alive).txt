@@ -1,0 +1,10 @@
+is_alive()  method
+---------------------
+1) What  does  t . is_alive()  method  do  ?  --->   Returns  true  when  thread  't'  is  alive  and  false  otherwise
+
+2) It  informs  whether  thread  is  dead  or  alive
+
+3) When  is  a  thread  called  alive  ?  --->  As  long  as  target  is  under  execution
+    When  is  a  thread  called  dead  ?  --->  As  soon  as  target  execution  is  finished
+
+4) Where  is   is_alive()  method  defined ?  --->  In  Thread  class

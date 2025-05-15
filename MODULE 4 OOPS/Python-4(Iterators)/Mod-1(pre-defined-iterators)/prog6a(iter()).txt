@@ -1,0 +1,20 @@
+iter()  function
+------------------
+1) What  does  iter(sequence)  do  ?  --->  Converts   sequence  to  iterator
+
+2) What  does  iter(list)  do  ?  --->  Converts  list  to  list_iterator  object
+    What  does  iter(tuple)  do  ?  ---> Converts  tuple  to  tuple_iterator  object
+    What  does  iter(set)  do  ?  --->    Converts  set  to  set_iterator  object
+    What  does  iter(string)  do  ?  --->  Converts  string  to  str_iterator  object
+
+3) Is  iter(non-sequence)  valid ?  --->  No  becoz  argument  can  not  be  non-sequence  as  it  is  a  single  element
+
+4) In  other  words,  iter()  function  can  not  convert  non-sequence  to  iterator
+
+5) Which  method  is  internally  executed  for  iter(sequence) ?  --->  __iter__()  method
+
+6) What  is  the  alternative  to  iter(list) ?  --->  list . __iter__()
+
+7) We  can  call  __iter__()  method  directly  instead  of  calling  iter()  function
+
+8) Is  iter(iterator)  valid ?  --->  Yes  but  it  is  of  no  use

@@ -1,0 +1,27 @@
+Method
+----------
+1) What  does  a  method  do ?  --->  Performs  operation  on  object  such  as
+							 a) Reads  inputs  into  an  object
+							 b) Prints  an  object
+							 c) Adds  two  objects
+							 d) Compares  two  objects  and  so  on
+
+2) Where  is  a  method  defined ?  --->  Inside  the  class
+
+3) Method  is  a  member  of  what ?  --->  Class  becoz  it  is  defined  inside  the  class
+    Class  is  a  member  of  what ? --->  Module
+
+4) class   c1:
+	   def  m1(self):
+	           statements
+    Is  m1()  a  method ?  --->  Yes  becoz  it  is  defined  inside  the  class
+
+5) What  is  the  mandatory  argument  to  a  method ?  ---> self
+
+6) What  are  the  two  ways  to  call   a  method ?  --->  object . method()
+											         and
+										        classname . method(object)
+
+7) Can  a  method  be  called  without  an  object ?  --->  No
+
+8) In  other  words,  object  is  mandatory  to  call  a  method

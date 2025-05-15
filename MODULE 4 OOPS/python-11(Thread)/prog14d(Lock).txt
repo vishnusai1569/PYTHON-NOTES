@@ -1,0 +1,50 @@
+Lock  class
+-------------
+1) How  to  create  a  Lock  object ?  --->  l  =  Lock()
+
+2) Where  is  Lock  class  defined ?  --->  In  threading  module
+
+3) What  are  the  two  methods  of  Lock  class ? --->  acquire()  and  release()
+
+4) What  does  l . acquire()  do ?  --->  Current  thread  locks   object   'l'
+
+5) How  many  times  can  Lock  object  be  locked  ?  --->  Just  once
+
+6) Can  a  thread  lock  already  locked  object  ?  ---> No
+
+7) What  happens   when  a  thread  tries  to  lock  already  locked  object ?  --->
+											Thread  is  made  to  wait  until  object  is  unlocked
+
+8) What  does  l . release()  do  ?  --->  Current  thread  unlocks   object  'l'
+
+9) Can  object  be  unlocked  without  lock ?  --->  No
+
+10) In  otherwords,  release()  method  can  not  be  called  without  acquire()
+
+11) What  happens  when   object  is  not  unlocked ?  ---> Waiting  thread  waits  forever
+
+12) Therefore  unlock  is  mandatory
+
+13) def   f1():
+            statements
+      How  many  threads  can  execute  f1()  function ?  --->  Multiple  threads  can  execute  f1()  function  concurrently  and
+							                                      hence  there  is  a  possibility  of  getting  incorrect  results.
+
+14)  l = Lock()
+       def   f2():
+             l . acquire()
+             some  code
+	     l . release()
+      How  many  threads  can  execute  f2()  function ?  ---> Just  one  thread  at  a  time
+
+15) Let  thread  t1  locks  object  'l'  and  executes  f2  function.
+      When  t1  is  executing  f2()  function,  no  other  thread  can  execute  f2()  function  simultaneously  due  to  l . acquire()
+
+16) When  some  other  thread  t2  tries  to  execute  f2()  function , it  fails  to  lock  object   'l'
+       becoz  object  'l'  is  already  locked  by  t1.  So  t2  waits  until  t1  unlocks  object  'l'
+
+17) Therefore  f2()  function  can  not  be  executed  by  multiple  threads  concurrently  due  to  locking  mechanism
+
+18) Finally,  threads  execute  f2()  function  sequentially  which  leads  to  accurate  results
+
+19) Concurrent  execution  is  denied  and  serial  execution  is  forced

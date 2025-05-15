@@ -1,0 +1,23 @@
+assert statement
+---------------------
+1) assert   condition ,  msg
+    What  does  assert  statement  do  when  condition  is  false  ?  --->
+										Raises  AssertionError  and  msg  is  passed  to  except  suite
+
+2) What  does  assert  statement  do  when  condition  is  True  ?  --->  Proceeds  to  next  statement
+
+3) Is  assert  condition  valid  ?  --->  Yes  becoz  msg  is  optional  in  assert  statement
+
+4) try:
+         assert  cond  ,  msg
+         stmt-x
+     except  AssertionError  as  msg:
+	   stmt-y
+     How  to  replace  assert  statement  with  if  statement ?   ---> try:
+													      if  cond:
+													   	   stmt-x
+												              else:
+													            raise  AssertionError(msg)
+													 except  AssertionError  as  msg:
+														  stmt-y
+5) Is  Assert  valid ?  --->  No  becoz  it  is  a  keyword  and  hence  it  should  be  in  lowercase

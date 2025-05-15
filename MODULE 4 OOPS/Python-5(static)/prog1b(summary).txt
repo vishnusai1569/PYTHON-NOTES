@@ -1,0 +1,32 @@
+Summary
+-----------
+1) print(object . x)
+    Which  variable  is  accessed ?  --->  Instance  variable  'x'
+
+2) print(object . x)
+    What  happens  when  there  is  no  instance  variable  'x'  in  the  object ?  --->  static  variable  'x'  is  accessed
+
+3) print(object . x)
+    What  happens when  there  is  no  instance  and  static  variable  'x' ?  --->  Throws  error
+
+4) print(classname . x)
+    Which  variable  is  accessed ?  ---> Static  variable
+
+5) print(classname . x)
+    What  happens  when  there  is  no  static  variable  'x'  in  the  class ?  --->  Throws  error
+
+6) object . new-variable = value
+    What  does  the  above  statement  do ? --->  Adds  a  new  instance  variable  to  the  object  with  the  specified  value
+
+7) object . valid-variable = value
+    What  does  the  above  statement  do  ? --->  Modifies  value  of  the  variable  in  the  object
+
+8) classname . new-variable = value
+    What  does  the  above  statement  do ? --->  Adds  a  new  static  variable  to  the  class  with  the  specified  value
+
+9) classname . valid-variable = value
+    What  does  the  above  statement  do ? ---> Modifies  value  of  static  variable
+
+10) How  to  obtain  all  the  instance  variables  of  an  object ?  --->  object . __dict__
+
+11) How  to  obtain  all  the  static  variables  of  a class ?  --->  classname . __dict__

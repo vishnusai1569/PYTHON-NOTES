@@ -1,0 +1,42 @@
+nonlocal  keyword
+--------------------
+1) def  f1():
+         def  f2():
+	        x = 10
+    What  does  x = 10  do  ?  ---> Creates  a  LV  in  inner  function  with  value  10
+
+2) How  to  prevent  inner  function  in  creating  a  Lv ?  --->  With  nonlocal  keyword
+
+3) def  f1():
+          x = 10
+          def   f2():
+               nonlocal  x
+	       x = 20
+    What  does  x = 20  do  ?  --->  Modifies  value  of  LV  of  outer  function  to  20
+
+4) What  does  nonlocal  x  do ?  ---> Informs  inner  function  to  treat  variable  'x'  as  Lv  of  outer  function
+
+5) In  other  words,  nonlocal  keyword  prevents  inner  function  to  create  (or)  have  a   LV  
+
+6) def  f1():
+	  def  f2():
+	       nonlocal  x
+    In  nonlocal  x  valid  in  f2()  function ?  --->  No  becoz  there  is  no  local  variable  'x'  in  outer  function  f1
+						
+7) In  other  words,  pre-requisite  to  use  nonlocal  keyword  is  that  there  should  be  a  LV  in
+    outer()  function  with  same  name  
+
+8) def  f1():
+          x = 10
+         def  f2():
+               x = 20
+               nonlocal  x
+    Is  nonlocal  x  valid ?  --->  No  becoz  there  is  already  a  Lv  'x'  in   inner  function  f2
+
+9) In  other  words,  inner  funtion  can  not  have  a  local  variable  to  use  nonlocal  keyword 
+
+10) def  f1():
+             nonlocal   x
+      Is  the  above  nonlocal  valid  ?  --->  No  becoz  nonlocal  keyword  can  not  be  used  in  outer  function 
+            
+11) In  other  words,  nonlocal  keyword   can  be  used  only  in  inner  function

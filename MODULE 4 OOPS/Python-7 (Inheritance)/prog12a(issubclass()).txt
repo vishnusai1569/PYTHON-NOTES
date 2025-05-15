@@ -1,0 +1,19 @@
+issubclass()  function
+--------------------------
+1) What  does  issubclass(c2 , c1)  do ?  --->  Returns  True  if  c2  is   a  child  class  (or)  subclass  of  c1  and  False  otherwise
+
+2) issubclass(c3 , c1)
+    What  is  the  result  when  c3  is  a  grand  child  of  c1 ?  --->  True
+
+3) Therefore  c3  need  not  be  a  direct  child  to  c1
+     i.e. c3  can  be  grand  child , great  grand  child  and  so  on
+
+4) What  is  the  use  of  issubclass()  function  ?  --->  Determines  relation  between  the  two  classes
+
+5) What  does  issubclass(c4 , (c1 , c2 , c3))  do ? --->
+                                                       Returns  True  when  c4  is  a  child  class  of  c1 , c2  (or)  c3  and  False  otherwise
+
+6) What  is  the  first  argument  of  issubclass()  function ?  --->   classname
+    What  is  the  2nd  argument  of  issubclass()  function ?  --->  classname  (or) tuple  of  class  names
+
+7) Where  is  issubclass()  function  defined ?  --->  In  builtins  module

@@ -1,0 +1,25 @@
+Simple (or) Single  Inheritance
+------------------------------------
+1) class  c1:
+          x = 10
+          def   m1(self):
+	     	     pass
+    class  c2(c1):
+   	    y = 20
+	    def   m2(self):
+		    pass
+
+2) What  is  simple  inheritance ?  ---> Single  parent  class  and  single  child  class
+
+3) Class  c2  is  derived  from  class  c1
+     i.e. Members  of  class  c1  are  inherited  to  c2
+
+4) What  are  the  members  of  class  c2  on  the  whole ?  --->  Variables  x  and   y  and  methods  m1()  and  m2()
+
+5) super()  refers  to  which  class  in  class  c2 ?  --->  c1  becoz  c1  is  a  parent  to  c2
+
+6) What  is  another  way  to  refer  to  class   c1  in  c2 ?  --->  super(c2 , c2()))
+
+7) Is  super(c2)  valid  ?  --->  No  due  to  single  argument
+
+8) How  many  arguments  does  super()  function  demand  ?  ---> 0  (or)  2

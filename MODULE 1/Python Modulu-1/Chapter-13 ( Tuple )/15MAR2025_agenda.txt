@@ -1,0 +1,9 @@
+Agenda
+---------
+1) Tuple  packing  and  unpacking
+
+2) Functions
+
+3) methods
+
+4) Nested  tuple

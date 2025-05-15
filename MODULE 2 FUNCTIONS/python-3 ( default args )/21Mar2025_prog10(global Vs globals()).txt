@@ -1,0 +1,13 @@
+ global  keyword  Vs  globals()  function
+-----------------------------------------------
+1) What  does  global  keyword  do ?  --->  Informs  function  to  treat  variable  as  GV
+    What  does  globals()  function  do ?  --->  Returns  a  dictionary  with  all  the  GV's  and  their  values
+
+2) What  does  global  x  do ?   --->  Informs  function  to  treat  variable  'x'  as  GV
+    What  does   globals()['x']  do  ?  --->  Returns  value  of  GV   'x'
+
+3) When  does  global  x  throw  error  ?  --->  When  LV  'x'  already  exists  in  the  function 
+    When  does  globals()['x']  throw  error ?  --->  When  GV  'x'  does  not  exist
+
+4) When  is  global  keyword  recommended  ?  --->  When  function  does  not  wish  to  have  a  LV
+    When  is  globals()  function  recommended ?  ---> When  function  does  not  wish  to  access  LV  

@@ -1,0 +1,31 @@
+Object
+--------
+1) What  is  an  object ?  --->  An  instance  of  a  class
+
+2) What  is  25  called ?  ---> An  instance  of  int  class
+    What  is  10.8  called ?  --->  An  instance  of  float  class
+    What  is   'Hyd'   called ?  --->  An  instance  of  str  class
+    What  is  [10, 20 , 15 , 18]  called ?  --->  An  instance  of  list  class
+
+3) How  is  an  object  created ?  --->  classname()
+
+4) What  does  a = c1()  do ?  --->  Creates  c1  class  object  and  assigns  reference  to  the  object
+    Where  does  refernce  'a'  point  to ?  --->  c1  class  object
+    What  is  the  name  of  object ?  --->  'a'  itself
+
+5) In  other  words, reference  name  is  nothing  but  object  name
+
+6) What  does  object  'a'  initially  contain ?  --->  Nothing  and  it  is  an  empty  object
+
+*7) In  other  words,  every  python  object (i.e.  user  defined  object) is  initially  empty
+
+8) How  to  determine  id  of  the  object ?  --->  id(object)
+
+9) How  to  determine  type  of  the  object ?  --->  type(object)
+    What  is  the  type  of  object (i.e. user  defined  object) ?  --->  <class  '__main__ . c1'>
+
+10) How  to  delete  an  object ?  --->  del  reference
+
+11) Is  object  alive  after  program  terminates  in  case  it  is  not  deleted ?  ---> No
+
+12) Every  object  is  lost  soon  after  program  terminates

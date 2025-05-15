@@ -1,0 +1,16 @@
+__next__()  method
+------------------------
+Which  of  the  following  are  valid   and  why ?
+1) next(iterator)  --->   Valid  becoz  there  is  __next__()  method  in  every  iterator
+
+2) next(sequence)  --->  Invalid  becoz  there  is  no  __next__()  method  in  every  sequence
+
+3) next(non-sequence)  --->  Invalid  becoz  there  is  no  __next__()  method  in  every  non-sequence
+
+4) next(user-defined-object) --->  Valid  if  there  is  __next__()  method  in  user  defined  class  and  invalid  otherwise
+
+*5) Finally  which  object  can   be  iterated  by  next()  function ?  ---> That  object  which  has  got  __next__()  method
+
+6) Which  method  is  internally  executed  when  next()  function  is  called ?  --->  __next__()  method
+
+7) What  is  the  class  with   __next__()  method  called ?   --->  Iterator

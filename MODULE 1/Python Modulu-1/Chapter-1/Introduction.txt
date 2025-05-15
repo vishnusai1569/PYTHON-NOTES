@@ -1,0 +1,161 @@
+Python
+---------
+Introduction
+---------------
+1) Python  is  a  general  purpose  high  level  programming  language
+
+2) Machine  language (0's  and  1's)  and  Assembly  language (Pseudo  codes  like  8085 , 8086)
+    are  lower  level  languages
+
+3) C  and  C++  are  middle  level  languages
+
+4) Java  and  Python  are  higher  level  languages
+
+5) 'Guido  van  Rossam   has  designed  python  in  1989  but  released  in  the market  in  1991
+
+6) Python  is  derived  from  'c'  and  ABC  languages
+
+7) Pyhton  has  some  of  the  features  of  'c'  language  and  'ABC'  language
+
+What  does  Python  support
+----------------------------------
+1) Python  is  a  functional  programming  language  (like  'C'  language)
+    i.e. Python  supports  functions
+    Eg:  def   f1():
+                  statements
+           def   f2():
+                  statements
+           def   f3():
+		  statements
+
+2) Python  is  an  Object  oriented  language (like  C++  and  Java)
+    i.e. Python  supports  classes  and  objects
+    Eg:  class   c1:
+	           def   m1(self):
+		           statements
+	           def   m2(self):
+		           statements
+           # End  of  the  class
+	   a = c1()  ---> 'a'  is  c1  class  object
+
+3) Python  is  a  scripting  language (like  Perl  and  Shell  script)
+    It  is  possible  to  write  a  python  program  without  using  functions  and  classes
+    Eg:   stmt1
+            stmt2
+            stmt3
+	    and  so  on
+
+4) Python  is  a  modular  programming  language (like  Modula  3)
+
+In  other  words,  pyhton  is  an  allrounder
+
+Where  is  Python  used 
+----------------------------
+Python  can  be  used  to  design:
+1) Desktop  applications (Stand  alone  applications ) like  Notepad , Calculator , Paint  Brush , ......
+
+2) Web  applications
+
+3) Database  applications  becoz  python  supports  PDBC(Python  Data  Base  Connectivity)
+
+4) Networking  applications
+
+5) Games
+
+*6) Data  science  applications
+
+*7) Machine  learning  applications
+
+*8) Artificial  Intelligence
+
+*9) IOT(Internet  Of  Things) applictions
+
+
+Features  of  Python
+-------------------------
+1) Simple  and  Easy  to  learn
+
+2) Free  Ware(i.e. Free  of  cost) and 
+    Open  Source(i.e. We  can  see  source  code  behind  Python  and  modify  it)
+
+3) High  Level  programming  language
+
+4) Platform  independent  language (like Java)
+    i.e. Compile  anywhere ('X'  O.S.  and  'Y'  Processor) and  run  any  where  else
+    This  is  in  contrast  to  C  and  C++  where  program  must  be  executed  on  the  same  system  
+    where  it  is  compiled
+
+5) Portability
+    i.e. Migrate  from  one  system  to  another  system  without  making  any  major  changes
+
+*6) Dynamically  typed  language
+      i.e. Objects  can  be  used  without  any  prior  declaration
+      Eg:  x = 25  --->  since  25  is  int,  'x'   is  automatically  int (Don't  write   int   x)
+             print(type(x)) --->  <class  'int'>
+
+7) Procedure  oriented  and  object  oriented (like  C++)
+    i.e. Python  program  can  be  designed  with  and  without  class (like  C++)
+    Java  program  must  contain  class  but  it  is  not  mandatory  in  Python
+
+8) Interpreter  language
+    i.e.  Line  by  line  translation  and  execution
+    stmt1  --->  Translated  and  executed
+    stmt2  --->  Translated  and  executed
+    stmt3  --->  Translated  and  executed
+      .....
+    Translation  and  Execution  are  alternate
+    (C  and  C++  are  compiler  languages,
+    Python  is  interpreter  language  and
+    Java  is  both  compiler  and  interpreter  language)
+
+9) Extensible
+    i.e. Pyhton  program  can  use  other  language  functions  and  methods  and  
+    thereby  performance  of  the  application  is  improved
+
+10) Embedded
+      i.e.  Python  code  can  be  used  in  other  language  programs
+
+11) In  other  words,  extensible  and  embedded  are  quite  opposite
+
+12) Extensive  library
+      There  are  too  many  libraries(predefined  functions  and  classes)  in  python
+
+
+Limitations
+-------------
+1) Performance  of  python  program  is  low  becoz  python  is  an  interpreter  language
+    i.e. Python  program  is  translated  every  time  program  is executed
+    Therefore  Python  program  execution  is  slow  due  to  repeated  translation
+    This  is  in  contrast  to  C  and  C++  where  program  execution  is  fast  becoz  they  are  compiler  languages
+
+2) Python  is  not  suitable  for  mobile  applications
+
+Different  Flavors  of  Python
+-----------------------------------
+Since  Python  is  open  source, There  are  several  flavors  of  python
+1) Cpython(Original  Python)
+
+2) Jython  (or) JPython
+
+3) IronPython
+
+4) PyPy
+
+5) RubyPython
+
+6) Anaconda  Python
+
+7) Stackless
+
+
+Python  Versions
+--------------------
+1) Python  1(Designed  in  1994)
+
+2) Python  2(Designed  in  2000)
+
+3) Python  3(Desgined  in  2008)
+    a)	Python  3.8 (2019)
+    b) Python  3.9 (2020)
+    c) Python  3.10(2021)
+    d) Python  3.11(2023)

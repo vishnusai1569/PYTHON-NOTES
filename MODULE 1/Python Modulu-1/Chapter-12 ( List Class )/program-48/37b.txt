@@ -1,0 +1,13 @@
+'''
+(Home  work)
+Repeat   previous  program  with  comprehension
+
+Input1 : [10 , 20 , 30 , 40 , 50 , 60 , 70]
+Input2 :  [100 , 200 , 300 , 400]
+Output :  [110 , 220 , 330 , 440]
+'''
+a = eval(input('Enter  1st  list  :  '))
+b = eval(input('Enter  2nd  list  :  '))
+small = min(len(a) , len(b))
+c = [a[i] + b[i]  for   i  in   range(small)]
+print(c)

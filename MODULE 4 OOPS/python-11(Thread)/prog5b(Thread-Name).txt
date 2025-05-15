@@ -1,0 +1,31 @@
+Thread    Name
+-------------------
+1) Every  thread  has  got  a  name
+
+2) What  is  the  name  of  main  thread ?  --->  MainThread  itself
+
+3) What  are  the  default  names  of  child  threads ?  --->  Thread-1 , Thread-2 , Thread-3 , .....
+
+4) How  to  assign  name  to  a  thread ?  --->  With  name  argument  of  Thread  constructor
+
+5) t = Thread(name = 'Hyd')
+    What  is  the  name  of  thread  't' ? ---> 'Hyd'
+
+6) t = Thread()
+    What  is  the  name  of  thread  't' ? ---> Default  name (i.e. Thread-x)  becoz  there  is  no  name
+
+7) How  to  determine  name  of  a  thread ? --->  With  name  variable  of  Thread  class
+
+8) t = Thread(name = 'Hyd')
+    What  is  t . name ?  ---> Name  of  thread  't'  i.e.  'Hyd'
+
+9) How  to  modify  name  of  a  thread  ?  --->  With  name  variable  of  Thread  class
+
+10) What  does  t . name = 'Sec'  do ?  --->  Modifies  name  of  thread  't'  to  'Sec'
+
+11) Can  name  of  main  thread  be  modified  ?  --->
+                                                            Yes  and  infact  every  thread  name  can  be  modified  including  main  thread
+
+Note:
+t = Thread(name = 'Hyd')
+What  is  the  difference  between  't'  and  'Hyd'  ?  --->  't'  is  object  name  and  'Hyd'  is  thread  name

@@ -1,0 +1,24 @@
+Constructor  Vs  Method
+-----------------------------
+1) def   __init__(self , parameters):
+		statements
+   def   init(self , parameters):
+  	      statements
+   What  is   __init__   called  (constructor  or  method) ?  --->  Constructor
+   What  about  init ?  --->  Method
+
+2) What  is  constructor  name ?  --->  __init__
+     What  is  method  name ?  --->  Any  name
+
+3) When  is  constructor  executed ?  ---> As  soon  as  object  is  created
+     When  is  method  executed ?  --->  As  soon  as  it  is  called
+
+4) Is  constructor  execution  implicit  (or)  explicit ?  --->  Both
+    What  about  method  execution ?  --->  Explicit
+
+5) What  does  a  method  do ? --->  Performs  operations  on  object  such  as
+                                                         read , print ,  initialize , compare , add  and  so  on
+    What  does  a  constructor  do ?  ---> Initializes  object
+
+6) What  can  constructor  return ?  ---> Nothing  except  None
+    What  can  a  method  return ?  --->  Any  python  object

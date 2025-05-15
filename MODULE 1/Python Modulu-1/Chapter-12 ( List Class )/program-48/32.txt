@@ -1,0 +1,12 @@
+#  Find  outputs  (Home  work)
+a = [[10 , 'Rama' , 1000.0] , [20 , 'Sita' , 2000.0] , [15 , 'Rajesh' , 3500.0] , [18 , 'Kiran' , 2800.0] , [5 , 'Amar'  ,5000.0] ]
+print(sorted(a)) #  [[5, 'Amar', 5000.0], [10, 'Rama', 1000.0], [15, 'Rajesh', 3500.0], [18, 'Kiran', 2800.0], [20, 'Sita', 2000.0]]
+print(sorted(a , reverse = True))  # [[20, 'Sita', 2000.0], [18, 'Kiran', 2800.0], [15, 'Rajesh', 3500.0], [10, 'Rama', 1000.0], [5, 'Amar', 5000.0]]
+print(a) #  [[10, 'Rama', 1000.0], [20, 'Sita', 2000.0], [15, 'Rajesh', 3500.0], [18, 'Kiran', 2800.0], [5, 'Amar', 5000.0]]
+
+
+'''
+1) What  does  sorted(nested-list)  do ?  ---> Sorts  outer  list  based  on  the  first  element  of  each  inner  list
+
+2) How  to  sort  on  2nd  element  of  each  inner  list ?  --->  Use  lambda  function  and   key  argument  (Pending)
+'''

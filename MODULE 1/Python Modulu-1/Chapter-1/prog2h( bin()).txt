@@ -1,0 +1,27 @@
+# bin()  function  demo  program
+print(bin(25)) #  Converts   decimal  number  to  binary  i.e.  0B11001
+print(bin(0O6247))  #  Converts   octal  number  to  binary  i.e.   0B110   010  100   111
+print(bin(0XA7B9))  #  Converts   hexa  decimal  number  to  binary  i.e.    0B1010   0111    1011   1001
+
+
+
+'''
+bin()  function
+-----------------
+1) What  does  bin(x)  do ?  --->  Converts  object  'x'  to  binary  number  when 'x'  can  be  decimal /  octal / hexa-decimal  number
+
+2) Conversion  of  decimal  number  to  binary  number
+  --------------------------------------------------------------
+         16   8   4   2   1  --->  Weights
+	 1    1    0   0   1
+
+3) Conversion  of  octal  number  to  binary  number    (2 ^ 3 = 8)
+     ----------------------------------------------------------
+	   4   2   1		4   2   1    	4   2   1	 4   2   1  --->  Weights
+	   1   1   0            0   1   0       1   0   0        1   1    1
+
+4) Conversion  of  hexa-decimal  number  to  binary  number  (2  ^ 4 = 16)
+    -------------------------------------------------------------------
+	    8   4   2   1	 8   4   2   1	       8   4   2   1	    8   4   2   1  --->  Weights
+	    1   0   1   0        0   1   1    1        1   0   1    1       1   0   0   1
+'''

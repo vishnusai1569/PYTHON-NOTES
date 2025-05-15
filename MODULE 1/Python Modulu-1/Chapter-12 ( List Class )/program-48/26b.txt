@@ -1,0 +1,12 @@
+'''
+Modify  the  following  program  with  walrus  operator
+
+Hint:  Call  index()  method  only  once
+'''
+a = [10 , 20 , 15 , 12 , 14 , 15 , 18 , 19 , 15 , 12 , 25]
+try:
+	i = -1
+	while  i := a . index(15 , i + 1):
+		print(i)
+except:
+	print(F'15  is  found  {a . count(15)}  times ')

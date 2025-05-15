@@ -1,0 +1,36 @@
+Class   Method
+----------------
+1) class  c1:
+        @classmethod
+        def   m1(cls):
+                Statements
+   Is  m1()  a  class  method ?  --->  Yes  due  to  @classmethod  decorator
+
+2) What  is  the  mandatory  argument  for  a  class  method ?  --->  cls
+
+3) Is  cls  a  user  defined  word  (or)  keyword  ?  --->  User  defined  word
+
+4) How  many  arguments  can  a  class  method  take  ?  --->  Any  number  of  arguments  in  addition  to  cls
+
+5) How  is  class  method  called  ?  --->  Through  classname
+							        i.e.  classname . method()
+
+6) How  to  call  class  method  m1()  of  class  c1 ?  ---> c1 . m1()
+
+7) object . static-method()
+    Can  a  class  method  be  called  wrt  object  ?  --->  Yes  but  not  recommended
+
+8) What  is  the  advantage  of  class  method ?  --->  It  can  be  called  directly  without  an  object
+
+9) Can  regular  (or)  instance  method  be  called  without  an  object ?  --->
+							No  and  object  is  mandatory  to  call  a   regular  (or)  instance  method
+
+10) What  does  class  method  do ? --->  Performs  operations  on  static  variables
+
+11) What  are  the  two  ways  to  access  static variable  in  class  method ?  --->  classname . variable
+                                                                                                                                       and
+															         cls  . variable
+
+12) What  are  the  two  ways  to  add  static  variable  to  a  class  in  class  method ? ---> cls . variable  = value
+																			 and
+																	       classname . variable  = value

@@ -1,0 +1,9 @@
+How  to  iterate  generator ?
+---------------------------------
+1) for  loop  --->  First  choice  becoz  StopIteration  error  is  automatically  handled   by  for  loop
+
+2) next(generator)  ---> 2nd  choice  becoz  StopIteration  needs  to  be  handled  explicitly
+
+3) *generator  --->  Not  recommended
+
+4) list(generator)  --->  Not  recommended

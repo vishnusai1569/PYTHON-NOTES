@@ -1,0 +1,26 @@
+# Find  outputs (Home  work)
+a = 0O6247 #  Object  contains  decimal  equivalent   i.e.  6 * 8 ^ 3 + 2 * 8 ^ 2 + 4 * 8 ^ 1 + 7 * 8 ^ 0  = 3239
+print(a)  #  3239
+print(type(a))#  <class  'int'>
+print(id(a))  #  Address  of  object  3239  
+b = 0o6247 #  ref  'b'  points  to  same  object  3239
+print(id(b)) #  Same  address
+print(b) #   3239
+c = 3239 #  ref  'b'  points  to  same  object  3239
+print(c)  #  3239
+print(id(c)) #  Same  addess
+#print(0o9248) #  Error  due  to    9  and  8
+
+
+
+'''
+1) Conversion  of   octal   number  to  decimal
+     -------------------------------------------------
+           512    64     8      1   --->  Weights
+	    6      2     4      7   --->  6 * 512 + 2 * 64 + 4 * 8 + 7 * 1 = 3239
+
+2) a = 0o6247
+    b = 0O6247
+    c = 3239
+    How  many  objects   are  there ?  --->  Single object with three references a , b and c and all  the  three  references  point  to  the  same  object
+'''

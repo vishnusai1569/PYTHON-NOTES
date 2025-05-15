@@ -1,0 +1,53 @@
+1) Can  try  suite  contain  another  try  suite  ?  --->  Yes  and  is  called  nested  try
+
+2) Can  except  suite  contain  try  suite ? --->  Yes
+
+3) Can  else  suite  contain  try  suite ?  ---> Yes
+
+4) Can  finally  suite  contain  try  suite ?  --->  Yes
+
+5) When  there  is  a  possibility  of  error  for  a  group  of  statements,  enlcose  them  in  try  suite
+
+6) Similarly,  statements  of  except  suite  also  may  raise  an  error,   so  enclose  them  in  try  suite
+
+7) Similarly,  statements  of  else  suite  may  raise  an  error,  so  enclose  them  in  try  suite
+
+8) Similarly,  statements  of  finally  suite  may  raise  an  error,  so  enclose  them  in  try  suite
+
+try:
+	stmt1
+	stmt2
+	stmt3
+except:
+	try:
+		stmt4
+		stmt5
+		stmt6
+	except:
+		some  code
+	else:
+		some  code
+	finally:
+		some  code
+else:
+	try:
+		stmt7
+		stmt8
+		stmt9
+	except:
+		some  code
+	else:
+		some  code
+	finally:
+		some  code
+finally:
+	try:
+		stmt10
+		stmt11
+		stmt12
+	except:
+		some  code
+	else:
+		some  code
+	finally:
+		some  code

@@ -1,0 +1,25 @@
+Multiple  inheritance
+------------------------
+1) class  c1:
+           methods
+    class  c2:
+	   methods
+    class  c3:
+	   methods
+    class  c4(c2 , c1 , c3):
+	   methods
+
+2) What  is  multiple  inheritance ?  --->  A  class  is  derived  from  multiple  classes
+
+3) In  otherwords,  if  there  is  more  than  one  parent  class,   it  is  known  as  multiple  inheritance
+
+4) From  how  many  classes  is  class  c4  derived  ? --->  Three  classes
+											  i.e. c1 , c2  and  c3
+
+5) What  is  in  class  c4  finally ?  --->  All  the  members  of  classes  c1 , c2 , c3  and  new  members
+
+6) In  other  words,  members  of  classes  c1 , c2 , c3  are  inherited  to  c4
+
+7) What  is  super()  wrt  class  c4 ?  --->  c2  becoz  c4  is  derived  from  c2  first
+
+8) Classes  derivation  order  matters  but  not  definitions  order

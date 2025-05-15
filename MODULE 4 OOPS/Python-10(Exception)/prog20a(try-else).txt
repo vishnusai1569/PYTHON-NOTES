@@ -1,0 +1,39 @@
+try-else
+----------
+1) else:
+            statements
+
+2) When  is  else  suite  executed ?  --->  When  try  suite  does  not  raise  an  error
+
+3) What  is  the  difference  between  except  and  else   suites ?  --->
+					    except  suite  is  executed  only  when  try  suite  raises  an  error  and
+					    else  suite  is  executed  when  try  suite  does  not  raise  any  error
+
+4) In  other  words,  except  and  else  are  quite  opposite
+    i.e.  Any  one  is  executed  but  not  both
+
+5) Which  of  the  following  are  valid ?
+     a) try - else - finally ?  --->  Invalid   becoz  else  suite  can  not  be  used  without  except  suite
+     b) try - else - except -  finally ? --->  Invalid  becoz  else  suite  can  not  be  before  except  suite
+    c) try - except - else - else - else  -  finally ? ---> Invalid   due  to  multiple  else  suites
+
+6) What  is  the  location  of  else  suite ?  ---> Between  except  and  finally
+                                                                           i.e.  try - except - else - finally
+
+7) How  many  else  suites  are  permitted  for  a  try  suite ?  --->  Either  one  or  none  but  not  more  than  one
+
+
+Note :
+1) What  are  the  five  different  combinations  of  else ?  --->
+									if - else , if - elif - else , for - else , while - else  and  try - except - else
+
+2) if  cond:
+         statements
+    else:
+	  statements
+    When  is  else  suite  executed  wrt  if  ?  ---> When  the  if  condition  is  false
+
+3) When  is  else  suite  executed  wrt  for  loop  and  while ?  --->
+								After  the  loop  terminates  provided  loop  is  not  broken  in  the  middle
+
+4) When  is  else  suite  executed  wrt  try  suite ?  ---> When  try  suite  does  not  raise  any  error

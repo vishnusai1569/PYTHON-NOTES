@@ -1,0 +1,50 @@
+Instance  Variable
+---------------------
+1) What  is  an  instance  variable  ?  --->  A  variable  of  the  object
+    What  is  a  local  variable  ?  --->  A  variable  of  the  function  (or)  method
+    What  is  a  global  variable  ?  --->  A  variable  of  the  module  (or)  program
+
+2) Where  is  instance  variable  represented ?  --->  Inside  the  object
+
+3) Instance  variable  is  a  member  of  what ?  --->  Object
+
+4) What  are  instance  variables  of  date  object ?  --->  dd , mm  and  yy
+     What  are  instance  variables  of  rational  object ? --->  num  and  den
+     What  are  instance  variables  of  time  object ?  ---> hours , minutes  and  seconds
+     What  are  instance  variables  of  complex  object ?  --->   real  and  imag
+     What  are  instance  variables  of  employee  object ?  ---> empnumber , empname , salary  and  so  on
+
+5) How  to  add  an  instance  variable  to  an  object ?   --->  object . new-variable = value
+
+6) Where  can  instance  variable  be  added  to  the  object ?  --->  Any  where  in  the  program
+
+7) a = emp()   --->  Empty  object
+    What  does  a . empno = 25  do ? ---> Adds  variable  empno  to  object  'a'  with  value  25
+    What  does  a . empno = 35  do ? --->  Modifies  value  of  empno  in  object  'a'  to  35
+
+8) object . new-variable = 25
+    What  does  the  above  statement  do ?  ---> Adds  a  new  variable  to  the   object  with  value  25
+
+9) object . existing-variable = 35
+    What  does  the  above  statement  do ?  ---> Modifies  value  of  the  variable  to  35
+
+10) How  to  delete  instance  variable  of  the  object ? --->  del   object . variable
+
+11) What  does  del  a . empno  do ?  --->  Removes  variable  empno  from  object  'a'
+
+12) del  object . valid-variable
+     What  does  the  above  statement  do ?  --->  Removes  variable  from  the  object
+
+13) del  object . invalid-variable
+      What  does  the  above  statement  do ?  --->  Throws  AttributeError
+
+14) Python  objects  are  growable  and  shrinkable
+      i.e. New  variables  can  be  added  to  the  object  and  existing  variables  can  be  removed  from  the
+      object  any  where  in  the  program
+
+15) In  other  words,  python  objects  are  dynamic
+
+
+Note:
+What  about  java  and  c++  objects  ?  --->  They  are  neither  growable  nor  shrinkable
+								       i.e.  static  objects

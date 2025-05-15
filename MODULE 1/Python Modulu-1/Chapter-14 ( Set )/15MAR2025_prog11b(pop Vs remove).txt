@@ -1,0 +1,10 @@
+pop()  method  Vs  remove()  method
+-------------------------------------------
+1) What  does  set . pop()  do ?  --->  Removes  first  element  of  the  set 
+    What  does  set . remove(x)  do ?  --->  Removes  element  'x'  from  the  set
+
+2) What  does  pop()  method  return ?  --->  The  deleted  element
+    What  does  remove()  method  return ? ---> None  by  default
+
+3) How  many  arguments  can  pop()  method  take ?  --->  0
+    How  many  arguments  can  remove()  method  take ?  ---> Single  

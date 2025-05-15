@@ -1,0 +1,38 @@
+List  comprehension
+------------------------
+1) What  is  the  syntax  of  list  comprehension ?  ---> [Expression   for  loop]
+
+2) [Expression   for  loop]
+     What  is  appended  to  the  list ?   --->  Result  of  expression  in  each  iteration  of  for  loop
+     How  many  elements  are  appended  to  the  list  if  for  loop  is  executed  'n'  times ?  --->  'n'  elements
+
+3) What  is  the  2nd  syntax  of  list  comprehension ?  --->  [Expression  for  loop  if  cond]
+
+4) [Expression  for  loop  if  cond]
+     What  is  appended  to  the  list ? ---> Result  of  expression  in  each  iteration  of  loop  provided  cond  is  True  
+
+5) What  is  the  3rd  syntax  of  list  comprehension ?  --->  [Expression   for  loop1  for  loop2   for  loop3 .....]
+
+6) [Expression   for  loop1  for  loop2]
+    How  many  elements  are  appended  to  the  list  if  first  for  loop  is  executed  'm'  times  and 
+    2nd  for  loop  is  executed  'n'  times ?  --->  (m * n)  elements
+
+7) What  is  the  last  syntax  of  list  comprehension ?  ---> [Expression   for  loop1  if  cond   for  loop2  if  cond  for  loop3  if  cond  .....]
+
+8) Is  [for  loop]  valid ?   --->  No  becoz  expression  is  missing
+
+9) Is  [Exp1 , Exp2 , Exp3  for  loop]  valid ?   ---> No  due  to  multiple  expressions  
+
+10) How  to  append  multiple  expressions  to  the  list ?  ---> [(exp1 , exp2 , exp3)  for   loop]
+
+11) [(exp1 , exp2 , exp3)  for   loop]
+     What  is  appended  to  the  list ?  ---> Tuple  of  three  elements  and  finally  it  is  a  list  of  tuples
+
+12) [Expression  for  loop:  if  cond:]
+      Is  the  above  statement  valid  ?  ---> No  becoz  colons  are  not  permitted  in  list  comprehension
+
+13) What  are  the  three  advantages  of  list  comprehension ?  --->  a) Coding  is   reduced  i.e. Just  one  line
+													      b) append()  method  is  automatically   executed 
+													      c) List  need  not  be  initialized  
+
+14) What  is  the  dis-advantage  of  list  comprehension ?  --->  Too  much  of  processing  and  difficult  to  understand
