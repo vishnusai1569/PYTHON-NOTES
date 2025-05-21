@@ -1,0 +1,31 @@
+load()  function
+-------------------
+1) What  does  load()  function  do ?  --->   Reads  encrypted  object  of  binary  file  and  converts  to  regualr  object
+
+2) What  is  the  argument  of  load()  function ?  ---> File  object  such  as  'f'  but  not  filename
+
+3) Where  is  load()  function  defined ?  --->  In  pickle  module
+
+4) What  is  the  mode  in  which  can  file  be  opened  to  use  load()  function ?  --->
+									Any  mode  except  'wb'  , 'ab'   and  'xb'  modes
+									and  'b'  is  mandatory  becoz  it  is  a  binary  file
+
+5) e = pickle . load(f)
+    What  is  'e' ?  ---> That  object  which  is  read  from   the  file
+
+6) f =  open('a.bin' , 'r')
+    pickle . load(f)
+    Is  the  statement  valid ? --->
+					No  becoz   load()  function  can  not  read  from  text  file  as  file  is  opened  in  'r'  mode
+
+7) f = open('a.bin' , 'wb')
+    pickle . load(f)
+    Is  the  statement  valid ?  ---> No  becoz  file  is  opened  in  'wb'  mode
+
+
+Note:
+1) What  does  dump()  function  do ?  --->  Encryption
+                                                                    i.e. Writes  object  to  the  file  in  binary  form
+
+2) What  does  load()  function  do ?  --->  Decryption
+			                                          i.e.  Reads   encrypted  object  of  the  file  and  converts  to  regualr  object

@@ -1,0 +1,10 @@
+ZipFile  class
+---------------
+1) What  is  a  zip  file ? --->  A  group  of  files  in  compressed  form
+
+2) How  to  create  a  ZipFile  class  object ?  --->  z = ZipFile('filename' , 'mode')  where  'z'  is  ZipFile  class  object
+
+3) Where  is  ZipFile  class  defined ?  --->  In  zipfile  module
+
+4) What  does  z = ZipFile('a.zip' , 'w')   do ?  --->   Constructor  of  ZipFile  class  opens  file  a.zip  in  write  mode
+    What  does  z = ZipFile('b.zip' , 'r')  do ?  ---> Constructor  of  ZipFile  class  opens  file  a.zip  in  read  mode

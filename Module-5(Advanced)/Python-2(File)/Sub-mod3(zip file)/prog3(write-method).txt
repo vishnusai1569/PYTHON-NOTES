@@ -1,0 +1,11 @@
+write()  method
+-------------------
+1) What  does  write()  method  do ?  --->  Writes  a   file  to  zip  file  but  not  file  contents
+
+2) What  is  the  argument  of  write()  method ?   --->  File  name
+
+3) What  does  z . write('a.txt')  do ?   --->  Writes  file  a.txt  to  the  zip  file  but  not  contents  of  the  file
+
+4) What  is  the  mode  in  which  can  file  be  opened  in  order  to  use  write()  method ?  ---> Any  mode  except  read  mode
+
+5) Where  is  write()  method  defined ?  --->  In  ZipFile  class

@@ -1,0 +1,11 @@
+namelist()  method
+---------------------
+1) list = z . namelist()
+
+2) What  does  namelist()  method  do ?  --->  Returns  a  list  of  all  the  file  names  which  are  in  the  zip  file
+					                                i.e.  ['1.py' , '2.py' , '3.py' ,  .....]
+
+3) What  is  the  mode  in  which  can  zip  file  be  opened  in  order  to  use  namelist()  method ?  --->
+													Any  mode  except  'w' , 'a'  and  'x'  modes
+
+4) Where  is  namelist()  method  defined ?  --->  In  ZipFile  class

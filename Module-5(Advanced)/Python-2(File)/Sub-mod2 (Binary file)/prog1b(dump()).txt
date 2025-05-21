@@ -1,0 +1,25 @@
+dump()  function
+--------------------
+1) What  does  dump()  function  do ?  ---> Writes  an  object  to  binary  file  in  encrypted  form  (or)  binary  form
+
+2) What  are  the  two  arguments  of  dump()  function ?  --->  Object  to  be  written  to  the  file  and  file  object
+
+3) Where  is  dump()  function  defined ?  --->  In  pickle  module
+
+4) f = open('emp.bin' , 'wb')
+    e = emp()
+    pickle . dump(e , f)
+    What  does  the  statement  do ? ---> Writes  object  'e'  to  the  file  emp.bin  in  encrypted  form
+
+5) What  is  the  mode  in  which  can  file  be  opened  to  use  dump()  function ?  --->  Any  mode  except  'rb'  mode
+
+6) f =  open('a.bin' , 'w')
+    e = emp()
+    pickle . dump(e , f)
+    Is  the  statement  valid ? --->
+					No  becoz  dump()  function  can  not  write  to  text  file  as  file  is  opened  in  'w'  mode
+
+7) f = open('a.bin' , 'rb')
+    e = Emp()
+    pickle . dump(e , f)
+    Is  the  statement  valid ?  ---> No  becoz  file  is  opened  in  'rb'  mode

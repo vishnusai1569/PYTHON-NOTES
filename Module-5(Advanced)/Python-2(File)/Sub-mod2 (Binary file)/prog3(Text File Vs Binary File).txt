@@ -1,0 +1,18 @@
+Text  file   Vs  Binary  file
+------------------------------
+1) What  does  text  file  contain ?  --->  Text
+    What  does  binary  file  contain ?  ---> Objects
+
+2) Text  file  is  in  human  understandable  form  but
+     binary  file  is  in  computer  understandable  form  i.e.  binary  form  or  encrypted  form
+
+3) What  is  the  drawback  of  text  file ?  --->  Security  is  lost  when  unauthorized  person  gets  access
+                                                                            and  hence  it  should  be  kept  secret
+    What  is  the  advantage  of  binary  file ?  ---> It  can  be  exposed  becoz  it  is  encrypted
+
+4) What  are  the  two  methods  to  write  to  text  file ?  --->  write()  and  writelines()  methods
+    What  is  the  function  to  write  to  binary  file ?  ---> dump()  function  of  pickle  module
+
+5) What  are  the  four  methods  (or)  ways  to  read  from  text  file ?  --->
+													read() , readline() , readlines()  and  for  loop
+    What  is  the  function  to  read  from  binary  file ?  --->  load()  function  of  pickle  module
