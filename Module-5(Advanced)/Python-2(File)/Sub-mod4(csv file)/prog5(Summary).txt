@@ -1,0 +1,50 @@
+Summary
+-----------
+What  are  the  four  different  types  of  files ?  --->  Text  File ,  binary  File ,  zip  file  and  csv  file
+
+Text  File
+------------
+1) What  does  Text  file  contain ?  --->  Text  such  as  story , letter ,  python  program  and  so  on
+
+2) How  to  open  text  file ?  --->  With  open()  function
+
+3) What  are  the  two  ways  to  write  to  a  text  file ? --->  With  write()  and  writelines()  methods
+
+4) What  are  the  four  ways  to  read  from  a  text  file ? --->  read() , readline() , readlines()  and  for  loop
+
+Binary  File
+--------------
+1) What  does  binary  file  contain ?  --->
+						Objects  such  as  emp  objects , stud  objects , cust  objects , images  and  so  on
+
+2) How  to  open  binary  file ?  --->  With  open()  function
+
+3) How  to  write  to  binary  file ?  --->  With  dump()  function  of  pickle  module
+										and
+								write()  method  of  file  class
+
+4) How  to  read  from  binary  file ?  --->  With  load()  function  of  pickle  module
+											and
+								    read()  method  of  file  class
+
+Zip  File
+----------
+1) What  does  Zip  file  contain ?  --->  A  group  of  files
+
+2) How  to  open   zip  file ?  --->  With  constructor  of  ZipFile  class
+						      i.e.  z = ZipFile('filename' , 'mode')
+
+3) How  to  write  to  zip  file ? --->  With   write()  method  of   ZipFile  class
+
+4) How  to  read  from  zip  file ? --->  With  namelist()  method  of  ZipFile  class
+
+
+CSV  file
+-----------
+1) What  does  CSV  file  contain ?  --->  Rows  i.e. Sequences  such  as  lists , tuples , sets  and  so  on
+
+2) How  to  open  csv  file ?  --->  With  open()  function
+
+3) How  to  write  to  csv  file ? --->  With  writerow()  method  of  writer  class
+
+4) How  to  read  from  csv  file ? --->  Not  possible  and  it  is  possible  to  iterate  thru  rows  of  csv  file  with  for  loop

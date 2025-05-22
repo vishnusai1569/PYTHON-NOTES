@@ -1,0 +1,48 @@
+reader()  function
+---------------------
+1) What  does  reader()  function  do ? --->  Returns  a   reader  object  which  is  an  iterator
+
+2) What  does  reader  object  contain  ?  ---> Nothing  i.e.  empty  object
+
+3) In  other  words , rows  are  iterated  from  the  file  on  demand
+
+4) Where  is  reader()  function  defined ?  --->  In  csv  module
+
+5) f = open('emp.csv' , 'r')
+    w = csv . reader(f)
+    For  which  file  is  reader  class  object  created ?  --->  emp.csv  file  becoz  file  object  'f'  contains  emp.csv
+
+6) r = csv . reader()
+    Is  the  statement  valid  ? --->  No  becoz  reader()  function  demands  an  argument  i.e. file  object
+
+7) f = open('a.csv' , 'r')
+    r = csv . reader(f)
+    for  x  in   r:
+              print(x)
+    What  does  for  loop  do ?  --->  Iterates  thru  each  row  of  the  file
+
+8) f = open('a.csv' , 'w')
+    r = csv . reader(f)
+    for  list  in   r:
+               print(list)
+    Is  the  above  for  loop  valid ?  --->
+					No  and  it  is  not  possible  to  iterate  thru  the  file  as   file  is  opened  in  write  mode
+
+
+9) f = open('a.csv' , 'r')
+    r = csv . reader(f)
+    What  does  print(r)  do  ? --->  __str__()  method  returns  type  and   address  of  object  'r'
+
+10) f = open('a.csv' , 'r')
+      r = csv . reader(f)
+      What  does  print(*r)  do  ? --->  Unpacks  the  reader  object  to  a  group  of  lists
+							   where   each  list  represents  a  row  of  the  file
+
+11) f = open('a.csv' , 'r')
+      r = csv . reader(f)
+     What  does  list(r)   do  ?   --->  Converts  reader  object  to  list  and  list of  lists  is  obtained
+
+12) Is  r . readrow()  valid ?  ---> No  becoz  there  is  no  readrow()  method  in   reader  class
+
+13) r = csv . reader('a.csv')
+      Is  the  statement  valid  ? ---> Yes  but  filename  is  iterated  but  not  file  contents  when  for  loop  is  executed

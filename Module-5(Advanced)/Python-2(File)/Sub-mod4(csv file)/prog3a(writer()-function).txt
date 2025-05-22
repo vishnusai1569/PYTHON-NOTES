@@ -1,0 +1,20 @@
+writer()  function
+---------------------
+1) What  does  writer()  function  do ? --->  Returns  a  writer  class  object
+
+2) In  other  words,  writer()  function  creates  a  writer  class  object  and  returns  it
+
+3) What  is  the  use  of  writer  object ?  --->
+					It  is  used  to  write  a  line  to  a  csv  file  with  writerow()  method  of  writer  class
+
+4) Where  is  writer()  function  defined ?  ---> In  csv  module
+
+5) w = csv . writer()
+    Is  the  statement  valid ?  --->  No  becoz  writer()  function  demands  an  argument  i.e. file  object
+
+6) w = csv . writer('emp.csv')
+     Is  the  statement  valid ?  ---> No  becoz  writer()  function  demands  file  object  but  not  filename
+
+7) f = open('a.csv' , 'r')
+     w = csv . writer(f)
+     Is  the  statement  valid ?  ---> No  becoz  file  is  opened  in  read  mode

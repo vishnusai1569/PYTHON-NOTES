@@ -1,0 +1,7 @@
+CSV  file (Comma  Separated  Value)
+-------------------------------------------
+1) CSV  file  is  a  very  popular  import  and  export  data  format  used  in  spreadsheets  and  databases
+
+2) Each  line  (or)  row  in  a  CSV  file  is  a  data  record
+
+3) Each  record  consists  of  fields  separated  by  commas

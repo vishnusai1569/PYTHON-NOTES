@@ -1,0 +1,10 @@
+open()  function
+-------------------
+1) f = open('emp.csv' , 'r')
+    What  does  open()  function  do ?  ---> Opens  file  in  read  mode
+
+2) f = open('emp.csv' , 'w' , newline = '')
+    What  does  the  open()  function  do ?  ---> Opens  file  in  write  mode  and  modifies  newline  to  ''
+
+3) f = open('emp.csv' , 'w')
+    What  does  the  open()  function  do ?  ---> Opens  file  in  write  mode  and  default  newline  is  '\n'

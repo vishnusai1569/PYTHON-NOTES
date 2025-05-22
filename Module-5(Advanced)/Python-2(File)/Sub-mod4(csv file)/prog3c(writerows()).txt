@@ -1,0 +1,10 @@
+writerows()  method
+------------------------
+1) What  is  the  argument  of  writerows()  method ?  ---> Nested  sequence
+
+2) What  does  writerows(nested-sequence)  do ?  --->  Writes  elements  of  all  the  innner  sequences  to  the  file
+
+3) list = [[1 , 2 , 3 , 4] , [5 , 6 , 7 , 8] , [9 , 10 , 11 , 12]]
+    What  does  writerows(list)  do ?  --->  Writes  3  rows  to  the  file  and  each  row  contains  4  values
+
+4) Where  is  writerows()  method  defined ?  --->  In  writer  class

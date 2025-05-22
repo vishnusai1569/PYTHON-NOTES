@@ -1,0 +1,19 @@
+writerow()  method
+------------------------
+1) w . writerow([10 , 'Rama Rao' , 10000.0])
+    What  does  the  statement  do ?  --->  Writes  a  row  of  3  values  to  the  file
+
+2) What  is  the  argument  of  writerow()  method ?  ---> Any  sequence  such  as  list , tuple  and  so  on
+
+3) w . writerow(10 , 'Rama Rao' , 10000.0)
+    Is  the  statement  valid  ? --->  No  becoz  writerow()  method  takes  single  agument  but  not  three  arguments
+
+4) Is  w . writerow(25)  valid  ? --->  No  becoz  25  is  not  a  sequence
+
+5) Where  is  writerow()  method  defined ?  --->  In  writer  class
+
+6) Can  writerow()  method  be  called  without   writer  object ?  --->  No  becoz  it  is  not  a  static  (or)  class  method
+
+7) list = [[1 , 2 , 3 , 4] , [5 , 6 , 7 , 8] , [9 , 10 , 11 , 12]]
+    How  to  write  each  inner  list  to  csv  file ?  ---> for  x  in  list:
+										   	 w . writerow(x)
