@@ -1,0 +1,38 @@
+^  and  $
+----------
+1) What  does  '^'  indicate ?  --->  Starts  with
+    What  does  '$'  indicate ?  ---> Ends  with
+
+2) What  does  '^learn'  indicate ?  --->  Starts  with  'learn'
+    What  does  'simple$'   indicate  ? --->  Ends  with  'simple'
+
+3) re . search('^python' , 'Learning  python  is simple')
+    What  does  search()  function  do  ? --->  Returns  None  becoz  2nd  string  does  not  start  with  'python'
+
+4) re . search('python' , 'Learning  python  is simple')
+    What  does  search()  function  do  ? ---> Returns  a  Match  object  becoz  'python'  is  found  in  2nd  string
+
+5) re . search('is$' , 'Learning Python is simple')
+    What  does  search()  function  do ? --->  Returns  None  becoz  2nd  string  does  not  end  with  'is'
+
+6) re . search('is' , 'Learning Python  is  simple')
+    What  does  search()  function  do  ? ---> Returns  a  Match  object  becoz  'is'  is  found  in  2nd  string
+
+7) a = 'learn'
+    re . search(^a , 'Learning  Python  is  simple')
+    re . search(a$ , 'Learning  Python  is  simple')
+    Are  the  statements  valid ? --->  No  becoz  ^  and  $  demand  string  but  not  string  object
+
+8) a = 'learn'
+    re . search(^a , 'Learning  Python  is  simple')
+    What  is  the  alternative  to  the  statement ? --->  re . search('^' + a , 'Learning  Python  is  simple')
+    														(or)
+										      a = '^Learn'
+										      re . search(a , 'Learning  Python  is  simple')
+
+9) a = 'learn'
+    re . search(a$ , 'Learning  Python  is  simple')
+    What  is  the  alternative  to  the  statement ? --->  re . search(a + '$' , 'Learning  Python  is  simple')
+    													(or)
+										       a = 'Learn$'
+										       re . search(a , 'Learning  Python  is  simple')

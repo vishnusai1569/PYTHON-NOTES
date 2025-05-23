@@ -1,0 +1,25 @@
+readlines()   method
+------------------------
+1) list  = f . readlines()
+    What  does  readlines()  method  do  ?  --->  Reads  all  the  lines  of  the  file  into  a  list  and   returns  list
+
+2) What  does  readlines()  method  do  when  file  has  10  lines ?  --->
+									Reads  all  the  10  lines  of  the  file  into  a  list  and  returns  list
+
+3) What  does  list  contain  ?  --->  ['Line  1\n' , 'Line 2\n' , ....... 'Line 10\n']
+
+4) f = open('a.txt' , 'w')
+    Is  f . readlines()  valid ? ---> No  becoz  file  is  opened  in  'w'  mode
+
+5) Which  mode  is  recommended  for  readlines()  method ?  --->  Any  mode  except  w , a  and  x
+
+6) How  is  readlines()  method  different  from  readline()  ?  --->
+												readline()  method  reads  a  single  line  of  the  file  but
+						                                                readlines()  method  reads  all  the  lines  of  the  file
+
+7) How  is  readlines()  method  different  from  read()  method ?  --->
+										read()  method  reads  whole  file  into  a  str  object  but
+							                        readlines()  method  reads  whole  file  into  a  list
+
+8) What  does  str  object  contain  after  execution  of  read()  method ?  ---> 'Line1\nLine2\nLine3\n .... Line10\n'
+    What  does  list  contain  after  execution  of  readlines()  method ?  ---> ['Line1\n' , 'Line2\n' , ..... 'Line10\n']

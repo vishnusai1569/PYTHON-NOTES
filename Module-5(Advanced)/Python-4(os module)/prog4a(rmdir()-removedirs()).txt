@@ -1,0 +1,25 @@
+rmdir()  and  removedirs()  functions
+------------------------------------------
+1) What  does  rmdir('x')  do ?  ---> Removes  sub-directory 'x'  from  cwd
+
+2) rmdir('x')
+    What  happens  when  sub-directory  'x'  does  not  exist  in  cwd ?  --->Throws  FileNotFoundError
+
+3) rmdir('x')
+    What  happens  when  sub-directory  'x'  is  not  empty ?  --->  Throws  OSError
+
+4) Can  OSError  be  handled  before  FileNotFoundError ?  --->  No  becoz  OSError  is  parent  class  to  FileNotFoundError
+
+5) In  other  words,  directory (or) folder  should  be  empty  before  deletion
+
+6) What  does  rmdir('a / b')  do ?  --->  Removes  sub-directory 'b'  from  directory  'a'  which  is  in  cwd
+
+7) What  does  removedirs('p/q/r')  do ?  --->  Removes  sub-directory  'r'  from  directory  'q',
+									  removes  sub-directory  'q'  from  directory  'p'  and
+									  removes  sub-directory  'p'  from  cwd
+
+8) In  other  words,  directories  are  deleted  in  the  reverse  order
+
+9) removedirs('p/q/r')
+    What  happens  when  directory  'r'  is  empty  but  not  'p'  and  'q' ?  ---> Removes  only  directory  'r'  but  not  'p'  and  'q'
+    What  happens  when  directories  'r'  and  'q'  are  empty  but  not  'p' ?  ---> Removes  directories  'r'  and  'q'  but  not  'p'

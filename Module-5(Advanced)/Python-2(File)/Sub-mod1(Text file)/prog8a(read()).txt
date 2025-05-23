@@ -1,0 +1,29 @@
+read()  method
+------------------
+1) What  does  read()  method  do ?  ---> Reads  the  whole  file  into  a  str  object  and  returns  str  object
+
+2) s = f . read()
+    What  does  read()  method  do  when  file  has  10  lines ?  --->
+					Reads  all  the  10  lines  of  the  file  into  a  str  object  and   returns  str  object
+
+3) What  does  object  's'  contain ?  --->  'Line 1\nLine 2\n........Line 10\n'
+
+4) f = open('a.txt' , 'w')
+    Is  f . read()  valid ? --->  No  becoz  file  is  opened  in  'w'  mode
+
+5) Which  mode  is  recommended  for  read()  method ?  ---> Any  mode  except  w , a  and  x  modes
+
+6) What  does  s = f . read(10)  do ?  --->  Reads  first  10  characters  of  the  file  into  str  object  's'
+
+7) Let  file  contain
+     Hyd
+     9247
+     +-$
+     Hyd  is  green  city
+     What  does  f . read(10)  do ?  ---> Reads  'Hyd\n9247\n+'
+
+8) How  many  arguments  can  read()  method  take ?  --->  0  (or)  1  but  not  more  than   one
+
+Note:
+How  is  read()  method  different  from  input()  function ?  --->
+						input()  function  reads  from  keyboard  but  read()  method  reads  from  file

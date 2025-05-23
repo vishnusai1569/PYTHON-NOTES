@@ -1,0 +1,33 @@
+order  by  clause
+--------------------
+1) select  *  from  emp  order  by  sal
+    What  does  the  select  command  do  ? --->  Retrieves  employees  data  in  ascending  order  of  salaries
+
+2) select  *  from  emp   order  by  sal  desc
+    What  does  the  select  command  do  ? ---> Retrieves  employees  data  in  descending  order  of  salaries
+
+3) select  *  from  emp  order  by   ename
+    What  does  the  select  command  do  ? ---> Retrieves  employees  data  in  alphabetical  order  of  emp  names
+
+4) select  *  from  emp  order  by  ename  desc
+    What  does  the  select  command  do  ? ---> Retrieves  employees  data  in  descending  order  of  emp  names
+
+5) What  is  the  syntax  of  select  command ?  --->  select  column names  (or)  *
+                                                                                   from   tablename
+										   where   condition
+										   order  by   columnname  desc
+
+6) What  does  select  clause  do  ?  --->  Column  selection
+								 i.e. Specify  those  columns  to  be  retrieved  from  the  table
+
+7) What  does  from  clause  do ?  ---> Table  selection
+							      i.e.  Specify  that  table  from  where  data  is  to  be  retrieved
+
+8) What  does  where  clause  do ?  --->  Row  selection
+							        i.e.  Specify  those  rows  to  be  retrieved  from  the  table
+
+9) What  happens  when  where  clause  is  omitted ?  --->  Retrieves  all  the  rows  of  the  table
+
+10) What  does  order  by  clause  do ?  --->  Retrieves  data  from  the  table  in  sorted   manner
+
+11) What  happens  when  order  by  clause  is  omitted ?  --->  Retrieves  data  from  the  table  in  unsorted  manner

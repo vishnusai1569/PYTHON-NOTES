@@ -1,0 +1,10 @@
+sub()  function
+------------------
+1) What  does  sub(str1 , str2 , str3)  do ? --->
+					Returns  a  string  object  where  every  occurance  of  str1  in  str3  is  replaced  with  str2
+
+2) sub('-'  ,  '/'  ,  '15 - Aug - 1947')
+    What  does  the  function  do ? --->  Returns  '15 / Aug / 1947'
+							      i.e.  Every  '-'  in  the  string  is  replaced  with  '/'
+
+3) Is  str3  modified ?  --->  No  becoz  str  object  is  immutable

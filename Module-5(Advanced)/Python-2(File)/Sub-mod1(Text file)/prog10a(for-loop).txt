@@ -1,0 +1,30 @@
+for  loop
+-----------
+1) f = open('a.txt' , 'r')
+    for  s  in  f:
+          statements
+
+2) What  does  for  loop  do ?  --->   Iterates  each  line  of  the  file  until  end  of  the  file  is  reached
+
+3) What  is  's'  in  1st  iteration  of  for  loop ?  --->  1st  line  of  the  file  along  with  '\n'
+    What  is  's'  in  2nd  iteration  of  for  loop ?  --->  2nd  line  of  the  file  along  with  '\n'
+    What  is  's'  in  3rd  iteration  of  for  loop ?  --->  3rd  line  of  the  file  along  with  '\n'
+     .....
+     What  is  's'  in  last  iteration  of  for  loop ?  ---> Last  line  of  the  file  along  with  '\n'
+
+4) How  long  is  for  loop  executed ?  --->  As  long  as  end  of  the  file  is  not  reached
+
+5) When  is  for  loop  terminated ?  --->  As  soon  as  end  of  the  file  is  reached
+
+6) f = open('a.txt' , 'w')
+    for  s  in  f:
+       	    print(s)
+    Is  the  for  loop  valid  ?  ---> No  becoz  file  is  opened  in  'w'  mode
+
+7) Which  mode  is  recommended  for   'for'  loop ?  --->  Any  mode  except  w , a  and  x
+
+8) What  are  the  three  advantages  of  for  loop  over  readline()  method ?  --->
+											Automatic  read , automatic  close  and  automatic  exit
+
+9) In  other  words,  file  is  automatically  closed  soon  after  file  is  fully  iterated
+    and  control  moves  out  of  the  loop  automatically

@@ -1,0 +1,27 @@
+rowcount   variable
+-----------------------
+1) What  is  the  value  of  rowcount  variable  in  general ?  --->   Number of  tuples  yielded  from  the  cursor
+
+2) If  there  are  4  tuples,
+    What  is  the value  of  cur . rowcount  variable  after  execution  of  cur . fetchall() ?  --->  4
+
+3) If  there  are  4  tuples,
+    What  is  the value  of  cur . rowcount  variable  after  execution  of  cur . fetchmany(3) ?  --->  3
+
+4) If  there  are  4  tuples,
+    What  is  the value  of  cur . rowcount  variable  after  execution  of  cur . fetchmany(7) ?  --->  4
+
+5) If  there  are  4  tuples,
+    What  is  the value  of  cur . rowcount  variable  after  execution  of  cur . fetchmany(1) ?  --->
+												1  becoz  1  tuple  is  fetched  from  the  cursor
+
+6) If  there  are  4  tuples,
+    What  is  the value  of  cur . rowcount  variable  after  execution  of  cur . fetchmany(-1) ?  ---> -1  but  not  0
+
+7) tpl = cur . fetchone()
+    print(cur . rowcount) --->  1
+    tpl = cur . fetchone()
+    print(cur . rowcount) --->  2
+    tpl = cur . fetchone()
+    print(cur . rowcount) ---> 3
+    and  so  on

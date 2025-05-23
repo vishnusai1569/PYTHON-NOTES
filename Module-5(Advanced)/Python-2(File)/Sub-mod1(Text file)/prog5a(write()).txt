@@ -1,0 +1,29 @@
+write()    method
+--------------------
+1) What  does  write()  method  do ?  ---> Writes  a  string  to  the  file
+
+2) f = open('a.txt' , 'w')
+    What  does  f . write('Hyd')  do ?  ---> Writes  'Hyd'  to  the  file  a.txt
+
+3) What  does  f . write('\n') do ?  --->  Moves  file  handle  to  the  begining  of  next  line
+
+4) f = open('a.txt' , 'r')
+    Is  f . write('Hyd')  valid  ?  ---> No  becoz  becoz  file  is  opened  in  read  mode
+
+5) Which  mode  is  recommended  for  write()  method ?  --->  Any  mode  except  'r'  mode
+
+6) What  is  the  argument  of  write()  method ?   --->  String  only
+
+7) How  many  arguments  can  write()  method  take ?   --->  Single
+
+8) Which  of  the  following  are valid ?
+    a) f . write(25) --->  Invalid  becoz  25  is  not  a  string
+    b) f . write(10.8) ---> Invalid  becoz  10.8  is  not  a  string
+    c) f . write(True) ---> Invalid  becoz  True  is  not  a  string
+    d) f . write('Hyd' , 'Sec' , 'Cyb')  ---> Invalid  due  to  multiple  arguments
+    e) f . write(['Hyd' , 'Sec' , 'Cyb']) --->  Invalid  due  to  list  argument
+
+
+Note:
+How  is  write()  method  different  from  print()  function ?  --->
+							print()  function  writes  to  console  but  write()  method  writes  to  file

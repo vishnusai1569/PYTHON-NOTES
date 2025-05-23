@@ -1,0 +1,19 @@
+Functions  of  os  module
+-----------------------------
+1) getcwd()
+
+2) system()
+
+3) mkdir()
+
+4) makedirs()
+
+5) rmdir()
+
+6) removedirs()
+
+7) rename()
+
+8) listdir()
+
+9) walk()

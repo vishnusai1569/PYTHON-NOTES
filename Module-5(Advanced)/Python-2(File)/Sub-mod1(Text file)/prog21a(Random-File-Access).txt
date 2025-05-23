@@ -1,0 +1,5 @@
+Random  File  Access
+-------------------------
+1) What  is  random  file  access ?  ---> Accessing  10th  char  of  the  file  directly  without  accessing  first  9  chars
+
+2) What  are  the  two  methods  to  perform  random  file  access ?  ---> seek()  and  tell()

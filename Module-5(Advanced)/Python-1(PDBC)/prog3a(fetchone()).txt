@@ -1,0 +1,25 @@
+fetchone()  method
+-----------------------
+1) What  does  fetchone()  method  do ?  --->   Returns  the  next  tuple  of  MySqlCursor  object
+
+2) Where  is  fetchone()  method  defined ?  --->  In  MySqlCursor  class
+
+3) What  is  the  pre-requisite  to  call  fetchone()  method ?  --->  There  should  be  MySqlCursor  object
+
+4) In  other  words,  call  execute()  method  before  calling  fetchone()  method
+
+5) What  does  fetchone()  method  do  when  end  of  cursor  is  reached ?  --->  Returns  None
+
+6) How  to  fetch  each  tuple  of  cursor ?  --->   Call  fetchone()  method  in  a  loop
+									     Eg:  while  tpl  := cur . fetchone():
+											     print(tpl)
+
+7)   Iteration            tpl                 condition
+     --------------------------------------------------------------
+             1             1st   tuple     True  i.e.  Non-empty  tuple
+
+	     2            2nd   tuple     True  i.e.  Non-empty  tuple
+
+	     3            3rd   tuple     True  i.e.  Non-empty  tuple
+
+	     4            None              False

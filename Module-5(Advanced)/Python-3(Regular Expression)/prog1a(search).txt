@@ -1,0 +1,26 @@
+search()
+----------
+1) m = re . search(str1 , str2)
+    What  does  search()  function  do ?  --->  Returns  Match  object  if  str1  is  found  in  str2  and  None  otherwise
+
+2) What  are  the  methods  of  Match  class ?  --->  group() , start()  and  end()
+
+3) What  does  group()  method  do  ?  --->  Returns  str1
+     What  does  start()  method  do ?  --->  Returns  index  of  str1  in  str2
+     What  does  end()  method  do ?  --->  Returns  end  index  of  str1  in  str2
+                                                                  i.e. m . start() + len(m . group())
+
+6) m = re . search('Niv' , 'Srinivas' , re . IGNORECASE)
+    What  does  search()  function  do ?  --->  Returns   a  Match  object  becoz  'Niv'  is  found  in  'Srinivas'
+								      after  ignoring  the  case
+    What  does  m . group()  do ? --->  Returns  'niv'  but  not  'Niv'
+    What  does  m . start()  do ?  --->  Returns  index  of  'niv'  in  'Srinivas'  i.e. 3
+    What  does  m . end()  do ?  --->  Returns   end  index  of  'niv'  in  'Srinivas'
+                                                        i.e.  m . start() + length(m . group()) = 3 + 3 = 6
+
+7) In  other  words,  'niv'  is  found  between  indexes  m . start()  and  m . end() - 1
+
+8) m  = re . search('Niv' , 'Srinivas')
+    What  does  search()  function  do ?  ---> Returns  None  becoz  'Niv'  is  not  found  in  'Srinivas'
+
+9) Is  IGNORECASE  a  mandatory  argument  (or)  optional  ?  ---> Optional

@@ -1,0 +1,26 @@
+mkdir()  and  makedirs()  functions
+----------------------------------------
+1) What  does  mkdir('a')  do ?  --->  Creates  a  sub-directory  'a'  in  cwd
+
+2) mkdir('a')
+    What  happens  when  directory  'a'  already  exists ?  --->  Raises  FileExistsError
+
+3) What  does  mkdir('a/b')  do ?  --->  Creates  a  directory  'b'  in   sub-directory  'a'  of  cwd
+
+4) mkdir('a/b')
+    What  happens  when  directory  'b'  already  exists ?  --->  Raises  FileExistsError
+     What  happens  when  directory  'a'   does  not  exist ?  ---> Raises  FileNotFoundError
+
+5) What  does  makedirs('a/b/c')  do ?  ---> Creates  three  directories  'a' , 'b'  and  'c'  in  the  same  order  in  cwd
+
+6) makedirs('a/b/c')
+    Where  is  directory  'a'  created ?  ---> In  cwd
+    Where  is  directory  'b'  created ?  --->  In  sub-directory  'a'  of  cwd
+     Where  is  directory  'c'  created ?  --->  In  sub-directory  'a/b'  of  cwd
+
+7) makedirs('a/b/c')
+    What  happens  when  all  the  directories  a , b  and  c  already  exists ?  ---> Raises  FileExistsError
+     What  happens  when  the  directories  a , b  exists  but  not  'c'  ?  ---> Creates  only  directory  'c'  in  directory  a/b
+     What  happens  when  directory  'a'  exists  but  not  'b'  and  'c' ?  ---> Creates  directory  'b'  in  'a'  and  and  'c'  in  'b'
+
+8) Where  are  mkdir()  and  makedirs()  functions  defined  ?  ---> In  os  module

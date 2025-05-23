@@ -1,0 +1,26 @@
+fetchmany()   method
+-------------------------
+1) list = cur . fetchmany(n)
+
+2) What  does  fetchmany(n)   do ?  --->   Yields  first  'n'  tuples  of  the  cursor  into  a  list  and  returns  list
+
+3) What  does  fetchmany(3)  do  if  there  are  five  tuples ?  --->
+								Yields  first  three  tuples  of  the  cursor  into  a  list  and  returns  the  list
+    Can  cursor  be  closed ? --->   No  becoz  all  the  tuples  of  the  cursor  are  not  yielded
+					           and  cur . close()  throws  InternalError
+    What  is  the  value  of  cur . rowcount  after  execution  of  fetchmany(3) ?  --->  3
+
+4) What  does  fetchmany(7)  do  if  there  are  5  tuples ?  ---> Yiedls  all  the  tuples (i.e. 5)  into  a  list  and  returns  the  list
+    Can  cursor  be  closed ? --->  Yes  becoz  all  the  tuples  are  yielded
+    What  is  the  value  of  cur . rowcount  after  execution  of  fetchmany(7) ?  ---> 5
+
+5) What  does  fetchmany(0)  do  ?  --->  Yields  first  tuple  of  the  cursor  into  a  list  and  returns  list
+
+6) What  does  fetchmany(-1)  do  ?  --->   Yields  nothing  from  the  cursor  and  returns  an  empty  list
+
+7) What  does  fetchmany(No-args)  do  ?  --->  Yields  first  tuple  of  the  cursor  into  a  list  and  returns  list
+
+8) Where  is  fetchmany()  method  defined ?  --->  In  Mysqlcursor  class
+
+9) What  is  the  disadvantage  of  fetchmany(10000)  method ?  --->
+									Waiting  time  and  Memory  Error   due  to  large  number  10000

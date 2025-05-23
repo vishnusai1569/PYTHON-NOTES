@@ -1,0 +1,11 @@
+isfile()  function
+--------------------
+1) What  does  isfile('a.txt')  do ?  --->  Returns  True  when  file  a.txt  exists  in  cwd  and  False  otherwise
+
+2) f = open('a.txt')
+     Is  isfile(f)  valid ?  ---> No  becoz  argument  should  be  file  name  but  not  file  object
+
+3) Where  is  isfile()  function  defined ?  --->  os . path  module
+
+4) What  does  isfile('c:\\hyd\\a.txt')  do ?  --->
+							Returns  True  if  file  a.txt  exists  in  c:\hyd  directory  and  False  otherwise

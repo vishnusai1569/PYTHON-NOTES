@@ -1,0 +1,49 @@
+File
+-----
+1) What  does  a  file  contain  ? --->  A  group  of  characters  (or)  objects
+
+2) What  is  the  file  with  characters  called  ?  --->  Text  file
+     What  is  the  file  with  objects  called  ?  ---> Binary  file
+
+3) Where  does  file  reside ?  --->  On  external  (or)  secondary  memory  such  as  harddisk , cd  and  pendrive
+    Where  does  object  reside ?  --->  In  heap  memory  (or)  primary  memory (or)  main  memory  (or) RAM
+
+4) When  is  file  recommmended ?  ---> When  the  program  demands  huge  number  of  inputs
+
+5) Is  file  permanent  (or)  temporary ?  --->  Permanent  becoz  it  is  on  secondary  memory
+    What  about  object ?  --->  Temporary  becoz  it  is  in  heap  memory
+
+6) Is  file  lost  soon  after  program  terminates ?  --->  No  and  it  is  alive
+     What  about  object ?  --->  Lost  soon  after  program  terminates
+
+7) Can  a  program  access  file  created  by  a  different  program ?  --->  Yes  becoz  it  is  alive
+    What  about  object ?  ---> It  can  be  accessed  by  same  program  where  it  was  created
+
+8) Is  file  access  slow  (or)  fast ?  --->  Slow  becoz  file  is  on  external  memory  such  as  disk
+     What  about  object  ?  --->  Fast  in  access  becoz  it  is  in  heap  memory
+
+9) Therefore  minimize  file  access
+     i.e.  Don't  access  file  frequently
+
+10) In  other  words,  program  execution  becomes  slow  when  file  is  accessed  frequently
+
+11) Is  file  limited  (or) umlimited ?  --->  Unlimited
+     What  about  object ?  ---> Unlimited
+
+12) In  other  words,  file  can  hold  any  amount  of  data  and  it  never  becomes  full  (Just  like  object)
+
+13) Is  it  possible  to  read  from  the  file  ?  --->  Yes  with  read() , readline() , readlines()  methods  and  for  loop
+      Is  it  possible  to  write  to  the  file ? ---> Yes  with  write()  and  writelines()  methods
+
+14) In  other  words,  I/O  operations  can  be  made  on  the  file
+
+15) Program  can  be  instructed  to  read  inputs  from  a  file,  process  them  and  write  results  to  a  different  file
+
+Note:
+1) File  can  be  used  as  an  alternative  to  I / O  devices
+
+2) What  does  input()  function  do ?  --->  Reads  input  from  keyboard
+     What  does  read()  method  do ?  ---> Reads  input  from  the  file
+
+3) What  does  print()  function  do ?  --->  Prints  results  on  console
+     What  does  write()  method  do ?  ---> Writes  results  to  file

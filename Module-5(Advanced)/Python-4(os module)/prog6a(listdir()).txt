@@ -1,0 +1,17 @@
+listdir()  function
+--------------------
+1) What  does  listdir('x')  do ?  --->  Returns  a  list  of  all  the  files  and  sub-directories  of  directory  'x'  which  is  in  cwd
+
+2) What  does  listdir('.')  do ?  --->  Returns  a  list  of  all  the  files  and  sub-directories  of  cwd
+
+3) What  is  '.'  called ?  --->  cwd(current  working  directory)
+     What  is  ..   called ? --->  Parent  directory
+
+4) What  does  listdir('c:\\sairam')  do ?  --->  Returns  a  list  of  all  the  files  and  sub-directories  of  c:\sairam
+
+5) Is  listdir('c:\sairam')  valid ?  --->  No  becoz  \  is  invalid  in  quotes
+
+6) How  to  use  \  in   quotes ?  --->  Use  one  more  \  i.e.  \\
+
+7) listdir('x')
+    What  happens  when  directory  'x'  does  not  exist ?  ---> Throws  FileNotFoundError

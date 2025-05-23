@@ -1,0 +1,22 @@
+seek()
+--------
+1) What  does  seek()  method  do ?  --->
+						Moves  file  handle  to  the  begining , middle  or  end  of  the  file  based  on  offset
+
+2) What  is  another  name  of  file  handle ?  --->  file  pointer  (or)  cursor
+
+3) What  is  the  argument  of  seek()  method ?  --->  offset
+
+4) What  does  seek(0)  do ? --->   Moves  file  handle  to  the  begining  of  the  file
+                                                      becoz  0  is  offset  of  1st  character  in  the  file
+
+5) What  does  seek(10)  do ? --->  Moves  file  handle  to  that  character  whose  offset  is  10
+
+6) What  does  seek(0 , 2)  do ? --->  Moves  file  handle  to  eof  becoz  0  is  offset  of  EOF  from  the  end
+
+7) What  does  second  argument  2  indicate  in  seek()  method ?  ---> From  the  end  of  the  file
+
+Note:
+1) Where  does  file  handle  point  to  if  file  is  opened  in   r  (or)  w  mode ?  --->  Begining  of  the  file
+
+2) Where  does  file  handle  point  to  if  file  is  opened  in   'a'  mode ?  --->  End  of  the  file

@@ -1,0 +1,27 @@
+Database  Table  Vs  Cursor  object
+ --------------------------------------------
+1) Where  does  database  table  reside ?  --->  In  secondary  (or)  external  memory  such  as  disk , cd , pendrive
+    Where  does  cursor  object  reside ?  ---> In  heap  memory  which  is  part  of  primary  memory
+
+ 2) Is  table  permanent  (or)  temporary ?  --->  Permanent  and  is  not  lost  even  after  program  terminates
+      What  about  cursor  object ?  --->  Temporary  and  is  lost  soon  after  program  terminates
+
+ 3) Is  table  access  fast  or  slow  ? ---> Slow  becoz  it  is  on  external  memory
+     What  about  cursor  ?  ---> Fast  in  access  becoz  it  is  in  heap  memory
+
+ 4) How  to  retrieve  data  from  table ?  --->  With  select  command   such  as  select  *  from  emp
+     How  to  retrieve  data  from  cursor ?  ---> fetchone() , fetchall() , fetchmany() , for loop  ,
+                                                                          next()  function  and  *  operator  to  unpack  cursor
+
+5) What  does  table  contain ?  --->  Rows
+     What  does  cursor  contain ?  ---> Tuples  where  each  tuple  is  a  row
+
+6) Is  it  possible  to  insert , delete  and  modify  data  of  the  table ?  --->
+									Yes  with  sql  commands  such  as  insert , delete  and  update
+    Is  it  possible  to  insert , delete  and  modify  data  of  cursor ?  ---> No  and  it  is  immutable
+
+7) How  to  copy  data  of  table  to  cursor ?  --->  With  execute()  method  of  cursor  class
+										 i.e.  cur . execute('select  *  from  emp')
+
+8) How  to  delete  table ?  --->  cur . execute('drop  table  emp')
+    How  to  delete  cur  object  ?  ---> del   cur

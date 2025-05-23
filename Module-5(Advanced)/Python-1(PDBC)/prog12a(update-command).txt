@@ -1,0 +1,21 @@
+update  command
+---------------------
+1) update   emp
+    set   sal = sal + 1000
+    where empno  =   25
+    What  does  the  command  do ?  --->  Increments  salary  of  that  employee ,  whose  number  is  25 , by  1000
+
+2) update emp
+    set  sal = sal + 1000
+    where   sal < 10000
+    What  does  the  command  do ?  --->  Increments  salaries  of  those  employees , whose  salary  is  below  10000 , by   1000
+
+3) update emp
+    set  sal = sal + 1000
+    What  does  the  command  do ?  --->  Increments  every  employee  salary  by  1000  becoz  where  clause  is  missing
+
+4) What  is  the  difference  between  insert  and  update  commands ? --->
+											Insert  commmand  inserts  a  new  row  into  the  table  but
+     											update   command  modifies  values  of  existing  row  in  the table
+
+5) How  to  determine  number  of  rows  modified ? --->  With  cur . rowcount  variable

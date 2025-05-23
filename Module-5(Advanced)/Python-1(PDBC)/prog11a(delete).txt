@@ -1,0 +1,26 @@
+delete  command
+--------------------
+1) delete  from  emp  where  sal > 10000
+    What  does  the  command  do ?   ---> Deletes  those  employess  whose  salary  is  above  10000  from  emp  table
+
+2) delete  from  emp  where  sal  between  10000  and  20000
+    What  does  the  command  do ?   --->
+						Deletes  those  employess  whose  salary  is   between  10000   and  20000  from  emp  table
+
+3) delete  from  emp  where  ename  like  's%'
+    What  does  the  command  do ?  --->  Deletes  those  employess  whose  name  starts  with  's'  from  emp  table
+
+4) delete  from  emp  where  ename  like  '%s'
+    What  does  the  command  do ?   --->  Deletes  those  employess  whose  name  ends  with  's'  from  emp  table
+
+5) delete  from  emp  where  ename  like  '%s%'
+    What  does  the  command  do ?   ---> Deletes  those  employess  whose  name  contains  's' from  emp  table
+
+6) delete  from  emp  where   empno = 25
+    What  does  the   command  do ?   ---> Deletes  that  employee   whose  number  is  25  from  emp  table
+
+7) delete  from  emp
+    What  does  the  command  do ?   ---> Deletes  all  the  rows  of  the  table   becoz  there  is  no  where  clause  and
+								table  becomes  empty
+
+8) How  to  determine  number  of  rows  deleted ?  --->  Use  cur . rowcount  variablew

@@ -1,0 +1,8 @@
+match()  function
+---------------------
+1) What  does  match(str1 , str2)  do ?  --->  Returns  a  Match  object  if  str2  starts  with  str1  and  None  otherwise
+
+2) Can  group() , start()  and  end()  methods  be  used  ?  --->  Yes  becoz  match()  function  returns  a  Match  object
+
+3) re . match('Hyd' , 'Hyderabad  is  green  city')  is  same  as  what ?  --->
+											re . search('^Hyd'  , 'Hyderabad  is  green  city')

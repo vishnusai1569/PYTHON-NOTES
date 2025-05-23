@@ -1,0 +1,11 @@
+'w'  mode  Vs   'a'  mode
+--------------------------------
+1) What  happens  when  a  file  is  opened  in  'w'  mode ?  --->
+							Data  of  the  file  is  lost  as  soon  as  file  is  opened  and  file  becomes  empty
+    What  about  'a'  mode ?  ---> Data  of the  file  is  alive
+
+2) When  is  'w'  mode  recommended  ?  --->  To  write  into  a  new  file
+    When  is  'a'  mode  recommended  ?  ---> To  write  (or)  append  to  an  existing  file
+
+3) Where  is  data  written  in  case  of  'w'  mode  ? --->  From  the  begining  of  file
+     What  about  'a'  mode   ---> Data  is  written  at  the  end  of  file

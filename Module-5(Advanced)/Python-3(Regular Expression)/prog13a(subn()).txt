@@ -1,0 +1,10 @@
+subn()  function
+-------------------
+1) What  does  subn(str1 , str2 , str3)  do ?  --->  Returns  a  tuple  of  two  elements
+
+2) What  is  tpl[0]  ?  --->  A  new  string  where  every  occurance  of  str1  in  str3   is  replaced  with  str2
+    What  is  tpl[1] ?  ---> Number  of  replacements
+
+3) What  does  subn('-'  ,  '.'  ,  '15 - Aug - 1947')  do ?  ---> Returns  ('15 . Aug . 1947' , 2)
+
+4) Is  str3  modified ?  ---> No  becoz  str  object  is  immutable

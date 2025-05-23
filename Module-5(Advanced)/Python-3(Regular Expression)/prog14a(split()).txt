@@ -1,0 +1,11 @@
+split()  function
+-------------------
+1) What  does  split()  function  do ?  ---> Divides  a  string  into  list  of  strings  based  on  delimeter
+
+2) What  are  the  two  arguments  of  split()  function ?  --->  Delimeter  and  string
+
+3) What  does  split('-'  ,  '15-Aug-1947')  do ? --->  Returns  ['15' , 'Aug' , '1947']
+
+
+Note:
+What  is  the  syntax  of  split()  method  in  str  class  ?  --->  string . split(delimeter)

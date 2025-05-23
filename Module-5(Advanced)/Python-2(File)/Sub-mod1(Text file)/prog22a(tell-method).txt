@@ -1,0 +1,30 @@
+tell()
+-------
+1) What  does  tell()  method  do ?  ---> Returns  offset  of  that  character  where  the  file  handle  points
+
+2) In  other  words,  it  informs  where  the  file  handle  points
+
+3) What  does  tell()  method  do  if  the  file  handle  points  to  begining  of  the  file ?  --->
+													Returns  0  becoz  offset  of  1st  char  is  0
+    What  does  tell()  method  do  if  the  file  handle  points  to  10th  char  of  the  file ?  --->
+													Returns  9  becoz  offset  of  10th  char  is   9
+    What  does  tell()  method  do  if  the  file  handle  points  to  end  of  the  file ?  --->
+													Returns  total  number  of  chars  in  the  file
+
+4) What  does  tell()  method  return  after  file  is  opened  in  read  (or)  write  mode ?   --->
+		0  becoz  file  handle  points  to  begining  of  the   file  when  file  is  opened  in  read  (or)  write  mode
+
+5) What  does  tell()  method  return  after  file  is  opened  in  append  mode ?   --->
+									Offset  of  eof  i.e. Total  number  of  characters  in  the  file
+									becoz  file  handle  points  to  eof  when  file  is  opened  in  append  mode
+
+6) f . seek(10)
+    What  does  f . tell()  return ? ---> 10  becoz  file  handle  points  to  11th  character  whose  offset  is  10
+
+7) f = open('a.txt' , 'r')
+    Where  does  file  handle  point  to  after  file  is  opened ?  --->  Begining  of  the  file  whose  offset  is  0
+    print(f . read(5))
+    What  does  read()  method  do ?  --->  Reads  first  5  characters  of  the  file
+    Where  does  file  handle  points  to  after  reading  5  characters ?  --->
+										File  handle  is  automatically  moved  to  6th  character
+    What  does  f . tell()  return ? ---> 5  becoz  offset  of  6th  char  is  5

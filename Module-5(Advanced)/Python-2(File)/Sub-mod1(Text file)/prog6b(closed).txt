@@ -1,0 +1,14 @@
+closed  variable
+-------------------
+1) What  is  the  result  of  f . closed ?  --->  True  when  file  is  closed  and  False  otherwise
+
+2) What  is  the  use  of  closed  variable ?  --->  It  informs  whether  file  is  closed  or  not
+
+3) What  is  the  value  of  f . closed  inside  with  statement  ?  --->
+						False  becoz  file  remains  opened  as  long  as  with  statement  is  under  execution
+
+4) What  is  the  value  of  f . closed  outside  with  statement  ?  --->
+					True  becoz  file  is  automatically  closeded  soon  after  with  statement  is  finished
+
+5) Is  closed  variable  instance  variable  (or)  static  variable ?  --->
+						Instance  variable  and  hence  object  'f'  is   used  to  access  closed  variable

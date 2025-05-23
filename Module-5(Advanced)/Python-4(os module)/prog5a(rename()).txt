@@ -1,0 +1,11 @@
+rename()  function
+---------------------
+1) What  does  rename('a.txt' , 'b.txt')  do ?  --->  Renames  file  a.txt  to  b.txt  where  a.txt  is  a  file  of  cwd
+
+2) What  does  rename('x' , 'y')  do ?  --->  Renames  sub-directory  'x'  to  'y'  where  'x'  is  a  sub-directory  of  cwd
+
+3) Can  non-empty  directory  be  renamed ?  --->  Yes
+
+4) rename(arg1 , args2)
+    What  happens  arg1  directory  (or) file  does  not  exist ?  --->  Throws  FileNotFoundError
+    What  happens  arg2  directory  (or) file  already  exists ?  ---> Throws  FileExistsError

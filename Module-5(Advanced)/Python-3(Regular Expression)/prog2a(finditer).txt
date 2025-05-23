@@ -1,0 +1,29 @@
+finditer()
+-----------
+1) itr = re . finditer(str1 , str2)
+    What  does  finditer()  function  do ?  ---> Returns  an  empty  callable_iterator  object
+
+2) itr = re . finditer('is' , 'Hyd is green city. Hyd is hitec city')
+    What  does  1st  call  to  next(itr)  do  ?  --->  Yields  the  first  Match  object  (say  'm') which  has  first  'is'
+    What  does  m . group()  do  ? ---> Returns  'is'  (i.e.  First  'is')
+    What  does  m . start()  do ?  --->  Returns  index  of  first  'is'  i.e.  4
+    What  does  m . end()  do ?  --->  Returns  end  index  of  first  'is'
+                                                        i.e.  m . start() + length  of  'is' = 4 + 2 = 6
+
+3) What  does  2nd  call  to  next(itr)  do  ?  ---> Yields  the  2nd  Match  object  (say  'm')  which  has  2nd  'is'
+     What  does  m . group()  do ? ---> Returns  'is'  (i.e. 2nd  'is')
+     What  does  m . start()  do ?  --->  Returns  index  of  2nd  'is'  i.e.  23
+     What  does  m . end()  do ?  --->  Returns  end  index  of  2nd  'is'
+							 i.e.  m . start() + length  of  'is' = 23 + 2 = 25
+
+4) What  does  3rd  call  to  next(itr)  do  ?  ---> Throws  StopIteration  error  becoz  there  is  no  3rd  'is'
+
+5) itr = re . finditer('was' , 'Hyd is green city. Hyd is hitec city')
+    What  does  next(itr)  do  ?  --->  Throws  StopIteration  error
+
+6) How  is  finditer()  function  different  from  search()  function ?  --->
+									search()  function  searches  for  first  occurance  of  str1  in  str2  but
+									finditer()  function  searches  for  every  occurance  of  str1  in  str2
+
+7) What  does  search()  function  return ?  --->  Either  Match  object  (or)  None
+     What  does  finditer()  function  return ?  ---> Always  callable_iterator  object

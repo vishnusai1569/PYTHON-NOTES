@@ -1,0 +1,23 @@
+system()  function
+----------------------
+1) What  does  system()  function  do ?  --->  Executes  dos / unix / linux  command  from  python  programme
+                                                                       Eg:  system('dos / unix / linux  command')
+
+2) What  is  the  argument  of  system()  function ?  --->  String  command  but  not  command
+
+3) What  does  system('dir') ? --->  Executes  dos  command  'dir'  which  prints  all  the  files  and  sub-directories  of  cwd
+
+4) What  does  system('pause')  do ?  --->
+					Executes  dos  command  'pause'  which  pauses  program  execution  until  user  strikes  a  key
+
+5) What  does  system('cls') do ?  --->  Executes  dos  command  'cls'   which  clears  screen
+
+6) How  to  run  another  program  from  our  program ?  --->  system('py  filename.py')
+
+7) system('py  filename.py')
+    In  other  words,  run  your  program  which  inturn  runs  another  program
+
+8) Where  is  system()  function  defined ?  --->  In  os  module
+
+9) os . system(dir)
+    Is  the  statement  valid ?  --->  No  becoz  argument  should  be  'dir'  but  not  dir

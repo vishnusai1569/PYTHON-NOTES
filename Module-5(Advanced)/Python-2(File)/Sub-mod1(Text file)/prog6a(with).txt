@@ -1,0 +1,17 @@
+with  statement
+-------------------
+1) with  open('a.txt' , 'w')  as   f:
+             statements
+
+2) What  does  with  statement  do ?  --->  Opens  file , executes  statements  and  closes  the  file  automatically
+
+3) What  is  the  advantage  of  with  statement ?  --->
+								File  is  automatically  closed  soon  after  with  statement  is  finished
+
+4) In  other  words,   file  remains  opened  as  long  as  'with'  statement  is  under  execution
+
+5) f = open('a.txt' , 'w')
+    statements
+    f . close()
+    How  to  replace  the  three  statements   with  'with'  statement ?  --->  with  open('a.txt' , 'w')  as  f:
+															      statements

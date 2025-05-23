@@ -1,0 +1,26 @@
+walk()  function
+-----------------
+1) What  does  walk('x')  do ?  --->  Returns  an  empty  generator  object  and  'x'  is  directory  name
+
+2) g = os . walk('walkdemo')
+    What  does  1st  call  to  next(g)  do ?  --->
+				Returns  first  tuple  like  ('walkdemo', ['karnataka', 'Telangana'], ['file1.txt', 'file2.txt', 'file3.txt'])
+
+3) What  does  2nd  call  to  next(g)  do ?  --->
+								Returns  2nd  tuple  like   ('walkdemo\\karnataka', ['banglore'], ['file1.txt'])
+
+4) What  does  3rd  call  to  next(g)  do ?  --->  Returns   3rd  tuple  like  ('walkdemo\\karnataka\\banglore', [] , [])
+
+5) What  does  4th  call  to  next(g)  do ?  --->
+				Returns  4th  tuple  like  ('walkdemo\\Telangana', ['Hyd', 'Warangal'] , ['file1.txt', 'file2.txt'])
+
+6) What  does  5th  call  to  next(g)  do ?  --->
+							Returns  5th  tuple   like  ('walkdemo\\Telangana\\Hyd', ['Banjara Hills'], ['file1.txt'])
+
+7) What  does  6th  call  to  next(g)  do ?  --->  Returns  6th  tuple  like  ('walkdemo\\Telangana\\Hyd\\Banjara Hills', [], [])
+
+8) What  does  7th  call  to  next(g)  do ?  --->  Returns  7th  tuple  like  ('walkdemo\\Telangana\\Warangal', [], [])
+
+9) What  does  8th  call  to  next(g) do  ?  --->  Throws  StopIteration  becoz  all  the  directories  are  exhausted
+
+10) walk()  function  is  same  as  listdir()  function  except  that  it  works  in  recursive  manner

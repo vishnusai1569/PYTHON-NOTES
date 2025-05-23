@@ -1,0 +1,22 @@
+fetchall() method
+---------------------
+1) list = cur . fetchall()
+
+2) What  does  fetchall()  method  do  ?  --->  Yields  all  the  tuples  of  the  cursor  into  a  list
+
+3) Is  it  a  nested  list ?  --->  No  and  it  is  a  list  of  tuples
+						i.e. [(tuple 1) , (tuple 2) , (tuple 3) , ......]
+
+4) What  is  the  value  of  cur . rowcount  after  execution  of  fetchall() ?  --->
+													Number  of  tuples  yielded  from  the  cursor
+
+5) Where  is  fetchall()  method  defiend ?  --->  In  MySqlCursor  class
+
+6) How  is  fetchall()  method  different  from  fetchone()  method ?  --->
+							fetchone()  method  yields  only  one  tuple  of  cursor  but
+							fetchall()  method  yields  all  the  tuples  of  cursor
+
+7) What  is  the  alternative  to  fetchall()  method  ?  --->  list(cur)
+
+8) What  is  the  disadvantage  of  fetchall()  method ?  --->
+								Waiting  time  and  Memory  Error  when  there  are  too  many  tuples

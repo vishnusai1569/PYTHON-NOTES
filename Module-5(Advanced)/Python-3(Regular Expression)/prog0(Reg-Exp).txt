@@ -1,0 +1,19 @@
+Regular  Expression
+-----------------------
+1) search()
+
+2) finditer()
+
+3) findall()
+
+4) match()
+
+5) fullmatch()
+
+6) sub()
+
+7) subn()
+
+8) split()
+
+Where  are  the  above  eight  functions  defined  ?  ---> In  re  module

@@ -1,0 +1,31 @@
+readline()   method
+----------------------
+1) What  does  readline()  method  do ?  ---> Reads  a  single  line   of  the  file  into  str  object  's'
+
+2) Which  line  of  the  file  is  read  ?  --->  That  line  where  the  file  handle  points
+
+3) How  to  read  all  the  lines  of  the  file  ?  --->  Use  readline()  method  in  a  loop
+
+4) while  s  :=  f . readline():
+	      statements
+    Let  file  contain
+    Rama  Rao
+    9247
+    +-$
+    Hyd  is   green  city
+    What  does  f . readline()  do  in  1st   iteration  of  loop ?  --->   Reads  'Rama Rao\n'
+    What  does  f . readline()  do  in  2nd   iteration  of  loop ?  --->  Reads  '9247\n'
+    What  does  f . readline()  do  in  3rd   iteration  of  loop ?  --->   Reads  '+-$\n'
+    What  does  f . readline()  do  in  4th   iteration  of  loop ?  --->  Reads  'Hyd is green city\n'
+    What  does  f . readline()  do  in  5th   iteration  of  loop ?  --->  Reads  nothing  and   returns  an  empty  string
+
+5) What  does  readline()  method   do  when  end  of  the  file  is  reached ?  --->
+													Reads  nothing  and  returns  an  empty  string
+
+6) f = open('a.txt' , 'w')
+    Is  f . readline()  valid ? ---> No  becoz  file  is  opened  in  'w'  mode
+
+7) Which  mode  is  recommended  for  readline()  method ?  --->  Any  mode  except  w , a  and  x
+
+8) How  is  readline()  method  different  from  read()  method ?  --->
+				read()  method  reads  whole  file  but  readline() method  reads  a  single  line  of  the  file

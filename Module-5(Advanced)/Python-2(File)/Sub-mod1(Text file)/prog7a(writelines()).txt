@@ -1,0 +1,30 @@
+writelines()  method
+------------------------
+1) f = open('a.txt' , 'w')
+    list = ['Hyd\n' , 'Pune\n' , 'Chennai\n' , 'Vijayawada\n']
+    What  does  f . writelines(list)  do ?  --->  Writes  all  the  strings  in  the  list  to  the  file  in  different  lines
+
+2) What  is  written  to  the  file  (list  (or)  strings  in  the  list) ?  --->  Strings  in  the  list
+
+3) list = [10 , 20 , 30]
+    Is  writelines(list)  valid ? ---> No  becoz  elements  of  the  list  are  not  strings
+
+4) Is  writelines('Hyd')  valid ?  --->  Yes  and  a  single  string  is  written  to  the  file
+
+5) In  other  words,  f . writelines('Hyd')  is  same  as  f . write('Hyd')
+
+6) Is  writelines(tuple)  valid ?  --->
+					Yes  becoz  argument  can  be  any  sequence  such  as  list , tuple , set , string  and  so  on
+
+7) Is  writelines(list , tuple , set) valid ?  --->  No  due  to  multiple  arguments
+
+8) How  many  arguments  can  writelines()  method  take ?  --->  Single  argument
+
+9) f = open('a.txt' , 'r')
+    Is  f . writelines(['Hyd' , 'Sec' , 'cyb'])   valid  ?  --->  No  becoz  file  is  opened  in  read  mode
+
+10) Which  mode  is  recommended  for  writelines()  method ?  --->  Any  mode  except  'r'  mode
+
+11) How  is  writelines()  method  different  from  write()  method ?  --->
+										write()  method  writes  a  single  string  to  the  file  but
+										writelines()  method  can  write  one  (or)  more  strings  to  the  file

@@ -1,0 +1,8 @@
+'r+'  mode   Vs   'w+'  mode
+----------------------------------
+1) What  happens  when  a  file  is  opened  in  'w+'  mode ?   --->
+						Data  of  the  file  is  lost  as  soon  as   file  is  opened  and  file  becomes  empty
+    What  about  'r+'  mode ?  --->  Data  of  the  file  is  alive
+
+2) When  is  'r+'  mode  recommended  ?  --->  To  perform  read , append  and  modify  operations  on  existing  file
+    When  is  'w+'  mode  recommended  ?  --->  To  perform  same  operations  on  a  new  file

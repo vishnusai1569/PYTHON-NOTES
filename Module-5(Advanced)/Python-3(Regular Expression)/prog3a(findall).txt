@@ -1,0 +1,16 @@
+findall()
+----------
+1) What  does  findall(str1 , str2)  do ?  --->  Returns  a  list  of  every  occurance  of  str1  in  str2
+							              (almost  same  as  finditer()  function)
+
+2) re . findall('[A-Z]' , 'hYdErAbaD')
+    What  does  findall()  function  do  ?  --->  Returns  a  list  of  upper  case  alphabets  in  'hYdErAbaD'
+								       i.e. ['Y' , 'E' , 'A' , 'D']
+
+3) Are  list . group() ,  list . start() , list . end()  valid  ?  --->  No  becoz  they  are  not  methods  of  list  class
+
+4) What  is  the  similarity  between  findall()  and  finditer()  function ?  --->
+							    Both  the  functions  search  for  every  occurance  of  str1  in  str2
+
+5) How  is  findall()  function  different  from  finditer()  function ?  --->
+				findall()  function  returns  a  list  but  finditer()  function  returns  a  callable_iterator  object

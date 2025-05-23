@@ -1,0 +1,14 @@
+Summary
+-----------
+1) What  are  the  four  ways  to  read  from  a  file ?  --->  read() ,  readline() ,  for  loop  and   readlines()
+
+2) Which  methods  read  whole  file ?  --->  read() , readlines()  methods  and  for  loop
+
+3) What  does  read()  method  return  ?  --->  str  object
+     What  does  readlines()  method  return ?  ---> List  of  strings
+
+4) Which  one  reads  file  line  by  line ?  --->  readline()  method  and  for  loop
+
+5) Which  is  preferred  between  readline()  and  for  loop ?  --->
+						for  loop  becoz  control  goes  out  of  loop  as  soon  as  end  of  the  file  is  reached
+						but  readline()  method  returns  ''  when  end  of  the  file  is  reached

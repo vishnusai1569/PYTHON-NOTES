@@ -1,0 +1,37 @@
+Wild  characters
+--------------------
+1) What  is  [a-z] ?  --->  Sinlge  lower  case  alphabet
+
+2) What  is  [A-Z]  ? --->  Single  upper  case  alphabet
+
+3) What  is  [a-zA-Z] ? --->  Single  alphabet
+
+4) What  is  [0-9] ? --->  Single  digit  character  i.e. '0'  to  '9'
+
+5) What  is  [a-zA-Z0-9] ? --->  Single  alphabet  (or)  digit  character
+
+6) What  is  [^a-zA-Z0-9]  ? --->  Except  alphabet  and  digit
+						     i.e.  Special  character  (^   in  []   means  except)
+
+7) What  is  [abc]  ? --->  'a' , 'b'  (or)  'c'  but  not  string  'abc'
+    What  is  'abc'  ? --->  String  'abc'
+
+8) What  is  [^abc] ? --->  Any  character  except  'a'  , 'b'  and  'c'
+    What  is  '^abc' ? --->  Starts  with  'abc'
+
+9) What  is  '.' ?    --->  Alphabet , digit  and  special  character
+     What  is  [.] ?   ---> Character  '.'  itself
+
+10) What  is   'a'  ?  --->  Character  'a'  itself
+      What  is  'a+'  ?  --->  At  least   one  'a'  i.e.  one  (or)  more  a's
+      What  is  'a*' ?  --->  Zero  (or)  more  a's
+      What  is  'a?' ? ---> At  most  one  'a'  i.e.  One  (or)  zero  a's
+
+11) What  is  'a{3}' ? --->  Exactly  three   a's
+      What  is  'a{3 , 7}' ?  ---> 3  to  7  a's
+      What  is  'a{2}a*'  ?  --->  2  (or)  more  a's  i.e. At  least  2  a's
+
+12) What  is  [^a]  ? --->  Except  character  'a'
+      What  is  '^a' ?  --->  Starts  with   'a'
+
+13) What  is  'a$' ?  ---> Ends  with  'a'

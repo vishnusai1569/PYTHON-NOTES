@@ -1,0 +1,14 @@
+Summary
+-----------
+1) What  is  the  four  ways  to  yield  'all'  the  tuples  of  cursor ?  --->    a) list = cur . fetchall()
+														     b) print(*cur)  unpacks  cur  object  into  tuples
+														     c) a = list(cur)
+														     d) for  tpl  in  cur:
+														                  prit(tpl)
+
+2) What  are  the  two  ways  to  yield  single  tuple  of  the  cursor ?  ---> tpl = next(cur)
+															    and
+														      tpl = cur . fecthone()
+
+
+3) What  is  the  only  way  to  yield  first  'n'  tuples  of  cursor ?  --->  list = cur . fetchmany(n)

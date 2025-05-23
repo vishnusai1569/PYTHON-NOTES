@@ -1,0 +1,28 @@
+Offset
+--------
+1) What  is  offset  of  1st  character  in  the  file ?  --->  0
+
+2) What  are  offsets  of  remaining  characters ?  --->  1 , 2 , 3  and  so  on
+
+3) What  is  the  offset  of  10th  character  in   the  file ?  --->  9
+
+4) What  is  the  offset  of  end  of  the  file ?  --->  Total  number  of  characters  in  the  file
+
+5) What  is  offset  of  end  of  the  file  if  file  has  100  characters  ?  --->  100
+
+6) What  are  offsets  from  the  begining  of  the  file ?  --->  0 , 1  , 2 , 3 , ......
+     What  are  offsets  from  the  end  of  the  file ?  --->  0 , -1 , -2 , -3 , ......
+
+7)   0     1     2    3     --->  Offsets  from  the  begining
+      H    y     d    eof
+      -3  -2    -1     0  --->  Offsets  from  the  end
+
+8) What  is  the  offset  of  eof  from  the  end  ?  ---> 0
+    What  is  the  offset  of   1st  character  from  the  end  ?  --->  -1
+    What  is  the  offset  of   2nd  character  from  the  end  ?  --->  -2
+    What  is  the  offset  of  last  character  from  the  end  ?  ---> -Total  number  of  characters  in  the  file
+
+9) What  is   the  offset  of  begining  of  the  file  from  the  end  if  the  file  has  100  characters  ?  --->  -100
+
+Note:
+Offset  is  same  as  index  wrt  sequences

@@ -1,0 +1,14 @@
+commit()
+-----------
+1) What  does  commit()  method  do ?  --->  Males  changes  permanent
+
+2) In  other  words, insertion , deletion  and  modification  made  to  the  database  should  be  committed
+
+3) Are  changes  made  reflected  to  database  without  commit() ?  --->  No
+
+4) commit()  is  mandatory  soon  after  changes  are  made  to  the  database
+
+5) Insertion , deletion   and  modification  do  not  happen  unless  committed
+
+6) Where  is  commit()  method  defined  ?  ---> In  MySqlConnection  class
+									     Eg:  con . commit()

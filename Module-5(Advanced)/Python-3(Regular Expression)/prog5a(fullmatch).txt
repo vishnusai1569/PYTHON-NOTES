@@ -1,0 +1,8 @@
+fullmatch()  function
+-------------------------
+1) What  does  fullmatch(str1 , str2)  do ?  --->
+							Returns  a   Match  object  if  str1  and  str2  are  same  and  None  otherwise
+
+2) How  is  fullmatch()  function  different  from   match()  function ?  --->
+								match()  functions  tests  whether  str2  starts  with  str1 (or)  not
+								but  fullmatch()  function  tests  whether  str1  and  str2  are  same  (or)  not

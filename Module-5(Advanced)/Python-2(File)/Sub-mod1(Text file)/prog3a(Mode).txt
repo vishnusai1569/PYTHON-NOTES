@@ -1,0 +1,59 @@
+Mode
+-------
+1) What  are  the  seven  different  modes  available ?  --->  r , w , a , x , r+ , w+ , a+
+
+2) Which  operation  can  be  made  on  the  file  when  file  is  opened  in  'r'  mode ?  ---> Read  operation
+    Which  operation  can  be  made  on  the  file  when  file  is  opened  in  'w'  mode ?  ---> Write  operation
+
+3) What  is  the  issue  with  'w'  mode ?  --->
+						Data  of  the  file  is  lost  as  soon  as  file  is  opened  and   file  becomes  empty
+
+4) How  to  overcome  this  issue ?  --->  With  append  mode
+
+5) Which  operations  can  be  made  on  the  file  when  file  is  opened  in  'a'  mode ?  --->
+																Append  (or)  write  operation
+
+6) What  is  the  advantage  of  'a'  mode ?  --->  Data  of  the  file  is  alive  even  after  file  is  opened
+
+7) Which  mode  is  recommended  to  open  existing  file ('w'  (or)  'a'  mode)  and  why ?  --->
+													'a'  mode   becoz  data  of  the  remains  alive
+
+8) Which  operations  can  be  made  on  the  file  when  file  is  opened  in  'x'  mode ?  --->  Create  (or)  write  operation
+
+9) Which  operations  can  be  made  on  the  file  when  file  is  opened  in  'r+'  mode ?  --->
+			Read  data  of  the  file , append  new  data  to  the  file  and  modify  existing  data  of  the  file
+
+10) Which  operations  can  be  made  on  the  file  when  file  is  opened  in  'w+'  mode ?  --->
+										Same  as  r+  mode  i.e.  Read , append  and  modify  operations
+
+11) Which  mode  is  recommended  to  open  existing  file (r+  (or)  w+  mode)  and  why ?  --->
+													r+  mode  becoz  data  of  the  file  remains  alive
+     Which  mode  is  recommended  to  open  non-existing  file (r+  (or)  w+  mode)  and  why ?  --->
+											w+  mode  becoz  pvm  automatically  creates  a  new  file
+
+12) Which  operations  can  be  made  on  the  file  when  file  is  opened  in  'a+'  mode ?  --->  Read  and  append  operations
+
+13) Can  file  be  opened  in  multiple  modes ?  ---> No
+                                                                               i.e.  File  can  be  opened  in  any  one  mode  only
+
+14) What  happens  when  a  file  is  opened  in  w  (or)  w+  mode ?  --->
+							Data  of  the  file  is  lost  as  soon  as  file  is  opened  and  file  becomes  empty
+      What  about  remaining  modes(i.e. r , a , r+  and  a+)  ?  --->  Data  of  the  file  is  alive  even  after  file  is  opened
+      What  happens  when  existing  file  is  opened  in  'x'  mode ?  --->
+			open()  function  throws  FileExistsError  becoz  file  can  not  be  created  as  file  already  exists
+
+15) What  happens  when  non-existing  file  is  opened  in  w , w+ , a  , a+  and  x  mode ?  --->
+											PVM  automatically  creates  and  opens  a  new  file
+      What  about  r  and   r+  modes ?  ---> open()  function  throws  FileNotFoundError
+
+16) In  other  words,  non-existing  file  can  not  be  opened  in  r  and  r+  modes
+
+
+Note:
+r --->  read
+w  ---> write
+a  --->  append
+x --->  create  (write)
+r+  --->  read , append , modify
+w+  --->  read , append , modify
+a+  --->  read , append

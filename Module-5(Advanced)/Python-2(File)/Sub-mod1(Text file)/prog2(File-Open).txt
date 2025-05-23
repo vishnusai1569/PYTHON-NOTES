@@ -1,0 +1,45 @@
+open()  function
+------------------
+1) What  does  open()  function  do ?  ---> Opens  a  file  and  returns  an  object  which  has  id  (or)  address of  the  file
+
+2) Why  should  file  be  opened ?  --->  No  operation  can  be  made  on  the  file  without  opening  the  file
+
+3) In  other  words,  file  has  to  be  opended   before  performing  operations  like  read  and  write
+
+4) What  are  the  two  arguments  of  open()  function ?  --->  File  to  be  opened
+													     and
+												  mode  in  which  file  has  to  be  opened
+
+5) Is  file  opened  on  the  screen ?  --->  No
+
+6) In  other  words,  file  is  opened  internal  to  the  system  but  not  on  the  screen
+
+7) f  =  open('a.txt' , 'r')
+    What  does  the  open()  function  do ?  ---> Opens  file  a.txt  in  read  mode  and
+							                  returns  an  object  which  has  id  (or)  address  of  the  file
+
+8) What  is  'f' on  left  side ?  --->  That  file  object  returned  by  open()  function
+
+9) f  =  open('a.txt' , 'r')
+    Is  it  possible  to  write  to  the  file ?  ---> No  becoz  file  is  opened  in  read  mode
+
+10) In  other  words,  a.txt  is  read-only  file
+
+11) How  to  open  file  of  a  different  directory ?  --->  Specify  path  of  the  file
+
+12) open('c:\\sairam\\a.txt' , 'r')
+      What  does  the  statement  do ?  ---> Opens  file  a.txt  of  c:\sairam  directory  and
+								    \\  is  interpreted  as  \
+
+13) open('c: \ sairam \ a.txt')
+      Is  the  statement  valid ?  ---> No  due  to  \
+
+14) open('a.txt')
+      Is  the  statement  valid ?  --->  Yes  and  file  is  opened  in  default  mode  'r'
+
+15) What  does  open('a.txt')  do ?  --->  Opens  current  working  directory  file  becoz  there  is  no  path
+
+16) f = open('a.txt' , 'r')  --->  File  is  initially  opened  in  read  mode
+      Is  f = open('a.txt' , 'w')  valid ?  --->  Yes  and  file  is  reopened  in  write  mode
+
+17) Where  is  open()  function  defined  ?  --->  In  builtins  module
